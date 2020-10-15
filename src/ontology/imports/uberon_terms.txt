@@ -1,2 +1,3 @@
-UBERON:0001062
-
+UBERON:0001062 #anatomical entity
+UBERON:0000069 #larval stage
+UBERON:0034919 #juvenile stage
