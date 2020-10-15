@@ -1,2 +1,2 @@
-UO:0010003
-
+UO:0010003 #micromole per litre
+UO:0000187 #percentage
