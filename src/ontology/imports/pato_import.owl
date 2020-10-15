@@ -9,6 +9,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
@@ -234,6 +235,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pato#attribute_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#attribute_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#mpath_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#mpath_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#relational_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#relational_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#scalar_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#scalar_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ro/subsets#ro-eco -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ro/subsets#ro-eco">
@@ -299,6 +332,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     
 
 
@@ -1995,6 +2034,21 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
@@ -2126,6 +2180,521 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
+        <obo:IAO_0000115>A time quality inhering in a bearer by virtue of how long the bearer has existed.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000011</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>age</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A time quality inhering in a bearer by virtue of how long the bearer has existed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001296"/>
+        <obo:IAO_0000115>A luminous flux quality inhering in a bearer by virtue of the bearer&apos;s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000018</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>fluorescence</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A luminous flux quality inhering in a bearer by virtue of the bearer&apos;s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+        <obo:IAO_0000115>A quality inhering in a substance by virtue of the amount of the bearer&apos;s there is mixed with another substance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>concentration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000033</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>concentration of</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality inhering in a substance by virtue of the amount of the bearer&apos;s there is mixed with another substance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/concentration</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality of a single physical entity inhering in the bearer by virtue of the bearer&apos;s size or shape or structure.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000051</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality of a single physical entity inhering in the bearer by virtue of the bearer&apos;s size or shape or structure.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115>A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000117</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000119</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>height</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <obo:IAO_0000115>A 1-D extent quality which is equal to the distance between two points.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000122</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 1-D extent quality which is equal to the distance between two points.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000125</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>mass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001035"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer that has mass near a gravitational body.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000128</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>weight</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality inhering in a bearer that has mass near a gravitational body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Weight</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A quality in which events occur in sequence.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000165</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>time</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality in which events occur in sequence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001710"/>
+        <obo:IAO_0000115>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000918</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>volume</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>PATO:0002079</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Physical_property</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>relational physical quality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001018</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>physical quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001906"/>
+        <obo:IAO_0000115>A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001030</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>flux</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>force amplitude</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001035</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>force</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thesaurus.maths:thesaurus.maths</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115>A quality which inheres in a continuant.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>PATO:0001237</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>PATO:0001238</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>snap:Quality</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>monadic quality of a continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>multiply inhering quality of a physical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of a continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of a single physical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of an object</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>monadic quality of an object</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>monadic quality of continuant</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001241</oboInOwl:id>
+        <rdfs:comment>Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.</rdfs:comment>
+        <rdfs:label>physical object quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality which inheres in a continuant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001739"/>
+        <obo:IAO_0000115>A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001291</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>electromagnetic (EM) radiation quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001291"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_radiation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
+        <obo:IAO_0000115>A scalar optical quality which obtains by the magnitude of the light emitted by the bearer.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001296</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>luminous flux</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001296"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A scalar optical quality which obtains by the magnitude of the light emitted by the bearer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001291"/>
+        <obo:IAO_0000115>An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001300</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>optical quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001709"/>
+        <obo:IAO_0000115>A 2-D extent quality inhering in a bearer by virtue of the bearer&apos;s two dimensional extent.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001323</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>area</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 2-D extent quality inhering in a bearer by virtue of the bearer&apos;s two dimensional extent.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Area</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in one dimension.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>1-D size</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001708</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>1-D extent</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in one dimension.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in two dimensions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>2-D size</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001709</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>2-D extent</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001709"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in two dimensions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in three dimensions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>3D size</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001710</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>3-D extent</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001710"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A size quality inhering in an bearer by virtue of the bearer&apos;s extension in three dimensions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001739</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>radiation quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001739"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s participation in movement.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001906</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>movement quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001906"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s participation in movement.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc.</obo:IAO_0000115>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-10T03:18:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>PATO:0002061</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>relational molecular quality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002182</oboInOwl:id>
+        <rdfs:label>molecular quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
