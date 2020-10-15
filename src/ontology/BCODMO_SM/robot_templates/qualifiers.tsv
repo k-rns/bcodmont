@@ -1,0 +1,37 @@
+QUALIFIERS	SUBQUALIFIERS 1	SUBQUALIFIERS 2	ontology ID	label	parent class	exact synonym	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	Entity subset	category subset	in subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|		AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+number			BSM:000001	number												
+count			BSM:000002	count			PATO:0000070									
+sum			BSM:000018	sum			SIO:001112|NCIT:C25697									
+flux			PATO:0001030	flux												
+abundance			BSM:000003	abundance												
+abundance	relative		BSM:000004	relative	BSM:000003											
+ratio			UO:0000190 	ratio												
+concentration			PATO:0000033	concentration												
+volume			PATO:0000918	volume												
+biomass			BSM:000005	biomass												
+weight			PATO:0000128	weight												
+weight	Dry		BSM:000018	dry	PATO:0000128											
+weight	Wet		BSM:000019	wet	PATO:0000128											
+mass			PATO:0000125	mass												
+percentage			UO:0000187	percentage												
+code			BSM:000006	code												
+accession			BSM:000007	accession												
+identifier			IAO:0020000	identifier												
+identifier	COG		BSM:000008	COG												
+identifier	COG	tag	BSM:000009	tag												
+length			PATO:0000122	length												
+height			PATO:0000119	height												
+area			PATO:0001323	area												
+girth			BSM:000010	girth												
+age			PATO:0000011	age												
+Binary			BSM:000011	Binary			STATO:0000031									
+Binary	True 		BSM:000012	True 	BSM:000011											
+Binary	False 		BSM:000013	False 	BSM:000011											
+Content			BSM:000014	Content			PATO:0000025									
+fluorescence			PATO:0000018	fluorescence												
+absorption			BSM:000015	absorption			PATO:0002060|PATO:0001293									
+optical density			BSM:000016	optical density			PATO:0001300									
+mass			PATO:0000125	mass												
+mass	predicted		BSM:000016	predicted	PATO:0000125											
+mass	calculated		BSM:000017	calculated	PATO:0000125											
