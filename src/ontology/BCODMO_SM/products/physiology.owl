@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000001">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">life stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">copepod life stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">C1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">C2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">C3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">C4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">nauplii</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">reproductive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000010">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">biochemical process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">productivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0015979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <obo:IAO_0000115>A distinct juvenile stage many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000232>Uberon includes clade-specific subclasses, e.g. nematod larva</obo:IAO_0000232>
+        <obo:UBPROP_0000008>It is a misunderstanding that the larval form always reflects the group&apos;s evolutionary history. It could be the case, but often the larval stage has evolved secondarily, as in insects. In these cases the larval form might differ more from the group&apos;s common origin than the adult form</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasDbXref>BTO:0000915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000954</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0001303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBdv:00005336</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000400</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OGES:000008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFS:0000048</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>larva stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>ammocoete</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>ammocoete stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>bipinnaria</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>bipinnaria stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>caterpillar</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>caterpillar stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>glochidium</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>glochidium stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>grub</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>grub stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>leptocephalus</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>leptocephalus stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>maggot</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>maggot stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>metacestode</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>naiad, nymph</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>naiad, nymph stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>nauplius</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>nauplius stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>nymph</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>nymph stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>planula</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>planula stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>tornaria</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>trochophore</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>trochophore stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>veliger</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>veliger stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>wriggler</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>wriggler stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>zoea</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>zoea stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>larva</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0000069</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <rdfs:label>larval stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A distinct juvenile stage many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>glochidium stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>grub</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>grub stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>leptocephalus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>leptocephalus stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>maggot</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>maggot stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>metacestode</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000859</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>naiad, nymph</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>naiad, nymph stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+        <owl:annotatedTarget>It is a misunderstanding that the larval form always reflects the group&apos;s evolutionary history. It could be the case, but often the larval stage has evolved secondarily, as in insects. In these cases the larval form might differ more from the group&apos;s common origin than the adult form</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>nauplius</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>nauplius stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>nymph</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>nymph stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>planula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>planula stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>tornaria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCBITaxon:10219</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>trochophore</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>trochophore stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>veliger</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>ammocoete</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>veliger stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>wriggler</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>wriggler stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>zoea</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>zoea stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>ammocoete stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>bipinnaria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>bipinnaria stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caterpillar</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caterpillar stage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>glochidium</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0034919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0034919">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000001"/>
+        <obo:IAO_0000115>The stage of being no more dependent of the nest and/or from caregivers for subsistence while having not reach sexual maturity.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://github.com/ANiknejad"/>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0034919</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label>juvenile stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034919"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The stage of being no more dependent of the nest and/or from caregivers for subsistence while having not reach sexual maturity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://github.com/obophenotype/uberon/issues/645"/>
+        <oboInOwl:hasDbXref>Bgee:AN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
