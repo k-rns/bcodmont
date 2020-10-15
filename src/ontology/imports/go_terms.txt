@@ -1,0 +1,2 @@
+GO:0015979 #photosynthesis
+GO:0045333 #cellular respiration
