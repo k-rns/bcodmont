@@ -4,7 +4,7 @@
 robot template --template robot_templates/physiology.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/robot_templates/physiology.owl" -o robot_templates/physiology.owl
 
 # Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
-robot template --template robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "UO:http://purl.obolibrary.org/obo/UO_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/robot_templates/qualifiers.tsv" -o robot_templates/qualifiers.owl
+robot template --template robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/robot_templates/qualifiers.tsv" -o robot_templates/qualifiers.owl
 
 ## Merge templates
 
