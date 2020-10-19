@@ -1,6 +1,6 @@
 Sub category 1:	sub category 2:	sub category 3:	ontology ID	label	parent class	exact synonym	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	Entity subset	category subset	in subset
-			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|		AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset	AI oboInOwl:inSubset
-Life Stage			BSM:1000001	life stage			life cycle stage							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+Life Stage			BSM:1000001	life stage			UBERON:0000105							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Copepod Specific		BSM:1000002	copepod life stage	BSM:1000001									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Copepod Specific	C1	BSM:1000003	C1	BSM:1000002									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Copepod Specific	C2	BSM:1000004	C2	BSM:1000002									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
@@ -8,11 +8,11 @@ Life Stage	Copepod Specific	C3	BSM:1000005	C3	BSM:1000002									http://bcodmo/
 Life Stage	Copepod Specific	C4	BSM:1000006	C4	BSM:1000002									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Larvae		UBERON:0000069		BSM:1000001									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Nauplii		BSM:1000007	nauplii	BSM:1000001									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
-Life Stage	Juvenile		UBERON:0034919		BSM:1000001		juvenile stage							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
-Life Stage	Adult		BSM:1000008	adult	BSM:1000001		prime adult stage							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
+Life Stage	Juvenile		UBERON:0034919		BSM:1000001									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
+Life Stage	Adult		BSM:1000008	adult	BSM:1000001		UBERON:0018241|UBERON:0000066							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Life Stage	Reproductive		BSM:1000009	reproductive	BSM:1000001									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#lifeStage
 Biochemical Process			BSM:1000010	biochemical process										http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess
 Biochemical Process	"Photosynthesis
 "		GO:0015979		BSM:1000010									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess
-Biochemical Process	Respiration		GO:0045333		BSM:1000010		cellular respiration							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess
-Biochemical Process	Productivity		BSM:1000011	productivity	BSM:1000010									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess
+Biochemical Process	Respiration		BSM:1000011	respiration	BSM:1000010		GO:0045333							http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess
+Biochemical Process	Productivity		BSM:1000012	productivity	BSM:1000010									http://bcodmo/sm#biological	http://bcodmo/sm#physiology	http://bcodmo/sm#biochemicalProcess

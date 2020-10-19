@@ -6,6 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/robot_templates/physiology.owl"/>
     
@@ -28,6 +29,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -46,6 +53,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">life stage</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
     </owl:Class>
     
 
@@ -130,6 +138,8 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">adult</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000066"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0018241"/>
     </owl:Class>
     
 
@@ -164,6 +174,19 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">respiration</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">productivity</rdfs:label>
     </owl:Class>
     
@@ -172,17 +195,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0015979 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0015979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
