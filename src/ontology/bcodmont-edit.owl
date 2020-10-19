@@ -33,6 +33,7 @@ Annotation(dce:description "None")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BCODMONT_00000000>))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#closeMatch>))
+Declaration(ObjectProperty(<http://bcodmo/sm#hasDescriptor>))
 
 ############################
 #   Annotation Properties
@@ -41,6 +42,14 @@ Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#closeMatch>)
 # Annotation Property: <http://www.w3.org/2004/02/skos/core#closeMatch> (closeMatch)
 
 # AnnotationAssertion(rdfs:label <http://www.w3.org/2004/02/skos/core#closeMatch> "closeMatch"^^xsd:string)
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://bcodmo/sm#hasDescriptor> (has descriptor)
+
+AnnotationAssertion(rdfs:label <http://bcodmo/sm#hasDescriptor> "has descriptor"^^xsd:string)
 
 
 ############################
