@@ -14,6 +14,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
@@ -578,6 +579,12 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
     
 
 
@@ -3257,6 +3264,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">life stage</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
     </owl:Class>
     
 
@@ -3341,6 +3349,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">adult</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000066"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0018241"/>
     </owl:Class>
     
 
@@ -3371,6 +3381,19 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/BSM_1000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">respiration</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
@@ -14468,7 +14491,6 @@ Some definitions include additional discussion of the the physics involved which
     <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015980"/>
         <obo:IAO_0000115>The enzymatic release of energy from inorganic and organic compounds (especially carbohydrates and fats) which either requires oxygen (aerobic respiration) or does not (anaerobic respiration).</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>respiration</oboInOwl:hasBroadSynonym>
@@ -14477,9 +14499,6 @@ Some definitions include additional discussion of the the physics involved which
         <oboInOwl:hasExactSynonym>oxidative metabolism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0045333</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
