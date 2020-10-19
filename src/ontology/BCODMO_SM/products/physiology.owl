@@ -8,6 +8,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl"/>
     
@@ -51,12 +52,6 @@
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -114,6 +109,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -132,6 +133,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">life stage</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
     </owl:Class>
     
 
@@ -216,6 +218,8 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#lifeStage"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">adult</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000066"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/UBERON_0018241"/>
     </owl:Class>
     
 
@@ -250,6 +254,19 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
+        <rdfs:label xml:lang="en">respiration</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
         <rdfs:label xml:lang="en">productivity</rdfs:label>
     </owl:Class>
     
@@ -280,37 +297,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The synthesis by organisms of organic chemical compounds, especially carbohydrates, from carbon dioxide (CO2) using energy obtained from light rather than from the oxidation of chemical compounds.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_1000010"/>
-        <obo:IAO_0000115>The enzymatic release of energy from inorganic and organic compounds (especially carbohydrates and fats) which either requires oxygen (aerobic respiration) or does not (anaerobic respiration).</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>respiration</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>Wikipedia:Cellular_respiration</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>oxidative metabolic process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>oxidative metabolism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0045333</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biochemicalProcess"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biological"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physiology"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
-        <rdfs:label>cellular respiration</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The enzymatic release of energy from inorganic and organic compounds (especially carbohydrates and fats) which either requires oxygen (aerobic respiration) or does not (anaerobic respiration).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:das</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0140513590</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -372,13 +358,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
         <rdfs:label>larval stage</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>caterpillar stage</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
@@ -451,6 +430,12 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A distinct juvenile stage many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>naiad, nymph stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
@@ -514,16 +499,16 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A distinct juvenile stage many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>trochophore stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+        <owl:annotatedTarget>It is a misunderstanding that the larval form always reflects the group&apos;s evolutionary history. It could be the case, but often the larval stage has evolved secondarily, as in insects. In these cases the larval form might differ more from the group&apos;s common origin than the adult form</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
@@ -569,12 +554,6 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
-        <owl:annotatedTarget>It is a misunderstanding that the larval form always reflects the group&apos;s evolutionary history. It could be the case, but often the larval stage has evolved secondarily, as in insects. In these cases the larval form might differ more from the group&apos;s common origin than the adult form</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WP</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>ammocoete</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
@@ -605,6 +584,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>caterpillar</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>caterpillar stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Larva"/>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#SENSU"/>
     </owl:Axiom>
