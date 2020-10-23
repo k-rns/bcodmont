@@ -1,62 +1,55 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/bcodmont.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/bcodmont.owl>
-
-Import(<http://purl.obolibrary.org/obo/bcodmont/imports/ro_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/bcodmont/imports/pato_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/bcodmont/imports/envo_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/bcodmont/imports/iao_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/bcodmont/imports/obi_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/bcodmont/imports/uo_import.owl>)
-
+Import(<http://purl.obolibrary.org/obo/bcodmont/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/bcodmont/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/bcodmont/imports/uberon_import.owl>)
-
-
-
+Import(<http://purl.obolibrary.org/obo/bcodmont/imports/uo_import.owl>)
+Annotation(dce:description "None")
 Annotation(dce:title "BCODMO Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dce:description "None")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BCODMONT_00000000>))
-Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#closeMatch>))
+Declaration(ObjectProperty(<http://bcodmo/sm#DescriptorOf>))
 Declaration(ObjectProperty(<http://bcodmo/sm#hasDescriptor>))
-
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://www.w3.org/2004/02/skos/core#closeMatch> (closeMatch)
-
-# AnnotationAssertion(rdfs:label <http://www.w3.org/2004/02/skos/core#closeMatch> "closeMatch"^^xsd:string)
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#closeMatch>))
 
 ############################
 #   Object Properties
 ############################
 
+# Object Property: <http://bcodmo/sm#DescriptorOf> (descriptor of)
+
+AnnotationAssertion(rdfs:label <http://bcodmo/sm#DescriptorOf> "descriptor of"^^xsd:string)
+InverseObjectProperties(<http://bcodmo/sm#DescriptorOf> <http://bcodmo/sm#hasDescriptor>)
+TransitiveObjectProperty(<http://bcodmo/sm#DescriptorOf>)
+
 # Object Property: <http://bcodmo/sm#hasDescriptor> (has descriptor)
 
 AnnotationAssertion(rdfs:label <http://bcodmo/sm#hasDescriptor> "has descriptor"^^xsd:string)
+TransitiveObjectProperty(<http://bcodmo/sm#hasDescriptor>)
+
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BCODMONT_00000000>
+# Class: <http://purl.obolibrary.org/obo/BCODMONT_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BCODMONT_00000000> "root node"@en)
 
