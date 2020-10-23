@@ -1,0 +1,2225 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000012 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000015 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000015"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date_retrieved -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date_retrieved"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#external_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#external_class"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#external_ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#external_ontology"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ontology"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicted_by -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+        <obo:IAO_0000115>The mixture of gases (roughly (by molar content/volume: 78% nitrogen, 20.95% oxygen, 0.93% argon, 0.038% carbon dioxide, trace amounts of other gases, and a variable amount (average around 1%) of water vapor) that surrounds the planet Earth.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EcoLexicon:air</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LTER:18</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:Air</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Air</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label>air</rdfs:label>
+        <rdfs:label xml:lang="en">air</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The mixture of gases (roughly (by molar content/volume: 78% nitrogen, 20.95% oxygen, 0.93% argon, 0.038% carbon dioxide, trace amounts of other gases, and a variable amount (average around 1%) of water vapor) that surrounds the planet Earth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Air</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002164">
+        <obo:IAO_0000115>A solid environmental material which is formed by the replacement of organic substances (including those in soils and sediments) with mineral material.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SWEETRealm:Fossil</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fossil</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC"/>
+        <rdfs:label xml:lang="en">fossil</rdfs:label>
+        <rdfs:label>fossil material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002164"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A solid environmental material which is formed by the replacement of organic substances (including those in soils and sediments) with mineral material.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fossil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>Water ice which has formed by the freezing of sea water.</obo:IAO_0000115>
+        <obo:IAO_0000116>Parse comment from GCW and new subclases where appropriate.</obo:IAO_0000116>
+        <oboInOwl:hasDbXref>http://sweetontology.net/realmCryo/SeaIce</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>In the United States, NOAA sea ice operations does not include superstructure icing as being sea ice. In sea ice operations however, sea ice is any form of ice found at sea which has originated from the freezing of sea water. It presents the main kind of floating ice encountered at sea. Except where it forms ridges, sea ice is up to a few metres thick, in which respect it differs from shelf ice.  Sea ice may be discontinuous pieces (ice floes) moved on the ocean surface by wind and currents (pack ice), or a motionless sheet attached to the coast (land-fast ice). In brief, it forms first as lolly ice (frazil crystals), thickens into sludge, and coagulates into sheet ice, pancake ice, or into floes of various shapes and sizes. Thereafter, sea ice may develop into pack ice and/or become a form of pressure ice.  Sea ice less than one year old is called first-year ice. Perennial ice is sea ice that survives at least one summer. It may be subdivided into second-year ice and multi-year ice, where multiyear ice has survived at least two summers.</rdfs:comment>
+        <rdfs:label>sea ice</rdfs:label>
+        <rdfs:label xml:lang="en">sea ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>In the United States, NOAA sea ice operations does not include superstructure icing as being sea ice. In sea ice operations however, sea ice is any form of ice found at sea which has originated from the freezing of sea water. It presents the main kind of floating ice encountered at sea. Except where it forms ridges, sea ice is up to a few metres thick, in which respect it differs from shelf ice.  Sea ice may be discontinuous pieces (ice floes) moved on the ocean surface by wind and currents (pack ice), or a motionless sheet attached to the coast (land-fast ice). In brief, it forms first as lolly ice (frazil crystals), thickens into sludge, and coagulates into sheet ice, pancake ice, or into floes of various shapes and sizes. Thereafter, sea ice may develop into pack ice and/or become a form of pressure ice.  Sea ice less than one year old is called first-year ice. Perennial ice is sea ice that survives at least one summer. It may be subdivided into second-year ice and multi-year ice, where multiyear ice has survived at least two summers.</owl:annotatedTarget>
+        <rdfs:comment>https://orcid.org/0000-0003-4808-4736</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002982">
+        <obo:IAO_0000115>A group of hydrous aluminium phyllosilicate (phyllosilicates being a subgroup of silicate minerals) minerals (see clay minerals), that are typically less than 2 micrometres in diameter. Clay consists of a variety of phyllosilicate minerals rich in silicon and aluminium oxides and hydroxides which include variable amounts of structural water.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EcoLexicon:clay</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:Clay</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Clay</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>clay</rdfs:label>
+        <rdfs:label xml:lang="en">clay</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002982"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A group of hydrous aluminium phyllosilicate (phyllosilicates being a subgroup of silicate minerals) minerals (see clay minerals), that are typically less than 2 micrometres in diameter. Clay consists of a variety of phyllosilicate minerals rich in silicon and aluminium oxides and hydroxides which include variable amounts of structural water.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Clay</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002985"/>
+        <obo:IAO_0000115>An oil which 1) is liquid at room temperature (approximately 20 degrees Celsius) 2) is intended to be burned in a furnace or boiler for the generation of heat or used in an engine for the generation of power, 3) is obtained from petroleum distillation, either as a distillate or a residue, 4) composed of long hydrocarbon chains, particularly alkanes, cycloalkanes and aromatics.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>furnace oil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heavy oil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>marine fuel</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Oils having a flash point of approximately 42 degrees Celsius and oils burned in cotton or wool-wick burners are not typically considered fuel oils. The term fuel oil is also used in a stricter sense to refer only to the heaviest commercial fuel that can be obtained from crude oil, i.e., heavier than gasoline and naphtha.</rdfs:comment>
+        <rdfs:label>fuel oil</rdfs:label>
+        <rdfs:label xml:lang="en">fuel oil</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002983"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An oil which 1) is liquid at room temperature (approximately 20 degrees Celsius) 2) is intended to be burned in a furnace or boiler for the generation of heat or used in an engine for the generation of power, 3) is obtained from petroleum distillation, either as a distillate or a residue, 4) composed of long hydrocarbon chains, particularly alkanes, cycloalkanes and aromatics.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fuel_oil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002983"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Oils having a flash point of approximately 42 degrees Celsius and oils burned in cotton or wool-wick burners are not typically considered fuel oils. The term fuel oil is also used in a stricter sense to refer only to the heaviest commercial fuel that can be obtained from crude oil, i.e., heavier than gasoline and naphtha.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fuel_oil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002985"/>
+        <obo:IAO_0000115>A naturally occurring flammable liquid consisting of a complex mixture of hydrocarbons of various molecular weights and other liquid organic compounds, that are found in geologic formations beneath the planetary surfaces.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Petroleum</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>crude oil</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>petroleum</rdfs:label>
+        <rdfs:label xml:lang="en">petroleum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002984"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A naturally occurring flammable liquid consisting of a complex mixture of hydrocarbons of various molecular weights and other liquid organic compounds, that are found in geologic formations beneath the planetary surfaces.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Petroleum</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002985">
+        <obo:IAO_0000115>A nonpolar, hydrophobic, and lipophilic material which is a viscous liquid at ambient temperatures (about 20 degrees Celsius) or slightly warmer.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EcoLexicon:oil</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>oil</rdfs:label>
+        <rdfs:label xml:lang="en">oil</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002985"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A nonpolar, hydrophobic, and lipophilic material which is a viscous liquid at ambient temperatures (about 20 degrees Celsius) or slightly warmer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Oil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00005738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005738">
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Foam</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>This is a state more than a material.</rdfs:comment>
+        <rdfs:label>foam</rdfs:label>
+        <rdfs:label xml:lang="en">foam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010505">
+        <obo:IAO_0000115>Airborne solid particles (also called dust or particulate matter (PM)) or liquid droplets.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <oboInOwl:hasDbXref>EcoLexicon:aerosol</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:Aerosol</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
+        <rdfs:comment>Should connect to PATO as &quot;quality of an aerosol&quot;</rdfs:comment>
+        <rdfs:label>aerosol</rdfs:label>
+        <rdfs:label xml:lang="en">aerosol</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Airborne solid particles (also called dust or particulate matter (PM)) or liquid droplets.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Aerosol</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010506">
+        <obo:IAO_0000115>A mixture of two immiscible (unblendable) substances. One substance (the dispersed phase) is dispersed in the other (the continuous phase).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Emulsion</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>emulsion</rdfs:label>
+        <rdfs:label xml:lang="en">emulsion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010506"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mixture of two immiscible (unblendable) substances. One substance (the dispersed phase) is dispersed in the other (the continuous phase).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Emulsion</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000001">
+        <obo:IAO_0000115>A liquid or semi-liquid mixture of water and some combination of soil, silt, and clay.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EcoLexicon:mud</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LTER:356</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:Mud</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mud</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>mud</rdfs:label>
+        <rdfs:label xml:lang="en">mud</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A liquid or semi-liquid mixture of water and some combination of soil, silt, and clay.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mud</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>A portion of planktonic material is a portion of environmental material primarily composed of plankton.</obo:IAO_0000115>
+        <obo:IAO_0000116>See Issue #251. Awaiting class creation in PCO to attempt logical definitions.</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">plankton</rdfs:label>
+        <rdfs:label xml:lang="en">planktonic material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000155">
+        <obo:IAO_0000115>Environmental material derived from living organisms and composed primarily of one or more biomacromolecules.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-20T08:40:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>EcoLexicon:organic_material</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>biomass</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>organic material</rdfs:label>
+        <rdfs:label xml:lang="en">organic material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Environmental material derived from living organisms and composed primarily of one or more biomacromolecules.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-618-45504-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Material derived from a biofilm, an aggregate of microorganisms in which cells adhere to each other and/or to a surface. These adherent cells are frequently embedded within a self-produced matrix of extracellular polymeric substance (EPS). Biofilm EPS, which is also referred to as slime, is a polymeric conglomeration generally composed of extracellular DNA, proteins, and polysaccharides in various configurations.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-20T08:51:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ENVO:01000156</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>biofilm material</rdfs:label>
+        <rdfs:label xml:lang="en">biofilm material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000156"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Material derived from a biofilm, an aggregate of microorganisms in which cells adhere to each other and/or to a surface. These adherent cells are frequently embedded within a self-produced matrix of extracellular polymeric substance (EPS). Biofilm EPS, which is also referred to as slime, is a polymeric conglomeration generally composed of extracellular DNA, proteins, and polysaccharides in various configurations.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Biofilm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Material derived from a microbial mat, a multi-layered sheet of micro-organisms, mainly bacteria and archaea. Microbial mats create a wide range of internal chemical environments.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-20T08:51:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ENVO:01000157</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">microbial mat</rdfs:label>
+        <rdfs:label>microbial mat material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Material derived from a microbial mat, a multi-layered sheet of micro-organisms, mainly bacteria and archaea. Microbial mats create a wide range of internal chemical environments.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Microbial_mat</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001103"/>
+        <obo:IAO_0000115>Marine snow is a continuous shower of mostly organic detritus falling from the upper layers of the water column. Its origin lies in activities within the productive photic zone.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-20T08:51:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>EcoLexicon:marine_snow</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label>marine snow</rdfs:label>
+        <rdfs:label xml:lang="en">marine snow</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000158"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Marine snow is a continuous shower of mostly organic detritus falling from the upper layers of the water column. Its origin lies in activities within the productive photic zone.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Marine_snow</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000231">
+        <obo:IAO_0000115>Lava is a mixture of molten or semi-molten rock, volatiles, and solids which has extruded beyond a planetary crust.</obo:IAO_0000115>
+        <oboInOwl:created_by>PLB</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-05-05T16:52:47Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>EcoLexicon:lava</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SWEETRealm:Lava</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Some use &apos;lava&apos; to refer to rock that is formed when lava cools. This is not the intended meaning of this class. See &apos;igneous rock&apos; or similar.</rdfs:comment>
+        <rdfs:label>lava</rdfs:label>
+        <rdfs:label xml:lang="en">lava</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000231"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Lava is a mixture of molten or semi-molten rock, volatiles, and solids which has extruded beyond a planetary crust.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Lava</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000256">
+        <obo:IAO_0000115>A mineral material is an environmental material which is primarily composed of some substance that is naturally occurring, solid and stable at room temperature, representable by a chemical formula, usually abiogenic, and that has an ordered atomic structure.</obo:IAO_0000115>
+        <obo:IAO_0000116>Look for &quot;mineral&quot; in a chemical or geochemical ontology to formalise the composed primarily of link.
+From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which can be an aggregate of minerals or non-minerals and does not have a specific chemical composition. The exact definition of a mineral is under debate, especially with respect to the requirement a valid species be abiogenic, and to a lesser extent with regards to it having an ordered atomic structure.</obo:IAO_0000116>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-10-05T12:37:41Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>LTER:341</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mineral</rdfs:label>
+        <rdfs:label>mineral material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000256"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mineral material is an environmental material which is primarily composed of some substance that is naturally occurring, solid and stable at room temperature, representable by a chemical formula, usually abiogenic, and that has an ordered atomic structure.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mineral</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+        <obo:IAO_0000115>Water vapour is a vapour which is the gas phase of water.</obo:IAO_0000115>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-10-10T07:58:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>aqueous vapor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>aqueous vapour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>water vapor</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Perhaps a better relation between water vapour and water can be found in or added to RO?</rdfs:comment>
+        <rdfs:label xml:lang="en">vapor</rdfs:label>
+        <rdfs:label>water vapour</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Water vapour is a vapour which is the gas phase of water.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water_vapor</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>aqueous vapor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water_vapor</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>aqueous vapour</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water_vapor</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000266"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>water vapor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water_vapor</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000277">
+        <obo:IAO_0000115>Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance.</obo:IAO_0000115>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-10-13T12:01:28Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>LTER:262</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>ice</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">ice</rdfs:label>
+        <rdfs:label>water ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Ice is water frozen into a solid state. It can appear transparent or opaque bluish-white color, depending on the presence of impurities or air inclusions. The addition of other materials such as soil may further alter its appearance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ice</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.eionet.europa.eu/gemet/concept/4131</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000404">
+        <obo:IAO_0000115>A (portion of) plastic is an (portion of) anthropogenic environmental material including any of numerous organic synthetic or processed materials which are primarily composed of thermoplastic or thermosetting polymers of high molecular weight.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL:http://aims.fao.org/aos/agrovoc/c_5998</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>URL:http://eurovoc.europa.eu/1837</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label>manufactured plastic</rdfs:label>
+        <rdfs:label xml:lang="en">plastic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000404"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A (portion of) plastic is an (portion of) anthropogenic environmental material including any of numerous organic synthetic or processed materials which are primarily composed of thermoplastic or thermosetting polymers of high molecular weight.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.merriam-webster.com/dictionary/plastic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000480">
+        <obo:IAO_0000115>Glass is an amorphous (non-crystalline) solid which is often transparent.</obo:IAO_0000115>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>This class refers to all forms of glass. For the familiar form present in window panes and drinking glasses, consider silica-based glass.</rdfs:comment>
+        <rdfs:label>glass</rdfs:label>
+        <rdfs:label xml:lang="en">glass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000480"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Glass is an amorphous (non-crystalline) solid which is often transparent.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Glass</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Charcoal is a light, black residue, consisting of carbon and any remaining ash, obtained by removing water and other volatile constituents from animal and vegetation substances. Charcoal is usually produced by slow pyrolysis, the heating of wood or other substances in the absence of oxygen.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">charcoal</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000560"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Charcoal is a light, black residue, consisting of carbon and any remaining ash, obtained by removing water and other volatile constituents from animal and vegetation substances. Charcoal is usually produced by slow pyrolysis, the heating of wood or other substances in the absence of oxygen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Charcoal</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000797">
+        <obo:IAO_0000115>A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.</obo:IAO_0000115>
+        <obo:IAO_0000116>This class is to be populated by inference.</obo:IAO_0000116>
+        <oboInOwl:hasNarrowSynonym>gas</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">gas</rdfs:label>
+        <rdfs:label xml:lang="en">gaseous environmental material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.merriam-webster.com/dictionary/gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Smoke is a collection of airborne solid and liquid particulates and gases emitted when a material undergoes combustion or pyrolysis, together with the quantity of gas that is entrained or otherwise mixed into the mass</rdfs:comment>
+        <rdfs:label xml:lang="en">smoke</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000838"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Smoke is a collection of airborne solid and liquid particulates and gases emitted when a material undergoes combustion or pyrolysis, together with the quantity of gas that is entrained or otherwise mixed into the mass</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Smoke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <obo:IAO_0000115>A visible mass of cloud water droplets or ice crystals suspended in the air at or near a planetary surface.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>haar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Fog is more opaque than mist, reducing visibility to under one kilometre. This class refers only to fog formed by materials primarily composed of water. &quot;Fog can be considered a type of low-lying cloud and is heavily influenced by nearby bodies of water, topography, and wind conditions. In turn, fog has affected many human activities, such as shipping, travel, and warfare.&quot; https://en.wikipedia.org/wiki/Fog</rdfs:comment>
+        <rdfs:label xml:lang="en">fog</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000844"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A visible mass of cloud water droplets or ice crystals suspended in the air at or near a planetary surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Fog</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000851">
+        <obo:IAO_0000115>A clathrate material in which a large amount of methane is trapped within a crystal structure of water, forming a solid similar to ice.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fire ice</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gas hydrate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hydromethane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methane hydrate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methane ice</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>natural gas hydrate</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">methane clathrate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000851"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A clathrate material in which a large amount of methane is trapped within a crystal structure of water, forming a solid similar to ice.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Methane_clathrate</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115 xml:lang="en">An organic material which is primarily composed of dead particulate matter.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>detritus</rdfs:label>
+        <rdfs:label xml:lang="en">detritus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001103"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An organic material which is primarily composed of dead particulate matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Detritus</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Organic material which is primarily composed of plant structures, living or dead.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">plant matter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>Ice which is primarily composed of methane.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">methane ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001139"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Ice which is primarily composed of methane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000116>This class will be axiomatised with &quot;alga&quot; once an approach to handle this term&apos;s ambiguous semantics has been agreed with PCO.</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>An organic material which is primarily composed of living or dead algae, along with their exudates.</rdfs:comment>
+        <rdfs:label xml:lang="en">algal material</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001189"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>An organic material which is primarily composed of living or dead algae, along with their exudates.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Algae</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <obo:IAO_0000115>Sea ice which has a brown colouration, either due to 1) the presence of pigments which are or were contained in the members of ecological assemblages, such as algal communities, living or trapped within the ice or 2) due to the presence of trapped sediments.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>brownish colored sea ice</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brown sea ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sea ice which has a brown colouration, either due to 1) the presence of pigments which are or were contained in the members of ecological assemblages, such as algal communities, living or trapped within the ice or 2) due to the presence of trapped sediments.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://dx.doi.org/10.1016/j.csr.2017.04.010</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://dx.doi.org/10.1038/nrmicro3522</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://dx.doi.org/10.1371/journal.pone.0122418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/EnvironmentOntology/envo/issues/564</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Organic material which is in a solid phase and contained in sedimentary rock.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">kerogen</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001231"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Organic material which is in a solid phase and contained in sedimentary rock.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Kerogen</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Biomass which is composed primarily of dead organisms, their parts, or their organic derivatives.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:hasExactSynonym>dead biological matter</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dead biomass</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">necromass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <obo:IAO_0000115>An aersolised mass of dust, smoke, or other dry particulates which scatters visible light thus obsscuring visibility through an atmosphere.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">haze</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001402"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aersolised mass of dust, smoke, or other dry particulates which scatters visible light thus obsscuring visibility through an atmosphere.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Haze</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <obo:IAO_0000115>A cloud which is primarily composed of water-based aerosols.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:hasBroadSynonym>cloud mass</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoAtmo</oboInOwl:inSubset>
+        <rdfs:comment>On Earth clouds are formed by the saturation of air in the homosphere when air cools or gains water vapor. Note that this class describes clouds as countable objects, rather than &apos;cloud material&apos;. It also refers only to clouds made up of a water-based material.</rdfs:comment>
+        <rdfs:label xml:lang="en">cloud</rdfs:label>
+        <rdfs:label xml:lang="en">water-based cloud</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001428"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cloud which is primarily composed of water-based aerosols.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://cloudatlas.wmo.int/introduction-and-principles-of-cloud-classification.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Cloud</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <obo:IAO_0000115>A visible mass of water droplets or ice crystals suspended in the air at or near a planetary surface, formed when humid air cools rapidly.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>This class refers only to mist formed by materials primarily composed of water. Mist is less dense than fog, and visibility is typically greater than one kilometre.</rdfs:comment>
+        <rdfs:label xml:lang="en">mist</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001458"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A visible mass of water droplets or ice crystals suspended in the air at or near a planetary surface, formed when humid air cools rapidly.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mist</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-14T18:55:42Z</oboInOwl:creation_date>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Water ice which is formed by the freezing of fresh water.</rdfs:comment>
+        <rdfs:label xml:lang="en">freshwater ice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <obo:IAO_0000115>Sea ice which 1) has formed on the submerged surface (i.e. the base) of an existing mass of sea ice and 2) is composed of columnar crystals due to the downward growth of the crystals into the water.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-14T18:56:29Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/realmCryo/CongelationIce"/>
+        <oboInOwl:hasRelatedSynonym>black ice</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>Congelation ice usually forms through the fusion/coalescence of platelets into solid ice.</rdfs:comment>
+        <rdfs:label xml:lang="en">congelation sea ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001512"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sea ice which 1) has formed on the submerged surface (i.e. the base) of an existing mass of sea ice and 2) is composed of columnar crystals due to the downward growth of the crystals into the water.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Congelation_ice</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-4808-4736</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001512"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>black ice</owl:annotatedTarget>
+        <rdfs:comment>Common in limnology, but frequently used in other contexts (e.g. on roads).</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000063"/>
+        <obo:IAO_0000115>Small, needle-like (spicules), plate-like, or discoid crystals derived from nearly pure fresh water, suspended in a water body.</obo:IAO_0000115>
+        <obo:IAO_0000116>Needs to have axioms added pertaining to the semantics of colloids and suspensions once they have been resolved see: https://github.com/pato-ontology/pato/issues/91#issuecomment-290711238
+
+Currently the new ice classes are not specific to sea water as they may form in non marine systems, but it would be good to confirm this especially for frazil ice.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-14T21:09:21Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>frazil crystals</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>needle ice</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>Typically 3 to 4 millimeters in diameter. These may form in both marine water and fresh water. They represent the first stages of sea ice growth; they merge under calm conditions to form thin sheets of ice on the surface (frazil ice), and consist of nearly pure fresh water. In fresh water, they form in supercooled water that is too turbulent to permit coagulation into sheet ice.  This is most common in swiftly flowing streams. They may accumulate as anchor ice on submerged objects obstructing the water flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">frazil</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001523"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Small, needle-like (spicules), plate-like, or discoid crystals derived from nearly pure fresh water, suspended in a water body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://nsidc.org/cryosphere/glossary/term/frazil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001523"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Typically 3 to 4 millimeters in diameter. These may form in both marine water and fresh water. They represent the first stages of sea ice growth; they merge under calm conditions to form thin sheets of ice on the surface (frazil ice), and consist of nearly pure fresh water. In fresh water, they form in supercooled water that is too turbulent to permit coagulation into sheet ice.  This is most common in swiftly flowing streams. They may accumulate as anchor ice on submerged objects obstructing the water flow.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-4808-4736</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001850">
+        <obo:IAO_0000115>An environmental material which is primarily composed of minute ice crystals covering a cold surface.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-12T21:05:54Z</dc:date>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">frost</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001850"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An environmental material which is primarily composed of minute ice crystals covering a cold surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.merriam-webster.com/dictionary/frost"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000090">
+        <obo:IAO_0000115>An environmental material that is the non-aqueous, non-gaseous residues that remain after something is burned.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ash</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An environmental material that is the non-aqueous, non-gaseous residues that remain after something is burned.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ash</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>Any water ice that is part of a glacier.</obo:IAO_0000115>
+        <obo:IAO_0000116>It is suggested that users complement this term with ice terms that are more descriptive of the ice itself, rather than its location/parthood.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">glacial ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any water ice that is part of a glacier.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Glacier</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>Water ice containing little to no air bubbles resulting in a reduction of internal light scattering and, given sufficient volume, a blue appearance.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>The blue &apos;appearance&apos; is to be understood as that within the visual range of humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">blue ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Water ice containing little to no air bubbles resulting in a reduction of internal light scattering and, given sufficient volume, a blue appearance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Blue_ice_(glacial)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Glacier</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>Water ice which is formed from freezing water and is suspended in a water body.</obo:IAO_0000115>
+        <obo:IAO_0000116>Currently the new ice classes are not specific to sea water as they may form in non marine systems, but it would be good to confirm this especially for frazil ice.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>sea ice types include frazil, grease ice, slush, and shuga. These new ice classes refer to both marine water and fresh water ice. If using this term for annotation, use it in conjunction with another envo term to express whether the ice is in a marine, freshwater, or other system.</rdfs:comment>
+        <rdfs:label xml:lang="en">new ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Water ice which is formed from freezing water and is suspended in a water body.</owl:annotatedTarget>
+        <rdfs:comment>https://nsidc.org/cryosphere/glossary/term/new-ice</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <obo:IAO_0000115>A cohesive and contiguous sheet of water ice which floats upon the surface of a water body.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>ice floes</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>Ice floes can exist in sea ice, in rivers or lakes. The WMO offers the following extent-based classification. Floe giant: Over 10 km across.
+Floe vast: 2-10 km across. Floe big: 500-2000 m across. Floe medium: 100-500 m across. Floe small: 20-100 m across. Ice cake: Less than 20 m across. Small ice cake: Less than 2 m across.</rdfs:comment>
+        <rdfs:label xml:lang="en">ice floe</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000065"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cohesive and contiguous sheet of water ice which floats upon the surface of a water body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://nsidc.org/cryosphere/glossary/term/ice-floe</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000065"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Ice floes can exist in sea ice, in rivers or lakes. The WMO offers the following extent-based classification. Floe giant: Over 10 km across.
+Floe vast: 2-10 km across. Floe big: 500-2000 m across. Floe medium: 100-500 m across. Floe small: 20-100 m across. Ice cake: Less than 20 m across. Small ice cake: Less than 2 m across.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://hdl.handle.net/11329/394</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000065"/>
+        <obo:IAO_0000115>An ice floe which is formed from frozen sea water, and floats upon the surface of a marine water body.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>http://sweetontology.net/realmCryo/Floe</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sea ice floes</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">sea ice floe</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000066"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An ice floe which is formed from frozen sea water, and floats upon the surface of a marine water body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://nsidc.org/cryosphere/glossary/term/ice-floe</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000066"/>
+        <obo:IAO_0000115>A sea ice floe which has a rounded or circular shape and raised rims.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">pancake ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sea ice floe which has a rounded or circular shape and raised rims.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pancake_ice</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://web.archive.org/web/20040712022508/http://ice-glaces.ec.gc.ca:80/App/WsvPageDsp.cfm?ID=10992&amp;Lang=eng</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000066"/>
+        <obo:IAO_0000115>A sea ice floe which is thin, elastic, continuous, and of a transparent gray color, which results from the freezing of new ice.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">nilas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sea ice floe which is thin, elastic, continuous, and of a transparent gray color, which results from the freezing of new ice.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://encyclopedia2.thefreedictionary.com/nilas</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice#New_ice.2C_nilas_and_young_ice</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://nsidc.org/cryosphere/glossary/term/nilas</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000066"/>
+        <obo:IAO_0000115>A sea ice floe which is inflexible and thicker than nilas.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">young ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sea ice floe which is inflexible and thicker than nilas.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice#New_ice.2C_nilas_and_young_ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <obo:IAO_0000115>Sea ice which has formed over a single freezing season.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>http://sweetontology.net/realmCryo/SeasonalIce</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>seasonal ice</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>Sea ice develops from young ice; thickness from 0.3 to 2 meters (1 to 6.6 feet).  Sea ice be subdivided into thin first-year ice (white ice), medium first-year ice, and thick first-year ice.  First-year ice is distinguished from older ice primarily by having a higher salinity. Undeformed first-year ice differs from older ice in that it is smoother and lacks refrozen melt ponds. Characteristically level where undisturbed by pressure, but where ridges occur, they  distinguished by being larger, more angular, and more porous than multiyear ridges.</rdfs:comment>
+        <rdfs:label xml:lang="en">first year ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000071"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sea ice which has formed over a single freezing season.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://nsidc.org/arcticseaicenews/tag/first-year-ice/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice#New_ice.2C_nilas_and_young_ice</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-4808-4736</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>seasonal ice</owl:annotatedTarget>
+        <rdfs:comment>First year ice which melts before the next freezing season is often referred to as seasonal ice. By definition, seasonal ice cannot become second year ice.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Sea ice develops from young ice; thickness from 0.3 to 2 meters (1 to 6.6 feet).  Sea ice be subdivided into thin first-year ice (white ice), medium first-year ice, and thick first-year ice.  First-year ice is distinguished from older ice primarily by having a higher salinity. Undeformed first-year ice differs from older ice in that it is smoother and lacks refrozen melt ponds. Characteristically level where undisturbed by pressure, but where ridges occur, they  distinguished by being larger, more angular, and more porous than multiyear ridges.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-4808-4736</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <obo:IAO_0000115>Sea ice which is thicker than first year ice, and has survived a seasonal melting process.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">second year ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sea ice which is thicker than first year ice, and has survived a seasonal melting process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice#New_ice.2C_nilas_and_young_ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002200"/>
+        <obo:IAO_0000115>Sea ice which is thicker than second year ice, and has survived more than two seasonal melting process.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">multiyear ice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sea ice which is thicker than second year ice, and has survived more than two seasonal melting process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Sea_ice#New_ice.2C_nilas_and_young_ice</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000063"/>
+        <obo:IAO_0000115>New ice, which is spongy, lumpy and opaque, and forms from water which freezes in an agitated water body.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>These new ice classes refer to both marine water and fresh water ice. If using this term for annotation, use it in conjunction with another envo term to express whether the ice is in a marine, freshwater, or other system.</rdfs:comment>
+        <rdfs:label xml:lang="en">shuga</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>New ice, which is spongy, lumpy and opaque, and forms from water which freezes in an agitated water body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://encyclopedia2.thefreedictionary.com/shuga</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://nsidc.org/cryosphere/glossary/term/shuga</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_1000746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_1000746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>A gelatinous material primarily composed of exopolymeric compounds with colloidal properties, formed through the aggregation of marine snow particles, often found in large sheets,  flocs, and clouds.</obo:IAO_0000115>
+        <obo:IAO_0000116>See issue #276.
+This class is complex as marine mucilage is quite complex. It will also requre new class creation in GO process for deeper semantics.</obo:IAO_0000116>
+        <oboInOwl:hasBroadSynonym>sea snot</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>The formation of marine mucilage is often associated with conditions which stress marine microorganisms such as diatoms.</rdfs:comment>
+        <rdfs:label xml:lang="en">marine mucilage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_1000746"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A gelatinous material primarily composed of exopolymeric compounds with colloidal properties, formed through the aggregation of marine snow particles, often found in large sheets,  flocs, and clouds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOI:10.1371/journal.pone.0007006</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000232>This class excludes blood analogues, such as the insect analog of blood. See UBERON:0000179 haemolymphatic fluid.</obo:IAO_0000232>
+        <obo:UBPROP_0000001>A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000002>relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</obo:UBPROP_0000002>
+        <obo:UBPROP_0000003>Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]</obo:UBPROP_0000003>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <dc:contributor rdf:resource="https://github.com/tmeehan"/>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blood"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005767"/>
+        <oboInOwl:hasDbXref>AAO:0000046</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000296</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0000176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA:418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:16332</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000027</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9670</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001769</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000315</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12434</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjI8JwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0000224</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0000124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Blood</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>portion of blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vertebrate blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>whole blood</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0000178</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <rdfs:label>blood</rdfs:label>
+        <rdfs:label xml:lang="en">blood</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A fluid that is composed of blood plasma and erythrocytes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blood"/>
+        <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:hasDbXref rdf:resource="https://github.com/obophenotype/uberon/issues/9"/>
+        <oboInOwl:hasDbXref>FMA:9670</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0000007</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</oboInOwl:ontology>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFIN:curator</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000046</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO</oboInOwl:ontology>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:LAP</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000002"/>
+        <owl:annotatedTarget>relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000046</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO</oboInOwl:ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedTarget>Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0000224</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG</oboInOwl:ontology>
+        <oboInOwl:source rdf:resource="http://bgee.unil.ch/"/>
+        <oboInOwl:source>DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) </oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0005767</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Blood</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>whole blood</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000089</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.</obo:IAO_0000115>
+        <obo:IAO_0000116>changed label and definition to reflect CARO2</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0040300"/>
+        <oboInOwl:hasDbXref>AAO:0000607</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>AAO:0010054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>AEO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BILA:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BIRNLEX:19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CARO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0003043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00007003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HAO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0003002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014024</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0001477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TGMA:0001844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0040300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0005729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0001477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Tissue</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>portion of tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tissue portion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>simple tissue</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000479</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#upper_level"/>
+        <rdfs:label>tissue</rdfs:label>
+        <rdfs:label xml:lang="en">tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CARO:0000043</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0040300</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Tissue</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>portion of tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CARO:0000043</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>simple tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AEO:0000043</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000912">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>Mucus is a bodily fluid consisting of a slippery secretion of the lining of the mucous membranes in the body. It is a viscous colloid containing antiseptic enzymes (such as lysozyme) and immunoglobulins. Mucus is produced by goblet cells in the mucous membranes that cover the surfaces of the membranes. It is made up of mucins and inorganic salts suspended in water.</obo:IAO_0000115>
+        <obo:UBPROP_0000007>mucoid</obo:UBPROP_0000007>
+        <obo:UBPROP_0000007>mucous</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Mucus"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0026727"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-2144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:66938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1164</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009093</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13259</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjHq5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0026727</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Mucus</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0000912</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>mucus</rdfs:label>
+        <rdfs:label xml:lang="en">mucus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000912"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Mucus is a bodily fluid consisting of a slippery secretion of the lining of the mucous membranes in the body. It is a viscous colloid containing antiseptic enzymes (such as lysozyme) and immunoglobulins. Mucus is produced by goblet cells in the mucous membranes that cover the surfaces of the membranes. It is made up of mucins and inorganic salts suspended in water.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Mucus"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000912"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0026727</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Mucus</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <obo:IAO_0000115>Portion of connective tissue composed of adipocytes enmeshed in areolar tissue</obo:IAO_0000115>
+        <obo:UBPROP_0000001>Connective tissue in which fat is stored.[TAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001>Tissue that contains adipocytes, used for cushioning, thermal insulation, lubrication (primarily in the pericardium) and energy storage.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000002>relationship loss: subclass connective tissue proper (AAO:0000099)[AAO]</obo:UBPROP_0000002>
+        <obo:UBPROP_0000003>Adipose tissue is unique to vertebrates. It is found in mostmammals, birds, reptiles and amphibians, and a variety is found in some species of fish. Furthermore, in insects the fat body found in larvae as well as in adults shares some homology with adipose tissue.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000007>adipose</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008>In humans, adipose tissue is located beneath the skin (subcutaneous fat), around internal organs (visceral fat), in bone marrow (yellow bone marrow) and in breast tissue. Adipose tissue is found in specific locations, which are referred to as adipose depots. Adipose tissue contains several cell types, with the highest percentage of cells being adipocytes, which contain fat droplets. Other cell types include fibroblasts, macrophages, and endothelial cells. Adipose tissue contains many small blood vessels.; Mice have eight major adipose depots, four of which are within the abdominal cavity. The paired gonadal depots are attached to the uterus and ovaries in females and the epididymis and testes in males; the paired retroperitoneal depots are found along the dorsal wall of the abdomen, surrounding the kidney, and, when massive, extend into the pelvis. The mesenteric depot forms a glue-like web that supports the intestines, and the omental depot, which originates near the stomach and spleen, and, when massive, extends into the ventral abdomen.</obo:UBPROP_0000008>
+        <obo:UBPROP_0000012>in FMA this is dense irregular connective tissue</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Adipose_tissue"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0001527"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/55603005"/>
+        <oboInOwl:hasDbXref>AAO:0000001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>AEO:000020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001487</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0013</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000790</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0003120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35112</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:20110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0000009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000273</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C12472</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjc_ZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>TAO:0002134</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0001527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001284</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005345</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:FattyTissue</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>fat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fat tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fatty tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>adipose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>bodyfat</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fatty depot</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001013</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#vertebrate_core"/>
+        <rdfs:label>adipose tissue</rdfs:label>
+        <rdfs:label xml:lang="en">fat tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Portion of connective tissue composed of adipocytes enmeshed in areolar tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Adipose_tissue"/>
+        <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:hasDbXref>MESH:A10.165.114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGI:cwg</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MP:0000003</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Connective tissue in which fat is stored.[TAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-08-14</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>TAO:0002134</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO</oboInOwl:ontology>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFIN:curator</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Tissue that contains adipocytes, used for cushioning, thermal insulation, lubrication (primarily in the pericardium) and energy storage.[AAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000001</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO</oboInOwl:ontology>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:LAP</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000002"/>
+        <owl:annotatedTarget>relationship loss: subclass connective tissue proper (AAO:0000099)[AAO]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-20</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>AAO:0000001</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO</oboInOwl:ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedTarget>Adipose tissue is unique to vertebrates. It is found in mostmammals, birds, reptiles and amphibians, and a variety is found in some species of fish. Furthermore, in insects the fat body found in larvae as well as in adults shares some homology with adipose tissue.[well established][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0001284</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG</oboInOwl:ontology>
+        <oboInOwl:source rdf:resource="http://bgee.unil.ch/"/>
+        <oboInOwl:source>DOI:10.1017/S0029665107005423 Haugen F, Drevon CA, The interplay between nutrients and the adipose tissue. The Proceedings of the Nutrition Society (2007)</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+        <owl:annotatedTarget>in FMA this is dense irregular connective tissue</owl:annotatedTarget>
+        <oboInOwl:external_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA</oboInOwl:external_ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0001527</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Adipose_Tissue</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fat</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MA:0000009</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>adipose</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0001487</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>bodyfat</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0001487</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>Secretion produced by a sweat gland.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Sweat"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0038984"/>
+        <oboInOwl:hasDbXref>BTO:0001254</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:12275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002539</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D013542</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13280</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjJtZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0038984</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>skin exudate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001089</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>sweat</rdfs:label>
+        <rdfs:label xml:lang="en">sweat</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Secretion produced by a sweat gland.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:12275</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0038984</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Sweat</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>skin exudate</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0001254</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation.</obo:IAO_0000115>
+        <obo:IAO_0000116>to axiomatize the different forms of mammary gland secretion an ontology of the phases of pregnancy/lactation is required. Using the existing GO def of lactation is circular.</obo:IAO_0000116>
+        <obo:UBPROP_0000003>The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000012>ncit:Milk refers specifically to cow milk</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Breast_milk"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1511310"/>
+        <oboInOwl:hasDbXref>BTO:0000868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0636</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:36540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100126</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1230</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002552</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:A13.622</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjGZJwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1511310</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001263</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Milk</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mammary gland milk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001913</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>milk</rdfs:label>
+        <rdfs:label xml:lang="en">milk</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedTarget>The detailed similarities of mammary glands in living monotremes, marsupials, and eutherians argue for a monophyletic origin of these glands, perhaps by the combination of parts of preexisting sebaceous and sweat glands.[well established][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class>VHOG:0001263</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG</oboInOwl:ontology>
+        <oboInOwl:source rdf:resource="http://bgee.unil.ch/"/>
+        <oboInOwl:source>ISBN:978-0072528305 Kardong KV, Vertebrates: Comparative Anatomy, Function, Evolution (2006) p.224</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000012"/>
+        <owl:annotatedTarget>ncit:Milk refers specifically to cow milk</owl:annotatedTarget>
+        <oboInOwl:external_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncit</oboInOwl:external_ontology>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001913"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C1511310</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Breast_Fluid_or_Secretion</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001969">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>The liquid component of blood, in which erythrocytes are suspended.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>plasma</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>portion of plasma</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blood_plasma"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0032105"/>
+        <oboInOwl:hasDbXref>BTO:0000131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0001905</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35690</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62970</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000052</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010949</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000052</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13356</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rEg4ZYrIbEduAAAAOpmP6tw</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0032105</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>blood plasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of blood plasma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001969</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>blood plasma</rdfs:label>
+        <rdfs:label xml:lang="en">blood plasma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001969"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The liquid component of blood, in which erythrocytes are suspended.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001969"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>plasma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MA:0002501</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001969"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>portion of plasma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:62970</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001969"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0032105</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Plasma</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001970">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>vital aqueous secretion of the liver that is formed by hepatocytes and modified down stream by absorptive and secretory properties of the bile duct epithelium.</obo:IAO_0000115>
+        <obo:UBPROP_0000008>In many species, bile is stored in the gallbladder and upon eating is discharged into the duodenum.</obo:UBPROP_0000008>
+        <obo:UBPROP_0000009>aids the process of digestion of lipids in the small intestine</obo:UBPROP_0000009>
+        <obo:UBPROP_0000009>bile salts function to emulsify dietary fats and facilitate their intestinal absorption</obo:UBPROP_0000009>
+        <obo:UBPROP_0000009>elimination of cholesterol</obo:UBPROP_0000009>
+        <obo:UBPROP_0000009>major excretory route for potentially harmful exogenous lipophilic substances</obo:UBPROP_0000009>
+        <obo:UBPROP_0000009>many hormones and pheromones are excreted in bile, and contribute to growth and development of the intestine in some species and provide attractants for the weaning of non-human vertebrates</obo:UBPROP_0000009>
+        <obo:UBPROP_0000009>protects the organism from enteric infections by excreting immune globulin A (IgA), inflammatory cytokines, and stimulating the innate immune system in the intestine</obo:UBPROP_0000009>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Bile"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005388"/>
+        <oboInOwl:hasDbXref>BTO:0000121</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-1172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002513</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13192</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005388</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005857</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Bile</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>fel</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>gall</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001970</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>bile</rdfs:label>
+        <rdfs:label xml:lang="en">bile</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>vital aqueous secretion of the liver that is formed by hepatocytes and modified down stream by absorptive and secretory properties of the bile duct epithelium.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Bile"/>
+        <oboInOwl:hasDbXref rdf:resource="https://doi.org/10.1002/cphy.c120027"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0005388</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Bile</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>fel</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000121</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001970"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>gall</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000121</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>The portion of blood plasma that excludes clotting factors.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Serum_(blood)"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0229671"/>
+        <oboInOwl:hasDbXref>BTO:0000133</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001239</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0923</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EHDAA2:0004728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:35770</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:63083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002502</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0229671</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>serum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001977</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>blood serum</rdfs:label>
+        <rdfs:label xml:lang="en">blood serum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001977"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0229671</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Serum</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001977"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The portion of blood plasma that excludes clotting factors.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Serum_(blood)"/>
+        <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <obo:IAO_0000115>Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system through lymph capillaries[WP].</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Lymph"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024202"/>
+        <oboInOwl:hasDbXref>BTO:0000855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0580</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EV:0100049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:9671</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1186</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002520</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:A12.207.630</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvpDOU5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0024202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001590</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005658</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Lymph</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>lympha</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0002391</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>lymph</rdfs:label>
+        <rdfs:label xml:lang="en">lymph</rdfs:label>
+        <foaf:depicted_by rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/1/19/Illu_lymph_capillary.png</foaf:depicted_by>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002391"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system through lymph capillaries[WP].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Lymph"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0024202</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Lymph</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>lympha</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Lymph"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>fluid</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Body_fluid"/>
+        <oboInOwl:hasDbXref>BIRNLEX:20</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:37441</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:280556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:266</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001826</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:BodyFluid</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>body fluid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0006314</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <rdfs:label>bodily fluid</rdfs:label>
+        <rdfs:label xml:lang="en">bodily fluid</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000019"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Body_fluid"/>
+        <oboInOwl:hasDbXref>MESH:A12.207</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>EMAPA:37441</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:th</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>body fluid</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GAID:266</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001013"/>
+        <obo:IAO_0000115>A thick layer of vascularized adipose tissue found under the skin of all cetaceans, pinnipeds and sirenians.</obo:IAO_0000115>
+        <obo:UBPROP_0000015>Lipid-rich, collagen fiber-laced blubber comprises the hypodermis and covers the whole body, except for parts of the appendages, strongly attached to the musculature and skeleton by highly organized, fan-shaped networks of tendons and ligaments. It can comprise up to 50% of the body mass of some marine mammals during some points in their lives, and can range from two inches (5 cm) thick in dolphins and smaller whales, to more than 12 inches (30 cm)thick in some bigger whales, such as right and bowhead whales</obo:UBPROP_0000015>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blubber"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/83953006"/>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0009754</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>blubber</rdfs:label>
+        <rdfs:label xml:lang="en">blubber</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009754"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A thick layer of vascularized adipose tissue found under the skin of all cetaceans, pinnipeds and sirenians.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Blubber"/>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
