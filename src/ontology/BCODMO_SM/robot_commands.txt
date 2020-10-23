@@ -6,11 +6,14 @@ robot template --template biology/robot_templates/physiology.tsv -i ../bcodmont-
 # Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template qualifiers/robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/robot_templates/qualifiers.owl" -o qualifiers/robot_templates/qualifiers.owl
 
+# Run material.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template matrix/robot_templates/material.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/material.owl" -o matrix/robot_templates/material.owl
+
 
 ## Merge templates
 
 # merge run from ontology:
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl  --input biology/robot_templates/physiology.owl --input qualifiers/robot_templates/qualifiers.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl  --input biology/robot_templates/physiology.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
 
 
 ## Filter to create export products
@@ -20,3 +23,6 @@ robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --sel
 
 # Filter qualifiers from merged ontology
 robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:qualifiers" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --output qualifiers/qualifiers.owl
+
+# Filter material from merged ontology
+robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:material" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl" --output matrix/material.owl
