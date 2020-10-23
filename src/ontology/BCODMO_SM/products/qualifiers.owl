@@ -7,6 +7,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl"/>
     
@@ -71,6 +72,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -96,6 +103,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000002">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">count</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000070"/>
     </owl:Class>
     
 
@@ -180,6 +188,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000011">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">binary</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/STATO_0000031"/>
     </owl:Class>
     
 
@@ -209,6 +218,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000014">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">content</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000025"/>
     </owl:Class>
     
 
@@ -218,6 +228,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000015">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">absorption</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001293"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0002060"/>
     </owl:Class>
     
 
@@ -227,6 +239,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000016">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">optical density</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
     </owl:Class>
     
 
@@ -246,6 +259,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_000018">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#qualifiers"/>
         <rdfs:label xml:lang="en">sum</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25697"/>
+        <skos:closeMatch rdf:resource="http://semanticscience.org/resource/SIO_001112"/>
     </owl:Class>
     
 
