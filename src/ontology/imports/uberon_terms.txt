@@ -1,3 +1,15 @@
 UBERON:0001062 #anatomical entity
 UBERON:0000069 #larval stage
 UBERON:0034919 #juvenile stage
+UBERON:0006314 #bodily fluid
+UBERON:0001970 #bile
+UBERON:0000178 #blood
+UBERON:0001969 #blood plasma
+UBERON:0001977 #blood serum
+UBERON:0002391 #lymph
+UBERON:0001913 #milk
+UBERON:0000912 #mucus
+UBERON:0001089 #sweat
+UBERON:0000479 #tissue
+UBERON:0001013 #fat tissue
+UBERON:0009754 #blubber
