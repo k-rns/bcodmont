@@ -1,0 +1,161 @@
+## ID Ranges File
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: idsfor: <http://purl.obolibrary.org/obo/IAO_0000598>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: allocatedto: <http://purl.obolibrary.org/obo/IAO_0000597>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: idprefix: <http://purl.obolibrary.org/obo/IAO_0000599>
+Prefix: iddigits: <http://purl.obolibrary.org/obo/IAO_0000596>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+
+Ontology: <http://bcodmo/sm/idranges.owl>
+
+
+
+Annotations:
+    idsfor: "BSM",
+    idprefix: "http://purl.obolibrary.org/obo/BSM_",
+    iddigits: 7
+
+AnnotationProperty: idprefix:
+
+
+AnnotationProperty: iddigits:
+
+
+AnnotationProperty: idsfor:
+
+
+AnnotationProperty: allocatedto:
+
+Datatype: idrange:1
+
+    Annotations:
+        allocatedto: "Qualifiers"
+
+    EquivalentTo:
+        xsd:integer[>= 1 , <= 10000]
+
+
+Datatype: idrange:2
+
+    Annotations:
+        allocatedto: "Biology/Anatomy"
+
+    EquivalentTo:
+        xsd:integer[>= 10001 , <= 20000]
+
+
+Datatype: idrange:3
+
+    Annotations:
+        allocatedto: "Biology/Physiology"
+
+    EquivalentTo:
+        xsd:integer[>= 20001 , <= 30000]
+
+
+Datatype: idrange:4
+
+    Annotations:
+        allocatedto: "Biology/Ecology"
+
+    EquivalentTo:
+        xsd:integer[>= 30001 , <= 40000]
+
+
+Datatype: idrange:5
+
+    Annotations:
+        allocatedto: "Biology/Biomolecules"
+
+    EquivalentTo:
+        xsd:integer[>= 40001 , <= 50000]
+
+
+Datatype: idrange:6
+
+    Annotations:
+        allocatedto: "Biology/Organism"
+
+    EquivalentTo:
+        xsd:integer[>= 50001 , <= 60000]
+
+
+
+Datatype: idrange:7
+
+    Annotations:
+        allocatedto: "Matrix/Material"
+
+    EquivalentTo:
+        xsd:integer[>= 100001 , <= 110000]
+
+
+Datatype: idrange:8
+
+    Annotations:
+        allocatedto: "Matrix/Context"
+
+    EquivalentTo:
+        xsd:integer[>= 110001 , <= 120000]
+
+
+Datatype: idrange:9
+
+    Annotations:
+        allocatedto: "Matrix/Biome"
+
+    EquivalentTo:
+        xsd:integer[>= 120001 , <= 130000]
+
+
+Datatype: idrange:10
+
+    Annotations:
+        allocatedto: "Chemistry/Atom"
+
+    EquivalentTo:
+        xsd:integer[>= 200001 , <= 210000]
+
+
+Datatype: idrange:11
+
+    Annotations:
+        allocatedto: "Chemistry/Compound"
+
+    EquivalentTo:
+        xsd:integer[>= 210001 , <= 220000]
+
+
+Datatype: idrange:12
+
+    Annotations:
+        allocatedto: "Chemistry/Ion"
+
+    EquivalentTo:
+        xsd:integer[>= 220001 , <= 230000]
+
+
+Datatype: idrange:13
+
+    Annotations:
+        allocatedto: "Chemistry/molecule"
+
+    EquivalentTo:
+        xsd:integer[>= 230001 , <= 240000]
+
+
+Datatype: idrange:14
+
+    Annotations:
+        allocatedto: "Chemistry/Salt"
+
+    EquivalentTo:
+        xsd:integer[>= 240001 , <= 250000]
+
+Datatype: xsd:integer
+Datatype: rdf:PlainLiteral
