@@ -1,2 +1,110 @@
-ENVO:00001998
-
+ENVO:00001998 #soil
+ENVO:00010505	#aerosol
+ENVO:01001428	#cloud
+ENVO:01000844	#fog
+ENVO:01001402	#haze
+ENVO:01001458	#mist
+ENVO:01000838	#smoke
+ENVO:02000090	#ash
+ENVO:01000560	#charcoal
+ENVO:00002982	#clay
+ENVO:00010506	#emulsion
+ENVO:00005738	#foam
+ENVO:00002164	#fossil
+ENVO:01001850	#frost
+ENVO:01000797	#gas
+ENVO:00002005	#air
+ENVO:01000266	#vapor
+ENVO:01000480	#glass
+ENVO:01000277	#ice
+ENVO:03000004	#glacial ice
+ENVO:03000065	#ice floe
+ENVO:03000066	#sea ice floe
+ENVO:03000068	#nilas
+ENVO:03000067	#pancake ice
+ENVO:03000069	#young ice
+ENVO:03000063	#new ice
+ENVO:01001523	#frazil
+ENVO:03000075	#shuga
+ENVO:00002200	#sea ice
+ENVO:01001190	#brown sea ice
+ENVO:01001512	#congelation sea ice
+ENVO:03000071	#first year ice
+ENVO:03000073	#multiyear ice
+ENVO:03000072	#second year ice
+ENVO:03000007	#blue ice
+ENVO:01001511	#freshwater ice
+ENVO:01001139	#methane ice
+ENVO:01000231	#lava
+ENVO:01000404	#plastic
+ENVO:01000851	#methane clathrate
+ENVO:01000256	#mineral
+ENVO:01000001	#mud
+ENVO:00002985	#oil
+ENVO:00002983	#fuel oil
+ENVO:00002984	#petroleum
+ENVO:01000155	#organic material
+ENVO:01001189	#algal material
+ENVO:01000156	#biofilm material
+ENVO:01001103	#detritus
+ENVO:01000158	#marine snow
+ENVO:01001231	#kerogen
+ENVO:1000746	#marine mucilage
+ENVO:01000157	#microbial mat
+ENVO:01001395	#necromass
+ENVO:01000063	#plankton
+ENVO:01001121	#plant matter
+ENVO:01000060	#particulate matter
+ENVO:03000038	#cryoconite
+ENVO:00002008	#dust
+ENVO:03000021	#soot
+ENVO:00000134	#permafrost
+ENVO:01001614	#ice permafrost
+ENVO:03000088	#methane permafrost
+ENVO:00001995	#rock
+ENVO:00002016	#sedimentary rock
+ENVO:01000017	#sand
+ENVO:00002007	#sediment
+ENVO:00000546	#lake sediment
+ENVO:03000033	#marine sediment
+ENVO:01000406	#snow
+ENVO:03000002	#firn
+ENVO:03000000	#neve
+ENVO:03000027	#powdery snow
+ENVO:03000108	#slab snow
+ENVO:00001998	#soil
+ENVO:00002006	#water
+ENVO:01000872	#ballast water
+ENVO:00002019	#brackish water
+ENVO:01000301	#estuarine water
+ENVO:00002186	#contaminated water
+ENVO:00002224	#eutrophic water
+ENVO:01000940	#fissure water
+ENVO:00002011	#fresh water
+ENVO:00003064	#drinking water
+ENVO:01000600	#rainwater
+ENVO:01001004	#groundwater
+ENVO:00002012	#hypersaline water
+ENVO:00003044	#brine
+ENVO:01001064	#hypoxic water
+ENVO:04000007	#lake water
+ENVO:00002141	#leachate
+ENVO:01000134	#hydrothermal fluid
+ENVO:01000722	#meltwater
+ENVO:00002225	#mesotrophic water
+ENVO:00002223	#oligotrophic water
+ENVO:01001063	#oxic water
+ENVO:01000599	#river water
+ENVO:00002149	#sea water
+ENVO:00002150	#coastal sea water
+ENVO:00005791	#sterile water
+ENVO:01001267	#stormwater
+ENVO:00002001	#waste water
+ENVO:01000964	#industrial wastewater
+ENVO:00002018	#sewage
+ENVO:00002264	#waste material
+ENVO:00002001	#waste water
+ENVO:00002018	#sewage
+ENVO:01000575	#wax
+ENVO:00002040	#wood
+ENVO:02000008	#cell culture
