@@ -1,22 +1,22 @@
 ## Run templates
 
 # Run physiology.tsv run from bcodmont/src/ontology/BCODMO_SM/
-robot template --template robot_templates/physiology.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/robot_templates/physiology.owl" -o robot_templates/physiology.owl
+robot template --template biology/robot_templates/physiology.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/biology/robot_templates/physiology.owl" -o biology/robot_templates/physiology.owl
 
 # Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
-robot template --template robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/robot_templates/qualifiers.tsv" -o robot_templates/qualifiers.owl
+robot template --template qualifiers/robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/robot_templates/qualifiers.owl" -o qualifiers/robot_templates/qualifiers.owl
 
 
 ## Merge templates
 
 # merge run from ontology:
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl  --input robot_templates/physiology.owl --input robot_templates/qualifiers.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl  --input biology/robot_templates/physiology.owl --input qualifiers/robot_templates/qualifiers.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
 
 
 ## Filter to create export products
 
 # Filter physiology from merged ontology
-robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:physiology" --select annotations --signature true --output products/physiology.owl
+robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:physiology" --select annotations --signature true --output biology/physiology.owl
 
 # Filter qualifiers from merged ontology
-robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:qualifiers" --select annotations  --signature true --output products/qualifiers.owl
+robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:qualifiers" --select annotations  --signature true --output qualifiers/qualifiers.owl
