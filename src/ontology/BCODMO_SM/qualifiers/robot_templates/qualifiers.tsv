@@ -1,37 +1,37 @@
-QUALIFIERS	SUBQUALIFIERS 1	SUBQUALIFIERS 2	ontology ID	label	parent class	exact synonym	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	in subset
-			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset
-number			BSM:000001	number										http://bcodmo/sm#qualifiers
-count			BSM:000002	count			PATO:0000070							http://bcodmo/sm#qualifiers
-sum			BSM:000018	sum			SIO:001112|NCIT:C25697							http://bcodmo/sm#qualifiers
-flux			PATO:0001030	flux										http://bcodmo/sm#qualifiers
-abundance			BSM:000003	abundance										http://bcodmo/sm#qualifiers
-abundance	relative		BSM:000004	relative	abundance									http://bcodmo/sm#qualifiers
-ratio			UO:0000190	ratio										http://bcodmo/sm#qualifiers
-concentration			PATO:0000033	concentration										http://bcodmo/sm#qualifiers
-volume			PATO:0000918	volume										http://bcodmo/sm#qualifiers
-biomass			BSM:000005	biomass										http://bcodmo/sm#qualifiers
-weight			PATO:0000128	weight										http://bcodmo/sm#qualifiers
-weight	Dry		BSM:000019	dry	weight									http://bcodmo/sm#qualifiers
-weight	Wet		BSM:000020	wet	weight									http://bcodmo/sm#qualifiers
-mass			PATO:0000125	mass										http://bcodmo/sm#qualifiers
-percentage			UO:0000187	percentage										http://bcodmo/sm#qualifiers
-code			BSM:000006	code										http://bcodmo/sm#qualifiers
-accession			BSM:000007	accession										http://bcodmo/sm#qualifiers
-identifier			IAO:0020000	identifier										http://bcodmo/sm#qualifiers
-identifier	COG		BSM:000008	COG	identifier									http://bcodmo/sm#qualifiers
-identifier	COG	tag	BSM:000009	tag	COG									http://bcodmo/sm#qualifiers
-length			PATO:0000122	length										http://bcodmo/sm#qualifiers
-height			PATO:0000119	height										http://bcodmo/sm#qualifiers
-area			PATO:0001323	area										http://bcodmo/sm#qualifiers
-girth			BSM:000010	girth										http://bcodmo/sm#qualifiers
-age			PATO:0000011	age										http://bcodmo/sm#qualifiers
-Binary			BSM:000011	binary			STATO:0000031							http://bcodmo/sm#qualifiers
-Binary	TRUE		BSM:000012	TRUE	binary									http://bcodmo/sm#qualifiers
-Binary	FALSE		BSM:000013	FALSE	binary									http://bcodmo/sm#qualifiers
-Content			BSM:000014	content			PATO:0000025							http://bcodmo/sm#qualifiers
-fluorescence			PATO:0000018	fluorescence										http://bcodmo/sm#qualifiers
-absorption			BSM:000015	absorption			PATO:0002060|PATO:0001293							http://bcodmo/sm#qualifiers
-optical density			BSM:000016	optical density			PATO:0001300							http://bcodmo/sm#qualifiers
-mass			PATO:0000125	mass										http://bcodmo/sm#qualifiers
-mass	predicted		BSM:000021	predicted	mass									http://bcodmo/sm#qualifiers
-mass	calculated		BSM:000017	calculated	mass									http://bcodmo/sm#qualifiers
+QUALIFIERS	SUBQUALIFIERS 1	SUBQUALIFIERS 2	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	in subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset
+number			BSM:0000001	number											http://bcodmo/sm#qualifiers
+count			BSM:0000002	count				PATO:0000070							http://bcodmo/sm#qualifiers
+sum			BSM:0000018	sum				SIO:001112|NCIT:C25697							http://bcodmo/sm#qualifiers
+flux			PATO:0001030	flux											http://bcodmo/sm#qualifiers
+abundance			BSM:0000003	abundance											http://bcodmo/sm#qualifiers
+abundance	relative		BSM:0000004	relative	abundance										http://bcodmo/sm#qualifiers
+ratio			UO:0000190	ratio											http://bcodmo/sm#qualifiers
+concentration			PATO:0000033	concentration											http://bcodmo/sm#qualifiers
+volume			PATO:0000918	volume											http://bcodmo/sm#qualifiers
+biomass			BSM:0000005	biomass											http://bcodmo/sm#qualifiers
+weight			PATO:0000128	weight											http://bcodmo/sm#qualifiers
+weight	Dry		BSM:0000019	dry	weight										http://bcodmo/sm#qualifiers
+weight	Wet		BSM:0000020	wet	weight										http://bcodmo/sm#qualifiers
+mass			PATO:0000125	mass											http://bcodmo/sm#qualifiers
+percentage			UO:00000187	percentage											http://bcodmo/sm#qualifiers
+code			BSM:0000006	code											http://bcodmo/sm#qualifiers
+accession			BSM:0000007	accession											http://bcodmo/sm#qualifiers
+identifier			IAO:0020000	identifier											http://bcodmo/sm#qualifiers
+identifier	COG		BSM:0000008	COG	identifier										http://bcodmo/sm#qualifiers
+identifier	COG	tag	BSM:0000009	tag	COG										http://bcodmo/sm#qualifiers
+length			PATO:0000122	length											http://bcodmo/sm#qualifiers
+height			PATO:0000119	height											http://bcodmo/sm#qualifiers
+area			PATO:0001323	area											http://bcodmo/sm#qualifiers
+girth			BSM:0000010	girth											http://bcodmo/sm#qualifiers
+age			PATO:0000011	age											http://bcodmo/sm#qualifiers
+Binary			BSM:0000011	binary				STATO:0000031							http://bcodmo/sm#qualifiers
+Binary	TRUE		BSM:0000012	TRUE	binary										http://bcodmo/sm#qualifiers
+Binary	FALSE		BSM:0000013	FALSE	binary										http://bcodmo/sm#qualifiers
+Content			BSM:0000014	content				PATO:0000025							http://bcodmo/sm#qualifiers
+fluorescence			PATO:0000018	fluorescence											http://bcodmo/sm#qualifiers
+absorption			BSM:0000015	absorption				PATO:0002060|PATO:0001293							http://bcodmo/sm#qualifiers
+optical density			BSM:000016	optical density				PATO:0001300							http://bcodmo/sm#qualifiers
+mass			PATO:00000125	mass											http://bcodmo/sm#qualifiers
+mass	predicted		BSM:0000021	predicted	mass										http://bcodmo/sm#qualifiers
+mass	calculated		BSM:0000017	calculated	mass										http://bcodmo/sm#qualifiers
