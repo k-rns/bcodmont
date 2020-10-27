@@ -7,7 +7,6 @@ aerosol	haze		ENVO:01001402	haze	aerosol											http://bcodmo/sm#matrix	http:
 aerosol	mist		ENVO:01001458	mist	aerosol											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 aerosol	smoke		ENVO:01000838	smoke	aerosol											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ash			ENVO:02000090	ash												http://bcodmo/sm#matrix	http://bcodmo/sm#material
-charcoal			ENVO:01000560	charcoal												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 clay			ENVO:00002982	clay												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 emulsion			ENVO:00010506	emulsion												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 foam			ENVO:00005738	foam												http://bcodmo/sm#matrix	http://bcodmo/sm#material
@@ -20,7 +19,7 @@ glass			ENVO:01000480	glass												http://bcodmo/sm#matrix	http://bcodmo/sm#
 ice			ENVO:01000277	ice												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	glacial ice		ENVO:03000004	glacial ice	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	ice floe		ENVO:03000065	ice floe	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-ice	sea ice floe		ENVO:03000066	sea ice floe	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+ice	sea ice floe		ENVO:03000066	sea ice floe	ice floe											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	sea ice floe	nilas	ENVO:03000068	nilas	sea ice floe											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	sea ice floe	pancake ice	ENVO:03000067	pancake ice	sea ice floe											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	sea ice floe	young ice	ENVO:03000069	young ice	sea ice floe											http://bcodmo/sm#matrix	http://bcodmo/sm#material
@@ -36,29 +35,28 @@ ice	sea ice	second year ice	ENVO:03000072	second year ice	sea ice											http
 ice	blue ice		ENVO:03000007	blue ice	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	freshwater ice		ENVO:01001511	freshwater ice	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 ice	methane ice		ENVO:01001139	methane ice	ice											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+incubation			BSM:0100004	incubation												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+incubation	cell culture		ENVO:02000008	cell culture	incubation											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 lava			ENVO:01000231	lava												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 plastic			ENVO:01000404	plastic												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 methane clathrate			ENVO:01000851	methane clathrate												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 mineral			ENVO:01000256	mineral												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 mud			ENVO:01000001	mud												http://bcodmo/sm#matrix	http://bcodmo/sm#material
-oil			ENVO:00002985	oil												http://bcodmo/sm#matrix	http://bcodmo/sm#material
-oil	fuel oil		ENVO:00002983	fuel oil	oil											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-oil	petroleum		ENVO:00002984	petroleum	oil											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material			ENVO:2000045	hydrocarbon material												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	charcoal		ENVO:01000560	charcoal	hydrocarbon material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	charcoal	biochar	ENVO:2000007	biochar	charcoal											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	hydrocarbon gas		ENVO:01000554	hydrocarbon gas	hydrocarbon material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	hydrocarbon gas	biogas	ENVO:01000556	biogas	hydrocarbon gas											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	hydrocarbon gas	natural gas	ENVO:01000552	natural gas	hydrocarbon gas											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	liquified hydrocarbon gas		ENVO:01000558	liquified hydrocarbon gas	hydrocarbon material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	liquified hydrocarbon gas	liquified natural gas	ENVO:01000557	liquified natural gas	liquified hydrocarbon gas											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	liquified hydrocarbon gas	liquified petroleum gas	ENVO:01000553	liquified petroleum gas	liquified hydrocarbon gas											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	oil		ENVO:00002985	oil												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	oil	fuel oil	ENVO:00002983	fuel oil	oil											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+hydrocarbon material	oil	petroleum	ENVO:00002984	petroleum	oil											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material			ENVO:01000155	organic material												http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	algal material		ENVO:01001189	algal material	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	biofilm material		ENVO:01000156	biofilm material	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid		UBERON:0006314	bodily fluid	organic material			ENVO:02000019								http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	bile	UBERON:0001970	bile	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	blood	UBERON:0000178	blood	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	blood plasma	UBERON:0001969	blood plasma	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	blood serum	UBERON:0001977	blood serum	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	lymph	UBERON:0002391	lymph	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	milk	UBERON:0001913	milk	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	mucus	UBERON:0000912	mucus	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	bodily fluid	sweat	UBERON:0001089	sweat	bodily fluid											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	tissue		UBERON:0000479	tissue	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	tissue	fat tissue	UBERON:0001013	fat tissue	tissue											http://bcodmo/sm#matrix	http://bcodmo/sm#material
-organic material	tissue	blubber	UBERON:0009754	blubber	tissue											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	detritus		ENVO:01001103	detritus	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	detritus	marine snow	ENVO:01000158	marine snow	detritus											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	kerogen		ENVO:01001231	kerogen	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
@@ -67,3 +65,59 @@ organic material	microbial mat material		ENVO:01000157	microbial mat	organic mat
 organic material	necromass		ENVO:01001395	necromass	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	planktonic material		ENVO:01000063	plankton	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
 organic material	plant matter		ENVO:01001121	plant matter	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+organic material	seagrass		BSM:0100001	seagrass	organic material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+particulate matter			ENVO:01000060	particulate matter												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+particulate matter	cryoconite		ENVO:03000038	cryoconite	particulate matter											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+particulate matter	dust		ENVO:00002008	dust	particulate matter											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+particulate matter	soot		ENVO:03000021	soot	particulate matter											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+permafrost			ENVO:00000134	permafrost												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+permafrost	ice permafrost		ENVO:01001614	ice permafrost	permafrost											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+permafrost	methane permafrost		ENVO:03000088	methane permafrost	permafrost											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+radioactive material			BSM:0100002	radioactive material			ENVO:03510037									http://bcodmo/sm#matrix	http://bcodmo/sm#material
+resin			BSM:0100003	resin			ENVO:03510018									http://bcodmo/sm#matrix	http://bcodmo/sm#material
+rock			ENVO:00001995	rock												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+rock	sedimentary rock		ENVO:00002016	sedimentary rock	rock											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+sand			ENVO:01000017	sand												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+sediment			ENVO:00002007	sediment												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+sediment	lake sediment		ENVO:00000546	lake sediment	sediment											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+sediment	marine sediment		ENVO:03000033	marine sediment	sediment											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+snow			ENVO:01000406	snow												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+snow	firn		ENVO:03000002	firn	snow											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+snow	neve		ENVO:03000000	neve	snow											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+snow	powdery snow		ENVO:03000027	powdery snow	snow											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+snow	slab snow		ENVO:03000108	slab snow	snow											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+soil			ENVO:00001998	soil												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water			ENVO:00002006	water												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	ballast water		ENVO:01000872	ballast water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	brackish water		ENVO:00002019	brackish water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	brackish water	estuarine water	ENVO:01000301	estuarine water	brackish water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	contaminated water		ENVO:00002186	contaminated water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	eutrophic water		ENVO:00002224	eutrophic water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	fissure water		ENVO:01000940	fissure water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	fresh water		ENVO:00002011	fresh water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	fresh water	drinking water	ENVO:00003064	drinking water	fresh water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	fresh water	rainwater	ENVO:01000600	rainwater	fresh water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	groundwater		ENVO:01001004	groundwater	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	hypersaline water		ENVO:00002012	hypersaline water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	hypersaline water	brine	ENVO:00003044	brine	hypersaline water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	hypoxic water		ENVO:01001064	hypoxic water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	lake water		ENVO:04000007	lake water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	leachate		ENVO:00002141	leachate	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	leachate	hydrothermal fluid	ENVO:01000134	hydrothermal fluid	leachate											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	meltwater		ENVO:01000722	meltwater	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	mesotrophic water		ENVO:00002225	mesotrophic water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	oligotrophic water		ENVO:00002223	oligotrophic water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	oxic water		ENVO:01001063	oxic water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	river water		ENVO:01000599	river water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	sea water		ENVO:00002149	sea water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	sea water	coastal sea water	ENVO:00002150	coastal sea water	sea water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	sterile water		ENVO:00005791	sterile water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	stormwater		ENVO:01001267	stormwater	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	waste water		ENVO:00002001	waste water	water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	waste water	industrial wastewater	ENVO:01000964	industrial wastewater	waste water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+water	waste water	sewage	ENVO:00002018	sewage	waste water											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+waste material			ENVO:00002264	waste material												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+waste material	waste water		ENVO:00002001	waste water	waste material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+waste material	waste water	sewage	ENVO:00002018	sewage	waste material											http://bcodmo/sm#matrix	http://bcodmo/sm#material
+wax			ENVO:01000575	wax												http://bcodmo/sm#matrix	http://bcodmo/sm#material
+wood			ENVO:00002040	wood												http://bcodmo/sm#matrix	http://bcodmo/sm#material
