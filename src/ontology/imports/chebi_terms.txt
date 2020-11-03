@@ -1,0 +1,225 @@
+CHEBI:33628	#aluminum
+CHEBI:28984	#aluminum atom
+CHEBI:37969	#aluminium-26 atom
+CHEBI:37968	#aluminium-27 atom
+CHEBI:37970	#aluminium-28 atom
+CHEBI:60272	#aluminum ion
+CHEBI:30150	#aluminium(1+)
+CHEBI:49470	#aluminium(3+)
+CHEBI:36922	#antimony
+CHEBI:30513	#antimony atom
+CHEBI:52624	#antimony-121 atom
+CHEBI:52626	#antimony-123 atom
+CHEBI:49867	#antimony(3+)
+CHEBI:30303	#diantimony
+CHEBI:35826	#arsenic
+CHEBI:27563	#arsenic atom
+CHEBI:37134	#barium
+CHEBI:32594	#barium atom
+CHEBI:33609	#boron
+CHEBI:27560	#boron atom
+CHEBI:77014	#boron-10 atom
+CHEBI:52451	#boron-11 atom
+CHEBI:36894	#bromine
+CHEBI:22927	#bromine atom
+CHEBI:52743	#bromine-79 atom
+CHEBI:15858	#bromide
+CHEBI:36900	#bromine(1+)
+CHEBI:37249	#cadmium
+CHEBI:22977	#cadmium atom
+CHEBI:52619	#cadmium-111 atom
+CHEBI:52620	#cadmium-113 atom
+CHEBI:35155	#calcium
+CHEBI:22984	#calcium atom
+CHEBI:39099	#calcium(1+)
+CHEBI:29108	#calcium(2+)
+CHEBI:33415	#carbon
+CHEBI:27594	#carbon atom
+CHEBI:36930	#carbon-10 atom
+CHEBI:36929	#carbon-11 atom
+CHEBI:36931	#carbon-12 atom
+CHEBI:36928	#carbon-13 atom
+CHEBI:36927	#carbon-14 atom
+CHEBI:155919	#cesium
+CHEBI:30514	#cesium atom
+CHEBI:33431	#chlorine
+CHEBI:23116	#chlorine atom
+CHEBI:17996	#chloride
+CHEBI:155919	#cobalt
+CHEBI:30514	#cobalt atom
+CHEBI:37404	#copper
+CHEBI:28694	#copper atom
+CHEBI:52630	#copper-63 atom
+CHEBI:49552	#copper(1+)
+CHEBI:29036	#copper(2+)
+CHEBI:29037	#copper(3+)
+CHEBI:33260	#hydrogen
+CHEBI:49637	#hydrogen atom
+CHEBI:29237	#deuterium atom
+CHEBI:29236	#protium atom
+CHEBI:29238	#tritium atom
+CHEBI:18276	#dihydrogen
+CHEBI:15378	#hydrogen(1+)
+CHEBI:16240	#hydrogen peroxide
+CHEBI:36893	#iodine
+CHEBI:24859	#iodine atom
+CHEBI:52631	#iodine-127 atom
+CHEBI:52636	#iodine-129 atom
+CHEBI:16382	#iodide
+CHEBI:33116	#iodine(1+)
+CHEBI:33115	#iodine(.)
+CHEBI:82663	#iron
+CHEBI:18248	#iron atom
+CHEBI:52623	#iron-57 atom
+CHEBI:29033	#iron(2+)
+CHEBI:29034	#iron(3+)
+CHEBI:82664	#iron(0)
+CHEBI:37193	#lead
+CHEBI:25016	#lead atom
+CHEBI:52455	#lead-207 atom
+CHEBI:60249	#lead ion
+CHEBI:49807	#lead(2+)
+CHEBI:30180	#lead(4+)
+CHEBI:155867	#lithium
+CHEBI:30145	#lithium atom
+CHEBI:52621	#lithium-6 atom
+CHEBI:52458	#lithium-7 atom
+CHEBI:33973	#magnesium
+CHEBI:25107	#magnesium atom
+CHEBI:52763	#magnesium-25 atom
+CHEBI:39128	#magnesium ion
+CHEBI:33974	#magnesium(1+)
+CHEBI:18420	#magnesium(2+)
+CHEBI:35115	#manganese
+CHEBI:18291	#manganese atom
+CHEBI:33011	#manganide
+CHEBI:29035	#manganese(2+)
+CHEBI:29041	#manganese(3+)
+CHEBI:25158	#manganese(4+)
+CHEBI:35154	#manganese(0)
+CHEBI:37237	#molybdenum
+CHEBI:28685	#molybdenum atom
+CHEBI:52633	#molybdenum-95
+CHEBI:49414	#molybdenum(4+)
+CHEBI:30511	#molybdenum(5+)
+CHEBI:49446	#molybdenum(6+)
+CHEBI:37238	#dimolybdenum
+CHEBI:33267	#nitrogen
+CHEBI:25555	#nitrogen atom
+CHEBI:36935	#nitrogen-13 atom
+CHEBI:36938	#nitrogen-14 atom
+CHEBI:36934	#nitrogen-15 atom
+CHEBI:36936	#nitrogen-16 atom
+CHEBI:36937	#nitrogen-17 atom
+CHEBI:17997	#dinitrogen
+CHEBI:17045	#nitrous oxide
+CHEBI:17632	#nitrate
+CHEBI:16301	#nitrite
+CHEBI:28938	#ammonium
+CHEBI:16134	#ammonia
+CHEBI:33372	#neodymium atom
+CHEBI:155868	#nickel
+CHEBI:28112	#nickel atom
+CHEBI:33262	#oxygen
+CHEBI:25805	#oxygen atom
+CHEBI:36932	#oxygen-15 atom
+CHEBI:33818	#oxygen-16 atom
+CHEBI:33819	#oxygen-17 atom
+CHEBI:33815	#oxygen-18 atom
+CHEBI:36933	#oxygen-19 atom
+CHEBI:15379	#dioxygen
+CHEBI:25812	#ozone
+CHEBI:33464	#phosphorus
+CHEBI:28659	#phosphorus atom
+CHEBI:37971	#phosphorus-31 atom
+CHEBI:37972	#phosphorus-32 atom
+CHEBI:37973	#phosphorus-33 atom
+CHEBI:18367	#phosphate(3-)
+CHEBI:37247	#potassium
+CHEBI:26216	#potassium atom
+CHEBI:52632	#potassium-39 atom
+CHEBI:29104	#kalide
+CHEBI:29103	#potassium(1+)
+CHEBI:155923	#rubidium
+CHEBI:33322	#rubidium atom
+CHEBI:52459	#rubidium-87 atom
+CHEBI:37763	#silicon
+CHEBI:27573	#silicon atom
+CHEBI:37975	#silicon-28 atom
+CHEBI:37974	#silicon-29 atom
+CHEBI:37976	#silicon-30 atom
+CHEBI:37977	#silicon-31 atom
+CHEBI:37978	#silicon-32 atom
+CHEBI:30592	#disilicide(1-)
+CHEBI:30591	#disilicon(1+)
+CHEBI:30585	#silicide(1-)
+CHEBI:30586	#silicide(4-)
+CHEBI:30582	#silicon(1+)
+CHEBI:30584	#silicon(4+)
+CHEBI:30598	#tetrasilicide(4-)
+CHEBI:30590	#disilicon
+CHEBI:30591	#disilicon(1+)
+CHEBI:48123	#silicate ion
+CHEBI:48124	#dihydrogensilicate(2-)
+CHEBI:48122	#hydrogensilicate(3-)
+CHEBI:29241	#silicate(4-)
+CHEBI:48125	#trihydrogensilicate(1-)
+CHEBI:30563	#silicon dioxide
+CHEBI:64389	#biogenic silica
+CHEBI:26675	#silicic acid
+CHEBI:37246	#sodium
+CHEBI:26708	#sodium atom
+CHEBI:52634	#sodium-23 atom
+CHEBI:29102	#natride
+CHEBI:29101	#sodium(1+)
+CHEBI:39131	#strontium
+CHEBI:33324	#strontium atom
+CHEBI:39130	#strontium ion
+CHEBI:37132	#strontium(1+)
+CHEBI:35104	#strontium(2+)
+CHEBI:33403	#sulfur
+CHEBI:26833	#sulfur atom
+CHEBI:37979	#sulfur-32 atom
+CHEBI:37980	#sulfur-33 atom
+CHEBI:37981	#sulfur-34 atom
+CHEBI:37983	#sulfur-35 atom
+CHEBI:37982	#sulfur-36 atom
+CHEBI:37984	#sulfur-37 atom
+CHEBI:37985	#sulfur-38 atom
+CHEBI:16136	#hydrogen sulfide
+CHEBI:29919	#hydrosulfide
+CHEBI:16189	#sulfate
+CHEBI:17359	#sulfite
+CHEBI:33541	#thiosulfate(1-)
+CHEBI:16094	#thiosulfate(2-)
+CHEBI:35944	#thiosulfite(1-)
+CHEBI:29257	#thiosulfite(2-)
+CHEBI:17909	#polysulfur
+CHEBI:155870	#titanium
+CHEBI:33341	#titanium atom
+CHEBI:50559	#uranium
+CHEBI:27214	#uranium atom
+CHEBI:50560	#diuranium
+CHEBI:49936	#uranium(0)
+CHEBI:32993	#uranium(2+)
+CHEBI:32994	#uranium(3+)
+CHEBI:32995	#uranium(4+)
+CHEBI:32991	#uranium(5+)
+CHEBI:32992	#uranium(6+)
+CHEBI:35171	#vanadium
+CHEBI:27698	#vanadium atom
+CHEBI:52456	#vanadium-51 atom
+CHEBI:33005	#vanadium(1+)
+CHEBI:33004	#vanadium(2+)
+CHEBI:49948	#vanadium(3+)
+CHEBI:33002	#vanadium(4+)
+CHEBI:33003	#vanadium(5+)
+CHEBI:37253	#zinc
+CHEBI:27363	#zinc atom
+CHEBI:82623	#zinc-65 atom
+CHEBI:52761	#zinc-67 atom
+CHEBI:27365	#zinc ion
+CHEBI:37255	#zinc(1+)
+CHEBI:29105	#zinc(2+)
+CHEBI:37254	#zincide
+CHEBI:37256	#dizinc
