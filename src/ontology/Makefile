@@ -72,7 +72,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro pato envo iao obi uo uberon go chebi
+IMPORTS = chebi #ro pato envo iao obi uo uberon go chebi
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -330,14 +330,22 @@ mirror/go.owl: mirror/go.trigger
 # .PRECIOUS: mirror/%.owl
 
 
-# ODK version of chebi_import
-## ONTOLOGY: chebi
-## Copy of chebi is re-downloaded whenever source changes
-mirror/chebi.trigger: $(SRC)
+# # ODK version of chebi_import
+# ## ONTOLOGY: chebi
+# ## Copy of chebi is re-downloaded whenever source changes
+# mirror/chebi.trigger: $(SRC)
+#
+# mirror/chebi.owl: mirror/chebi.trigger
+# 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#
+# .PRECIOUS: mirror/%.owl
 
-mirror/chebi.owl: mirror/chebi.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
+# ENVO Makefile's verion of CHEBI import
+# chebi.owl is large and the owlapi often times out when reading it; use the obo instead
+mirror/chebi-local.owl:
+	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
+mirror/chebi.owl: mirror/chebi-local.owl
+	owltools  --no-debug $< --log-debug -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 
 
