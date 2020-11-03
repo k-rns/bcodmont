@@ -16,8 +16,8 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcodmont/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-10-27/imports/envo_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-27</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-11-03/imports/envo_import.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5294,7 +5294,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>FTT:732</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:815</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Geonames:H.SPNT</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>hot spring</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hotspring</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>thermal feature</oboInOwl:hasExactSynonym>
@@ -5306,7 +5306,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A spring that is produced by the emergence of geothermally-heated groundwater from the Earth&apos;s crust.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000051"/>
@@ -6589,7 +6589,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:T.BCHS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SWEETRealm:Beach</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21482</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Beach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>beach berm</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>lagoon beach</oboInOwl:hasNarrowSynonym>
@@ -6604,7 +6604,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a body of water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
@@ -6699,7 +6699,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000092"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a sea.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -8624,7 +8624,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref rdf:resource="http://sweetontology.net/realmSoil/Permafrost"/>
         <oboInOwl:hasDbXref>EcoLexicon:permafrost</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>LTER:408</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Permafrost</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
         <rdfs:comment>Ice is not always present, as may be in the case of nonporous bedrock, but it frequently occurs and it may be in amounts exceeding the potential hydraulic saturation of the ground material.</rdfs:comment>
@@ -8635,7 +8635,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Soil or rock and included ice or organic material at or below the freezing point of water (0 degrees Celsius or 32 degrees Fahrenheit) for two or more years.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
@@ -10724,7 +10724,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000122"/>
         <obo:IAO_0000115>A hydrothermal vent found on the ocean floor. The vents are formed in fields hundreds of meters wide when superheated water from below the Earth&apos;s crust comes through the ocean floor. The superheated water is rich in dissolved minerals from the crust, most notably sulfides, which crystallize to create a chimney-like structure around each vent. When the superheated water in the vent comes in contact with the cold ocean water, many minerals are precipitated, creating the distinctive black color. The metal sulfides that are deposited can become massive sulfide ore deposits in time.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>SPIRE:Oceanic_vent</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>active chimney</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>oceanic vent</oboInOwl:hasRelatedSynonym>
@@ -10736,7 +10736,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000218"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A hydrothermal vent found on the ocean floor. The vents are formed in fields hundreds of meters wide when superheated water from below the Earth&apos;s crust comes through the ocean floor. The superheated water is rich in dissolved minerals from the crust, most notably sulfides, which crystallize to create a chimney-like structure around each vent. When the superheated water in the vent comes in contact with the cold ocean water, many minerals are precipitated, creating the distinctive black color. The metal sulfides that are deposited can become massive sulfide ore deposits in time.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000218"/>
@@ -12045,7 +12045,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:H.CNFL</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21160</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21381</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>confluence</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>stream junction</oboInOwl:hasRelatedSynonym>
@@ -12056,7 +12056,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000272"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The point where a tributary joins a more major river.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000272"/>
@@ -13271,7 +13271,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>zone of saturation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>phreatic zone</rdfs:label>
     </owl:Class>
@@ -13280,13 +13280,13 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>zone of saturation</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16442,7 +16442,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000291"/>
         <obo:IAO_0000115>A drainage basin from which there is no outflow of water, either on the surface as rivers, or underground by flow or diffusion through rock or permeable material.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:endorheic_basin</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Endorheic_basin</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Endorheic_basin</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>closed basin</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>terminal basin</oboInOwl:hasRelatedSynonym>
@@ -16453,7 +16453,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000551"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A drainage basin from which there is no outflow of water, either on the surface as rivers, or underground by flow or diffusion through rock or permeable material.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Endorheic_basin</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Endorheic_basin</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20290,7 +20290,7 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
         <owl:annotatedTarget>A marine Taylor column is a Taylor column that is formed in a marine body of water. Currents flowing over shoaling topography such as seamounts are accelerated and destabilised, resulting in Taylor columns. Eddies and internal waves are generated downstream of the topological feature and may extend 1000 m or so above them. This may result in a localised increase in primary production where the Taylor column reaches surface waters.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21712,7 +21712,7 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000260"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A nutricline which is part of a water body.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CMECS:1345</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMECS:1345</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mixed_layer</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -22484,7 +22484,7 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedTarget>A Taylor column is a column of deflected fluid flow which is formed in a perturbed, rotating fluid, is parallel to the axis of rotation, and extends above the obstacle perturbing the fluid in a rigid manner.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22524,7 +22524,7 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedTarget>An atmospheric Taylor column is a Taylor column that is formed in the atmosphere. Atmospheric Taylor columns often form above islands resulting in vortex streets in the atmosphere.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000300"/>
@@ -23457,7 +23457,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mesoscale eddy field is an expanse of marine water which includes coherent vortices, as well as a rich cascade of other structures such as filaments, squirts and spirals and is characterized by temperature and salinity anomalies with associated flow anomalies that are nearly in geostrophic balance. Although only the surface expression of mesoscale eddies is visible in satellite images of sea surface height or temperature, they are in fact three dimensional structures that reach down into the pycnocline.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.gfdl.noaa.gov/ocean-mesoscale-eddies</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.gfdl.noaa.gov/ocean-mesoscale-eddies</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25285,7 +25285,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000688"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The general region of indefinite width that extends from a lake inland to the first major change in terrain features.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from USGS:SDTS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Adapted from USGS:SDTS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -36228,7 +36228,7 @@ Currently the new ice classes are not specific to sea water as they may form in 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001613"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A thawing process during which permafrost is warmed beyond the melting point of water-based ice, snow, or other forms of solid water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41597,7 +41597,7 @@ Floe vast: 2-10 km across. Floe big: 500-2000 m across. Floe medium: 100-500 m a
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000086"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A permafrost thawing process during which water-based ice or snow present in permafrost is converted into meltwater.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Permafrost</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

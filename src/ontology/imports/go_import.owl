@@ -10,8 +10,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcodmont/imports/go_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-10-27/imports/go_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-27</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-11-03/imports/go_import.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -447,7 +447,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The enzymatic release of energy from inorganic and organic compounds (especially carbohydrates and fats) which either requires oxygen (aerobic respiration) or does not (anaerobic respiration).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:das</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:das</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0140513590</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
     </owl:Axiom>
