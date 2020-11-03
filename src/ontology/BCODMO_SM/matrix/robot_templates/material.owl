@@ -504,6 +504,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000112">
+        <rdfs:label xml:lang="en">manganese nodule</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000134">
@@ -709,6 +717,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_01000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
         <rdfs:label xml:lang="en">charcoal</rdfs:label>

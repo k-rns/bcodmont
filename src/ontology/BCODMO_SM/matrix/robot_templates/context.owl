@@ -1,0 +1,5206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/context.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/context.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/context.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0110001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0110001">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bloom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0110002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0110002">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0110003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0110003">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000015">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ocean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000019">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">saline lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000021">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000022">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000023">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000025">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">reservoir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000027">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000032">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000033">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marsh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000036">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">irrigation canal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000038">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lagoon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000039">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fjord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000040">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">waterfall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000041">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tidal creek</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000042">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">drainage canal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">peatland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000045">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000048">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">navigation canal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000050">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">geyser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000051">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hot spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000035"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater marsh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000035"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">salt marsh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">saline evaporation pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fishpond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000230"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mangrove swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000058">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">underground lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000059">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">underground river</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000060">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">underground stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000061">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">underground water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000067">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000068">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tunnel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000069">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">distributary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000079">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">flume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000086">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">plain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000087">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000088">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea cliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000089">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">inland cliff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000090">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal plain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000091">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000092">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000093">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lacustrine beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000098">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000099">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">artificial island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000101">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">delta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000103">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mangrove island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000105">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000125">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mineral spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000126">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sulfur spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">rocky reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000137">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal inlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000138">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cove</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000141">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000142">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stream bank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000143">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river bank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000148">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">riffle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">artificial reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coral reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000152">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">anabranch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000153">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">headwater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000165">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">asphalt lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000166">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atoll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000167">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000174">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">isthmus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000178">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">levee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">raised mire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">string mire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tundra mire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">palsa mire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">peat swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000190">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">abyssal feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000230"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mudflat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000197">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">endorheic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000198">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice-covered lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000199">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">humic lake</rdfs:label>
+        <rdfs:label xml:lang="en">meromictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000200">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">periglacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000201">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fjord lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000202">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oxbow lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000203">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">rift lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000204">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ephemeral spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000205">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">permanent spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine neritic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine photic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine aphotic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine bathypelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine abyssalpelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine mesopelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hadalpelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000215">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hydrothermal vent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000218">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">black smoker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000219">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">landlocked sea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000221">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000222">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000223">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental shelf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000224">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">slightly stratified estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000225">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">highly stratified estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000226">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">saline wedge estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000228">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">inverse estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000229">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">intermittent estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000243"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">moor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000234">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bayou</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">carr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000243"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">dambo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000243"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">phreatic dambo</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hydromorphic dambo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000243"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fluvial dambo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000243"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pocasin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">saline wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000230"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tidal mudflat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000230"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lacustrine mudflat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000244">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">abyssal plain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000247">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">volcano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000501"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000269">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">land-tied island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">beaver pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000272">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">confluence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000273">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000274">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental rise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000275">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ocean trench</rdfs:label>
+        <rdfs:label xml:lang="en">tornado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000283">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000292">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">watershed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000293">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental divide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000299">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000303">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea coast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000304">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">shore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001781"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">peninsula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000167"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">spit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tidal pool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000326">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000247"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">volcanic arc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000351"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental arc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000351"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">island arc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000368">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ephemeral island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brine pool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000377">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">artificial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000382">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake shore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000501"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stream bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000383"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000385">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stream mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000386">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001209"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">intermittent wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000391">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">land bridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000393">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000394">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">strait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000396">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000397">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000283"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mid-ocean ridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000247"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">subglacial volcano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000247"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">volcanic fissure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000409">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">whirlpool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000412">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tidal watercourse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000415">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">raised beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000417">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">machair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000419">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000167"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tombolo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000421">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">wave-cut platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000423">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000424">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ocean floor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000435">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">proglacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000440">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">rock shelter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000442">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">maelstrom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000452">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ribbon lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000453">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">liman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000455">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tarn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000463">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">harbor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000464">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">artificial harbor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000465">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">natural harbor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000472">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">backwater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000475">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">inlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000476">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake inlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000479">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea floor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">plunge pool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000484">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">polynya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000485">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea shore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000486">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">shoreline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000487">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">paternoster lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000488">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">glacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000490">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">consequent stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000491">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">subsequent stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000492">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">resequent stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000493">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">obsequent stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000494">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">insequent stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000495">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tributary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000499">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">trough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000501">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000505">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">underground irrigation canal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000507">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">wadi mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">blanket bog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000501"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pond bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000501"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">reservoir bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000514">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">crater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001781"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hummock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000517">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lost stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000518">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ditch mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000525">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">canalized stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000283"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">beach ridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000530">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">apron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000538">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">arrugado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000540">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brackish lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brackish pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000545">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">shingle beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001781"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">talik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001996">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mine drainage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001997">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">acid mine drainage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001999">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002000">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002063">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oil seep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002112">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">gold mine drainage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002119">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">alkaline hot spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002120">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">acid hot spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002121">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">alkaline salt lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002128">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mesophilic sulfur spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002130">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hypolimnion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002131">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">epilimnion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002132">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">metalimnion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002137">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brackish estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002143">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">calcite hot spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002181">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neutral hot spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002185">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oil reservoir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002199">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sandy beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002226">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">borehole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000044"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sphagnum bog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002269">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thermocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002270">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">chemocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000275"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">back-arc basin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000275"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ocean basin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002926">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">warm seep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00012408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00012408">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">aquifer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000005">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">upwelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000006">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal upwelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine benthic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine neritic benthic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine bathyal zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine abyssal zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000024"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine hadal zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic sea surface microlayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic epipelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic mesopelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic bathypelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic abyssopelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic hadal pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic benthopelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic sea surface microlayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic epipelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000023"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic mesopelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine algal bloom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000058">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">kelp forest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea grass bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine wind mixed layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000062">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine benthic storm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000064">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine downwelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000686"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">aquaduct</rdfs:label>
+        <rdfs:label xml:lang="en">marine oxygen minimum zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000067">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000068">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine streamer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000069">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mesoscale marine eddy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000071">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000072">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine Taylor column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000074">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic gyre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000075">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine thermocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000076">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine chemocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000077">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine pycnocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000079">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine lysocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000080">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pelagic isothermal surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000081">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pelagic isohaline surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000083">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pelagic isopycnal surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000084">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000085">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">plume front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000086">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal buoyancy current front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000087">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tidal mixing front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000088">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mid-shelf fronts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000089">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">shelf-slope/shelf-break front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000090">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal upwelling front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000091">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">topographic upwelling front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000092">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">equatorial upwelling front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000093">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">boundary current front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000094">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">subtropical convergence front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000095">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marginal ice zone front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000096">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">water mass front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000097">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">surface convergence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000098">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">deep ocean current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000099">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine surface current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000100">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">along-front current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000101">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">warm surface current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000102">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cold surface current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000103">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">western boundary current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000104">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">eastern boundary current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000686"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">canal</rdfs:label>
+        <rdfs:label xml:lang="en">marine cold water mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000686"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brackish water body</rdfs:label>
+        <rdfs:label xml:lang="en">marine warm water mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000122">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine hydrothermal vent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000129">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine hydrothermal vent chimney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000130">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine hydrothermal plume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine subtidal rocky reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000160">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine pockmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine sponge reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000257">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">white smoker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000258">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fluid cline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000259">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">pycnocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000262">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">seep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000263">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cold seep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000265">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hydrothermal seep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000275">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">basin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000283">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000284">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">amictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000285">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">holomictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000286">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">dimictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000287">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">polymictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000288">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">monomictic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000295">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000297">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater river</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000298">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental margin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000299">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">Taylor column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000300">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmospheric Taylor column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmospheric boundary layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000326">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">deep chlorophyll maximum layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000233"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">strand swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000233"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">dome swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000233"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cypress strand swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000233"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cypress swamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000359">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">limestone cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000364">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">glacier cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000365">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000367">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">anchialine cave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">anchialine pool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stratosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mesosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">troposphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thermosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ozone layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000811"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmospheric layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ionosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">exosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">glaze ice layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000548">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">eutrophic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000598">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">planetary crust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000639">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">planetary layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">planetary mantle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">planetary core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000641"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">outer planetary core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000641"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">inner planetary core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000641"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">liquid planetary core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000641"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">solid planetary core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lithosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">asthenosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000649">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">trench</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000650">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">stream channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000651">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ocean strait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000652">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">river channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000654">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">undersea trough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000811"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmospheric column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000680">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">polluted lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000686">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">blowhole</rdfs:label>
+        <rdfs:label xml:lang="en">marine water mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000687">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000688">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lake coast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000710">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000711">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000712">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">riverine flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000713">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">flash flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000714">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">storm surge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000748">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">continental crust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic crust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000639"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">Mohorovicic discontinuity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000754">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">fumarole-derived ice tower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000774">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oligotrophic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000775">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mesotrophic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000811">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000824">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">exorheic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000862">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">turbulent aquatic surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000871">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">puddle of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000876">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">storm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000878">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thunderstorm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000879">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">rainstorm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000880">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hailstorm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000881">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">snowstorm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000882">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">icestorm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000903">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">blizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000904">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ground blizzard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">shrimp pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000908">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">geothermally heated river</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001019">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hypereutrophic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001020">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hypersaline lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001062">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">crater lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001072">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">anoxic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001075">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">hypoxic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001076">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oxic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001092">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tectonic lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001097">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tectonic plate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001105">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">aeolian lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001106">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">landslide lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001191">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">water surface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001209">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">wetland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal shrimp pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001276">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001294">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">convective storm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001295">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">extra-tropical cyclone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001296">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">tropical storm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001297">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cyclone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001298">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">warm core cyclone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001301">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuary layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001302">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine coastal surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001312">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine coastal upper water column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001313">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine coastal pycnocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001314">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine coastal lower water column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001315">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine open water surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001316">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine open water upper water column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001322">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine open water lower water column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001323">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine open water pycnocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001329">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">estuarine tidal riverine open water lower water column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001336">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine tidal flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine faunal bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000501"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mussel bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001386"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic mussel reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001386"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic mussel reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001386"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">Bathymodiolus-dominated oceanic mussel reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">mussel reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">oceanic mussel bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neritic mussel bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001378"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">Bathymodiolus-dominated oceanic mussel bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000230"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">intertidal ecosystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001485">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">multiple vortex tornado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001486">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">landspout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001487">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">waterspout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001531">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea ice field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001532">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">glacier ice field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001537">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea ice hummock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">water ice surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001551">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice lead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000295"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">sea surface layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001653">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">well-mixed estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">frontal surface of a weather front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001674">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">lysocline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001675">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">nutricline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001676">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">marine cline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001681">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">weather front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001698">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">polar front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001706">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cold front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001707">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">warm front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001708">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">anafront</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001709">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">katafront</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001710">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">intertropical front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000543"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">free atmosphere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001713">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">upper front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001714">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">occluded front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001715">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cold occluded front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001716">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">warm occluded front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001717">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">neutral occluded front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001718">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">secondary cold front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001729">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">nautical squall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001745">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">quasi-stationary front</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001749">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">wind storm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001781">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">landmass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001786">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">inland sea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000049">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">coastal water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000018">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">englacial stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000035">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">supraglacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000039">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">cryoconite hole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000033"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">melt pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000041">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">brine channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000048">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thaw hole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000040"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmosphere-exposed melt pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000040"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">ice-encased melt pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000053">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">intraglacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">grease ice layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">slush ice layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000082">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thermokarst lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000083">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">methane-releasing thermokarst lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001781"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thermokarst depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000085">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">thermokarst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000111">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">snow mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000112">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">snow drift</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000113">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">snow patch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000114">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">seasonal snow patch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000115">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">perennial snow patch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000116">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">snowpack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000117">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000040"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">atmosphere and water column exposed melt pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000040"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">water column exposed melt pond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000120">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">subglacial lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_1000749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_1000749">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">microcontinental island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_1000750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_1000750">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">depositional island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_1000751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_1000751">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">barrier island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_2000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">algal bloom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_2000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0110001"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">freshwater algal bloom</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
