@@ -321,14 +321,24 @@ mirror/go.owl: mirror/go.trigger
 .PRECIOUS: mirror/%.owl
 
 
-# ENVO Makefile's verion of CHEBI import
-# chebi.owl is large and the owlapi often times out when reading it; use the obo instead
-mirror/chebi-local.owl:
-	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
-mirror/chebi.owl: mirror/chebi-local.owl
-	owltools  --no-debug $< --log-debug --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
-.PRECIOUS: mirror/%.owl
+# # ENVO Makefile's verion of CHEBI import
+# # chebi.owl is large and the owlapi often times out when reading it; use the obo instead
+# mirror/chebi-local.owl:
+# 	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
+# mirror/chebi.owl: mirror/chebi-local.owl
+# 	owltools  --no-debug $< --log-debug --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+# .PRECIOUS: mirror/%.owl
 
+
+# ODK version of chebi_import
+## ONTOLOGY: chebi
+## Copy of chebi is re-downloaded whenever source changes
+mirror/chebi.trigger: $(SRC)
+
+mirror/chebi.owl: mirror/chebi.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
 
 
 # ----------------------------------------
