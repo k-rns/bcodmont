@@ -345,7 +345,7 @@ mirror/go.owl: mirror/go.trigger
 mirror/chebi-local.owl:
 	wget --no-check-certificate $(URIBASE)/chebi.owl -O $@ && touch $@
 mirror/chebi.owl: mirror/chebi-local.owl
-	owltools  --no-debug $< --log-debug -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools  --no-debug $< --log-debug -l --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 
 
