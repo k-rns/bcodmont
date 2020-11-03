@@ -116,7 +116,7 @@ Datatype: idrange:9
 Datatype: idrange:10
 
     Annotations:
-        allocatedto: "Chemistry/Atom"
+        allocatedto: "Chemistry/Element"
 
     EquivalentTo:
         xsd:integer[>= 200001 , <= 210000]
