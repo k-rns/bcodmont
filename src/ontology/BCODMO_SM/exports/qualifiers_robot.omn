@@ -1,0 +1,418 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl>
+<http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl>
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000111>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
+
+    
+AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000412>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
+
+    
+AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#inSubset>
+
+    
+AnnotationProperty: <http://www.w3.org/2004/02/skos/core#closeMatch>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:string
+
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000001>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "number"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000002>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "count"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/PATO_0000070>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000003>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "abundance"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000004>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "relative"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSM_000003>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000005>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "biomass"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000006>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "code"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000007>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "accession"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000008>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "COG"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/IAO_0020000>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000009>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "tag"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSM_000008>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000010>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "girth"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000011>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "binary"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/STATO_0000031>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000012>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "TRUE"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSM_000011>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000013>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "FALSE"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSM_000011>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000014>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "content"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/PATO_0000025>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000015>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "absorption"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/PATO_0001293>,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/PATO_0002060>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000016>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "optical density"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/PATO_0001300>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000017>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "calculated"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/PATO_0000125>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000018>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "sum"@en,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://purl.obolibrary.org/obo/NCIT_C25697>,
+        <http://www.w3.org/2004/02/skos/core#closeMatch> <http://semanticscience.org/resource/SIO_001112>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000019>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "dry"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/PATO_0000128>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000020>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "wet"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/PATO_0000128>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSM_000021>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "predicted"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/PATO_0000125>
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0020000>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000111> "identifier"@en,
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity."@en,
+        <http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/iao/pno.owl>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:label "identifier"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000011>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WordNet:WordNet"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A time quality inhering in a bearer by virtue of how long the bearer has existed.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000011",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "age",
+        rdfs:label "age"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000018>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000018",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        rdfs:label "fluorescence",
+        rdfs:label "fluorescence"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000033>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:http://en.wikipedia.org/wiki/concentration"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance.",
+        <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "concentration",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000033",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#relational_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "concentration"@en,
+        rdfs:label "concentration of"
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000119>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000119",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "height",
+        rdfs:label "height"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000122>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A 1-D extent quality which is equal to the distance between two points.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000122",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "length",
+        rdfs:label "length"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000125>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000125",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#relational_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "mass",
+        rdfs:label "mass"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000128>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:http://en.wikipedia.org/wiki/Weight"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A physical quality inhering in a bearer that has mass near a gravitational body.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000128",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "weight",
+        rdfs:label "weight"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0000918>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0000918",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "volume",
+        rdfs:label "volume"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0001030>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WordNet:WordNet"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0001030",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "flux",
+        rdfs:label "flux"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/PATO_0001323>
+
+    Annotations: 
+        
+            Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:http://en.wikipedia.org/wiki/Area"^^xsd:string
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent.",
+        <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "quality",
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO:0001323",
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "area",
+        rdfs:label "area"@en
+    
+    
+Class: <http://purl.obolibrary.org/obo/UO_0000187>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:comment "\"A dimensionless ratio unit which denotes numbers as fractions of 100.\" [Wikipedia:Wikipedia]",
+        rdfs:label "percent",
+        rdfs:label "percentage"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/UO_0000190>
+    
+    
+Class: <http://purl.obolibrary.org/obo/UO_0000190>
+
+    Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://bcodmo/sm#qualifiers>,
+        rdfs:comment "\"A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.\" [Wikipedia:Wikipedia]",
+        rdfs:label "ratio",
+        rdfs:label "ratio"@en
+    
+    

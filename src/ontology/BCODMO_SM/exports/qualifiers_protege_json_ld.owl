@@ -1,0 +1,758 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "WordNet:WordNet"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000011"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A time quality inhering in a bearer by virtue of how long the bearer has existed."
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Wikipedia:http://en.wikipedia.org/wiki/Area"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0001323"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent."
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PATOC:GVG"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000018"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together."
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Wikipedia:http://en.wikipedia.org/wiki/concentration"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000033"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance."
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PATOC:GVG"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000119"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension."
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PATOC:GVG"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000122"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A 1-D extent quality which is equal to the distance between two points."
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PATOC:GVG"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000125"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter."
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Wikipedia:http://en.wikipedia.org/wiki/Weight"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000128"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A physical quality inhering in a bearer that has mass near a gravitational body."
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "PATOC:GVG"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000918"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies."
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "WordNet:WordNet"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0001030"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface."
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "count"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000070"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "abundance"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BSM_000003"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biomass"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "code"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "accession"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "COG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0020000"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tag"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BSM_000008"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "girth"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "binary"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/STATO_0000031"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TRUE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BSM_000011"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FALSE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BSM_000011"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "content"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000025"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "absorption"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0001293"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0002060"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "optical density"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0001300"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "calculated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000125"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sum"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCIT_C25697"
+  }, {
+    "@id" : "http://semanticscience.org/resource/SIO_001112"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000128"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000128"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BSM_000021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "predicted"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/PATO_0000125"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0020000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000412" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/iao/pno.owl"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A time quality inhering in a bearer by virtue of how long the bearer has existed."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000011"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "age"
+  }, {
+    "@language" : "en",
+    "@value" : "age"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000018"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fluorescence"
+  }, {
+    "@language" : "en",
+    "@value" : "fluorescence"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "concentration"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000033"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#relational_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "concentration"
+  }, {
+    "@value" : "concentration of"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000119"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "height"
+  }, {
+    "@language" : "en",
+    "@value" : "height"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A 1-D extent quality which is equal to the distance between two points."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000122"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#mpath_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "length"
+  }, {
+    "@language" : "en",
+    "@value" : "length"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000125"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#relational_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mass"
+  }, {
+    "@language" : "en",
+    "@value" : "mass"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A physical quality inhering in a bearer that has mass near a gravitational body."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000128"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "weight"
+  }, {
+    "@language" : "en",
+    "@value" : "weight"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0000918",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0000918"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#mpath_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "volume"
+  }, {
+    "@language" : "en",
+    "@value" : "volume"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0001030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0001030"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "flux"
+  }, {
+    "@language" : "en",
+    "@value" : "flux"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/PATO_0001323",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "quality"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "PATO:0001323"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#attribute_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#mpath_slim"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/pato#scalar_slim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "area"
+  }, {
+    "@language" : "en",
+    "@value" : "area"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UO_0000187",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"A dimensionless ratio unit which denotes numbers as fractions of 100.\" [Wikipedia:Wikipedia]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "percent"
+  }, {
+    "@language" : "en",
+    "@value" : "percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UO_0000190"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UO_0000190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://bcodmo/sm#qualifiers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.\" [Wikipedia:Wikipedia]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ratio"
+  }, {
+    "@language" : "en",
+    "@value" : "ratio"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

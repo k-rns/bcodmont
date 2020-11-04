@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl"
+     versionIRI="http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000001"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000002"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000004"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000005"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000006"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000007"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000008"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000009"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000010"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000012"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000013"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000014"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000015"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000016"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000017"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000018"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000019"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000020"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BSM_000021"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:IAO_0020000"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0000918"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0001030"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0001323"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:UO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000004"/>
+        <Class abbreviatedIRI="obo:BSM_000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000008"/>
+        <Class abbreviatedIRI="obo:IAO_0020000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000009"/>
+        <Class abbreviatedIRI="obo:BSM_000008"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000012"/>
+        <Class abbreviatedIRI="obo:BSM_000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000013"/>
+        <Class abbreviatedIRI="obo:BSM_000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000017"/>
+        <Class abbreviatedIRI="obo:PATO_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000019"/>
+        <Class abbreviatedIRI="obo:PATO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000020"/>
+        <Class abbreviatedIRI="obo:PATO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BSM_000021"/>
+        <Class abbreviatedIRI="obo:PATO_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:UO_0000187"/>
+        <Class abbreviatedIRI="obo:UO_0000190"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000001</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000001</AbbreviatedIRI>
+        <Literal xml:lang="en">number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000002</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000002</AbbreviatedIRI>
+        <Literal xml:lang="en">count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000002</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PATO_0000070</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000003</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000003</AbbreviatedIRI>
+        <Literal xml:lang="en">abundance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000004</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000004</AbbreviatedIRI>
+        <Literal xml:lang="en">relative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000005</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000005</AbbreviatedIRI>
+        <Literal xml:lang="en">biomass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000006</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000006</AbbreviatedIRI>
+        <Literal xml:lang="en">code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000007</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000007</AbbreviatedIRI>
+        <Literal xml:lang="en">accession</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000008</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000008</AbbreviatedIRI>
+        <Literal xml:lang="en">COG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000009</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000009</AbbreviatedIRI>
+        <Literal xml:lang="en">tag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000010</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000010</AbbreviatedIRI>
+        <Literal xml:lang="en">girth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000011</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000011</AbbreviatedIRI>
+        <Literal xml:lang="en">binary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000011</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:STATO_0000031</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000012</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000012</AbbreviatedIRI>
+        <Literal xml:lang="en">TRUE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000013</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000013</AbbreviatedIRI>
+        <Literal xml:lang="en">FALSE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000014</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000014</AbbreviatedIRI>
+        <Literal xml:lang="en">content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000014</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PATO_0000025</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000015</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000015</AbbreviatedIRI>
+        <Literal xml:lang="en">absorption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000015</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PATO_0001293</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000015</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PATO_0002060</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000016</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000016</AbbreviatedIRI>
+        <Literal xml:lang="en">optical density</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000016</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PATO_0001300</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000017</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000017</AbbreviatedIRI>
+        <Literal xml:lang="en">calculated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000018</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000018</AbbreviatedIRI>
+        <Literal xml:lang="en">sum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000018</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:NCIT_C25697</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:closeMatch"/>
+        <AbbreviatedIRI>obo:BSM_000018</AbbreviatedIRI>
+        <IRI>http://semanticscience.org/resource/SIO_001112</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000019</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000019</AbbreviatedIRI>
+        <Literal xml:lang="en">dry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000020</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000020</AbbreviatedIRI>
+        <Literal xml:lang="en">wet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:BSM_000021</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BSM_000021</AbbreviatedIRI>
+        <Literal xml:lang="en">predicted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0020000</AbbreviatedIRI>
+        <Literal xml:lang="en">identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0020000</AbbreviatedIRI>
+        <Literal xml:lang="en">An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:IAO_0020000</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/iao/pno.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:IAO_0020000</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0020000</AbbreviatedIRI>
+        <Literal xml:lang="en">identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>WordNet:WordNet</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <Literal>A time quality inhering in a bearer by virtue of how long the bearer has existed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <Literal>PATO:0000011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <Literal>age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000011</AbbreviatedIRI>
+        <Literal xml:lang="en">age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>PATOC:GVG</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <Literal>A luminous flux quality inhering in a bearer by virtue of the bearer&apos;s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <Literal>PATO:0000018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <Literal>fluorescence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000018</AbbreviatedIRI>
+        <Literal xml:lang="en">fluorescence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>Wikipedia:http://en.wikipedia.org/wiki/concentration</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal>A quality inhering in a substance by virtue of the amount of the bearer&apos;s there is mixed with another substance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal>concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal>PATO:0000033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#relational_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal xml:lang="en">concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000033</AbbreviatedIRI>
+        <Literal>concentration of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>PATOC:GVG</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal>PATO:0000119</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal>height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>PATOC:GVG</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <Literal>A 1-D extent quality which is equal to the distance between two points.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <Literal>PATO:0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#mpath_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <Literal>length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000122</AbbreviatedIRI>
+        <Literal xml:lang="en">length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>PATOC:GVG</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <Literal>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <Literal>PATO:0000125</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#relational_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <Literal>mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000125</AbbreviatedIRI>
+        <Literal xml:lang="en">mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>Wikipedia:http://en.wikipedia.org/wiki/Weight</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal>A physical quality inhering in a bearer that has mass near a gravitational body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal>PATO:0000128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal>weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en">weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>PATOC:GVG</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <Literal>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <Literal>PATO:0000918</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#mpath_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <Literal>volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0000918</AbbreviatedIRI>
+        <Literal xml:lang="en">volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>WordNet:WordNet</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <Literal>A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <Literal>PATO:0001030</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <Literal>flux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0001030</AbbreviatedIRI>
+        <Literal xml:lang="en">flux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal>Wikipedia:http://en.wikipedia.org/wiki/Area</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <Literal>A 2-D extent quality inhering in a bearer by virtue of the bearer&apos;s two dimensional extent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <Literal>quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <Literal>PATO:0001323</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#attribute_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#mpath_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <IRI>http://purl.obolibrary.org/obo/pato#scalar_slim</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <Literal>area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PATO_0001323</AbbreviatedIRI>
+        <Literal xml:lang="en">area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:UO_0000187</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:UO_0000187</AbbreviatedIRI>
+        <Literal>&quot;A dimensionless ratio unit which denotes numbers as fractions of 100.&quot; [Wikipedia:Wikipedia]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:UO_0000187</AbbreviatedIRI>
+        <Literal>percent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:UO_0000187</AbbreviatedIRI>
+        <Literal xml:lang="en">percentage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:UO_0000190</AbbreviatedIRI>
+        <IRI>http://bcodmo/sm#qualifiers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:UO_0000190</AbbreviatedIRI>
+        <Literal>&quot;A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.&quot; [Wikipedia:Wikipedia]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:UO_0000190</AbbreviatedIRI>
+        <Literal>ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:UO_0000190</AbbreviatedIRI>
+        <Literal xml:lang="en">ratio</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

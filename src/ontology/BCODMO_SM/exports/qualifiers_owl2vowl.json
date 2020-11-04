@@ -1,0 +1,1283 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "obo" : "http://purl.obolibrary.org/obo/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "oboInOwl" : "http://www.geneontology.org/formats/oboInOwl#"
+    },
+    "iri" : "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000122",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "PATOC:GVG",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A 1-D extent quality which is equal to the distance between two points.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000122",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#mpath_slim",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000122",
+      "en" : "length",
+      "undefined" : "length"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000010",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000010",
+      "en" : "girth"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0020000",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000111" : [ {
+        "identifier" : "IAO_0000111",
+        "language" : "en",
+        "value" : "identifier",
+        "type" : "label"
+      } ],
+      "IAO_0000412" : [ {
+        "identifier" : "IAO_0000412",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/iao/pno.owl",
+        "type" : "iri"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0020000",
+      "en" : "identifier"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000011",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/STATO_0000031",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000011",
+      "en" : "binary"
+    },
+    "subClasses" : [ "5", "6" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000012",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000012",
+      "en" : "TRUE"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000013",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000013",
+      "en" : "FALSE"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000014",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/PATO_0000025",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000014",
+      "en" : "content"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0001030",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "WordNet:WordNet",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0001030",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0001030",
+      "en" : "flux",
+      "undefined" : "flux"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000015",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/PATO_0002060",
+        "type" : "iri"
+      }, {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/PATO_0001293",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000015",
+      "en" : "absorption"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000016",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/PATO_0001300",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000016",
+      "en" : "optical density"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000017",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000017",
+      "en" : "calculated"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000018",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/NCIT_C25697",
+        "type" : "iri"
+      }, {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://semanticscience.org/resource/SIO_001112",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000018",
+      "en" : "sum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000019",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000019",
+      "en" : "dry"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/UO_0000190",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UO_0000190",
+      "en" : "ratio",
+      "undefined" : "ratio"
+    },
+    "subClasses" : [ "15" ],
+    "comment" : {
+      "undefined" : "\"A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.\" [Wikipedia:Wikipedia]"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000128",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "Wikipedia:http://en.wikipedia.org/wiki/Weight",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A physical quality inhering in a bearer that has mass near a gravitational body.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000128",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000128",
+      "en" : "weight",
+      "undefined" : "weight"
+    },
+    "subClasses" : [ "19", "21" ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000125",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "PATOC:GVG",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000125",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#relational_slim",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000125",
+      "en" : "mass",
+      "undefined" : "mass"
+    },
+    "subClasses" : [ "24", "12" ],
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000011",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "WordNet:WordNet",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A time quality inhering in a bearer by virtue of how long the bearer has existed.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000011",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000011",
+      "en" : "age",
+      "undefined" : "age"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000033",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "Wikipedia:http://en.wikipedia.org/wiki/concentration",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "concentration",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000033",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#relational_slim",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000033",
+      "en" : "concentration",
+      "undefined" : "concentration of"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000020",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000020",
+      "en" : "wet"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000021",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000021",
+      "en" : "predicted"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000001",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000001",
+      "en" : "number"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000002",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "closeMatch" : [ {
+        "identifier" : "closeMatch",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/PATO_0000070",
+        "type" : "iri"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000002",
+      "en" : "count"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000003",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000003",
+      "en" : "abundance"
+    },
+    "subClasses" : [ "27" ],
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000004",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000004",
+      "en" : "relative"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000005",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000005",
+      "en" : "biomass"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000006",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000006",
+      "en" : "code"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000007",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000007",
+      "en" : "accession"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000008",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000008",
+      "en" : "COG"
+    },
+    "subClasses" : [ "30" ],
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BSM_000009",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BSM_000009",
+      "en" : "tag"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000918",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "PATOC:GVG",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000918",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#mpath_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000918",
+      "en" : "volume",
+      "undefined" : "volume"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000119",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "PATOC:GVG",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000119",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000119",
+      "en" : "height",
+      "undefined" : "height"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/UO_0000187",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UO_0000187",
+      "en" : "percentage",
+      "undefined" : "percent"
+    },
+    "comment" : {
+      "undefined" : "\"A dimensionless ratio unit which denotes numbers as fractions of 100.\" [Wikipedia:Wikipedia]"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0000018",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "PATOC:GVG",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0000018",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0000018",
+      "en" : "fluorescence",
+      "undefined" : "fluorescence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/PATO_0001323",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "hasDbXref" : [ {
+        "identifier" : "hasDbXref",
+        "language" : "undefined",
+        "value" : "Wikipedia:http://en.wikipedia.org/wiki/Area",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent.",
+        "type" : "label"
+      } ],
+      "hasOBONamespace" : [ {
+        "identifier" : "hasOBONamespace",
+        "language" : "undefined",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "id" : [ {
+        "identifier" : "id",
+        "language" : "undefined",
+        "value" : "PATO:0001323",
+        "type" : "label"
+      } ],
+      "inSubset" : [ {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://bcodmo/sm#qualifiers",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#mpath_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#attribute_slim",
+        "type" : "iri"
+      }, {
+        "identifier" : "inSubset",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/pato#scalar_slim",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PATO_0001323",
+      "en" : "area",
+      "undefined" : "area"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43"
+  } ],
+  "property" : [ {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "20",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "13",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "3",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "4",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  } ]
+}

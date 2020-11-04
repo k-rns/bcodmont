@@ -1,0 +1,422 @@
+Prefix: : <http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl#>
+Prefix: obo: <http://purl.obolibrary.org/obo/>
+Prefix: oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl>
+<http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl>
+
+AnnotationProperty: obo:IAO_0000111
+
+    
+AnnotationProperty: obo:IAO_0000115
+
+    
+AnnotationProperty: obo:IAO_0000412
+
+    
+AnnotationProperty: oboInOwl:hasDbXref
+
+    
+AnnotationProperty: oboInOwl:hasExactSynonym
+
+    
+AnnotationProperty: oboInOwl:hasOBONamespace
+
+    
+AnnotationProperty: oboInOwl:id
+
+    
+AnnotationProperty: oboInOwl:inSubset
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: skos:closeMatch
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:string
+
+    
+Class: obo:BSM_000001
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "number"@en
+    
+    
+Class: obo:BSM_000002
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "count"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/PATO_0000070>
+    
+    
+Class: obo:BSM_000003
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "abundance"@en
+    
+    
+Class: obo:BSM_000004
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "relative"@en
+    
+    SubClassOf: 
+        obo:BSM_000003
+    
+    
+Class: obo:BSM_000005
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "biomass"@en
+    
+    
+Class: obo:BSM_000006
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "code"@en
+    
+    
+Class: obo:BSM_000007
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "accession"@en
+    
+    
+Class: obo:BSM_000008
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "COG"@en
+    
+    SubClassOf: 
+        obo:IAO_0020000
+    
+    
+Class: obo:BSM_000009
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "tag"@en
+    
+    SubClassOf: 
+        obo:BSM_000008
+    
+    
+Class: obo:BSM_000010
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "girth"@en
+    
+    
+Class: obo:BSM_000011
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "binary"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/STATO_0000031>
+    
+    
+Class: obo:BSM_000012
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "TRUE"@en
+    
+    SubClassOf: 
+        obo:BSM_000011
+    
+    
+Class: obo:BSM_000013
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "FALSE"@en
+    
+    SubClassOf: 
+        obo:BSM_000011
+    
+    
+Class: obo:BSM_000014
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "content"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/PATO_0000025>
+    
+    
+Class: obo:BSM_000015
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "absorption"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/PATO_0001293>,
+        skos:closeMatch <http://purl.obolibrary.org/obo/PATO_0002060>
+    
+    
+Class: obo:BSM_000016
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "optical density"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/PATO_0001300>
+    
+    
+Class: obo:BSM_000017
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "calculated"@en
+    
+    SubClassOf: 
+        obo:PATO_0000125
+    
+    
+Class: obo:BSM_000018
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "sum"@en,
+        skos:closeMatch <http://purl.obolibrary.org/obo/NCIT_C25697>,
+        skos:closeMatch <http://semanticscience.org/resource/SIO_001112>
+    
+    
+Class: obo:BSM_000019
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "dry"@en
+    
+    SubClassOf: 
+        obo:PATO_0000128
+    
+    
+Class: obo:BSM_000020
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "wet"@en
+    
+    SubClassOf: 
+        obo:PATO_0000128
+    
+    
+Class: obo:BSM_000021
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "predicted"@en
+    
+    SubClassOf: 
+        obo:PATO_0000125
+    
+    
+Class: obo:IAO_0020000
+
+    Annotations: 
+        obo:IAO_0000111 "identifier"@en,
+        obo:IAO_0000115 "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity."@en,
+        obo:IAO_0000412 <http://purl.obolibrary.org/obo/iao/pno.owl>,
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:label "identifier"@en
+    
+    
+Class: obo:PATO_0000011
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "WordNet:WordNet"^^xsd:string
+        obo:IAO_0000115 "A time quality inhering in a bearer by virtue of how long the bearer has existed.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000011",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "age",
+        rdfs:label "age"@en
+    
+    
+Class: obo:PATO_0000018
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "PATOC:GVG"^^xsd:string
+        obo:IAO_0000115 "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000018",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        rdfs:label "fluorescence",
+        rdfs:label "fluorescence"@en
+    
+    
+Class: obo:PATO_0000033
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "Wikipedia:http://en.wikipedia.org/wiki/concentration"^^xsd:string
+        obo:IAO_0000115 "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance.",
+        oboInOwl:hasExactSynonym "concentration",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000033",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#relational_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "concentration"@en,
+        rdfs:label "concentration of"
+    
+    
+Class: obo:PATO_0000119
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "PATOC:GVG"^^xsd:string
+        obo:IAO_0000115 "A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000119",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "height",
+        rdfs:label "height"@en
+    
+    
+Class: obo:PATO_0000122
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "PATOC:GVG"^^xsd:string
+        obo:IAO_0000115 "A 1-D extent quality which is equal to the distance between two points.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000122",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "length",
+        rdfs:label "length"@en
+    
+    
+Class: obo:PATO_0000125
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "PATOC:GVG"^^xsd:string
+        obo:IAO_0000115 "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000125",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#relational_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "mass",
+        rdfs:label "mass"@en
+    
+    
+Class: obo:PATO_0000128
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "Wikipedia:http://en.wikipedia.org/wiki/Weight"^^xsd:string
+        obo:IAO_0000115 "A physical quality inhering in a bearer that has mass near a gravitational body.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000128",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "weight",
+        rdfs:label "weight"@en
+    
+    
+Class: obo:PATO_0000918
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "PATOC:GVG"^^xsd:string
+        obo:IAO_0000115 "A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0000918",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "volume",
+        rdfs:label "volume"@en
+    
+    
+Class: obo:PATO_0001030
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "WordNet:WordNet"^^xsd:string
+        obo:IAO_0000115 "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0001030",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "flux",
+        rdfs:label "flux"@en
+    
+    
+Class: obo:PATO_0001323
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "Wikipedia:http://en.wikipedia.org/wiki/Area"^^xsd:string
+        obo:IAO_0000115 "A 2-D extent quality inhering in a bearer by virtue of the bearer's two dimensional extent.",
+        oboInOwl:hasOBONamespace "quality",
+        oboInOwl:id "PATO:0001323",
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#mpath_slim>,
+        oboInOwl:inSubset <http://purl.obolibrary.org/obo/pato#scalar_slim>,
+        rdfs:label "area",
+        rdfs:label "area"@en
+    
+    
+Class: obo:UO_0000187
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:comment "\"A dimensionless ratio unit which denotes numbers as fractions of 100.\" [Wikipedia:Wikipedia]",
+        rdfs:label "percent",
+        rdfs:label "percentage"@en
+    
+    SubClassOf: 
+        obo:UO_0000190
+    
+    
+Class: obo:UO_0000190
+
+    Annotations: 
+        oboInOwl:inSubset <http://bcodmo/sm#qualifiers>,
+        rdfs:comment "\"A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.\" [Wikipedia:Wikipedia]",
+        rdfs:label "ratio",
+        rdfs:label "ratio"@en
+    
+    
