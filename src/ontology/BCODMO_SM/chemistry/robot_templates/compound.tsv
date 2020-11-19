@@ -1,205 +1,205 @@
 Sub category 1:	sub category 2:	sub category 3:	sub category 4:	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	Entity subset	category subset
 				ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset
-oxoanion				CHEBI:35406	oxoanion													
-oxoanion	antimony oxoanion			CHEBI:36921	antimony oxoanion	oxoanion												
-oxoanion	antimony oxoanion	antimonate(1-)		CHEBI:36923	antimonate(1-)	antimony oxoanion												
-oxoanion	antimony oxoanion	antimonate(2-)		CHEBI:36924	antimonate(2-)	antimony oxoanion												
-oxoanion	antimony oxoanion	antimonate(3-)		CHEBI:30295	antimonate(3-)	antimony oxoanion												
-oxoanion	antimony oxoanion	antimonite		CHEBI:30297	antimonite	antimony oxoanion												
-oxoanion	arsenic oxoanion			CHEBI:35776	arsenic oxoanion	oxoanion												
-oxoanion	arsenic oxoanion	arsenate ion		CHEBI:22629	arsenate ion	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsenate ion	arsenate(1-)	CHEBI:48600	arsenate(1-)	arsenate ion												
-oxoanion	arsenic oxoanion	arsenate ion	arsenate(2-)	CHEBI:48597	arsenate(2-)	arsenate ion												
-oxoanion	arsenic oxoanion	arsenate ion	arsenate(3-)	CHEBI:29125	arsenate(3-)	arsenate ion												
-oxoanion	arsenic oxoanion	arsenite ion		CHEBI:22633	arsenite ion	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsenite ion	arsenite(1-)	CHEBI:29242	arsenite(1-)	arsenite ion												
-oxoanion	arsenic oxoanion	arsenite ion	arsenite(2-)	CHEBI:29243	arsenite(2-)	arsenite ion												
-oxoanion	arsenic oxoanion	arsenite ion	arsenite(3-)	CHEBI:29866	arsenite(3-)	arsenite ion												
-oxoanion	arsenic oxoanion	arsinate		CHEBI:29846	arsinate	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsinite		CHEBI:29845	arsinite	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsonate(1-)		CHEBI:64448	arsonate(1-)	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsonate(2-)		CHEBI:29754	arsonate(2-)	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsonite(1-)		CHEBI:33410	arsonite(1-)	arsenic oxoanion												
-oxoanion	arsenic oxoanion	arsonite(2-)		CHEBI:29753	arsonite(2-)	arsenic oxoanion												
-oxoanion	arsenic oxoanion	dimethylarsinate		CHEBI:16223	dimethylarsinate	arsenic oxoanion												
-oxoanion	arsenic oxoanion	methylarsonite		CHEBI:14597	methylarsonite	arsenic oxoanion												
-oxoanion	boron oxoanion			CHEBI:33619	boron oxoanion	oxoanion												
-oxoanion	boron oxoanion	(+)-aplasmomycin		CHEBI:32617	(+)-aplasmomycin	boron oxoanion												
-oxoanion	boron oxoanion	borate ion		CHEBI:22909	borate ion	boron oxoanion												
-oxoanion	boron oxoanion	borate ion	borate	CHEBI:22908	borate	borate ion												
-oxoanion	boron oxoanion	borate ion	dihydrogenborate	CHEBI:29254	dihydrogenborate	borate ion												
-oxoanion	boron oxoanion	borate ion	hydrogenborate	CHEBI:29255	hydrogenborate	borate ion												
-oxoanion	boron oxoanion	borate ion	tetrahydroxoborate(1-)	CHEBI:41132	tetrahydroxoborate(1-)	borate ion												
-oxoanion	boron oxoanion	hydroperoxo(trihydroxo)borate(1-)		CHEBI:30177	hydroperoxo(trihydroxo)borate(1-)	boron oxoanion												
-oxoanion	boron oxoanion	metaborate		CHEBI:30173	metaborate	boron oxoanion												
-oxoanion	boron oxoanion	perborate(2-)		CHEBI:30175	perborate(2-)	boron oxoanion												
-oxoanion	boron oxoanion	tetraborate(2-)		CHEBI:38889	tetraborate(2-)	boron oxoanion												
-oxoanion	boron oxoanion	tetraborate(2-)	borax	CHEBI:86222	borax	CHEBI:38889												
-oxoanion	bromine oxoanion			CHEBI:33444	bromine oxoanion	oxoanion												
-oxoanion	bromine oxoanion	bromate		CHEBI:29223	bromate	bromine oxoanion												
-oxoanion	bromine oxoanion	bromite		CHEBI:29248	bromite	bromine oxoanion												
-oxoanion	bromine oxoanion	hypobromite		CHEBI:29250	hypobromite	bromine oxoanion												
-oxoanion	bromine oxoanion	perbromate		CHEBI:29246	perbromate	bromine oxoanion												
-oxoanion	carbon oxoanion			CHEBI:35604	carbon oxoanion	oxoanion												
-oxoanion	carbon oxoanion	(dioxido)oxidocarbonate(.1-)		CHEBI:29788	(dioxido)oxidocarbonate(.1-)	carbon oxoanion												
-oxoanion	carbon oxoanion	carbonate		CHEBI:41609	carbonate	carbon oxoanion												
-oxoanion	carbon oxoanion	hydrogen ((13)C)carbonate		CHEBI:140315	hydrogen ((13)C)carbonate	carbon oxoanion												
-oxoanion	carbon oxoanion	hydrogencarbonate		CHEBI:17544	hydrogencarbonate	carbon oxoanion												
-oxoanion	carbon oxoanion	hydrogensquarate		CHEBI:59711	hydrogensquarate	carbon oxoanion												
-oxoanion	carbon oxoanion	nitrosoperoxycarbonate(1-)		CHEBI:62726	nitrosoperoxycarbonate(1-)	carbon oxoanion												
-oxoanion	carbon oxoanion	squarate		CHEBI:59712	squarate	carbon oxoanion												
-oxoanion	carbon oxoanion	trioxidocarbonate(.1-)		CHEBI:29376	trioxidocarbonate(.1-)	carbon oxoanion												
-oxoanion	chlorine oxoanion			CHEBI:33437	chlorine oxoanion	oxoanion												
-oxoanion	chlorine oxoanion	chlorate		CHEBI:49709	chlorate	chlorine oxoanion												
-oxoanion	chlorine oxoanion	chlorite		CHEBI:17441	chlorite	chlorine oxoanion												
-oxoanion	chlorine oxoanion	hypochlorite		CHEBI:29222	hypochlorite	chlorine oxoanion												
-oxoanion	chlorine oxoanion	perchlorate		CHEBI:49706	perchlorate	chlorine oxoanion												
-oxoanion	chromium oxoanion			CHEBI:35402	chromium oxoanion	oxoanion												
-oxoanion	chromium oxoanion	chromate(2-)		CHEBI:35404	chromate(2-)	chromium oxoanion												
-oxoanion	chromium oxoanion	dichromate(2-)		CHEBI:33141	dichromate(2-)	chromium oxoanion												
-oxoanion	chromium oxoanion	dioxidodiperoxidochromate(2-)		CHEBI:30724	dioxidodiperoxidochromate(2-)	chromium oxoanion												
-oxoanion	chromium oxoanion	hydrogen dichromate		CHEBI:33142	hydrogen dichromate	chromium oxoanion												
-oxoanion	chromium oxoanion	hydrogenchromate		CHEBI:33144	hydrogenchromate	chromium oxoanion												
-oxoanion	chromium oxoanion	tetraoxidochromate(3-)		CHEBI:30072	tetraoxidochromate(3-)	chromium oxoanion												
-oxoanion	chromium oxoanion	tetraoxidochromate(4-)		CHEBI:30073	tetraoxidochromate(4-)	chromium oxoanion												
-oxoanion	chromium oxoanion	tetraperoxidochromate(3-)		CHEBI:30723	tetraperoxidochromate(3-)	chromium oxoanion												
-oxoanion	fluorine oxoanion			CHEBI:47865	fluorine oxoanion	oxoanion												
-oxoanion	fluorine oxoanion	dioxidofluorate(1-)		CHEBI:47861	dioxidofluorate(1-)	fluorine oxoanion												
-oxoanion	fluorine oxoanion	hypofluorite		CHEBI:30244	hypofluorite	fluorine oxoanion												
-oxoanion	iodine oxoanion			CHEBI:33445	iodine oxoanion	oxoanion												
-oxoanion	iodine oxoanion	hypoiodite		CHEBI:29232	hypoiodite	iodine oxoanion												
-oxoanion	iodine oxoanion	iodate		CHEBI:29226	iodate	iodine oxoanion												
-oxoanion	iodine oxoanion	iodite		CHEBI:29230	iodite	iodine oxoanion												
-oxoanion	iodine oxoanion	nonaoxidodiiodate(4-)		CHEBI:29913	nonaoxidodiiodate(4-)	iodine oxoanion												
-oxoanion	iodine oxoanion	orthoperiodate ion		CHEBI:35775	orthoperiodate ion	iodine oxoanion												
-oxoanion	iodine oxoanion	orthoperiodate(1-)		CHEBI:33446	orthoperiodate(1-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	orthoperiodate(2-)		CHEBI:33448	orthoperiodate(2-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	orthoperiodate(3-)		CHEBI:33449	orthoperiodate(3-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	orthoperiodate(4-)		CHEBI:33450	orthoperiodate(4-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	orthoperiodate(5-)		CHEBI:29227	orthoperiodate(5-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	pentaoxoiodate(3-)		CHEBI:35769	pentaoxoiodate(3-)	orthoperiodate ion												
-oxoanion	iodine oxoanion	periodate		CHEBI:49826	periodate	iodine oxoanion												
-oxoanion	manganese oxoanion			CHEBI:35118	manganese oxoanion	oxoanion												
-oxoanion	manganese oxoanion	dihydroxidodioxidomanganate(1-)		CHEBI:35126	dihydroxidodioxidomanganate(1-)	manganese oxoanion												
-oxoanion	manganese oxoanion	hydrogen manganate		CHEBI:35123	hydrogen manganate	manganese oxoanion												
-oxoanion	manganese oxoanion	hydroxidotrioxidomanganate(2-)		CHEBI:35127	hydroxidotrioxidomanganate(2-)	manganese oxoanion												
-oxoanion	manganese oxoanion	hypomanganate		CHEBI:29244	hypomanganate	manganese oxoanion												
-oxoanion	manganese oxoanion	manganate		CHEBI:25152	manganate	manganese oxoanion												
-oxoanion	manganese oxoanion	permanganate		CHEBI:25939	permanganate	manganese oxoanion												
-oxoanion	molybdenum oxoanion			CHEBI:36262	molybdenum oxoanion	oxoanion												
-oxoanion	molybdenum oxoanion	dimolybdate(2-)		CHEBI:36269	dimolybdate(2-)	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	hydrogen dimolybdate		CHEBI:36268	hydrogen dimolybdate	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	hydrogenmolybdate		CHEBI:36263	hydrogenmolybdate	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	molybdate		CHEBI:36264	molybdate	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	sodium molybdate dihydrate		CHEBI:75213	sodium molybdate dihydrate	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	sodium molybdate heptahydrate		CHEBI:86473	sodium molybdate heptahydrate	molybdenum oxoanion												
-oxoanion	molybdenum oxoanion	sodium molybdate tetrahydrate		CHEBI:132099	sodium molybdate tetrahydrate	molybdenum oxoanion												
-oxoanion	nitrogen oxoanion			CHEBI:33458	nitrogen oxoanion	oxoanion												
-oxoanion	nitrogen oxoanion	aci-nitroethane(1-)		CHEBI:55327	aci-nitroethane(1-)	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	aminooxidanide		CHEBI:29773	aminooxidanide	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	hyponitrite(1-)		CHEBI:50115	hyponitrite(1-)	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	hyponitrite(2-)		CHEBI:18210	hyponitrite(2-)	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	nitrate		CHEBI:17632	nitrate	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	nitrite		CHEBI:16301	nitrite	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	peroxynitrate		CHEBI:29270	peroxynitrate	nitrogen oxoanion												
-oxoanion	nitrogen oxoanion	peroxynitrite		CHEBI:25941	peroxynitrite	nitrogen oxoanion												
-oxoanion	phosphorus oxoanion			CHEBI:33461	phosphorus oxoanion	oxoanion												
-oxoanion	phosphorus oxoanion	(dioxido)hydroxidodioxidophosphate(.1-)		CHEBI:29928	(dioxido)hydroxidodioxidophosphate(.1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	(dioxido)trioxidophosphate(.2-)		CHEBI:29933	(dioxido)trioxidophosphate(.2-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	dioxidophosphate(1-)		CHEBI:44951	dioxidophosphate(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	diphosphate ion		CHEBI:35782	diphosphate ion	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(1-)	CHEBI:33017	diphosphate(1-)	diphosphate ion												
-oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(2-)	CHEBI:45212	diphosphate(2-)	diphosphate ion												
-oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(3-)	CHEBI:33019	diphosphate(3-)	diphosphate ion												
-oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(4-)	CHEBI:18361	diphosphate(4-)	diphosphate ion												
-oxoanion	phosphorus oxoanion	diphosphonate(1-)		CHEBI:33463	diphosphonate(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	diphosphonate(2-)		CHEBI:29262	diphosphonate(2-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	dithiophosphate(2-)		CHEBI:74591	dithiophosphate(2-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	hydrogenselenophosphate		CHEBI:58618	hydrogenselenophosphate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	hydroxidooxidophosphate(.1-)		CHEBI:29926	hydroxidooxidophosphate(.1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	hypophosphite		CHEBI:24759	hypophosphite	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	oxidophosphate(1-)		CHEBI:33125	oxidophosphate(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	peroxydiphosphate		CHEBI:29285	peroxydiphosphate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	peroxyphosphate		CHEBI:29283	peroxyphosphate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	phosphate ion		CHEBI:35780	phosphate ion	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	phosphate ion	dihydrogenphosphate	CHEBI:39745	dihydrogenphosphate	phosphate ion												
-oxoanion	phosphorus oxoanion	phosphate ion	hydrogenphosphate	CHEBI:43474	hydrogenphosphate	phosphate ion												
-oxoanion	phosphorus oxoanion	phosphate ion	hydroxidotrioxidophosphate(.1-)	CHEBI:29925	hydroxidotrioxidophosphate(.1-)	phosphate ion												
-oxoanion	phosphorus oxoanion	phosphate ion	phosphate(3-)	CHEBI:18367	phosphate(3-)	phosphate ion												
-oxoanion	phosphorus oxoanion	phosphate ion	tetraoxidophosphate(.2-)	CHEBI:29932	tetraoxidophosphate(.2-)	phosphate ion												
-oxoanion	phosphorus oxoanion	phosphinate		CHEBI:29198	phosphinate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	phosphite ion		CHEBI:26045	phosphite ion	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	phosphite ion	dihydrogenphosphite	CHEBI:29258	dihydrogenphosphite	phosphite ion												
-oxoanion	phosphorus oxoanion	phosphite ion	trioxidophosphate(.2-)	CHEBI:29930	trioxidophosphate(.2-)	phosphite ion												
-oxoanion	phosphorus oxoanion	phosphite ion	hydrogenphosphite	CHEBI:29259	hydrogenphosphite	phosphite ion												
-oxoanion	phosphorus oxoanion	phosphite ion	hydroxidodioxidophosphate(.1-)	CHEBI:29927	hydroxidodioxidophosphate(.1-)	phosphite ion												
-oxoanion	phosphorus oxoanion	phosphite ion	phosphite(3-)	CHEBI:45064	phosphite(3-)	phosphite ion												
-oxoanion	phosphorus oxoanion	phosphonate(1-)		CHEBI:33462	phosphonate(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	phosphonate(2-)		CHEBI:16215	phosphonate(2-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	polyphosphate		CHEBI:16838	polyphosphate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	selenophosphate		CHEBI:16144	selenophosphate	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	tenofovir(1-)		CHEBI:134504	tenofovir(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	thiophosphate(2-)		CHEBI:74752	thiophosphate(2-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	trioxidophosphate(1-)		CHEBI:30932	trioxidophosphate(1-)	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	triphosphate ion		CHEBI:15266	triphosphate ion	phosphorus oxoanion												
-oxoanion	phosphorus oxoanion	triphosphate ion	cyclotriphosphate(3-)	CHEBI:57801	cyclotriphosphate(3-)	triphosphate ion												
-oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(1-)	CHEBI:48313	triphosphate(1-)	triphosphate ion												
-oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(2-)	CHEBI:48314	triphosphate(2-)	triphosphate ion												
-oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(3-)	CHEBI:48315	triphosphate(3-)	triphosphate ion												
-oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(4-)	CHEBI:48316	triphosphate(4-)	triphosphate ion												
-oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(5-)	CHEBI:18036	triphosphate(5-)	triphosphate ion												
-oxoanion	selenium oxoanion			CHEBI:33488	selenium oxoanion	oxoanion												
-oxoanion	selenium oxoanion	hydrogenselenate		CHEBI:33490	hydrogenselenate	selenium oxoanion												
-oxoanion	selenium oxoanion	hydrogenselenite		CHEBI:29924	hydrogenselenite	selenium oxoanion												
-oxoanion	selenium oxoanion	selenate		CHEBI:15075	selenate	selenium oxoanion												
-oxoanion	selenium oxoanion	selenite(2-)		CHEBI:18212	selenite(2-)	selenium oxoanion												
-oxoanion	silicon oxoanion			CHEBI:37191	silicon oxoanion	oxoanion												
-oxoanion	silicon oxoanion	disilicate(6-)		CHEBI:29380	disilicate(6-)	silicon oxoanion												
-oxoanion	silicon oxoanion	metasilicate		CHEBI:29381	metasilicate	silicon oxoanion												
-oxoanion	silicon oxoanion	silicate ion		CHEBI:48123	silicate ion	silicon oxoanion												
-oxoanion	silicon oxoanion	silicate ion	dihydrogensilicate(2-)	CHEBI:48124	dihydrogensilicate(2-)	silicate ion												
-oxoanion	silicon oxoanion	silicate ion	hydrogensilicate(3-)	CHEBI:48122	hydrogensilicate(3-)	silicate ion												
-oxoanion	silicon oxoanion	silicate ion	silicate(4-)	CHEBI:29241	silicate(4-)	silicate ion												
-oxoanion	silicon oxoanion	silicate ion	trihydrogensilicate(1-)	CHEBI:48125	trihydrogensilicate(1-)	silicate ion												
-oxoanion	sulfur oxoanion			CHEBI:33482	sulfur oxoanion	oxoanion												
-oxoanion	sulfur oxoanion	dioxidosulfate(.1-)		CHEBI:29820	dioxidosulfate(.1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	dioxidosulfate(2-)		CHEBI:29821	dioxidosulfate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	disulfanediolate(1-)		CHEBI:35922	disulfanediolate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	disulfanediolate(2-)		CHEBI:29392	disulfanediolate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	disulfate(2-)		CHEBI:45163	disulfate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	disulfite		CHEBI:29251	disulfite	sulfur oxoanion												
-oxoanion	sulfur oxoanion	dithionate(1-)		CHEBI:33486	dithionate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	dithionate(2-)		CHEBI:29209	dithionate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	dithionite(1-)		CHEBI:33487	dithionite(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	dithionite(2-)		CHEBI:42160	dithionite(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	glycosinolate		CHEBI:24401	glycosinolate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	hydrogensulfate		CHEBI:45696	hydrogensulfate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	hydrogensulfite		CHEBI:17137	hydrogensulfite	sulfur oxoanion												
-oxoanion	sulfur oxoanion	hydroxidooxidosulfate(1-)		CHEBI:33538	hydroxidooxidosulfate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	peroxydisulfate		CHEBI:29267	peroxydisulfate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	peroxysulfate(1-)		CHEBI:33523	peroxysulfate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	peroxysulfate(2-)		CHEBI:29288	peroxysulfate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	sulfate		CHEBI:16189	sulfate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	sulfenate		CHEBI:37859	sulfenate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	sulfinate		CHEBI:9341	sulfinate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	sulfite		CHEBI:17359	sulfite	sulfur oxoanion												
-oxoanion	sulfur oxoanion	sulfonate		CHEBI:33543	sulfonate	sulfur oxoanion												
-oxoanion	sulfur oxoanion	tetraoxidosulfate(.1-)		CHEBI:29406	tetraoxidosulfate(.1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	tetrathionate ion		CHEBI:26936	tetrathionate ion	sulfur oxoanion												
-oxoanion	sulfur oxoanion	thiosulfate(1-)		CHEBI:33541	thiosulfate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	thiosulfate(2-)		CHEBI:16094	thiosulfate(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	thiosulfite(1-)		CHEBI:35944	thiosulfite(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	thiosulfite(2-)		CHEBI:29257	thiosulfite(2-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	trioxidosulfate(.1-)		CHEBI:29405	trioxidosulfate(.1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	trithionate(1-)		CHEBI:33483	trithionate(1-)	sulfur oxoanion												
-oxoanion	sulfur oxoanion	trithionate(2-)		CHEBI:15987	trithionate(2-)	sulfur oxoanion												
-oxoanion	vanadium oxoanion			CHEBI:30528	vanadium oxoanion	oxoanion												
-oxoanion	vanadium oxoanion	cyclo-tetravanadate(4-)		CHEBI:46272	cyclo-tetravanadate(4-)	vanadium oxoanion												
-oxoanion	vanadium oxoanion	decavanadate(6-)		CHEBI:37850	decavanadate(6-)	vanadium oxoanion												
-oxoanion	vanadium oxoanion	dihydrogenvanadate		CHEBI:35169	dihydrogenvanadate	vanadium oxoanion												
-oxoanion	vanadium oxoanion	hydrogenvanadate		CHEBI:35168	hydrogenvanadate	vanadium oxoanion												
-oxoanion	vanadium oxoanion	metavanadate		CHEBI:75224	metavanadate	vanadium oxoanion												
-oxoanion	vanadium oxoanion	polyvanadate		CHEBI:53340	polyvanadate	vanadium oxoanion												
-oxoanion	vanadium oxoanion	tetravanadate(6-)		CHEBI:46409	tetravanadate(6-)	vanadium oxoanion												
-oxoanion	vanadium oxoanion	trivanadate(5-)		CHEBI:37855	trivanadate(5-)	vanadium oxoanion												
-oxoanion	vanadium oxoanion	vanadate(3-)		CHEBI:46442	vanadate(3-)	vanadium oxoanion												
+oxoanion				CHEBI:35406	oxoanion												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	antimony oxoanion			CHEBI:36921	antimony oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	antimony oxoanion	antimonate(1-)		CHEBI:36923	antimonate(1-)	antimony oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	antimony oxoanion	antimonate(2-)		CHEBI:36924	antimonate(2-)	antimony oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	antimony oxoanion	antimonate(3-)		CHEBI:30295	antimonate(3-)	antimony oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	antimony oxoanion	antimonite		CHEBI:30297	antimonite	antimony oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion			CHEBI:35776	arsenic oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenate ion		CHEBI:22629	arsenate ion	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenate ion	arsenate(1-)	CHEBI:48600	arsenate(1-)	arsenate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenate ion	arsenate(2-)	CHEBI:48597	arsenate(2-)	arsenate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenate ion	arsenate(3-)	CHEBI:29125	arsenate(3-)	arsenate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenite ion		CHEBI:22633	arsenite ion	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenite ion	arsenite(1-)	CHEBI:29242	arsenite(1-)	arsenite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenite ion	arsenite(2-)	CHEBI:29243	arsenite(2-)	arsenite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsenite ion	arsenite(3-)	CHEBI:29866	arsenite(3-)	arsenite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsinate		CHEBI:29846	arsinate	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsinite		CHEBI:29845	arsinite	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsonate(1-)		CHEBI:64448	arsonate(1-)	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsonate(2-)		CHEBI:29754	arsonate(2-)	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsonite(1-)		CHEBI:33410	arsonite(1-)	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	arsonite(2-)		CHEBI:29753	arsonite(2-)	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	dimethylarsinate		CHEBI:16223	dimethylarsinate	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	arsenic oxoanion	methylarsonite		CHEBI:14597	methylarsonite	arsenic oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion			CHEBI:33619	boron oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	(+)-aplasmomycin		CHEBI:32617	(+)-aplasmomycin	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	borate ion		CHEBI:22909	borate ion	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	borate ion	borate	CHEBI:22908	borate	borate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	borate ion	dihydrogenborate	CHEBI:29254	dihydrogenborate	borate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	borate ion	hydrogenborate	CHEBI:29255	hydrogenborate	borate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	borate ion	tetrahydroxoborate(1-)	CHEBI:41132	tetrahydroxoborate(1-)	borate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	hydroperoxo(trihydroxo)borate(1-)		CHEBI:30177	hydroperoxo(trihydroxo)borate(1-)	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	metaborate		CHEBI:30173	metaborate	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	perborate(2-)		CHEBI:30175	perborate(2-)	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	tetraborate(2-)		CHEBI:38889	tetraborate(2-)	boron oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	boron oxoanion	tetraborate(2-)	borax	CHEBI:86222	borax	CHEBI:38889											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	bromine oxoanion			CHEBI:33444	bromine oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	bromine oxoanion	bromate		CHEBI:29223	bromate	bromine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	bromine oxoanion	bromite		CHEBI:29248	bromite	bromine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	bromine oxoanion	hypobromite		CHEBI:29250	hypobromite	bromine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	bromine oxoanion	perbromate		CHEBI:29246	perbromate	bromine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion			CHEBI:35604	carbon oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	(dioxido)oxidocarbonate(.1-)		CHEBI:29788	(dioxido)oxidocarbonate(.1-)	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	carbonate		CHEBI:41609	carbonate	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	hydrogen ((13)C)carbonate		CHEBI:140315	hydrogen ((13)C)carbonate	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	hydrogencarbonate		CHEBI:17544	hydrogencarbonate	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	hydrogensquarate		CHEBI:59711	hydrogensquarate	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	nitrosoperoxycarbonate(1-)		CHEBI:62726	nitrosoperoxycarbonate(1-)	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	squarate		CHEBI:59712	squarate	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	carbon oxoanion	trioxidocarbonate(.1-)		CHEBI:29376	trioxidocarbonate(.1-)	carbon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chlorine oxoanion			CHEBI:33437	chlorine oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chlorine oxoanion	chlorate		CHEBI:49709	chlorate	chlorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chlorine oxoanion	chlorite		CHEBI:17441	chlorite	chlorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chlorine oxoanion	hypochlorite		CHEBI:29222	hypochlorite	chlorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chlorine oxoanion	perchlorate		CHEBI:49706	perchlorate	chlorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion			CHEBI:35402	chromium oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	chromate(2-)		CHEBI:35404	chromate(2-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	dichromate(2-)		CHEBI:33141	dichromate(2-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	dioxidodiperoxidochromate(2-)		CHEBI:30724	dioxidodiperoxidochromate(2-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	hydrogen dichromate		CHEBI:33142	hydrogen dichromate	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	hydrogenchromate		CHEBI:33144	hydrogenchromate	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	tetraoxidochromate(3-)		CHEBI:30072	tetraoxidochromate(3-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	tetraoxidochromate(4-)		CHEBI:30073	tetraoxidochromate(4-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	chromium oxoanion	tetraperoxidochromate(3-)		CHEBI:30723	tetraperoxidochromate(3-)	chromium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	fluorine oxoanion			CHEBI:47865	fluorine oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	fluorine oxoanion	dioxidofluorate(1-)		CHEBI:47861	dioxidofluorate(1-)	fluorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	fluorine oxoanion	hypofluorite		CHEBI:30244	hypofluorite	fluorine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion			CHEBI:33445	iodine oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	hypoiodite		CHEBI:29232	hypoiodite	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	iodate		CHEBI:29226	iodate	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	iodite		CHEBI:29230	iodite	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	nonaoxidodiiodate(4-)		CHEBI:29913	nonaoxidodiiodate(4-)	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate ion		CHEBI:35775	orthoperiodate ion	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate(1-)		CHEBI:33446	orthoperiodate(1-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate(2-)		CHEBI:33448	orthoperiodate(2-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate(3-)		CHEBI:33449	orthoperiodate(3-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate(4-)		CHEBI:33450	orthoperiodate(4-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	orthoperiodate(5-)		CHEBI:29227	orthoperiodate(5-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	pentaoxoiodate(3-)		CHEBI:35769	pentaoxoiodate(3-)	orthoperiodate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	iodine oxoanion	periodate		CHEBI:49826	periodate	iodine oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion			CHEBI:35118	manganese oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	dihydroxidodioxidomanganate(1-)		CHEBI:35126	dihydroxidodioxidomanganate(1-)	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	hydrogen manganate		CHEBI:35123	hydrogen manganate	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	hydroxidotrioxidomanganate(2-)		CHEBI:35127	hydroxidotrioxidomanganate(2-)	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	hypomanganate		CHEBI:29244	hypomanganate	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	manganate		CHEBI:25152	manganate	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	manganese oxoanion	permanganate		CHEBI:25939	permanganate	manganese oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion			CHEBI:36262	molybdenum oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	dimolybdate(2-)		CHEBI:36269	dimolybdate(2-)	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	hydrogen dimolybdate		CHEBI:36268	hydrogen dimolybdate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	hydrogenmolybdate		CHEBI:36263	hydrogenmolybdate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	molybdate		CHEBI:36264	molybdate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	sodium molybdate dihydrate		CHEBI:75213	sodium molybdate dihydrate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	sodium molybdate heptahydrate		CHEBI:86473	sodium molybdate heptahydrate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	molybdenum oxoanion	sodium molybdate tetrahydrate		CHEBI:132099	sodium molybdate tetrahydrate	molybdenum oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion			CHEBI:33458	nitrogen oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	aci-nitroethane(1-)		CHEBI:55327	aci-nitroethane(1-)	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	aminooxidanide		CHEBI:29773	aminooxidanide	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	hyponitrite(1-)		CHEBI:50115	hyponitrite(1-)	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	hyponitrite(2-)		CHEBI:18210	hyponitrite(2-)	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	nitrate		CHEBI:17632	nitrate	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	nitrite		CHEBI:16301	nitrite	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	peroxynitrate		CHEBI:29270	peroxynitrate	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	nitrogen oxoanion	peroxynitrite		CHEBI:25941	peroxynitrite	nitrogen oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion			CHEBI:33461	phosphorus oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	(dioxido)hydroxidodioxidophosphate(.1-)		CHEBI:29928	(dioxido)hydroxidodioxidophosphate(.1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	(dioxido)trioxidophosphate(.2-)		CHEBI:29933	(dioxido)trioxidophosphate(.2-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	dioxidophosphate(1-)		CHEBI:44951	dioxidophosphate(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphate ion		CHEBI:35782	diphosphate ion	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(1-)	CHEBI:33017	diphosphate(1-)	diphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(2-)	CHEBI:45212	diphosphate(2-)	diphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(3-)	CHEBI:33019	diphosphate(3-)	diphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphate ion	diphosphate(4-)	CHEBI:18361	diphosphate(4-)	diphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphonate(1-)		CHEBI:33463	diphosphonate(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	diphosphonate(2-)		CHEBI:29262	diphosphonate(2-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	dithiophosphate(2-)		CHEBI:74591	dithiophosphate(2-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	hydrogenselenophosphate		CHEBI:58618	hydrogenselenophosphate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	hydroxidooxidophosphate(.1-)		CHEBI:29926	hydroxidooxidophosphate(.1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	hypophosphite		CHEBI:24759	hypophosphite	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	oxidophosphate(1-)		CHEBI:33125	oxidophosphate(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	peroxydiphosphate		CHEBI:29285	peroxydiphosphate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	peroxyphosphate		CHEBI:29283	peroxyphosphate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion		CHEBI:35780	phosphate ion	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion	dihydrogenphosphate	CHEBI:39745	dihydrogenphosphate	phosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion	hydrogenphosphate	CHEBI:43474	hydrogenphosphate	phosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion	hydroxidotrioxidophosphate(.1-)	CHEBI:29925	hydroxidotrioxidophosphate(.1-)	phosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion	phosphate(3-)	CHEBI:18367	phosphate(3-)	phosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphate ion	tetraoxidophosphate(.2-)	CHEBI:29932	tetraoxidophosphate(.2-)	phosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphinate		CHEBI:29198	phosphinate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion		CHEBI:26045	phosphite ion	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion	dihydrogenphosphite	CHEBI:29258	dihydrogenphosphite	phosphite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion	trioxidophosphate(.2-)	CHEBI:29930	trioxidophosphate(.2-)	phosphite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion	hydrogenphosphite	CHEBI:29259	hydrogenphosphite	phosphite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion	hydroxidodioxidophosphate(.1-)	CHEBI:29927	hydroxidodioxidophosphate(.1-)	phosphite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphite ion	phosphite(3-)	CHEBI:45064	phosphite(3-)	phosphite ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphonate(1-)		CHEBI:33462	phosphonate(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	phosphonate(2-)		CHEBI:16215	phosphonate(2-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	polyphosphate		CHEBI:16838	polyphosphate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	selenophosphate		CHEBI:16144	selenophosphate	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	tenofovir(1-)		CHEBI:134504	tenofovir(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	thiophosphate(2-)		CHEBI:74752	thiophosphate(2-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	trioxidophosphate(1-)		CHEBI:30932	trioxidophosphate(1-)	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion		CHEBI:15266	triphosphate ion	phosphorus oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	cyclotriphosphate(3-)	CHEBI:57801	cyclotriphosphate(3-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(1-)	CHEBI:48313	triphosphate(1-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(2-)	CHEBI:48314	triphosphate(2-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(3-)	CHEBI:48315	triphosphate(3-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(4-)	CHEBI:48316	triphosphate(4-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	phosphorus oxoanion	triphosphate ion	triphosphate(5-)	CHEBI:18036	triphosphate(5-)	triphosphate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	selenium oxoanion			CHEBI:33488	selenium oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	selenium oxoanion	hydrogenselenate		CHEBI:33490	hydrogenselenate	selenium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	selenium oxoanion	hydrogenselenite		CHEBI:29924	hydrogenselenite	selenium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	selenium oxoanion	selenate		CHEBI:15075	selenate	selenium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	selenium oxoanion	selenite(2-)		CHEBI:18212	selenite(2-)	selenium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion			CHEBI:37191	silicon oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	disilicate(6-)		CHEBI:29380	disilicate(6-)	silicon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	metasilicate		CHEBI:29381	metasilicate	silicon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	silicate ion		CHEBI:48123	silicate ion	silicon oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	silicate ion	dihydrogensilicate(2-)	CHEBI:48124	dihydrogensilicate(2-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	silicate ion	hydrogensilicate(3-)	CHEBI:48122	hydrogensilicate(3-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	silicate ion	silicate(4-)	CHEBI:29241	silicate(4-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	silicon oxoanion	silicate ion	trihydrogensilicate(1-)	CHEBI:48125	trihydrogensilicate(1-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion			CHEBI:33482	sulfur oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dioxidosulfate(.1-)		CHEBI:29820	dioxidosulfate(.1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dioxidosulfate(2-)		CHEBI:29821	dioxidosulfate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	disulfanediolate(1-)		CHEBI:35922	disulfanediolate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	disulfanediolate(2-)		CHEBI:29392	disulfanediolate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	disulfate(2-)		CHEBI:45163	disulfate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	disulfite		CHEBI:29251	disulfite	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dithionate(1-)		CHEBI:33486	dithionate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dithionate(2-)		CHEBI:29209	dithionate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dithionite(1-)		CHEBI:33487	dithionite(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	dithionite(2-)		CHEBI:42160	dithionite(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	glycosinolate		CHEBI:24401	glycosinolate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	hydrogensulfate		CHEBI:45696	hydrogensulfate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	hydrogensulfite		CHEBI:17137	hydrogensulfite	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	hydroxidooxidosulfate(1-)		CHEBI:33538	hydroxidooxidosulfate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	peroxydisulfate		CHEBI:29267	peroxydisulfate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	peroxysulfate(1-)		CHEBI:33523	peroxysulfate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	peroxysulfate(2-)		CHEBI:29288	peroxysulfate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	sulfate		CHEBI:16189	sulfate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	sulfenate		CHEBI:37859	sulfenate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	sulfinate		CHEBI:9341	sulfinate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	sulfite		CHEBI:17359	sulfite	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	sulfonate		CHEBI:33543	sulfonate	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	tetraoxidosulfate(.1-)		CHEBI:29406	tetraoxidosulfate(.1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	tetrathionate ion		CHEBI:26936	tetrathionate ion	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	thiosulfate(1-)		CHEBI:33541	thiosulfate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	thiosulfate(2-)		CHEBI:16094	thiosulfate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	thiosulfite(1-)		CHEBI:35944	thiosulfite(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	thiosulfite(2-)		CHEBI:29257	thiosulfite(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	trioxidosulfate(.1-)		CHEBI:29405	trioxidosulfate(.1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	trithionate(1-)		CHEBI:33483	trithionate(1-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	sulfur oxoanion	trithionate(2-)		CHEBI:15987	trithionate(2-)	sulfur oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion			CHEBI:30528	vanadium oxoanion	oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	cyclo-tetravanadate(4-)		CHEBI:46272	cyclo-tetravanadate(4-)	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	decavanadate(6-)		CHEBI:37850	decavanadate(6-)	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	dihydrogenvanadate		CHEBI:35169	dihydrogenvanadate	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	hydrogenvanadate		CHEBI:35168	hydrogenvanadate	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	metavanadate		CHEBI:75224	metavanadate	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	polyvanadate		CHEBI:53340	polyvanadate	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	tetravanadate(6-)		CHEBI:46409	tetravanadate(6-)	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	trivanadate(5-)		CHEBI:37855	trivanadate(5-)	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxoanion	vanadium oxoanion	vanadate(3-)		CHEBI:46442	vanadate(3-)	vanadium oxoanion											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
