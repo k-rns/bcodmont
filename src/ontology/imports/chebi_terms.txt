@@ -1,3 +1,4 @@
+### BCODMO_SM element terms: ###
 CHEBI:37969	#aluminium-26 atom
 CHEBI:37968	#aluminium-27 atom
 CHEBI:37970	#aluminium-28 atom
