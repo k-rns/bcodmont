@@ -11,6 +11,9 @@ robot template --template qualifiers/robot_templates/qualifiers.tsv -i ../bcodmo
 ## Run element.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template chemistry/robot_templates/element.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/element.owl" -o chemistry/robot_templates/element.owl
 
+## Run compound.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template chemistry/robot_templates/compound.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/compound.owl" -o chemistry/robot_templates/compound.owl
+
 
 ### Matrix
 ## Run material.tsv run from bcodmont/src/ontology/BCODMO_SM/
@@ -26,11 +29,11 @@ robot template --template matrix/robot_templates/context.tsv -i ../bcodmont-edit
 ## merge run from ontology:
 robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
 
-## Make object property free version of chebi (could add others here in future)
+## Make object property free version of chebi (could add others here in future) Only run after adding to CHEBI import
 robot remove --input ../imports/chebi_import.owl --axioms logical annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --output intermediate/chebi_import_axioms_removed.owl
 
 ## merge chemistry module(s) (element) with axiom removed chebi
-robot merge --input intermediate/chebi_import_axioms_removed.owl --input chemistry/robot_templates/element.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_axioms_removed_merged.owl
+robot merge --input intermediate/chebi_import_axioms_removed.owl --input chemistry/robot_templates/element.owl --input chemistry/robot_templates/compound.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_axioms_removed_merged.owl
 
 
 
@@ -47,6 +50,10 @@ robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bc
 ### Chemistry
 ## Filter element from axiom-free merged ontology
 robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:element" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/element.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/element.owl" --output chemistry/element.owl
+
+## Filter compound from axiom-free merged ontology
+robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:compound" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/compound.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/compound.owl" --output chemistry/compound.owl
+
 
 ### Matrix
 ## Filter material from merged ontology
