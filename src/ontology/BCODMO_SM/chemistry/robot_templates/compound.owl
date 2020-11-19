@@ -1,0 +1,1852 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/compound.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/compound.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/compound.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">sodium molybdate tetrahydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">tenofovir(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_140315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">hydrogen ((13)C)carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_14597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_14597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">methylarsonite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33488"/>
+        <rdfs:label xml:lang="en">selenate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">triphosphate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">trithionate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">thiosulfate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">selenophosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">sulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">phosphonate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">dimethylarsinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">nitrite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16838">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">polyphosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">hydrogensulfite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">sulfite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33437"/>
+        <rdfs:label xml:lang="en">chlorite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">hydrogencarbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">nitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">triphosphate(5-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">hyponitrite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33488"/>
+        <rdfs:label xml:lang="en">selenite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35782"/>
+        <rdfs:label xml:lang="en">diphosphate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35780"/>
+        <rdfs:label xml:lang="en">phosphate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsenate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsenite ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22909"/>
+        <rdfs:label xml:lang="en">borate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">borate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">glycosinolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">hypophosphite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">manganate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">permanganate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">peroxynitrite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">phosphite ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">tetrathionate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22629"/>
+        <rdfs:label xml:lang="en">arsenate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">phosphinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dithionate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33437"/>
+        <rdfs:label xml:lang="en">hypochlorite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33444"/>
+        <rdfs:label xml:lang="en">bromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">iodate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">orthoperiodate(5-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">iodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">hypoiodite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
+        <rdfs:label xml:lang="en">silicate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22633"/>
+        <rdfs:label xml:lang="en">arsenite(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22633"/>
+        <rdfs:label xml:lang="en">arsenite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">hypomanganate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33444"/>
+        <rdfs:label xml:lang="en">perbromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33444"/>
+        <rdfs:label xml:lang="en">bromite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33444"/>
+        <rdfs:label xml:lang="en">hypobromite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">disulfite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22909"/>
+        <rdfs:label xml:lang="en">dihydrogenborate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22909"/>
+        <rdfs:label xml:lang="en">hydrogenborate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">thiosulfite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26045"/>
+        <rdfs:label xml:lang="en">dihydrogenphosphite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26045"/>
+        <rdfs:label xml:lang="en">hydrogenphosphite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">diphosphonate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">peroxydisulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">peroxynitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">peroxyphosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">peroxydiphosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">peroxysulfate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">trioxidocarbonate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37191"/>
+        <rdfs:label xml:lang="en">disilicate(6-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37191"/>
+        <rdfs:label xml:lang="en">metasilicate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">disulfanediolate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">trioxidosulfate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">tetraoxidosulfate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsonite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsonate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">aminooxidanide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">(dioxido)oxidocarbonate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29820">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dioxidosulfate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dioxidosulfate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsinite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29846">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22633"/>
+        <rdfs:label xml:lang="en">arsenite(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">nonaoxidodiiodate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33488"/>
+        <rdfs:label xml:lang="en">hydrogenselenite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35780"/>
+        <rdfs:label xml:lang="en">hydroxidotrioxidophosphate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">hydroxidooxidophosphate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26045"/>
+        <rdfs:label xml:lang="en">hydroxidodioxidophosphate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">(dioxido)hydroxidodioxidophosphate(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29930">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26045"/>
+        <rdfs:label xml:lang="en">trioxidophosphate(.2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35780"/>
+        <rdfs:label xml:lang="en">tetraoxidophosphate(.2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29933">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">(dioxido)trioxidophosphate(.2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">tetraoxidochromate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">tetraoxidochromate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">metaborate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">perborate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">hydroperoxo(trihydroxo)borate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47865"/>
+        <rdfs:label xml:lang="en">hypofluorite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36921"/>
+        <rdfs:label xml:lang="en">antimonate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36921"/>
+        <rdfs:label xml:lang="en">antimonite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">vanadium oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">tetraperoxidochromate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">dioxidodiperoxidochromate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">trioxidophosphate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">(+)-aplasmomycin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35782"/>
+        <rdfs:label xml:lang="en">diphosphate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35782"/>
+        <rdfs:label xml:lang="en">diphosphate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">oxidophosphate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">dichromate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">hydrogen dichromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">hydrogenchromate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsonite(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">chlorine oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">bromine oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">iodine oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">orthoperiodate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">orthoperiodate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">orthoperiodate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">orthoperiodate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">nitrogen oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">phosphorus oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">phosphonate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">diphosphonate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">sulfur oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">trithionate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dithionate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dithionite(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">selenium oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33488"/>
+        <rdfs:label xml:lang="en">hydrogenselenate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">peroxysulfate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">hydroxidooxidosulfate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">thiosulfate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">sulfonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">boron oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">manganese oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">hydrogen manganate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">dihydroxidodioxidomanganate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35118"/>
+        <rdfs:label xml:lang="en">hydroxidotrioxidomanganate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">hydrogenvanadate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">dihydrogenvanadate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">chromium oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35402"/>
+        <rdfs:label xml:lang="en">chromate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35406">
+        <rdfs:label xml:lang="en">oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">carbon oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35775"/>
+        <rdfs:label xml:lang="en">pentaoxoiodate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">orthoperiodate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">arsenic oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">phosphate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">diphosphate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35922">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">disulfanediolate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">thiosulfite(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">molybdenum oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">hydrogenmolybdate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">molybdate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">hydrogen dimolybdate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">dimolybdate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36921">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">antimony oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36921"/>
+        <rdfs:label xml:lang="en">antimonate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36921"/>
+        <rdfs:label xml:lang="en">antimonate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">silicon oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">decavanadate(6-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">trivanadate(5-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">sulfenate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33619"/>
+        <rdfs:label xml:lang="en">tetraborate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35780"/>
+        <rdfs:label xml:lang="en">dihydrogenphosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22909"/>
+        <rdfs:label xml:lang="en">tetrahydroxoborate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">carbonate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">dithionite(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_43474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_43474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35780"/>
+        <rdfs:label xml:lang="en">hydrogenphosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">dioxidophosphate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26045"/>
+        <rdfs:label xml:lang="en">phosphite(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">disulfate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35782"/>
+        <rdfs:label xml:lang="en">diphosphate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">hydrogensulfate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">cyclo-tetravanadate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">tetravanadate(6-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">vanadate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47865"/>
+        <rdfs:label xml:lang="en">dioxidofluorate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47865 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47865">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35406"/>
+        <rdfs:label xml:lang="en">fluorine oxoanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
+        <rdfs:label xml:lang="en">hydrogensilicate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37191"/>
+        <rdfs:label xml:lang="en">silicate ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
+        <rdfs:label xml:lang="en">dihydrogensilicate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
+        <rdfs:label xml:lang="en">trihydrogensilicate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">triphosphate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">triphosphate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">triphosphate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">triphosphate(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22629"/>
+        <rdfs:label xml:lang="en">arsenate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22629"/>
+        <rdfs:label xml:lang="en">arsenate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33437"/>
+        <rdfs:label xml:lang="en">perchlorate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33437"/>
+        <rdfs:label xml:lang="en">chlorate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49826">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33445"/>
+        <rdfs:label xml:lang="en">periodate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">hyponitrite(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_53340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">polyvanadate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_55327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33458"/>
+        <rdfs:label xml:lang="en">aci-nitroethane(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_57801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_57801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15266"/>
+        <rdfs:label xml:lang="en">cyclotriphosphate(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_58618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_58618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">hydrogenselenophosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">hydrogensquarate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">squarate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_62726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35604"/>
+        <rdfs:label xml:lang="en">nitrosoperoxycarbonate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35776"/>
+        <rdfs:label xml:lang="en">arsonate(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">dithiophosphate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33461"/>
+        <rdfs:label xml:lang="en">thiophosphate(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">sodium molybdate dihydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_75224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30528"/>
+        <rdfs:label xml:lang="en">metavanadate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_86222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_86222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38889"/>
+        <rdfs:label xml:lang="en">borax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_86473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_86473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36262"/>
+        <rdfs:label xml:lang="en">sodium molybdate heptahydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
+        <rdfs:label xml:lang="en">sulfinate</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
