@@ -1338,7 +1338,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36904"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60250"/>
         <chebi:charge>-2</chebi:charge>
         <chebi:formula>Se</chebi:formula>
@@ -1407,7 +1406,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33260"/>
         <obo:IAO_0000115>The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes).</obo:IAO_0000115>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>H</chebi:formula>
@@ -2054,7 +2052,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15858">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36894"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Br</chebi:formula>
         <chebi:inchi>InChI=1S/BrH/h1H/p-1</chebi:inchi>
@@ -4205,7 +4202,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36893"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>I</chebi:formula>
         <chebi:inchi>InChI=1S/HI/h1H/p-1</chebi:inchi>
@@ -4318,7 +4314,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16793">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Hg</chebi:formula>
         <chebi:inchi>InChI=1S/Hg/q+2</chebi:inchi>
@@ -5211,7 +5206,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33431"/>
         <obo:IAO_0000115>A halide anion formed when chlorine picks up an electron to form an an anion.</obo:IAO_0000115>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Cl</chebi:formula>
@@ -6823,7 +6817,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
         <obo:IAO_0000115>A manganese cation that is monoatomic and has a formal charge of +4.</obo:IAO_0000115>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Mn</chebi:formula>
@@ -7000,7 +6993,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Hg2</chebi:formula>
         <chebi:inchi>InChI=1S/2Hg/q2*+1</chebi:inchi>
@@ -9901,7 +9893,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82663"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Fe</chebi:formula>
         <chebi:inchi>InChI=1S/Fe/q+2</chebi:inchi>
@@ -10019,7 +10010,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82663"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Fe</chebi:formula>
         <chebi:inchi>InChI=1S/Fe/q+3</chebi:inchi>
@@ -10149,7 +10139,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
         <obo:IAO_0000115>A divalent metal cation in which the metal is manganese.</obo:IAO_0000115>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Mn</chebi:formula>
@@ -10276,7 +10265,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37404"/>
         <obo:IAO_0000115>An ion of copper carrying a double positive charge.</obo:IAO_0000115>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Cu</chebi:formula>
@@ -10412,7 +10400,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37404"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Cu</chebi:formula>
         <chebi:inchi>InChI=1S/Cu/q+3</chebi:inchi>
@@ -10491,7 +10478,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Mn</chebi:formula>
         <chebi:inchi>InChI=1S/Mn/q+3</chebi:inchi>
@@ -10591,7 +10577,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37246"/>
         <obo:IAO_0000115>A monoatomic monocation obtained from sodium.</obo:IAO_0000115>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Na</chebi:formula>
@@ -10700,7 +10685,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37246"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Na</chebi:formula>
         <chebi:inchi>InChI=1S/Na/q-1</chebi:inchi>
@@ -10775,7 +10759,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37247"/>
         <obo:IAO_0000115>A monoatomic monocation obtained from potassium.</obo:IAO_0000115>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>K</chebi:formula>
@@ -10878,7 +10861,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37247"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>K</chebi:formula>
         <chebi:inchi>InChI=1S/K/q-1</chebi:inchi>
@@ -11067,7 +11049,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35155"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Ca</chebi:formula>
         <chebi:inchi>InChI=1S/Ca/q+2</chebi:inchi>
@@ -11173,7 +11154,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_29215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36904"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60250"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Se</chebi:formula>
@@ -11703,7 +11683,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29752">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35826"/>
         <chebi:charge>-3</chebi:charge>
         <chebi:formula>As</chebi:formula>
         <chebi:inchi>InChI=1S/As/q-3</chebi:inchi>
@@ -11922,7 +11901,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33628"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60272"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Al</chebi:formula>
@@ -12298,7 +12276,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>He</chebi:formula>
         <chebi:inchi>InChI=1S/He/q+1</chebi:inchi>
@@ -12428,7 +12405,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36892"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>F2</chebi:formula>
         <chebi:inchi>InChI=1S/F2/c1-2/q+1</chebi:inchi>
@@ -12494,7 +12470,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36892"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>F2</chebi:formula>
         <chebi:inchi>InChI=1S/F2/c1-2/q-1</chebi:inchi>
@@ -12560,7 +12535,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36892"/>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>F</chebi:formula>
         <chebi:inchi>InChI=1S/F</chebi:inchi>
@@ -12634,7 +12608,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36892"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>F</chebi:formula>
         <chebi:inchi>InChI=1S/F/q+1</chebi:inchi>
@@ -12821,7 +12794,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30476">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200091"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37767"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Sn</chebi:formula>
         <chebi:inchi>InChI=1S/Sn/q+4</chebi:inchi>
@@ -13166,7 +13138,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37237"/>
         <chebi:charge>+5</chebi:charge>
         <chebi:formula>Mo</chebi:formula>
         <chebi:inchi>InChI=1S/Mo/q+5</chebi:inchi>
@@ -13646,7 +13617,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30582">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Si</chebi:formula>
         <chebi:inchi>InChI=1S/Si/q+1</chebi:inchi>
@@ -13714,7 +13684,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Si</chebi:formula>
         <chebi:inchi>InChI=1S/Si/q+4</chebi:inchi>
@@ -13768,7 +13737,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30585">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Si</chebi:formula>
         <chebi:inchi>InChI=1S/Si/q-1</chebi:inchi>
@@ -13827,7 +13795,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30586">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>-4</chebi:charge>
         <chebi:formula>Si</chebi:formula>
         <chebi:inchi>InChI=1S/Si/q-4</chebi:inchi>
@@ -13938,7 +13905,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30591">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30590"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Si2</chebi:formula>
         <chebi:inchi>InChI=1S/Si2/c1-2/q+1</chebi:inchi>
@@ -13990,7 +13956,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30592">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>-2</chebi:charge>
         <chebi:formula>Si2</chebi:formula>
         <chebi:inchi>InChI=1S/Si2/c1-2/q-2</chebi:inchi>
@@ -14042,7 +14007,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30598">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <chebi:charge>-4</chebi:charge>
         <chebi:formula>Si4</chebi:formula>
         <chebi:inchi>InChI=1S/Si4/c1-3-4-2/q-4</chebi:inchi>
@@ -14456,7 +14420,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32991">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <chebi:charge>+5</chebi:charge>
         <chebi:formula>U</chebi:formula>
         <chebi:inchi>InChI=1S/U/q+5</chebi:inchi>
@@ -14517,7 +14480,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <chebi:charge>+6</chebi:charge>
         <chebi:formula>U</chebi:formula>
         <chebi:inchi>InChI=1S/U/q+6</chebi:inchi>
@@ -14585,7 +14547,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32993">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>U</chebi:formula>
         <chebi:inchi>InChI=1S/U/q+2</chebi:inchi>
@@ -14646,7 +14607,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32994">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>U</chebi:formula>
         <chebi:inchi>InChI=1S/U/q+3</chebi:inchi>
@@ -14707,7 +14667,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32995">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>U</chebi:formula>
         <chebi:inchi>InChI=1S/U/q+4</chebi:inchi>
@@ -14848,7 +14807,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>V</chebi:formula>
         <chebi:inchi>InChI=1S/V/q+4</chebi:inchi>
@@ -14923,7 +14881,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <chebi:charge>+5</chebi:charge>
         <chebi:formula>V</chebi:formula>
         <chebi:inchi>InChI=1S/V/q+5</chebi:inchi>
@@ -14998,7 +14955,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>V</chebi:formula>
         <chebi:inchi>InChI=1S/V/q+2</chebi:inchi>
@@ -15073,7 +15029,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>V</chebi:formula>
         <chebi:inchi>InChI=1S/V/q+1</chebi:inchi>
@@ -15161,7 +15116,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200009"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>Mn</chebi:formula>
         <chebi:inchi>InChI=1S/Mn/q-1</chebi:inchi>
@@ -15301,7 +15255,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36893"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>I</chebi:formula>
         <chebi:inchi>InChI=1S/I/q+1</chebi:inchi>
@@ -15534,7 +15487,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>He</chebi:formula>
         <chebi:inchi>InChI=1S/He/q+2</chebi:inchi>
@@ -17627,7 +17579,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33682">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>He2</chebi:formula>
         <chebi:inchi>InChI=1S/He2/c1-2/q+1</chebi:inchi>
@@ -17686,7 +17637,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33684">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>He2</chebi:formula>
         <chebi:inchi>InChI=1S/He2/c1-2/q+2</chebi:inchi>
@@ -17803,7 +17753,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
         <chebi:charge>-1</chebi:charge>
         <chebi:formula>He2</chebi:formula>
         <chebi:inchi>InChI=1S/He2/c1-2/q-1</chebi:inchi>
@@ -18480,7 +18429,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35828">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35826"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>As</chebi:formula>
         <chebi:inchi>InChI=1S/As/q+3</chebi:inchi>
@@ -18541,7 +18489,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35829">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200022"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35826"/>
         <chebi:charge>+5</chebi:charge>
         <chebi:formula>As</chebi:formula>
         <chebi:inchi>InChI=1S/As/q+5</chebi:inchi>
@@ -18671,7 +18618,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36900">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36894"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Br</chebi:formula>
         <chebi:inchi>InChI=1S/Br/q+1</chebi:inchi>
@@ -20454,7 +20400,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37265"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Ce</chebi:formula>
         <chebi:inchi>InChI=1S/Ce/q+4</chebi:inchi>
@@ -20564,7 +20509,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200045"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37285"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Gd</chebi:formula>
         <chebi:inchi>InChI=1S/Gd/q+2</chebi:inchi>
@@ -20625,7 +20569,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200045"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37285"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Gd</chebi:formula>
         <chebi:inchi>InChI=1S/Gd/q+4</chebi:inchi>
@@ -23694,7 +23637,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35155"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Ca</chebi:formula>
         <chebi:inchi>InChI=1S/Ca/q+1</chebi:inchi>
@@ -24162,7 +24104,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48782">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37265"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Ce</chebi:formula>
         <chebi:inchi>InChI=1S/Ce/q+3</chebi:inchi>
@@ -24246,7 +24187,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37237"/>
         <chebi:charge>+4</chebi:charge>
         <chebi:formula>Mo</chebi:formula>
         <chebi:inchi>InChI=1S/Mo/q+4</chebi:inchi>
@@ -24331,7 +24271,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200010"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37237"/>
         <chebi:charge>+6</chebi:charge>
         <chebi:formula>Mo</chebi:formula>
         <chebi:inchi>InChI=1S/Mo/q+6</chebi:inchi>
@@ -24420,7 +24359,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49468">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33966"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60247"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Ag</chebi:formula>
@@ -24517,7 +24455,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49470">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33628"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60272"/>
         <obo:IAO_0000115>An aluminium cation that has a charge of +3.</obo:IAO_0000115>
         <chebi:charge>+3</chebi:charge>
@@ -24767,7 +24704,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37404"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Cu</chebi:formula>
         <chebi:inchi>InChI=1S/Cu/q+1</chebi:inchi>
@@ -24956,7 +24892,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49591">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200042"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37267"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Eu</chebi:formula>
         <chebi:inchi>InChI=1S/Eu/q+3</chebi:inchi>
@@ -25041,7 +24976,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49618">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200045"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37285"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Gd</chebi:formula>
         <chebi:inchi>InChI=1S/Gd/q+3</chebi:inchi>
@@ -26054,7 +25988,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49867">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36922"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>Sb</chebi:formula>
         <chebi:inchi>InChI=1S/Sb/q+3</chebi:inchi>
@@ -26359,7 +26292,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <chebi:charge>+3</chebi:charge>
         <chebi:formula>V</chebi:formula>
         <chebi:inchi>InChI=1S/V/q+3</chebi:inchi>
@@ -26794,7 +26726,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49988">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200054"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49986"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Kr</chebi:formula>
         <chebi:inchi>InChI=1S/Kr/q+1</chebi:inchi>
@@ -26846,7 +26777,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49989">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200094"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49984"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Xe</chebi:formula>
         <chebi:inchi>InChI=1S/Xe/q+1</chebi:inchi>
@@ -27014,7 +26944,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49996">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200065"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49995"/>
         <chebi:charge>+1</chebi:charge>
         <chebi:formula>Ne</chebi:formula>
         <chebi:inchi>InChI=1S/Ne/q+1</chebi:inchi>
@@ -27132,7 +27061,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Hg3</chebi:formula>
         <chebi:inchi>InChI=1S/3Hg/q;2*+1</chebi:inchi>
@@ -27192,7 +27120,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <chebi:charge>+2</chebi:charge>
         <chebi:formula>Hg4</chebi:formula>
         <chebi:inchi>InChI=1S/4Hg/q;;2*+1</chebi:inchi>
@@ -27659,7 +27586,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_52453 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52453">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49956"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49957"/>
         <obo:IAO_0000115>The stable isotope of xenon with relative atomic mass 128.904780, 26.4 atom percent natural abundance and nuclear spin 1/2.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
@@ -27713,7 +27639,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52455">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37193"/>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[207Pb]</chebi:formula>
         <chebi:inchi>InChI=1S/Pb/i1+0</chebi:inchi>
@@ -27757,7 +27682,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_52456 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52456">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <obo:IAO_0000115>The stable isotope of vanadium with relative atomic mass 50.943964, 99.8 atom percent natural abundance and nuclear spin 7/2.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Here vanadium-51 CHEBI:52456 is under vanadium(0) not vanadium atom</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
@@ -28190,7 +28114,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_52624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52624">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30304"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30513"/>
         <obo:IAO_0000115>The stable isotope of antimony with relative atomic mass 120.903818, 57.2 atom percent natural abundance and nuclear spin 5/2.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">CHEBI:30304 is the only case (so far) where antimony(0), in the elemental antimony hierarchy is also superclass to the atom terms (antimony-121/3 atom).</obo:IAO_0000116>
@@ -28244,7 +28167,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_52626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30304"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30513"/>
         <obo:IAO_0000115>The stable isotope of antimony with relative atomic mass 122.904216, 42.8 atom percent natural abundance and nuclear spin 7/2.</obo:IAO_0000115>
         <chebi:charge>0</chebi:charge>
@@ -28350,7 +28272,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30501"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33783"/>
         <obo:IAO_0000115>The stable isotope of beryllium with relative atomic mass 9.012182, 100 atom percent natural abundance and nuclear spin 3/2.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Here this is subclass to beryllium(0) not beryllium atom in CHEBI.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
@@ -28397,7 +28318,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37404"/>
         <obo:IAO_0000115>The stable isotope of copper with relative atomic mass 62.929601, 69.2 atom percent natural abundance and nuclear spin 3/2.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Note for copper CHEBI has copper-63 as subclass to copper(O) under elemental copper not subclass to copper atom, this pattern makes sense but is different then other CHEBI terms FIX.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
@@ -28793,7 +28713,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52761">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37253"/>
         <obo:IAO_0000115>The stable isotope of zinc with relative atomic mass 66.927131, 4.10 atom percent natural abundance and nuclear spin 5/2.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">zinc-67 CHEBI:52761 is subclass to zinc(0), whereas zinc-65 atom is subclass to atom TODO fix this in CHEBI.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
