@@ -1,34 +1,67 @@
-## Run templates
+# Run templates
 
-# Run physiology.tsv run from bcodmont/src/ontology/BCODMO_SM/
+### Biology
+## Run physiology.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template biology/robot_templates/physiology.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/biology/robot_templates/physiology.owl" -o biology/robot_templates/physiology.owl
 
-# Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
+## Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template qualifiers/robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/robot_templates/qualifiers.owl" -o qualifiers/robot_templates/qualifiers.owl
 
-# Run material.tsv run from bcodmont/src/ontology/BCODMO_SM/
+### Chemistry
+## Run element.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template chemistry/robot_templates/element.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/element.owl" -o chemistry/robot_templates/element.owl
+
+
+### Matrix
+## Run material.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template matrix/robot_templates/material.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/material.owl" -o matrix/robot_templates/material.owl
 
-# Run context.tsv run from bcodmont/src/ontology/BCODMO_SM/
+## Run context.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template matrix/robot_templates/context.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/context.owl" -o matrix/robot_templates/context.owl
 
 
-## Merge templates
 
-# merge run from ontology:
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl  --input biology/robot_templates/physiology.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
+# Merge templates
+
+## merge run from ontology:
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/BCODMO_SM_merged.owl" --output BCODMO_SM_merged.owl
 
 
-## Filter to create export products
+# Filter to create export products
 
-# Filter physiology from merged ontology
+### Biology
+## Filter physiology from merged ontology
 robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:physiology" --select annotations --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/biology/physiology.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/biology/physiology.owl" --output biology/physiology.owl
 
-# Filter qualifiers from merged ontology
+## Filter qualifiers from merged ontology
 robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:qualifiers" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --output qualifiers/qualifiers.owl
 
-# Filter material from merged ontology
+### Chemistry
+## Filter element from merged ontology
+robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:element" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/element.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/element.owl" --output chemistry/element.owl
+
+### Matrix
+## Filter material from merged ontology
 robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:material" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/material.owl" --output matrix/material.owl
 
-# Filter context from merged ontology
+## Filter context from merged ontology
 robot filter --input BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:context" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/context.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/context.owl" --output matrix/context.owl
+
+
+
+
+
+
+# Export formats:
+
+## Robot
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.json
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.obo
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.ofn
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.omn
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.owl
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.owx
+robot convert --input qualifiers/qualifiers.owl --output exports/qualifiers_robot.ttl
+
+## owl2vowl module to get to json
+java -jar exports/util/owl2vowl.jar -file qualifiers/qualifiers.owl && mv qualifiers.json exports/qualifiers_owl2vowl.json
