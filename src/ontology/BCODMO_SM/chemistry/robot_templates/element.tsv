@@ -1,0 +1,500 @@
+Sub category 1:	sub category 2:	sub category 3:	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	Entity subset	category subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+aluminum			CHEBI:33628	aluminum												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum atom		CHEBI:28984	aluminum atom	aluminum										http://lod.bco-dmo.org/id/parameter/1982	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum atom	aluminium-26 atom	CHEBI:37969	aluminium-26 atom	aluminum atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum atom	aluminium-27 atom	CHEBI:37968	aluminium-27 atom	aluminum atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum atom	aluminium-28 atom	CHEBI:37970	aluminium-28 atom	aluminum atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum ion		CHEBI:60272	aluminum ion	aluminum						"CHEBI is inconsistent in what `X ion` terms it has: `barium ion`,`magnesium ion`,`strontium ion` but not not `nitrogen ion`"					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum ion	aluminium(1+)	CHEBI:30150	aluminium(1+)	aluminum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+aluminum	aluminum ion	aluminium(3+)	CHEBI:49470	aluminium(3+)	aluminum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony			CHEBI:36922	antimony												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony atom		CHEBI:30513	antimony atom	antimony											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony atom	antimony-121 atom	CHEBI:52624	antimony-121 atom	antimony atom						"CHEBI:30304 is the only case (so far) where antimony(0), in the elemental antimony hierarchy is also superclass to the atom terms (antimony-121/3 atom)."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony atom	antimony-123 atom	CHEBI:52626	antimony-123 atom	antimony atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony ion		BSM:0200001	antimony ion	antimony						Possibly add to CHEBI				http://lod.bco-dmo.org/id/parameter/1934	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony ion	antimony(3+)	CHEBI:49867	antimony(3+)	antimony ion										http://lod.bco-dmo.org/id/parameter/1933	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony ion	antimony(5+)	BSM:0200020	antimony(5+)	antimony ion						Add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	diantimony		CHEBI:30303	diantimony	antimony											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+antimony	antimony(0)		CHEBI:30304	antimony(0)	antimony											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+argon			CHEBI:49991	argon												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+argon	argon atom		CHEBI:49475	argon atom	argon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+argon	argon atom	argon-39 atom	CHEBI:155827	argon-39 atom	argon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+argon	argon(1+)		CHEBI:49992	argon(1+)	argon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+argon	argon(0)		CHEBI:49474	argon(0)	argon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic			CHEBI:35826	arsenic												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic atom		CHEBI:27563	arsenic atom	arsenic										http://lod.bco-dmo.org/id/parameter/1085	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic atom	arsenic-75 atom	BSM:0200021	arsenic-75 atom	arsenic atom						Add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic ion		BSM:0200022	arsenic ion	arsenic						Possibly add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic ion	arsenic(3+)	CHEBI:35828	arsenic(3+)	arsenic ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic ion	arsenic(5+)	CHEBI:35829	arsenic(5+)	arsenic ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+arsenic	arsenic ion	arsenide(3-)	CHEBI:29752	arsenide(3-)	arsenic ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium			CHEBI:37134	barium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium atom		CHEBI:32594	barium atom	barium										http://lod.bco-dmo.org/id/parameter/1985	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium atom	barium-138 atom	BSM:0200023	barium-138 atom	barium atom						Add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium ion		CHEBI:39126	barium ion	barium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium ion	barium(1+)	CHEBI:37137	barium(1+)	barium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium ion	barium(2+)	CHEBI:37136	barium(2+)	barium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+barium	barium(0)		CHEBI:32595	barium(0)	barium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium			CHEBI:33784	beryllium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium atom		CHEBI:30501	beryllium atom	beryllium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium atom	beryllium-7 atom	BSM:0200024	beryllium-7 atom	beryllium atom						Add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium atom	beryllium-9 atom	CHEBI:52628	beryllium-9 atom	beryllium atom						Here this is subclass to beryllium(0) not beryllium atom in CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium(0)		CHEBI:33783	beryllium(0)	beryllium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium ion		CHEBI:39133	beryllium ion	beryllium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium ion	beryllium(1+)	CHEBI:30503	beryllium(1+)	beryllium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+beryllium	beryllium ion	beryllium(2+)	CHEBI:30502	beryllium(2+)	beryllium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+boron			CHEBI:33609	boron												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+boron	boron atom		CHEBI:27560	boron atom	boron										http://lod.bco-dmo.org/id/parameter/565378	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+boron	boron atom	boron-10 atom	CHEBI:77014	boron-10 atom	boron atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+boron	boron atom	boron-11 atom	CHEBI:52451	boron-11 atom	boron atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine			CHEBI:36894	bromine												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine	bromine atom		CHEBI:22927	bromine atom	bromine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine	bromine atom	bromine-79 atom	CHEBI:52743	bromine-79 atom	bromine atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine	bromine ion		BSM:0200002	bromine ion	bromine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine	bromine ion	bromide	CHEBI:15858	bromide	bromine ion										http://lod.bco-dmo.org/id/parameter/661634	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+bromine	bromine ion	bromine(1+)	CHEBI:36900	bromine(1+)	bromine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium			CHEBI:37249	cadmium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom		CHEBI:22977	cadmium atom	cadmium										http://lod.bco-dmo.org/id/parameter/820750|https://www.bco-dmo.org/parameter/1940	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom	cadmium-110 atom	BSM:0200025	cadmium-110 atom	cadmium atom										http://lod.bco-dmo.org/id/parameter/1940	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom	cadmium-111 atom	CHEBI:52619	cadmium-111 atom	cadmium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom	cadmium-112 atom	BSM:0200026	cadmium-112 atom	cadmium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom	cadmium-113 atom	CHEBI:52620	cadmium-113 atom	cadmium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cadmium	cadmium atom	cadmium-114 atom	BSM:0200027	cadmium-114 atom	cadmium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium			CHEBI:35155	calcium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium atom		CHEBI:22984	calcium atom	calcium										http://lod.bco-dmo.org/id/parameter/527969	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium atom	calcium-42 atom	BSM:0200028	calcium-42 atom	calcium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium atom	calcium-43 atom	BSM:0200029	calcium-43 atom	calcium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium atom	calcium-44 atom	BSM:0200030	calcium-44 atom	calcium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium(0)		CHEBI:29320	calcium(0)	calcium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium ion		BSM:0200003	calcium ion	calcium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium ion	calcium(1+)	CHEBI:39099	calcium(1+)	calcium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+calcium	calcium ion	calcium(2+)	CHEBI:29108	calcium(2+)	calcium ion										http://lod.bco-dmo.org/id/parameter/821631	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon			CHEBI:33415	carbon												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom		CHEBI:27594	carbon atom	carbon										http://lod.bco-dmo.org/id/parameter/707571	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom	carbon-10 atom	CHEBI:36930	carbon-10 atom	carbon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom	carbon-11 atom	CHEBI:36929	carbon-11 atom	carbon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom	carbon-12 atom	CHEBI:36931	carbon-12 atom	carbon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom	carbon-13 atom	CHEBI:36928	carbon-13 atom	carbon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+carbon	carbon atom	carbon-14 atom	CHEBI:36927	carbon-14 atom	carbon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium			CHEBI:37265	cerium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium	cerium atom		CHEBI:33369	cerium atom	cerium						Called cerium not cerium atom in CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium	cerium atom	cerium-140 atom	BSM:0200031	cerium-140 atom	cerium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium	cerium ion		BSM:0200032	cerium ion	cerium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium	cerium ion	cerium(3+)	CHEBI:48782	cerium(3+)	cerium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cerium	cerium ion	cerium(4+)	CHEBI:37264	cerium(4+)	cerium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cesium			CHEBI:155919	cesium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cesium	cesium atom		CHEBI:30514	cesium atom	cesium										http://lod.bco-dmo.org/id/parameter/527975|http://lod.bco-dmo.org/id/parameter/1858|http://lod.bco-dmo.org/id/parameter/1861	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cesium	cesium atom	cesium-133 atom	BSM:0200033	cesium-133 atom	cesium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cesium	cesium atom	cesium-134 atom	BSM:0200034	cesium-134 atom	cesium atom										http://lod.bco-dmo.org/id/parameter/1879|http://lod.bco-dmo.org/id/parameter/1881|http://lod.bco-dmo.org/id/parameter/1860	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cesium	cesium atom	cesium-137 atom	BSM:0200035	cesium-137 atom	cesium atom										http://lod.bco-dmo.org/id/parameter/1859|http://lod.bco-dmo.org/id/parameter/1883	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chlorine			CHEBI:33431	chlorine												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chlorine	chlorine atom		CHEBI:23116	chlorine atom	chlorine										http://lod.bco-dmo.org/id/parameter/707576|http://lod.bco-dmo.org/id/parameter/671566	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chlorine	chlorine ion		BSM:0200004	chlorine ion	chlorine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chlorine	chlorine ion	chloride	CHEBI:17996	chloride	chlorine ion										http://lod.bco-dmo.org/id/parameter/661641	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium			CHEBI:155866	chromium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium	chromium atom		CHEBI:28073	chromium atom	chromium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium	chromium atom	chromium-51 atom	CHEBI:50076	chromium-51 atom	chromium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium	chromium atom	chromium-52 atom	BSM:0200036	chromium-52 atom	chromium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium	chromium atom	chromium-53 atom	BSM:0200037	chromium-53 atom	chromium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+chromium	chromium atom	chromium-54 atom	BSM:0200038	chromium-54 atom	chromium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cobalt			CHEBI:155919	cobalt												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cobalt	cobalt atom		CHEBI:30514	cobalt atom	cobalt										http://lod.bco-dmo.org/id/parameter/820057	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+cobalt	cobalt atom	cobalt-59 atom	BSM:0200039	cobalt-59 atom	cobalt atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper			CHEBI:37404	copper												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper atom		CHEBI:28694	copper atom	copper										http://lod.bco-dmo.org/id/parameter/707579	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper atom	copper-63 atom	CHEBI:52630	copper-63 atom	copper atom						"Note for copper CHEBI has copper-63 as subclass to copper(O) under elemental copper not subclass to copper atom, this pattern makes sense but is different then other CHEBI terms FIX."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper atom	copper-65 atom	BSM:0200040	copper-65 atom	copper atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper ion		BSM:0200005	copper ion	copper						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper ion	copper(1+)	CHEBI:49552	copper(1+)	copper ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper ion	copper(2+)	CHEBI:29036	copper(2+)	copper ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+copper	copper ion	copper(3+)	CHEBI:29037	copper(3+)	copper ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+dysprosium			BSM:0200041	dysprosium							"Add elemental dysprosium term to CHEBI, as subclass to dysprosium molecular entity."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+dysprosium	dysprosium atom		CHEBI:33377	dysprosium atom	dysprosium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+europium			CHEBI:37267	europium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+europium	europium atom		CHEBI:32999	europium atom	europium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+europium	europium ion		BSM:0200042	europium ion	europium						Add to CHEBI and make europium(2+) and europium(3+) ions subclasses to it.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+europium	europium ion	europium(2+)	CHEBI:49588	europium(2+)	europium ion						"Not also subclass to elemental europium, like europium(3+) which should be it's sibling class."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+europium	europium ion	europium(3+)	CHEBI:49591	europium(3+)	europium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+erbium			BSM:0200043	erbium							"Add elemental erbium, as subclass to erbium molecular entity."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+erbium	erbium atom		CHEBI:33379	erbium atom	erbium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine			CHEBI:36892	fluorine												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine atom		CHEBI:24061	fluorine atom	fluorine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine atom	fluorine-18 atom	CHEBI:36939	fluorine-18 atom	fluorine atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine atom	fluorine-19 atom	CHEBI:36940	fluorine-19 atom	fluorine atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine ion		BSM:0200044	fluorine ion	fluorine						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine ion	difluoride(.1-)	CHEBI:30238	difluoride(.1-)	fluorine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine ion	difluorine(.1+)	CHEBI:30237	difluorine(.1+)	fluorine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine ion	fluorine(.)	CHEBI:30239	fluorine(.)	fluorine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluorine ion	fluorine(1+)	CHEBI:30240	fluorine(1+)	fluorine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	fluoride		CHEBI:17051	fluoride	fluorine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+fluorine	difluorine		CHEBI:30236	difluorine	fluorine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium			CHEBI:37285	gadolinium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium	gadolinium atom		CHEBI:33375	gadolinium atom	gadolinium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium	gadolinium ion		BSM:0200045	gadolinium ion	gadolinium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium	gadolinium ion	gadolinium(2+)	CHEBI:37286	gadolinium(2+)	gadolinium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium	gadolinium ion	gadolinium(3+)	CHEBI:49618	gadolinium(3+)	gadolinium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gadolinium	gadolinium ion	gadolinium(4+)	CHEBI:37294	gadolinium(4+)	gadolinium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gallium			CHEBI:155920	gallium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gallium	gallium atom		CHEBI:49631	gallium atom	gallium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gallium	gallium atom	gallium-69 atom	BSM:0200046	gallium-69 atom	gallium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gallium	gallium ion		BSM:0200047	gallium ion	gallium						Possily add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+gallium	gallium ion	gallium(3+)	CHEBI:84043	gallium(3+)	gallium ion						"Not subclass to elemental gallium, instead sibling class to it."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hafnium			BSM:0200048	hafnium							Add elemental hafnium to CHEBI as subclass to hafnium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hafnium	hafnium atom		CHEBI:33343	hafnium atom	hafnium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium			CHEBI:33680	helium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium atom		CHEBI:30217	helium atom	helium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium atom	helium-3 atom	CHEBI:30218	helium-3 atom	helium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium atom	helium-4 atom	CHEBI:30219	helium-4 atom	helium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium atom	helium-6 atom	CHEBI:37003	helium-6 atom	helium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium atom	helium-8 atom	CHEBI:37004	helium-8 atom	helium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion		BSM:0200049	helium ion	helium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion	dihelide(1-)	CHEBI:33686	dihelide(1-)	helium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion	dihelium(1+)	CHEBI:33682	dihelium(1+)	helium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion	dihelium(2+)	CHEBI:33684	dihelium(2+)	helium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion	helium(.1+)	CHEBI:30221	helium(.1+)	helium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium ion	helium(2+)	CHEBI:33316	helium(2+)	helium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	dihelium		CHEBI:33685	dihelium	helium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+helium	helium(0)		CHEBI:33681	helium(0)	helium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+holmium			BSM:0200050	holmium							"Add elemental holmium to CHEBI, subclass to holmium molecular entity."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+holmium	holmium atom		CHEBI:49648	holmium atom	holmium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+holmium	holmium ion		BSM:0200051	holmium ion	holmium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+holmium	holmium ion	holmium(3+)	CHEBI:49650	holmium(3+)	holmium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen			CHEBI:33260	hydrogen												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen atom		CHEBI:49637	hydrogen atom	hydrogen										http://lod.bco-dmo.org/id/parameter/661643	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen atom	deuterium atom	CHEBI:29237	deuterium atom	hydrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen atom	protium atom	CHEBI:29236	protium atom	hydrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen atom	tritium atom	CHEBI:29238	tritium atom	hydrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	dihydrogen		CHEBI:18276	dihydrogen	hydrogen										http://lod.bco-dmo.org/id/parameter/661643	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen ion		BSM:0200006	hydrogen ion	hydrogen											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen ion	hydrogen(1+)	CHEBI:15378	hydrogen(1+)	hydrogen ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+hydrogen	hydrogen ion	hydrogen peroxide	CHEBI:16240	hydrogen peroxide	hydrogen ion										http://lod.bco-dmo.org/id/parameter/1917	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine			CHEBI:36893	iodine												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine atom		CHEBI:24859	iodine atom	iodine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine atom	iodine-127 atom	CHEBI:52631	iodine-127 atom	iodine atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine atom	iodine-129 atom	CHEBI:52636	iodine-129 atom	iodine atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine ion		BSM:0200007	iodine ion	iodine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine ion	iodide	CHEBI:16382	iodide	iodine ion										http://lod.bco-dmo.org/id/parameter/1265	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine ion	iodine(1+)	CHEBI:33116	iodine(1+)	iodine ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iodine	iodine(.)		CHEBI:33115	iodine(.)	iodine											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron			CHEBI:82663	iron												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron atom		CHEBI:18248	iron atom	iron										http://lod.bco-dmo.org/id/parameter/1981	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron atom	iron-54 atom	BSM:0200052	iron-54 atom	iron atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron atom	iron-56 atom	BSM:0200053	iron-56 atom	iron atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron atom	iron-57 atom	CHEBI:52623	iron-57 atom	iron atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron ion		BSM:0200008	iron ion	iron											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron ion	iron(2+)	CHEBI:29033	iron(2+)	iron ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron ion	iron(3+)	CHEBI:29034	iron(3+)	iron ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+iron	iron(0)		CHEBI:82664	iron(0)	iron											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+krypton			CHEBI:49986	krypton												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+krypton	krypton atom		CHEBI:49696	krypton atom	krypton											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+krypton	krypton ion		BSM:0200054	krypton ion	krypton						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+krypton	krypton ion	krypton(.1+)	CHEBI:49988	krypton(.1+)	krypton ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+krypton	krypton(0)		CHEBI:49695	krypton(0)	krypton											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum			CHEBI:155921	lanthanum												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum	lanthanum atom		CHEBI:33336	lanthanum atom	lanthanum											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum	lanthanum atom	lanthanum-139 atom	CHEBI:52627	lanthanum-139 atom	lanthanum atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum	lanthanum ion		BSM:0200055	lanthanum ion	lanthanum						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum	lanthanum ion	lanthanum(2+)	CHEBI:37317	lanthanum(2+)	lanthanum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lanthanum	lanthanum ion	lanthanum(3+)	CHEBI:49701	lanthanum(3+)	lanthanum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead			CHEBI:37193	lead												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead atom		CHEBI:25016	lead atom	lead										http://lod.bco-dmo.org/id/parameter/707577	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead atom	lead-207 atom	CHEBI:52455	lead-207 atom	lead atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead atom	lead-208 atom	BSM:0200056	lead-208 atom	lead atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead atom	lead-210 atom	BSM:0200057	lead-210 atom	lead atom										http://lod.bco-dmo.org/id/parameter/1644	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead ion		CHEBI:60249	lead ion	lead											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead ion	lead(2+)	CHEBI:49807	lead(2+)	lead ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lead	lead ion	lead(4+)	CHEBI:30180	lead(4+)	lead ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lithium			CHEBI:155867	lithium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lithium	lithium atom		CHEBI:30145	lithium atom	lithium										http://lod.bco-dmo.org/id/parameter/527963	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lithium	lithium atom	lithium-6 atom	CHEBI:52621	lithium-6 atom	lithium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lithium	lithium atom	lithium-7 atom	CHEBI:52458	lithium-7 atom	lithium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lutetium			BSM:0200058	lutetium							Add elemental lutetium as subclass to lutetium molecular entity to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lutetium	lutetium atom		CHEBI:33382	lutetium atom	lutetium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lutetium	lutetium ion		BSM:0200059	lutetium ion	lutetium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+lutetium	lutetium ion	lutetium(3+)	CHEBI:49746	lutetium(3+)	lutetium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium			CHEBI:33973	magnesium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium atom		CHEBI:25107	magnesium atom	magnesium										http://lod.bco-dmo.org/id/parameter/527967	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium atom	magnesium-24 atom	BSM:0200060	magnesium-24 atom	magnesium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium atom	magnesium-25 atom	CHEBI:52763	magnesium-25 atom	magnesium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium atom	magnesium-26 atom	BSM:0200061	magnesium-26 atom	magnesium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium ion		CHEBI:39128	magnesium ion	magnesium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium ion	magnesium(1+)	CHEBI:33974	magnesium(1+)	magnesium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+magnesium	magnesium ion	magnesium(2+)	CHEBI:18420	magnesium(2+)	magnesium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese			CHEBI:35115	manganese												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese atom		CHEBI:18291	manganese atom	manganese										http://lod.bco-dmo.org/id/parameter/490516	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese atom	manganese-55 atom	BSM:0200062	manganese-55 atom	manganese atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese ion		BSM:0200009	manganese ion	manganese											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese ion	manganide	CHEBI:33011	manganide	manganese ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese ion	manganese(2+)	CHEBI:29035	manganese(2+)	manganese ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese ion	manganese(3+)	CHEBI:29041	manganese(3+)	manganese ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese ion	manganese(4+)	CHEBI:25158	manganese(4+)	manganese ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+manganese	manganese(0)		CHEBI:35154	manganese(0)	manganese											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury			CHEBI:35113	mercury												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury atom		CHEBI:25195	mercury atom	mercury											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury ion		BSM:0200063	mercury ion	mercury						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury ion	dimercury(2+)	CHEBI:25198	dimercury(2+)	mercury ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury ion	mercury(2+)	CHEBI:16793	mercury(2+)	mercury ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury ion	tetramercury(2+)	CHEBI:50237	tetramercury(2+)	mercury ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury ion	trimercury(2+)	CHEBI:50236	trimercury(2+)	mercury ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+mercury	mercury(0)		CHEBI:16170	mercury(0)	mercury											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum			CHEBI:37237	molybdenum												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum atom		CHEBI:28685	molybdenum atom	molybdenum										http://lod.bco-dmo.org/id/parameter/527974	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum atom	molybdenum-95	CHEBI:52633	molybdenum-95	molybdenum atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum ion		BSM:0200010	molybdenum ion	molybdenum											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum ion	molybdenum(4+)	CHEBI:49414	molybdenum(4+)	molybdenum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum ion	molybdenum(5+)	CHEBI:30511	molybdenum(5+)	molybdenum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	molybdenum ion	molybdenum(6+)	CHEBI:49446	molybdenum(6+)	molybdenum ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+molybdenum	dimolybdenum		CHEBI:37238	dimolybdenum	molybdenum											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen			CHEBI:33267	nitrogen												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom		CHEBI:25555	nitrogen atom	nitrogen										http://lod.bco-dmo.org/id/parameter/707573	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom	nitrogen-13 atom	CHEBI:36935	nitrogen-13 atom	nitrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom	nitrogen-14 atom	CHEBI:36938	nitrogen-14 atom	nitrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom	nitrogen-15 atom	CHEBI:36934	nitrogen-15 atom	nitrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom	nitrogen-16 atom	CHEBI:36936	nitrogen-16 atom	nitrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen atom	nitrogen-17 atom	CHEBI:36937	nitrogen-17 atom	nitrogen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	dinitrogen		CHEBI:17997	dinitrogen	nitrogen											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrous oxide		CHEBI:17045	nitrous oxide	nitrogen										http://lod.bco-dmo.org/id/parameter/1918	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen ion		BSM:0200011	nitrogen ion	nitrogen											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen ion	nitrate	CHEBI:17632	nitrate	nitrogen ion										http://lod.bco-dmo.org/id/parameter/1194|http://lod.bco-dmo.org/id/parameter/709858	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen ion	nitrite	CHEBI:16301	nitrite	nitrogen ion										http://lod.bco-dmo.org/id/parameter/1192|http://lod.bco-dmo.org/id/parameter/1193	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen ion	ammonium	CHEBI:28938	ammonium	nitrogen ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nitrogen	nitrogen ion	ammonia	CHEBI:16134	ammonia	nitrogen ion										http://lod.bco-dmo.org/id/parameter/810511	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neodymium			BSM:0200012	neodymium							No elemental neodymium class in chebi make as subclass to neodymium molecular entity CHEBI:37280.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neodymium	neodymium atom		CHEBI:33372	neodymium atom	neodymium										http://lod.bco-dmo.org/id/parameter/1932|http://lod.bco-dmo.org/id/parameter/1931	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neodymium	neodymium atom	neodymium-145 atom	BSM:0200064	neodymium-145 atom	neodymium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neon			CHEBI:49995	neon												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neon	neon atom		CHEBI:33310	neon atom	neon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neon	neon ion		BSM:0200065	neon ion	neon						Possily add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neon	neon ion	neon(.1+)	CHEBI:49996	neon(.1+)	neon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+neon	neon(0)		CHEBI:49993	neon(0)	neon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nobelium			BSM:0200066	nobelium							Add elemental nobelium as subclass to nobelium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nobelium	nobelium atom		CHEBI:33396	nobelium atom	nobelium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nickel			CHEBI:155868	nickel												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nickel	nickel atom		CHEBI:28112	nickel atom	nickel										http://lod.bco-dmo.org/id/parameter/820060	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+nickel	nickel atom	nickel-60 atom	BSM:0200067	nickel-60 atom	nickel atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium			BSM:0200068	osmium							Add elemental osmium as subclass to osmium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium	osmium atom		CHEBI:30687	osmium atom	osmium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium	osmium ion		BSM:0200069	osmium ion	osmium						Possily add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium	osmium ion	osmium(2+)	CHEBI:30691	osmium(2+)	osmium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium	osmium ion	osmium(3+)	CHEBI:49812	osmium(3+)	osmium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+osmium	osmium ion	osmium(4+)	CHEBI:49789	osmium(4+)	osmium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen			CHEBI:33262	oxygen												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom		CHEBI:25805	oxygen atom	oxygen											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom	oxygen-15 atom	CHEBI:36932	oxygen-15 atom	oxygen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom	oxygen-16 atom	CHEBI:33818	oxygen-16 atom	oxygen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom	oxygen-17 atom	CHEBI:33819	oxygen-17 atom	oxygen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom	oxygen-18 atom	CHEBI:33815	oxygen-18 atom	oxygen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	oxygen atom	oxygen-19 atom	CHEBI:36933	oxygen-19 atom	oxygen atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	dioxygen		CHEBI:15379	dioxygen	oxygen										http://lod.bco-dmo.org/id/parameter/1760|http://lod.bco-dmo.org/id/parameter/1767|http://lod.bco-dmo.org/id/parameter/910|http://lod.bco-dmo.org/id/parameter/910	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+oxygen	ozone		CHEBI:25812	ozone	oxygen											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus			CHEBI:33464	phosphorus											http://lod.bco-dmo.org/id/parameter/1914	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus atom		CHEBI:28659	phosphorus atom	phosphorus										http://lod.bco-dmo.org/id/parameter/1983	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus atom	phosphorus-31 atom	CHEBI:37971	phosphorus-31 atom	phosphorus atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus atom	phosphorus-32 atom	CHEBI:37972	phosphorus-32 atom	phosphorus atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus atom	phosphorus-33 atom	CHEBI:37973	phosphorus-33 atom	phosphorus atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus ion		BSM:0200013	phosphorus ion	phosphorus											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+phosphorus	phosphorus ion	phosphate(3-)	CHEBI:18367	phosphate(3-)	phosphorus ion										http://lod.bco-dmo.org/id/parameter/820747|http://lod.bco-dmo.org/id/parameter/937	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium			BSM:0200070	polonium							Add polonium to chebi as subclass to polonium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom		CHEBI:33313	polonium atom	polonium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-190 atom	CHEBI:37350	polonium-190 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-191 atom	CHEBI:37351	polonium-191 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-192 atom	CHEBI:37352	polonium-192 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-193 atom	CHEBI:37353	polonium-193 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-194 atom	CHEBI:37354	polonium-194 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-195 atom	CHEBI:37355	polonium-195 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-196 atom	CHEBI:37356	polonium-196 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-197 atom	CHEBI:37357	polonium-197 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-198 atom	CHEBI:37358	polonium-198 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-199 atom	CHEBI:37359	polonium-199 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-200 atom	CHEBI:37360	polonium-200 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-201 atom	CHEBI:37361	polonium-201 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-202 atom	CHEBI:37362	polonium-202 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-203 atom	CHEBI:37363	polonium-203 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-204 atom	CHEBI:37364	polonium-204 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-205 atom	CHEBI:37365	polonium-205 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-206 atom	CHEBI:37366	polonium-206 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-207 atom	CHEBI:37367	polonium-207 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-208 atom	CHEBI:37368	polonium-208 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-209 atom	CHEBI:37369	polonium-209 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-210 atom	CHEBI:37340	polonium-210 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-211 atom	CHEBI:37341	polonium-211 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-212 atom	CHEBI:37342	polonium-212 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-213 atom	CHEBI:37343	polonium-213 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-214 atom	CHEBI:37344	polonium-214 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-215 atom	CHEBI:37345	polonium-215 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-216 atom	CHEBI:37346	polonium-216 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-217 atom	CHEBI:37347	polonium-217 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+polonium	polonium atom	polonium-218 atom	CHEBI:37348	polonium-218 atom	polonium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium			CHEBI:37247	potassium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium atom		CHEBI:26216	potassium atom	potassium										http://lod.bco-dmo.org/id/parameter/527968	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium atom	potassium-39 atom	CHEBI:52632	potassium-39 atom	potassium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium atom	potassium-40 atom	BSM:0200071	potassium-40 atom	potassium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium ion		BSM:0200014	potassium ion	potassium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium ion	kalide	CHEBI:29104	kalide	potassium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+potassium	potassium ion	potassium(1+)	CHEBI:29103	potassium(1+)	potassium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+praseodymium			BSM:0200072	praseodymium							Add elemental praseodymium as subclass to praseodymium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+praseodymium	praseodymium atom		CHEBI:49828	praseodymium atom	praseodymium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+protactinium			BSM:0200073	protactinium							Add elemental protactinium as subclass to protactinium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+protactinium	protactinium atom		CHEBI:33386	protactinium atom	protactinium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+protactinium	protactinium atom	protactinium-231 atom	BSM:0200074	protactinium-231 atom	protactinium atom						Add to CHEBI.				http://lod.bco-dmo.org/id/parameter/1635	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+rubidium			CHEBI:155923	rubidium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+rubidium	rubidium atom		CHEBI:33322	rubidium atom	rubidium										http://lod.bco-dmo.org/id/parameter/527972	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+rubidium	rubidium atom	rubidium-85 atom	BSM:0200075	rubidium-85 atom	rubidium atom						Add to CHEBI					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+rubidium	rubidium atom	rubidium-87 atom	CHEBI:52459	rubidium-87 atom	rubidium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+scandium			CHEBI:155869	scandium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+scandium	scandium atom		CHEBI:33330	scandium atom	scandium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+scandium	scandium atom	scandium-45 atom	CHEBI:52635	scandium-45 atom	scandium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium			CHEBI:36904	selenium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium atom		CHEBI:27568	selenium atom	selenium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium atom	selenium-77 atom	CHEBI:52457	selenium-77 atom	selenium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium atom	selenium-78 atom	BSM:0200076	selenium-78 atom	selenium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion		CHEBI:60250	selenium ion	selenium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion	selenium(2+)	CHEBI:60871	selenium(2+)	selenium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion	selenium(4+)	BSM:0200077	selenium(4+)	selenium ion						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion	selenium(6+)	BSM:0200078	selenium(6+)	selenium ion						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion	selenide	CHEBI:15076	selenide	selenium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium ion	selenide(1-)	CHEBI:29215	selenide(1-)	selenium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	diselenium		CHEBI:36905	diselenium	selenium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+selenium	selenium(0)		BSM:0200079	selenium(0)	selenium						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon			CHEBI:37763	silicon												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom		CHEBI:27573	silicon atom	silicon										http://lod.bco-dmo.org/id/parameter/490515	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom	silicon-28 atom	CHEBI:37975	silicon-28 atom	silicon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom	silicon-29 atom	CHEBI:37974	silicon-29 atom	silicon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom	silicon-30 atom	CHEBI:37976	silicon-30 atom	silicon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom	silicon-31 atom	CHEBI:37977	silicon-31 atom	silicon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon atom	silicon-32 atom	CHEBI:37978	silicon-32 atom	silicon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion		BSM:0200015	silicon ion	silicon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	disilicide(1-)	CHEBI:30592	disilicide(1-)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	disilicon(1+)	CHEBI:30591	disilicon(1+)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	silicide(1-)	CHEBI:30585	silicide(1-)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	silicide(4-)	CHEBI:30586	silicide(4-)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	silicon(1+)	CHEBI:30582	silicon(1+)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	silicon(4+)	CHEBI:30584	silicon(4+)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon ion	tetrasilicide(4-)	CHEBI:30598	tetrasilicide(4-)	silicon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	disilicon		CHEBI:30590	disilicon	silicon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	disilicon	disilicon(1+)	CHEBI:30591	disilicon(1+)	disilicon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicate ion		CHEBI:48123	silicate ion	silicon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicate ion	dihydrogensilicate(2-)	CHEBI:48124	dihydrogensilicate(2-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicate ion	hydrogensilicate(3-)	CHEBI:48122	hydrogensilicate(3-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicate ion	silicate(4-)	CHEBI:29241	silicate(4-)	silicate ion										http://lod.bco-dmo.org/id/parameter/1209|http://lod.bco-dmo.org/id/parameter/973|http://lod.bco-dmo.org/id/parameter/1925	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicate ion	trihydrogensilicate(1-)	CHEBI:48125	trihydrogensilicate(1-)	silicate ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon dioxide		CHEBI:30563	silicon dioxide	silicon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicon dioxide	biogenic silica	CHEBI:64389	biogenic silica	silicon dioxide										http://lod.bco-dmo.org/id/parameter/661639	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silicon	silicic acid		CHEBI:26675	silicic acid	silicon										http://lod.bco-dmo.org/id/parameter/1207|http://lod.bco-dmo.org/id/parameter/973	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silver			CHEBI:33966	silver												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silver	silver atom		CHEBI:30512	silver atom	silver											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silver	silver ion		CHEBI:60247	silver ion	silver											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silver	silver ion	silver(1+)	CHEBI:49468	silver(1+)	silver ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+silver	silver(0)		CHEBI:9141	silver(0)	silver											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+samarium			BSM:0200080	samarium							Add elemental samarium as subclass to samarium molecular entity					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+samarium	samarium atom		CHEBI:33374	samarium atom	samarium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+samarium	samarium ion		BSM:0200081	samarium ion	samarium						"Possibly add to CHEBI, and make samarium(3+) subclass to it."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+samarium	samarium ion	samarium(3+)	CHEBI:49890	samarium(3+)	samarium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium			CHEBI:37246	sodium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium	sodium atom		CHEBI:26708	sodium atom	sodium										http://lod.bco-dmo.org/id/parameter/527965	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium	sodium atom	sodium-23 atom	CHEBI:52634	sodium-23 atom	sodium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium	sodium ion		BSM:0200016	sodium ion	sodium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium	sodium ion	natride	CHEBI:29102	natride	sodium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sodium	sodium ion	sodium(1+)	CHEBI:29101	sodium(1+)	sodium ion										http://lod.bco-dmo.org/id/parameter/821629	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium			CHEBI:39131	strontium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium atom		CHEBI:33324	strontium atom	strontium										http://lod.bco-dmo.org/id/parameter/527973	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium atom	strontium-86 atom	BSM:0200082	strontium-86 atom	strontium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium atom	strontium-88 atom	BSM:0200083	strontium-88 atom	strontium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium ion		CHEBI:39130	strontium ion	strontium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium ion	strontium(1+)	CHEBI:37132	strontium(1+)	strontium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+strontium	strontium ion	strontium(2+)	CHEBI:35104	strontium(2+)	strontium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur			CHEBI:33403	sulfur		elemental sulfur									http://lod.bco-dmo.org/id/parameter/1901	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom		CHEBI:26833	sulfur atom	sulfur										http://lod.bco-dmo.org/id/parameter/707578	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-32 atom	CHEBI:37979	sulfur-32 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-33 atom	CHEBI:37980	sulfur-33 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-34 atom	CHEBI:37981	sulfur-34 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-35 atom	CHEBI:37983	sulfur-35 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-36 atom	CHEBI:37982	sulfur-36 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-37 atom	CHEBI:37984	sulfur-37 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur atom	sulfur-38 atom	CHEBI:37985	sulfur-38 atom	sulfur atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion		BSM:0200017	sulfur ion	sulfur			CHEBI:33535|CHEBI:33482			see CHEBI:33535|CHEBI:33482 for more poential subclasses					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	hydrogen sulfide	CHEBI:16136	hydrogen sulfide	sulfur ion										http://lod.bco-dmo.org/id/parameter/1210	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	hydrosulfide	CHEBI:29919	hydrosulfide	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	sulfate	CHEBI:16189	sulfate	sulfur ion										http://lod.bco-dmo.org/id/parameter/1904	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	sulfite	CHEBI:17359	sulfite	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	thiosulfate(1-)	CHEBI:33541	thiosulfate(1-)	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	thiosulfate(2-)	CHEBI:16094	thiosulfate(2-)	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	thiosulfite(1-)	CHEBI:35944	thiosulfite(1-)	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	sulfur ion	thiosulfite(2-)	CHEBI:29257	thiosulfite(2-)	sulfur ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+sulfur	polysulfur		CHEBI:17909	polysulfur	sulfur											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+terbium			BSM:0200084	terbium							Add elemental terbium as subclass to terbium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+terbium	terbium atom		CHEBI:33376	terbium atom	terbium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+terbium	terbium ion		BSM:0200085	terbium ion	terbium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+terbium	terbium ion	terbium(3+)	CHEBI:49902	terbium(3+)	terbium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium			CHEBI:155924	thorium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium	thorium atom		CHEBI:33385	thorium atom	thorium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium	thorium atom	thorium-228 atom	BSM:0200086	thorium-228 atom	thorium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium	thorium atom	thorium-230 atom	BSM:0200087	thorium-230 atom	thorium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium	thorium atom	thorium-232 atom	BSM:0200088	thorium-232 atom	thorium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thorium	thorium atom	thorium-234 atom	BSM:0200089	thorium-234 atom	thorium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thulium			BSM:0200090	thulium							Add elemental thulium as subclass to thulium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+thulium	thulium atom		CHEBI:33380	thulium atom	thulium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin			CHEBI:37767	tin												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom		CHEBI:27007	tin atom	tin											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-115 atom	CHEBI:52235	tin-115 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-116 atom	CHEBI:52233	tin-116 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-117 atom	CHEBI:52234	tin-117 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-118 atom	CHEBI:52232	tin-118 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-119 atom	CHEBI:52230	tin-119 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin atom	tin-120 atom	CHEBI:52231	tin-120 atom	tin atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin ion		BSM:0200091	tin ion	tin						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin ion	tin(4+)	CHEBI:30476	tin(4+)	tin ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+tin	tin(0)		CHEBI:32990	tin(0)	tin											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+titanium			CHEBI:155870	titanium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+titanium	titanium atom		CHEBI:33341	titanium atom	titanium										http://lod.bco-dmo.org/id/parameter/1984	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+titanium	titanium atom	titanium-49 atom	BSM:0200092	titanium-49 atom	titanium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium			CHEBI:50559	uranium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium atom		CHEBI:27214	uranium atom	uranium										http://lod.bco-dmo.org/id/parameter/527976	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium atom	uranium-238 atom	BSM:0200093	uranium-238 atom	uranium atom						Add to CHEBI.				http://lod.bco-dmo.org/id/parameter/1673|http://lod.bco-dmo.org/id/parameter/1675	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	diuranium		CHEBI:50560	diuranium	uranium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium(0)		CHEBI:49936	uranium(0)	uranium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion		BSM:0200018	uranium ion	uranium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion	uranium(2+)	CHEBI:32993	uranium(2+)	uranium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion	uranium(3+)	CHEBI:32994	uranium(3+)	uranium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion	uranium(4+)	CHEBI:32995	uranium(4+)	uranium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion	uranium(5+)	CHEBI:32991	uranium(5+)	uranium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+uranium	uranium ion	uranium(6+)	CHEBI:32992	uranium(6+)	uranium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium			CHEBI:35171	vanadium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium atom		CHEBI:27698	vanadium atom	vanadium										http://lod.bco-dmo.org/id/parameter/527970	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium atom	vanadium-51	CHEBI:52456	vanadium-51 atom							Here vanadium-51 CHEBI:52456 is under vanadium(0) not vanadium atom					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion		BSM:0200019	vanadium ion	vanadium			CHEBI:35172								http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion	vanadium(1+)	CHEBI:33005	vanadium(1+)	vanadium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion	vanadium(2+)	CHEBI:33004	vanadium(2+)	vanadium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion	vanadium(3+)	CHEBI:49948	vanadium(3+)	vanadium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion	vanadium(4+)	CHEBI:33002	vanadium(4+)	vanadium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+vanadium	vanadium ion	vanadium(5+)	CHEBI:33003	vanadium(5+)	vanadium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon			CHEBI:49984	xenon												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon	xenon atom		CHEBI:49957	xenon atom	xenon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon	xenon atom	xenon-129 atom	CHEBI:52453	xenon-129 atom	xenon atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon	xenon ion		BSM:0200094	xenon ion	xenon						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon	xenon ion	xenon(.1+)	CHEBI:49989	xenon(.1+)	xenon ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+xenon	xenon(0)		CHEBI:49956	xenon(0)	xenon											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+ytterbium			BSM:0200095	ytterbium							Add elemental ytterbium as subclass to ytterbium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+ytterbium	ytterbium atom		CHEBI:33381	ytterbium atom	ytterbium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+ytterbium	ytterbium ion		BSM:0200096	ytterbium ion	ytterbium						Possibly add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+ytterbium	ytterbium ion	ytterbium(3+)	CHEBI:49980	ytterbium(3+)	ytterbium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+yttrium			CHEBI:155925	yttrium												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+yttrium	yttrium atom		CHEBI:33331	yttrium atom	yttrium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+yttrium	yttrium atom	yttrium-89 atom	CHEBI:52622	yttrium-89 atom	yttrium atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+yttrium	yttrium ion		BSM:0200097	yttrium ion	yttrium						Possily add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+yttrium	yttrium ion	yttrium(2+)	CHEBI:49978	yttrium(2+)	yttrium ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc			CHEBI:37253	zinc												http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc atom		CHEBI:27363	zinc atom	zinc										http://lod.bco-dmo.org/id/parameter/709855	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc atom	zinc-64 atom	BSM:0200098	zinc-64 atom	zinc atom						Add to CHEBI.				http://lod.bco-dmo.org/id/parameter/1941	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc atom	zinc-65 atom	CHEBI:82623	zinc-65 atom	zinc atom											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc atom	zinc-66 atom	BSM:0200099	zinc-66 atom	zinc atom						Add to CHEBI.				http://lod.bco-dmo.org/id/parameter/1941	http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc atom	zinc-67 atom	CHEBI:52761	zinc-67 atom	zinc atom						"zinc-67 CHEBI:52761 is subclass to zinc(0), whereas zinc-65 atom is subclass to atom TODO fix this in CHEBI."					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc ion		CHEBI:27365	zinc ion	zinc											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc ion	zinc(1+)	CHEBI:37255	zinc(1+)	zinc ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc ion	zinc(2+)	CHEBI:29105	zinc(2+)	zinc ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	zinc ion	zincide	CHEBI:37254	zincide	zinc ion											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zinc	dizinc		CHEBI:37256	dizinc	zinc											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zirconium			BSM:0200100	zirconium							Add elemental zirconium as subclass to zirconium molecular entity.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zirconium	zirconium atom		CHEBI:33342	zirconium atom	zirconium											http://bcodmo/sm#chemistry	http://bcodmo/sm#element
+zirconium	zirconium atom	zirconium-90 atom	BSM:0200101	zirconium-90 atom	zirconium atom						Add to CHEBI.					http://bcodmo/sm#chemistry	http://bcodmo/sm#element
