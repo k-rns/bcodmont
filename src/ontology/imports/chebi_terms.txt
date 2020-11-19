@@ -401,206 +401,206 @@ CHEBI:33342	#zirconium atom
 
 
 ### BCODMO_SM oxoanion terms: ###
-CHEBI:32617	(+)-aplasmomycin
-CHEBI:29928	(dioxido)hydroxidodioxidophosphate(.1-)
-CHEBI:29788	(dioxido)oxidocarbonate(.1-)
-CHEBI:29933	(dioxido)trioxidophosphate(.2-)
-CHEBI:55327	aci-nitroethane(1-)
-CHEBI:29773	aminooxidanide
-CHEBI:36923	antimonate(1-)
-CHEBI:36924	antimonate(2-)
-CHEBI:30295	antimonate(3-)
-CHEBI:30297	antimonite
-CHEBI:36921	antimony oxoanion
-CHEBI:22629	arsenate ion
-CHEBI:48600	arsenate(1-)
-CHEBI:48597	arsenate(2-)
-CHEBI:29125	arsenate(3-)
-CHEBI:35776	arsenic oxoanion
-CHEBI:22633	arsenite ion
-CHEBI:29242	arsenite(1-)
-CHEBI:29243	arsenite(2-)
-CHEBI:29866	arsenite(3-)
-CHEBI:29846	arsinate
-CHEBI:29845	arsinite
-CHEBI:64448	arsonate(1-)
-CHEBI:29754	arsonate(2-)
-CHEBI:33410	arsonite(1-)
-CHEBI:29753	arsonite(2-)
-CHEBI:22908	borate
-CHEBI:22909	borate ion
-CHEBI:86222	borax
-CHEBI:33619	boron oxoanion
-CHEBI:29223	bromate
-CHEBI:33444	bromine oxoanion
-CHEBI:29248	bromite
-CHEBI:35604	carbon oxoanion
-CHEBI:41609	carbonate
-CHEBI:49709	chlorate
-CHEBI:33437	chlorine oxoanion
-CHEBI:17441	chlorite
-CHEBI:35404	chromate(2-)
-CHEBI:35402	chromium oxoanion
-CHEBI:46272	cyclo-tetravanadate(4-)
-CHEBI:57801	cyclotriphosphate(3-)
-CHEBI:37850	decavanadate(6-)
-CHEBI:33141	dichromate(2-)
-CHEBI:29254	dihydrogenborate
-CHEBI:39745	dihydrogenphosphate
-CHEBI:29258	dihydrogenphosphite
-CHEBI:48124	dihydrogensilicate(2-)
-CHEBI:35169	dihydrogenvanadate
-CHEBI:35126	dihydroxidodioxidomanganate(1-)
-CHEBI:16223	dimethylarsinate
-CHEBI:36269	dimolybdate(2-)
-CHEBI:30724	dioxidodiperoxidochromate(2-)
-CHEBI:47861	dioxidofluorate(1-)
-CHEBI:44951	dioxidophosphate(1-)
-CHEBI:29820	dioxidosulfate(.1-)
-CHEBI:29821	dioxidosulfate(2-)
-CHEBI:35782	diphosphate ion
-CHEBI:33017	diphosphate(1-)
-CHEBI:45212	diphosphate(2-)
-CHEBI:33019	diphosphate(3-)
-CHEBI:18361	diphosphate(4-)
-CHEBI:33463	diphosphonate(1-)
-CHEBI:29262	diphosphonate(2-)
-CHEBI:29380	disilicate(6-)
-CHEBI:35922	disulfanediolate(1-)
-CHEBI:29392	disulfanediolate(2-)
-CHEBI:45163	disulfate(2-)
-CHEBI:29251	disulfite
-CHEBI:33486	dithionate(1-)
-CHEBI:29209	dithionate(2-)
-CHEBI:33487	dithionite(1-)
-CHEBI:42160	dithionite(2-)
-CHEBI:74591	dithiophosphate(2-)
-CHEBI:47865	fluorine oxoanion
-CHEBI:24401	glycosinolate
-CHEBI:140315	hydrogen ((13)C)carbonate
-CHEBI:33142	hydrogen dichromate
-CHEBI:36268	hydrogen dimolybdate
-CHEBI:35123	hydrogen manganate
-CHEBI:29255	hydrogenborate
-CHEBI:17544	hydrogencarbonate
-CHEBI:33144	hydrogenchromate
-CHEBI:36263	hydrogenmolybdate
-CHEBI:43474	hydrogenphosphate
-CHEBI:29259	hydrogenphosphite
-CHEBI:33490	hydrogenselenate
-CHEBI:29924	hydrogenselenite
-CHEBI:58618	hydrogenselenophosphate
-CHEBI:48122	hydrogensilicate(3-)
-CHEBI:59711	hydrogensquarate
-CHEBI:45696	hydrogensulfate
-CHEBI:17137	hydrogensulfite
-CHEBI:35168	hydrogenvanadate
-CHEBI:30177	hydroperoxo(trihydroxo)borate(1-)
-CHEBI:29927	hydroxidodioxidophosphate(.1-)
-CHEBI:29926	hydroxidooxidophosphate(.1-)
-CHEBI:33538	hydroxidooxidosulfate(1-)
-CHEBI:35127	hydroxidotrioxidomanganate(2-)
-CHEBI:29925	hydroxidotrioxidophosphate(.1-)
-CHEBI:29250	hypobromite
-CHEBI:29222	hypochlorite
-CHEBI:30244	hypofluorite
-CHEBI:29232	hypoiodite
-CHEBI:29244	hypomanganate
-CHEBI:50115	hyponitrite(1-)
-CHEBI:18210	hyponitrite(2-)
-CHEBI:24759	hypophosphite
-CHEBI:29226	iodate
-CHEBI:33445	iodine oxoanion
-CHEBI:29230	iodite
-CHEBI:25152	manganate
-CHEBI:35118	manganese oxoanion
-CHEBI:30173	metaborate
-CHEBI:29381	metasilicate
-CHEBI:75224	metavanadate
-CHEBI:14597	methylarsonite
-CHEBI:36264	molybdate
-CHEBI:36262	molybdenum oxoanion
-CHEBI:17632	nitrate
-CHEBI:16301	nitrite
-CHEBI:33458	nitrogen oxoanion
-CHEBI:62726	nitrosoperoxycarbonate(1-)
-CHEBI:29913	nonaoxidodiiodate(4-)
-CHEBI:35775	orthoperiodate ion
-CHEBI:33446	orthoperiodate(1-)
-CHEBI:33448	orthoperiodate(2-)
-CHEBI:33449	orthoperiodate(3-)
-CHEBI:33450	orthoperiodate(4-)
-CHEBI:29227	orthoperiodate(5-)
-CHEBI:33125	oxidophosphate(1-)
-CHEBI:35406	oxoanion
-CHEBI:35769	pentaoxoiodate(3-)
-CHEBI:30175	perborate(2-)
-CHEBI:29246	perbromate
-CHEBI:49706	perchlorate
-CHEBI:49826	periodate
-CHEBI:25939	permanganate
-CHEBI:29285	peroxydiphosphate
-CHEBI:29267	peroxydisulfate
-CHEBI:29270	peroxynitrate
-CHEBI:25941	peroxynitrite
-CHEBI:29283	peroxyphosphate
-CHEBI:33523	peroxysulfate(1-)
-CHEBI:29288	peroxysulfate(2-)
-CHEBI:35780	phosphate ion
-CHEBI:18367	phosphate(3-)
-CHEBI:29198	phosphinate
-CHEBI:26045	phosphite ion
-CHEBI:45064	phosphite(3-)
-CHEBI:33462	phosphonate(1-)
-CHEBI:16215	phosphonate(2-)
-CHEBI:33461	phosphorus oxoanion
-CHEBI:16838	polyphosphate
-CHEBI:53340	polyvanadate
-CHEBI:15075	selenate
-CHEBI:18212	selenite(2-)
-CHEBI:33488	selenium oxoanion
-CHEBI:16144	selenophosphate
-CHEBI:48123	silicate ion
-CHEBI:29241	silicate(4-)
-CHEBI:37191	silicon oxoanion
-CHEBI:75213	sodium molybdate dihydrate
-CHEBI:86473	sodium molybdate heptahydrate
-CHEBI:132099	sodium molybdate tetrahydrate
-CHEBI:59712	squarate
-CHEBI:16189	sulfate
-CHEBI:37859	sulfenate
-CHEBI:9341	sulfinate
-CHEBI:17359	sulfite
-CHEBI:33543	sulfonate
-CHEBI:33482	sulfur oxoanion
-CHEBI:134504	tenofovir(1-)
-CHEBI:38889	tetraborate(2-)
-CHEBI:41132	tetrahydroxoborate(1-)
-CHEBI:30072	tetraoxidochromate(3-)
-CHEBI:30073	tetraoxidochromate(4-)
-CHEBI:29932	tetraoxidophosphate(.2-)
-CHEBI:29406	tetraoxidosulfate(.1-)
-CHEBI:30723	tetraperoxidochromate(3-)
-CHEBI:26936	tetrathionate ion
-CHEBI:46409	tetravanadate(6-)
-CHEBI:74752	thiophosphate(2-)
-CHEBI:33541	thiosulfate(1-)
-CHEBI:16094	thiosulfate(2-)
-CHEBI:35944	thiosulfite(1-)
-CHEBI:29257	thiosulfite(2-)
-CHEBI:48125	trihydrogensilicate(1-)
-CHEBI:29376	trioxidocarbonate(.1-)
-CHEBI:29930	trioxidophosphate(.2-)
-CHEBI:30932	trioxidophosphate(1-)
-CHEBI:29405	trioxidosulfate(.1-)
-CHEBI:15266	triphosphate ion
-CHEBI:48313	triphosphate(1-)
-CHEBI:48314	triphosphate(2-)
-CHEBI:48315	triphosphate(3-)
-CHEBI:48316	triphosphate(4-)
-CHEBI:18036	triphosphate(5-)
-CHEBI:33483	trithionate(1-)
-CHEBI:15987	trithionate(2-)
-CHEBI:37855	trivanadate(5-)
-CHEBI:46442	vanadate(3-)
-CHEBI:30528	vanadium oxoanion
+CHEBI:32617	#(+)-aplasmomycin
+CHEBI:29928	#(dioxido)hydroxidodioxidophosphate(.1-)
+CHEBI:29788	#(dioxido)oxidocarbonate(.1-)
+CHEBI:29933	#(dioxido)trioxidophosphate(.2-)
+CHEBI:55327	#aci-nitroethane(1-)
+CHEBI:29773	#aminooxidanide
+CHEBI:36923	#antimonate(1-)
+CHEBI:36924	#antimonate(2-)
+CHEBI:30295	#antimonate(3-)
+CHEBI:30297	#antimonite
+CHEBI:36921	#antimony oxoanion
+CHEBI:22629	#arsenate ion
+CHEBI:48600	#arsenate(1-)
+CHEBI:48597	#arsenate(2-)
+CHEBI:29125	#arsenate(3-)
+CHEBI:35776	#arsenic oxoanion
+CHEBI:22633	#arsenite ion
+CHEBI:29242	#arsenite(1-)
+CHEBI:29243	#arsenite(2-)
+CHEBI:29866	#arsenite(3-)
+CHEBI:29846	#arsinate
+CHEBI:29845	#arsinite
+CHEBI:64448	#arsonate(1-)
+CHEBI:29754	#arsonate(2-)
+CHEBI:33410	#arsonite(1-)
+CHEBI:29753	#arsonite(2-)
+CHEBI:22908	#borate
+CHEBI:22909	#borate ion
+CHEBI:86222	#borax
+CHEBI:33619	#boron oxoanion
+CHEBI:29223	#bromate
+CHEBI:33444	#bromine oxoanion
+CHEBI:29248	#bromite
+CHEBI:35604	#carbon oxoanion
+CHEBI:41609	#carbonate
+CHEBI:49709	#chlorate
+CHEBI:33437	#chlorine oxoanion
+CHEBI:17441	#chlorite
+CHEBI:35404	#chromate(2-)
+CHEBI:35402	#chromium oxoanion
+CHEBI:46272	#cyclo-tetravanadate(4-)
+CHEBI:57801	#cyclotriphosphate(3-)
+CHEBI:37850	#decavanadate(6-)
+CHEBI:33141	#dichromate(2-)
+CHEBI:29254	#dihydrogenborate
+CHEBI:39745	#dihydrogenphosphate
+CHEBI:29258	#dihydrogenphosphite
+CHEBI:48124	#dihydrogensilicate(2-)
+CHEBI:35169	#dihydrogenvanadate
+CHEBI:35126	#dihydroxidodioxidomanganate(1-)
+CHEBI:16223	#dimethylarsinate
+CHEBI:36269	#dimolybdate(2-)
+CHEBI:30724	#dioxidodiperoxidochromate(2-)
+CHEBI:47861	#dioxidofluorate(1-)
+CHEBI:44951	#dioxidophosphate(1-)
+CHEBI:29820	#dioxidosulfate(.1-)
+CHEBI:29821	#dioxidosulfate(2-)
+CHEBI:35782	#diphosphate ion
+CHEBI:33017	#diphosphate(1-)
+CHEBI:45212	#diphosphate(2-)
+CHEBI:33019	#diphosphate(3-)
+CHEBI:18361	#diphosphate(4-)
+CHEBI:33463	#diphosphonate(1-)
+CHEBI:29262	#diphosphonate(2-)
+CHEBI:29380	#disilicate(6-)
+CHEBI:35922	#disulfanediolate(1-)
+CHEBI:29392	#disulfanediolate(2-)
+CHEBI:45163	#disulfate(2-)
+CHEBI:29251	#disulfite
+CHEBI:33486	#dithionate(1-)
+CHEBI:29209	#dithionate(2-)
+CHEBI:33487	#dithionite(1-)
+CHEBI:42160	#dithionite(2-)
+CHEBI:74591	#dithiophosphate(2-)
+CHEBI:47865	#fluorine oxoanion
+CHEBI:24401	#glycosinolate
+CHEBI:140315	#hydrogen ((13)C)carbonate
+CHEBI:33142	#hydrogen dichromate
+CHEBI:36268	#hydrogen dimolybdate
+CHEBI:35123	#hydrogen manganate
+CHEBI:29255	#hydrogenborate
+CHEBI:17544	#hydrogencarbonate
+CHEBI:33144	#hydrogenchromate
+CHEBI:36263	#hydrogenmolybdate
+CHEBI:43474	#hydrogenphosphate
+CHEBI:29259	#hydrogenphosphite
+CHEBI:33490	#hydrogenselenate
+CHEBI:29924	#hydrogenselenite
+CHEBI:58618	#hydrogenselenophosphate
+CHEBI:48122	#hydrogensilicate(3-)
+CHEBI:59711	#hydrogensquarate
+CHEBI:45696	#hydrogensulfate
+CHEBI:17137	#hydrogensulfite
+CHEBI:35168	#hydrogenvanadate
+CHEBI:30177	#hydroperoxo(trihydroxo)borate(1-)
+CHEBI:29927	#hydroxidodioxidophosphate(.1-)
+CHEBI:29926	#hydroxidooxidophosphate(.1-)
+CHEBI:33538	#hydroxidooxidosulfate(1-)
+CHEBI:35127	#hydroxidotrioxidomanganate(2-)
+CHEBI:29925	#hydroxidotrioxidophosphate(.1-)
+CHEBI:29250	#hypobromite
+CHEBI:29222	#hypochlorite
+CHEBI:30244	#hypofluorite
+CHEBI:29232	#hypoiodite
+CHEBI:29244	#hypomanganate
+CHEBI:50115	#hyponitrite(1-)
+CHEBI:18210	#hyponitrite(2-)
+CHEBI:24759	#hypophosphite
+CHEBI:29226	#iodate
+CHEBI:33445	#iodine oxoanion
+CHEBI:29230	#iodite
+CHEBI:25152	#manganate
+CHEBI:35118	#manganese oxoanion
+CHEBI:30173	#metaborate
+CHEBI:29381	#metasilicate
+CHEBI:75224	#metavanadate
+CHEBI:14597	#methylarsonite
+CHEBI:36264	#molybdate
+CHEBI:36262	#molybdenum oxoanion
+CHEBI:17632	#nitrate
+CHEBI:16301	#nitrite
+CHEBI:33458	#nitrogen oxoanion
+CHEBI:62726	#nitrosoperoxycarbonate(1-)
+CHEBI:29913	#nonaoxidodiiodate(4-)
+CHEBI:35775	#orthoperiodate ion
+CHEBI:33446	#orthoperiodate(1-)
+CHEBI:33448	#orthoperiodate(2-)
+CHEBI:33449	#orthoperiodate(3-)
+CHEBI:33450	#orthoperiodate(4-)
+CHEBI:29227	#orthoperiodate(5-)
+CHEBI:33125	#oxidophosphate(1-)
+CHEBI:35406	#oxoanion
+CHEBI:35769	#pentaoxoiodate(3-)
+CHEBI:30175	#perborate(2-)
+CHEBI:29246	#perbromate
+CHEBI:49706	#perchlorate
+CHEBI:49826	#periodate
+CHEBI:25939	#permanganate
+CHEBI:29285	#peroxydiphosphate
+CHEBI:29267	#peroxydisulfate
+CHEBI:29270	#peroxynitrate
+CHEBI:25941	#peroxynitrite
+CHEBI:29283	#peroxyphosphate
+CHEBI:33523	#peroxysulfate(1-)
+CHEBI:29288	#peroxysulfate(2-)
+CHEBI:35780	#phosphate ion
+CHEBI:18367	#phosphate(3-)
+CHEBI:29198	#phosphinate
+CHEBI:26045	#phosphite ion
+CHEBI:45064	#phosphite(3-)
+CHEBI:33462	#phosphonate(1-)
+CHEBI:16215	#phosphonate(2-)
+CHEBI:33461	#phosphorus oxoanion
+CHEBI:16838	#polyphosphate
+CHEBI:53340	#polyvanadate
+CHEBI:15075	#selenate
+CHEBI:18212	#selenite(2-)
+CHEBI:33488	#selenium oxoanion
+CHEBI:16144	#selenophosphate
+CHEBI:48123	#silicate ion
+CHEBI:29241	#silicate(4-)
+CHEBI:37191	#silicon oxoanion
+CHEBI:75213	#sodium molybdate dihydrate
+CHEBI:86473	#sodium molybdate heptahydrate
+CHEBI:132099	#sodium molybdate tetrahydrate
+CHEBI:59712	#squarate
+CHEBI:16189	#sulfate
+CHEBI:37859	#sulfenate
+CHEBI:9341	#sulfinate
+CHEBI:17359	#sulfite
+CHEBI:33543	#sulfonate
+CHEBI:33482	#sulfur oxoanion
+CHEBI:134504	#tenofovir(1-)
+CHEBI:38889	#tetraborate(2-)
+CHEBI:41132	#tetrahydroxoborate(1-)
+CHEBI:30072	#tetraoxidochromate(3-)
+CHEBI:30073	#tetraoxidochromate(4-)
+CHEBI:29932	#tetraoxidophosphate(.2-)
+CHEBI:29406	#tetraoxidosulfate(.1-)
+CHEBI:30723	#tetraperoxidochromate(3-)
+CHEBI:26936	#tetrathionate ion
+CHEBI:46409	#tetravanadate(6-)
+CHEBI:74752	#thiophosphate(2-)
+CHEBI:33541	#thiosulfate(1-)
+CHEBI:16094	#thiosulfate(2-)
+CHEBI:35944	#thiosulfite(1-)
+CHEBI:29257	#thiosulfite(2-)
+CHEBI:48125	#trihydrogensilicate(1-)
+CHEBI:29376	#trioxidocarbonate(.1-)
+CHEBI:29930	#trioxidophosphate(.2-)
+CHEBI:30932	#trioxidophosphate(1-)
+CHEBI:29405	#trioxidosulfate(.1-)
+CHEBI:15266	#triphosphate ion
+CHEBI:48313	#triphosphate(1-)
+CHEBI:48314	#triphosphate(2-)
+CHEBI:48315	#triphosphate(3-)
+CHEBI:48316	#triphosphate(4-)
+CHEBI:18036	#triphosphate(5-)
+CHEBI:33483	#trithionate(1-)
+CHEBI:15987	#trithionate(2-)
+CHEBI:37855	#trivanadate(5-)
+CHEBI:46442	#vanadate(3-)
+CHEBI:30528	#vanadium oxoanion
