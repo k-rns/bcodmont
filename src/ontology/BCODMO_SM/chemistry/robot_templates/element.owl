@@ -73,7 +73,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1934"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">antimony ion</rdfs:label>
+        <rdfs:label xml:lang="en">antimony valence</rdfs:label>
     </owl:Class>
     
 
@@ -84,7 +84,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36894"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">bromine ion</rdfs:label>
+        <rdfs:label xml:lang="en">bromine valence</rdfs:label>
     </owl:Class>
     
 
@@ -95,7 +95,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35155"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">calcium ion</rdfs:label>
+        <rdfs:label xml:lang="en">calcium valence</rdfs:label>
     </owl:Class>
     
 
@@ -106,7 +106,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33431"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">chlorine ion</rdfs:label>
+        <rdfs:label xml:lang="en">chlorine valence</rdfs:label>
     </owl:Class>
     
 
@@ -118,7 +118,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">copper ion</rdfs:label>
+        <rdfs:label xml:lang="en">copper valence</rdfs:label>
     </owl:Class>
     
 
@@ -129,7 +129,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33260"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">hydrogen ion</rdfs:label>
+        <rdfs:label xml:lang="en">hydrogen valence</rdfs:label>
     </owl:Class>
     
 
@@ -140,7 +140,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36893"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">iodine ion</rdfs:label>
+        <rdfs:label xml:lang="en">iodine valence</rdfs:label>
     </owl:Class>
     
 
@@ -151,7 +151,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82663"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">iron ion</rdfs:label>
+        <rdfs:label xml:lang="en">iron valence</rdfs:label>
     </owl:Class>
     
 
@@ -162,7 +162,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">manganese ion</rdfs:label>
+        <rdfs:label xml:lang="en">manganese valence</rdfs:label>
     </owl:Class>
     
 
@@ -173,18 +173,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37237"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">molybdenum ion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSM_0200011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0200011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33267"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">nitrogen ion</rdfs:label>
+        <rdfs:label xml:lang="en">molybdenum valence</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37239"/>
     </owl:Class>
     
 
@@ -200,24 +190,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSM_0200013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0200013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33464"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">phosphorus ion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSM_0200014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0200014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37247"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">potassium ion</rdfs:label>
+        <rdfs:label xml:lang="en">potassium valence</rdfs:label>
     </owl:Class>
     
 
@@ -228,7 +207,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silicon ion</rdfs:label>
+        <rdfs:label xml:lang="en">silicon valence</rdfs:label>
     </owl:Class>
     
 
@@ -239,21 +218,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37246"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">sodium ion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSM_0200017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0200017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33403"/>
-        <obo:IAO_0000116 xml:lang="en">see CHEBI:33535|CHEBI:33482 for more poential subclasses</obo:IAO_0000116>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">sulfur ion</rdfs:label>
-        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33482"/>
-        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33535"/>
+        <rdfs:label xml:lang="en">sodium valence</rdfs:label>
     </owl:Class>
     
 
@@ -264,7 +229,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">uranium ion</rdfs:label>
+        <rdfs:label xml:lang="en">uranium valence</rdfs:label>
     </owl:Class>
     
 
@@ -275,7 +240,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35171"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">vanadium ion</rdfs:label>
+        <rdfs:label xml:lang="en">vanadium valence</rdfs:label>
         <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35172"/>
     </owl:Class>
     
@@ -312,7 +277,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">arsenic ion</rdfs:label>
+        <rdfs:label xml:lang="en">arsenic valence</rdfs:label>
     </owl:Class>
     
 
@@ -429,7 +394,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cerium ion</rdfs:label>
+        <rdfs:label xml:lang="en">cerium valence</rdfs:label>
     </owl:Class>
     
 
@@ -550,7 +515,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI and make europium(2+) and europium(3+) ions subclasses to it.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">europium ion</rdfs:label>
+        <rdfs:label xml:lang="en">europium valence</rdfs:label>
     </owl:Class>
     
 
@@ -573,7 +538,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">fluorine ion</rdfs:label>
+        <rdfs:label xml:lang="en">fluorine valence</rdfs:label>
     </owl:Class>
     
 
@@ -585,7 +550,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">gadolinium ion</rdfs:label>
+        <rdfs:label xml:lang="en">gadolinium valence</rdfs:label>
     </owl:Class>
     
 
@@ -609,7 +574,7 @@
         <obo:IAO_0000116 xml:lang="en">Possily add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">gallium ion</rdfs:label>
+        <rdfs:label xml:lang="en">gallium valence</rdfs:label>
     </owl:Class>
     
 
@@ -632,7 +597,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">helium ion</rdfs:label>
+        <rdfs:label xml:lang="en">helium valence</rdfs:label>
     </owl:Class>
     
 
@@ -655,7 +620,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">holmium ion</rdfs:label>
+        <rdfs:label xml:lang="en">holmium valence</rdfs:label>
     </owl:Class>
     
 
@@ -691,7 +656,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">krypton ion</rdfs:label>
+        <rdfs:label xml:lang="en">krypton valence</rdfs:label>
     </owl:Class>
     
 
@@ -703,7 +668,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">lanthanum ion</rdfs:label>
+        <rdfs:label xml:lang="en">lanthanum valence</rdfs:label>
     </owl:Class>
     
 
@@ -749,7 +714,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">lutetium ion</rdfs:label>
+        <rdfs:label xml:lang="en">lutetium valence</rdfs:label>
     </owl:Class>
     
 
@@ -794,7 +759,8 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">mercury ion</rdfs:label>
+        <rdfs:label xml:lang="en">mercury valence</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25197"/>
     </owl:Class>
     
 
@@ -817,7 +783,7 @@
         <obo:IAO_0000116 xml:lang="en">Possily add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">neon ion</rdfs:label>
+        <rdfs:label xml:lang="en">neon valence</rdfs:label>
     </owl:Class>
     
 
@@ -863,7 +829,7 @@
         <obo:IAO_0000116 xml:lang="en">Possily add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">osmium ion</rdfs:label>
+        <rdfs:label xml:lang="en">osmium valence</rdfs:label>
     </owl:Class>
     
 
@@ -976,7 +942,7 @@
     <!-- http://purl.obolibrary.org/obo/BSM_0200079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0200079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36904"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60250"/>
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
@@ -1003,7 +969,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI, and make samarium(3+) subclass to it.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">samarium ion</rdfs:label>
+        <rdfs:label xml:lang="en">samarium valence</rdfs:label>
     </owl:Class>
     
 
@@ -1050,7 +1016,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">terbium ion</rdfs:label>
+        <rdfs:label xml:lang="en">terbium valence</rdfs:label>
     </owl:Class>
     
 
@@ -1121,7 +1087,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">tin ion</rdfs:label>
+        <rdfs:label xml:lang="en">tin valence</rdfs:label>
     </owl:Class>
     
 
@@ -1159,7 +1125,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">xenon ion</rdfs:label>
+        <rdfs:label xml:lang="en">xenon valence</rdfs:label>
     </owl:Class>
     
 
@@ -1182,7 +1148,7 @@
         <obo:IAO_0000116 xml:lang="en">Possibly add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">ytterbium ion</rdfs:label>
+        <rdfs:label xml:lang="en">ytterbium valence</rdfs:label>
     </owl:Class>
     
 
@@ -1194,7 +1160,7 @@
         <obo:IAO_0000116 xml:lang="en">Possily add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">yttrium ion</rdfs:label>
+        <rdfs:label xml:lang="en">yttrium valence</rdfs:label>
     </owl:Class>
     
 
@@ -1248,6 +1214,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_149692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_149692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33264"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">oxygen(6+)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_15076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15076">
@@ -1255,6 +1232,17 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">selenide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33411"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">sulfide(2-)</rdfs:label>
     </owl:Class>
     
 
@@ -1291,6 +1279,16 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">argon-39 atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_155865 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_155865">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">cobalt</rdfs:label>
     </owl:Class>
     
 
@@ -1351,7 +1349,6 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">cesium</rdfs:label>
-        <rdfs:label xml:lang="en">cobalt</rdfs:label>
     </owl:Class>
     
 
@@ -1418,85 +1415,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16094 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thiosulfate(2-)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200011"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/810511"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">ammonia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1210"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">hydrogen sulfide</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_16170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">mercury(0)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16189 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1904"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">sulfate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16240 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1917"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">hydrogen peroxide</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16301 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16301">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200011"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1192"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1193"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">nitrite</rdfs:label>
     </owl:Class>
     
 
@@ -1524,22 +1449,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_17045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33267"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1918"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">nitrous oxide</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_17051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36892"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">fluoride</rdfs:label>
@@ -1547,26 +1460,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_17359 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17606 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36893"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">sulfite</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_17632 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17632">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200011"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1194"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/709858"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">nitrate</rdfs:label>
+        <rdfs:label xml:lang="en">diiodine</rdfs:label>
     </owl:Class>
     
 
@@ -1641,19 +1541,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_18367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200013"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/820747"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/937"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">phosphate(3-)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_18420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18420">
@@ -1661,6 +1548,17 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">magnesium(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15379"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">superoxide</rdfs:label>
     </owl:Class>
     
 
@@ -1785,7 +1683,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_25198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">dimercury(2+)</rdfs:label>
@@ -1835,19 +1733,6 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">potassium atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_26675 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1207"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/973"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silicic acid</rdfs:label>
     </owl:Class>
     
 
@@ -1917,7 +1802,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37253"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">zinc ion</rdfs:label>
+        <rdfs:label xml:lang="en">zinc valence</rdfs:label>
     </owl:Class>
     
 
@@ -1993,6 +1878,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60249"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">lead(0)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_28073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28073">
@@ -2048,17 +1944,6 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">copper atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28938 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28938">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200011"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">ammonium</rdfs:label>
     </owl:Class>
     
 
@@ -2209,6 +2094,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33264"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">oxide(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33264"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">monooxygen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_29215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29215">
@@ -2216,6 +2123,28 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">selenide(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36894"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dibromine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">hydrogen(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2253,27 +2182,156 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_29241 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29240 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1209"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1925"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/973"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33268"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silicate(4-)</rdfs:label>
+        <rdfs:label xml:lang="en">nitride(3-)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_29257 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29275 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29257">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17997"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thiosulfite(2-)</rdfs:label>
+        <rdfs:label xml:lang="en">dinitrogen(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17997"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dinitrogen(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17997"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dinitride(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17997"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dinitride(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dideuterium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">ditritium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diprotium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">deuterium(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">tritium(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200006"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">protium(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33431"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dichlorine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200004"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">chlorine(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33411"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">sulfide(.1-)</rdfs:label>
     </owl:Class>
     
 
@@ -2281,10 +2339,232 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_29320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35155"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200003"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">calcium(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33268"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">nitrogen(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33268"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">nitrogen(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33264"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">oxide(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15379"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dioxygen(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15379"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dioxygen(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25812"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">ozonide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33403"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">disulfur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33403"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">trisulfur</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33413"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29387"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">disulfide(.1-)</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33412"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29387"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">disulfide(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29387"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">disulfur(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29388"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">trisulfide(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29388"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">trisulfide(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29388"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">trisulfur(2+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29310"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dichloride(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29310"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dichlorine(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33419"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">carbide(4-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33419"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">carbide(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33419"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">carbon(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33267"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">trinitrogen(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2300,13 +2580,123 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_29919 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29832 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29919">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33411"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">hydrosulfide</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200005"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">copper(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29224"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dibromine(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29224"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dibromide(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30083"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dicarbide(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30083"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dicarbide(1.-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33415"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dicarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30083"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dicarbon(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33628"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dialuminium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30116"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dialuminide(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200004"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">chlorine(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -2334,6 +2724,61 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60272"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">aluminide(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33610"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">boron(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33610"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">boride(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33610"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">boride(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33610"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">boron(3+)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_30180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30180">
@@ -2341,6 +2786,28 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">lead(4+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27365"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">zinc(0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33466"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">phosphorus(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2403,7 +2870,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30237">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30236"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">difluorine(.1+)</rdfs:label>
@@ -2414,7 +2881,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30236"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">difluoride(.1-)</rdfs:label>
@@ -2428,7 +2895,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200044"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">fluorine(.)</rdfs:label>
+        <rdfs:label xml:lang="en">fluorine(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2458,7 +2925,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30304">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36922"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200001"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">antimony(0)</rdfs:label>
@@ -2546,6 +3013,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30514 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_155865"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_155919"/>
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1858"/>
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1861"/>
@@ -2555,17 +3023,6 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">cesium atom</rdfs:label>
         <rdfs:label xml:lang="en">cobalt atom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30563 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silicon dioxide</rdfs:label>
     </owl:Class>
     
 
@@ -2628,7 +3085,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30591">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30590"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
@@ -2640,7 +3096,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30592">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30590"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">disilicide(1-)</rdfs:label>
@@ -2651,7 +3107,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30598 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30598">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">tetrasilicide(4-)</rdfs:label>
@@ -2696,7 +3152,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37134"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39126"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">barium(0)</rdfs:label>
@@ -2707,7 +3163,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32990">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37767"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200091"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">tin(0)</rdfs:label>
@@ -2839,10 +3295,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36893"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200007"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">iodine(.)</rdfs:label>
+        <rdfs:label xml:lang="en">iodine(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2854,6 +3310,17 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">iodine(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200002"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">bromine(0)</rdfs:label>
     </owl:Class>
     
 
@@ -2878,12 +3345,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33262"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">oxygen valence</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33267">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33267"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">nitrogen valence</rdfs:label>
     </owl:Class>
     
 
@@ -3170,12 +3659,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33411"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">sulfur valence</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur(0)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33415">
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33415"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33419"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">carbon valence</rdfs:label>
+        <rdfs:label xml:lang="en">carbon(0)</rdfs:label>
     </owl:Class>
     
 
@@ -3201,13 +3716,90 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33541 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33466 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33541">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33464"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thiosulfate(1-)</rdfs:label>
+        <rdfs:label xml:lang="en">phosphorus valence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33466"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">phosphorus(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33466"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">phosphide(3-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33466"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">phosphide(1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33464"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diphosphorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33472"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diphosphorus(.1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33472"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diphosphide(2-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33472"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diphosphide(.1-)</rdfs:label>
     </owl:Class>
     
 
@@ -3218,6 +3810,39 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">boron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33609"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">boron valence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30116"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">dialuminium(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60272"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">aluminium(0)</rdfs:label>
     </owl:Class>
     
 
@@ -3245,7 +3870,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33681 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33681">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33680"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">helium(0)</rdfs:label>
@@ -3256,7 +3881,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33682 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33685"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">dihelium(1+)</rdfs:label>
@@ -3267,7 +3892,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33685"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">dihelium(2+)</rdfs:label>
@@ -3289,7 +3914,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33686">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33685"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">dihelide(1-)</rdfs:label>
@@ -3300,10 +3925,11 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33783 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33783">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33784"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39133"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">beryllium(0)</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33785"/>
     </owl:Class>
     
 
@@ -3416,7 +4042,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200009"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">manganese(0)</rdfs:label>
@@ -3430,6 +4056,17 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200019"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">vanadium(0)</rdfs:label>
     </owl:Class>
     
 
@@ -3450,6 +4087,17 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">arsenic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200022"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">arsenic(0)</rdfs:label>
     </owl:Class>
     
 
@@ -3476,13 +4124,24 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_35944 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35830 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35944">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35826"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thiosulfite(1-)</rdfs:label>
+        <rdfs:label xml:lang="en">diarsenic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35869">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35830"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diarsenic(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -3513,6 +4172,28 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">bromine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17606"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diiodide(.1-)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17606"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diiodine(.1+)</rdfs:label>
     </owl:Class>
     
 
@@ -4520,7 +5201,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37134"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">barium ion</rdfs:label>
+        <rdfs:label xml:lang="en">barium valence</rdfs:label>
     </owl:Class>
     
 
@@ -4531,7 +5212,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33973"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">magnesium ion</rdfs:label>
+        <rdfs:label xml:lang="en">magnesium valence</rdfs:label>
     </owl:Class>
     
 
@@ -4542,7 +5223,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39131"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">strontium ion</rdfs:label>
+        <rdfs:label xml:lang="en">strontium valence</rdfs:label>
     </owl:Class>
     
 
@@ -4563,51 +5244,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33784"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">beryllium ion</rdfs:label>
+        <rdfs:label xml:lang="en">beryllium valence</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_48122 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44785 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15379"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">hydrogensilicate(3-)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_48123 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37763"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silicate ion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_48124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">dihydrogensilicate(2-)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_48125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48123"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">trihydrogensilicate(1-)</rdfs:label>
+        <rdfs:label xml:lang="en">peroxide</rdfs:label>
     </owl:Class>
     
 
@@ -4670,7 +5318,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49991"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49990"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">argon(0)</rdfs:label>
@@ -4782,7 +5430,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49986"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200054"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">krypton(0)</rdfs:label>
@@ -4904,7 +5552,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49936 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49936">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50559"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200018"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">uranium(0)</rdfs:label>
@@ -4926,7 +5574,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49956 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49956">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200094"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">xenon(0)</rdfs:label>
@@ -5009,6 +5657,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49991"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">argon valence</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_49991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49991">
@@ -5022,7 +5681,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49991"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49990"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">argon(1+)</rdfs:label>
@@ -5033,7 +5692,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_49993 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49993">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49995"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200065"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">neon(0)</rdfs:label>
@@ -5076,7 +5735,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_50236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">trimercury(2+)</rdfs:label>
@@ -5087,7 +5746,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_50237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50237">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35113"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">tetramercury(2+)</rdfs:label>
@@ -5112,6 +5771,28 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">diuranium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33609"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diboron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51707"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
+        <rdfs:label xml:lang="en">diboron(4+)</rdfs:label>
     </owl:Class>
     
 
@@ -5478,7 +6159,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33966"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">silver ion</rdfs:label>
+        <rdfs:label xml:lang="en">silver valence</rdfs:label>
     </owl:Class>
     
 
@@ -5489,7 +6170,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37193"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">lead ion</rdfs:label>
+        <rdfs:label xml:lang="en">lead valence</rdfs:label>
     </owl:Class>
     
 
@@ -5500,7 +6181,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36904"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">selenium ion</rdfs:label>
+        <rdfs:label xml:lang="en">selenium valence</rdfs:label>
     </owl:Class>
     
 
@@ -5509,10 +6190,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60272">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33628"/>
-        <obo:IAO_0000116 xml:lang="en">CHEBI is inconsistent in what `X ion` terms it has: `barium ion`,`magnesium ion`,`strontium ion` but not not `nitrogen ion`</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">CHEBI is inconsistent in what `X ion` terms it has: `barium valence`,`magnesium valence`,`strontium valence` but not not `nitrogen ion`</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">aluminum ion</rdfs:label>
+        <rdfs:label xml:lang="en">aluminum valence</rdfs:label>
     </owl:Class>
     
 
@@ -5524,18 +6205,6 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">selenium(2+)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_64389 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64389">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30563"/>
-        <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/661639"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
-        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">biogenic silica</rdfs:label>
     </owl:Class>
     
 
@@ -5575,7 +6244,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_82664 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82664">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82663"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0200008"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">iron(0)</rdfs:label>
@@ -5598,7 +6267,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_9141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33966"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60247"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <rdfs:label xml:lang="en">silver(0)</rdfs:label>
