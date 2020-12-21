@@ -622,3 +622,171 @@ ENVO:01001209	#wetland
 ENVO:00000409	#whirlpool
 ENVO:01000257	#white smoker
 ENVO:01001749	#wind storm
+
+
+### BCODMO_SM Phenomenon terms:
+
+ENVO:01000100	#along-front current
+ENVO:01001708	#anafront
+ENVO:01000811	#atmosphere
+ENVO:01000323	#atmospheric boundary layer
+ENVO:01000675	#atmospheric column
+ENVO:01000543	#atmospheric layer
+ENVO:01000300	#atmospheric Taylor column
+ENVO:01000903	#blizzard
+ENVO:01000093	#boundary current front
+ENVO:00002270	#chemocline
+ENVO:01000086	#coastal buoyancy current front
+ENVO:01000006	#coastal upwelling
+ENVO:01000090	#coastal upwelling front
+ENVO:01001706	#cold front
+ENVO:01001715	#cold occluded front
+ENVO:01000102	#cold surface current
+ENVO:01001294	#convective storm
+ENVO:01001297	#cyclone
+ENVO:01000326	#deep chlorophyll maximum layer
+ENVO:01000098	#deep ocean current
+ENVO:01000104	#eastern boundary current
+ENVO:01000353	#eddy field
+ENVO:01001026	#electromagnetic radiation
+ENVO:00002131	#epilimnion
+ENVO:01000092	#equatorial upwelling front
+ENVO:01000084	#estuarine front
+ENVO:01001301	#estuary layer
+ENVO:01000546	#exosphere
+ENVO:01001295	#extra-tropical cyclone
+ENVO:01000258	#fluid cline
+ENVO:01001712	#free atmosphere
+ENVO:01001672	#frontal surface of a weather front
+ENVO:21001218	#gamma-ray radiation
+ENVO:01000547	#glaze ice layer
+ENVO:03000074	#grease ice layer
+ENVO:01000904	#ground blizzard
+ENVO:01001631	#groundwater discharge
+ENVO:01001632	#groundwater flow
+ENVO:00000214	#hadalpelagic zone
+ENVO:01000880	#hailstorm
+ENVO:00002130	#hypolimnion
+ENVO:01001276	#ice layer
+ENVO:01001551	#ice lead
+ENVO:01000882	#icestorm
+ENVO:21001214	#infrared radiation
+ENVO:01001710	#intertropical front
+ENVO:01000545	#ionosphere
+ENVO:01001709	#katafront
+ENVO:01000283	#lake layer
+ENVO:00000105	#lake surface
+ENVO:01001486	#landspout
+ENVO:01001674	#lysocline
+ENVO:00000442	#maelstrom
+ENVO:01000095	#marginal ice zone front
+ENVO:01000027	#marine abyssal zone
+ENVO:00000212	#marine abyssalpelagic zone
+ENVO:00000210	#marine aphotic zone
+ENVO:01000026	#marine bathyal zone
+ENVO:00000211	#marine bathypelagic zone
+ENVO:01000062	#marine benthic storm
+ENVO:01000024	#marine benthic zone
+ENVO:01000076	#marine chemocline
+ENVO:01001676	#marine cline
+ENVO:01000067	#marine current
+ENVO:01000064	#marine downwelling
+ENVO:01000069	#marine eddy
+ENVO:01000028	#marine hadal zone
+ENVO:01000295	#marine layer
+ENVO:01000079	#marine lysocline
+ENVO:00000213	#marine mesopelagic zone
+ENVO:01000025	#marine neritic benthic zone
+ENVO:00000206	#marine neritic zone
+ENVO:00000208	#marine pelagic zone
+ENVO:01000023	#marine pelagic zone
+ENVO:00000209	#marine photic zone
+ENVO:01000077	#marine pycnocline
+ENVO:01000068	#marine streamer
+ENVO:01000099	#marine surface current
+ENVO:01000072	#marine Taylor column
+ENVO:01000075	#marine thermocline
+ENVO:01001333	#marine tidal flow
+ENVO:01001336	#marine tidal flow
+ENVO:01000061	#marine wind mixed layer
+ENVO:01000539	#mesosphere
+ENVO:00002132	#metalimnion
+ENVO:01000715	#meteotsunami
+ENVO:21001212	#microwave radiation
+ENVO:01000088	#mid-shelf fronts
+ENVO:01001485	#multiple vortex tornado
+ENVO:01001729	#nautical squall
+ENVO:01000042	#neritic epipelagic zone
+ENVO:01000043	#neritic mesopelagic zone
+ENVO:01000032	#neritic pelagic zone
+ENVO:01000041	#neritic sea surface microlayer
+ENVO:01001717	#neutral occluded front
+ENVO:01001675	#nutricline
+ENVO:01001714	#occluded front
+ENVO:01000038	#oceanic abyssopelagic zone
+ENVO:01000037	#oceanic bathypelagic zone
+ENVO:01000040	#oceanic benthopelagic zone
+ENVO:01000035	#oceanic epipelagic zone
+ENVO:01000071	#oceanic front
+ENVO:01000074	#oceanic gyre
+ENVO:01000039	#oceanic hadal pelagic zone
+ENVO:01000036	#oceanic mesopelagic zone
+ENVO:01000033	#oceanic pelagic zone
+ENVO:01000034	#oceanic sea surface microlayer
+ENVO:00000207	#oceanic zone
+ENVO:01000542	#ozone layer
+ENVO:01000081	#pelagic isohaline surface
+ENVO:01000083	#pelagic isopycnal surface
+ENVO:01000080	#pelagic isothermal surface
+ENVO:01001864	#photosynthetically active radiation
+ENVO:01000085	#plume front
+ENVO:01001698	#polar front
+ENVO:01000259	#pycnocline
+ENVO:01001745	#quasi-stationary front
+ENVO:21001213	#radio wave radiation
+ENVO:01000879	#rainstorm
+ENVO:01001581	#sea surface layer
+ENVO:01001718	#secondary cold front
+ENVO:01000089	#shelf-slope/shelf-break front
+ENVO:01001861	#shortwave radiation
+ENVO:03000077	#slush ice layer
+ENVO:01000881	#snowstorm
+ENVO:01001211	#stellar radiation
+ENVO:01000538	#stratosphere
+ENVO:01000094	#subtropical convergence front
+ENVO:01000097	#surface convergence
+ENVO:01000299	#Taylor column
+ENVO:01001097	#tectonic plate
+ENVO:00002269	#thermocline
+ENVO:01000541	#thermosphere
+ENVO:01000878	#thunderstorm
+ENVO:01001342	#tidal flow
+ENVO:01000087	#tidal mixing front
+ENVO:01000091	#topographic upwelling front
+ENVO:00000275	#tornado
+ENVO:01001296	#tropical storm
+ENVO:01000540	#troposphere
+ENVO:01000689	#tsunami
+ENVO:01000862	#turbulent aquatic surface layer
+ENVO:21001216	#ultraviolet radiation
+ENVO:01001713	#upper front
+ENVO:01000005	#upwelling
+ENVO:21001215	#visible spectrum radiation
+ENVO:01001298	#warm core cyclone
+ENVO:01001707	#warm front
+ENVO:01001716	#warm occluded front
+ENVO:01000101	#warm surface current
+ENVO:01001607	#water current
+ENVO:01000982	#water flow
+ENVO:01001543	#water ice surface layer
+ENVO:01000096	#water mass front
+ENVO:01001191	#water surface
+ENVO:01001487	#waterspout
+SIO:000650	#wave
+ENVO:01001681	#weather front
+ENVO:01000103	#western boundary current
+ENVO:00000409	#whirlpool
+ENVO:01000793	#wind
+ENVO:01001860	#wind gust
+ENVO:01001749	#wind storm
+ENVO:21001217	#X-ray radiation
