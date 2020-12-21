@@ -1,3 +1,4 @@
+### BCODMO_SM Qualifiers terms:
 PATO:0000001 #quality
 PATO:0001030 #flux
 PATO:0000033 #concentration
@@ -10,3 +11,15 @@ PATO:0001323 #area
 PATO:0000011 #age
 PATO:0000018 #fluorescence
 PATO:0000125 #mass
+
+### BCODMO_SM Characteristic terms:
+PATO:0001842	#acidity
+PATO:0001430	#alkalinity
+PATO:0001585	#conductivity
+PATO:0001019	#density
+PATO:0001595	#depth
+PATO:0001757	#electrical conductivity
+PATO:0000973	#porosity
+PATO:0001025	#pressure
+PATO:0070001	#salinity
+PATO:0000146	#temperature
