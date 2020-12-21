@@ -489,11 +489,11 @@ CHEBI:55327	#aci-nitroethane(1-)
 CHEBI:46683	#actinolite
 CHEBI:35162	#acyclic carotene
 CHEBI:16449	#alanine
-CHEBI:18310	#alkane
 CHEBI:28315	#alloxanthine
 CHEBI:28425	#alpha-carotene
 CHEBI:10223	#alpha-cryptoxanthin
 CHEBI:35063	#alpha-zeacarotene
+CHEBI:33620	#aluminium compound
 CHEBI:30187	#aluminium oxide
 CHEBI:74772	#aluminium sulfate
 CHEBI:48730	#aluminosilicate mineral
@@ -523,6 +523,7 @@ CHEBI:30295	#antimonate(3-)
 CHEBI:30294	#antimonic acid
 CHEBI:30297	#antimonite
 CHEBI:49870	#antimonous acid
+CHEBI:36919	#antimony compound
 CHEBI:36918	#antimony hydride
 CHEBI:36920	#antimony oxoacid
 CHEBI:36921	#antimony oxoanion
@@ -539,6 +540,7 @@ CHEBI:48600	#arsenate(1-)
 CHEBI:48597	#arsenate(2-)
 CHEBI:29125	#arsenate(3-)
 CHEBI:18231	#arsenic acid
+CHEBI:22632	#arsenic compound
 CHEBI:35822	#arsenic hydride
 CHEBI:33407	#arsenic oxoacid
 CHEBI:35776	#arsenic oxoanion
@@ -571,7 +573,6 @@ CHEBI:29337	#azanide
 CHEBI:29338	#azanylium
 CHEBI:37766	#azinic acid
 CHEBI:37769	#azonic acid
-CHEBI:52735	#azurite
 CHEBI:38201	#bacteriochlorophyll
 CHEBI:30033	#bacteriochlorophyll a
 CHEBI:22686	#bacteriochlorophyll b
@@ -583,6 +584,7 @@ CHEBI:137300	#bacteriochlorophyllide e
 CHEBI:139546	#bacteriochlorophyllide f
 CHEBI:91291	#bacteriochlorophyllide g
 CHEBI:63317	#barium chloride
+CHEBI:37133	#barium compound
 CHEBI:32592	#barium dihydroxide
 CHEBI:35152	#barium hydroxide
 CHEBI:35112	#barium monohydroxide
@@ -591,6 +593,7 @@ CHEBI:133326	#barium sulfate
 CHEBI:133326	#barium sulfate
 CHEBI:32590	#barium sulfide
 CHEBI:32590	#barium sulfide
+CHEBI:33780	#beryllium compound
 CHEBI:62843	#beryllium dichloride
 CHEBI:35102	#beryllium dihydroxide
 CHEBI:35151	#beryllium hydroxide
@@ -601,6 +604,7 @@ CHEBI:17579	#beta-carotene
 CHEBI:10362	#beta-cryptoxanthin
 CHEBI:27533	#beta-zeacarotene
 CHEBI:64389	#biogenic silica
+CHEBI:37196	#bismuth compound
 CHEBI:37197	#bismuth hydride
 CHEBI:30421	#bismuthane
 CHEBI:49041	#bismuthanuide
@@ -613,6 +617,7 @@ CHEBI:86222	#borax
 CHEBI:33118	#boric acid
 CHEBI:38268	#borinic acid
 CHEBI:30157	#borohydride
+CHEBI:22916	#boron compound
 CHEBI:33588	#boron hydride
 CHEBI:35777	#boron oxide
 CHEBI:33145	#boron oxoacid
@@ -624,6 +629,7 @@ CHEBI:22923	#bromate salt
 CHEBI:49382	#bromic acid
 CHEBI:22925	#bromide salt
 CHEBI:29875	#bromidodioxygen(.)
+CHEBI:22928	#bromine compound
 CHEBI:29874	#bromine dioxide
 CHEBI:37764	#bromine oxide
 CHEBI:33427	#bromine oxoacid
@@ -634,13 +640,14 @@ CHEBI:29248	#bromite
 CHEBI:29247	#bromous acid
 CHEBI:37808	#butane
 CHEBI:77732	#cadmium nitrate
+CHEBI:37128	#caesium compound
 CHEBI:33988	#caesium hydroxide
 CHEBI:46719	#calcite
 CHEBI:3310	#calcium acetate
 CHEBI:3311	#calcium carbonate
 CHEBI:86158	#calcium chloride dihydrate
 CHEBI:91243	#calcium chloride hexahydrate
-CHEBI:91243	#calcium chloride hexahydrate
+CHEBI:22985	#calcium compound
 CHEBI:64301	#calcium cyanamide
 CHEBI:31338	#calcium dibromide
 CHEBI:3312	#calcium dichloride
@@ -657,6 +664,7 @@ CHEBI:31346	#calcium sulfate
 CHEBI:91165	#capsanthin 5,6-epoxide
 CHEBI:28616	#carbamic acid
 CHEBI:16646	#carbohydrate
+CHEBI:33582	#carbon compound
 CHEBI:16526	#carbon dioxide
 CHEBI:17245	#carbon monoxide
 CHEBI:23014	#carbon oxide
@@ -670,12 +678,12 @@ CHEBI:36960	#carbonothioic acid
 CHEBI:33575	#carboxylic acid
 CHEBI:23042	#carotene
 CHEBI:23044	#carotenoid
-CHEBI:46728	#chalcedony
 CHEBI:86202	#chalcopyrite
 CHEBI:49709	#chlorate
 CHEBI:23109	#chlorate salt
 CHEBI:17322	#chloric acid
 CHEBI:23114	#chloride salt
+CHEBI:23117	#chlorine compound
 CHEBI:52357	#chlorine dioxide
 CHEBI:37750	#chlorine oxide
 CHEBI:33426	#chlorine oxoacid
@@ -697,6 +705,7 @@ CHEBI:38209	#chlorophyllide b
 CHEBI:29219	#chlorous acid
 CHEBI:138077	#chloroxanthin
 CHEBI:35404	#chromate(2-)
+CHEBI:23237	#chromium compound
 CHEBI:35402	#chromium oxoanion
 CHEBI:86204	#chromium trinitrate
 CHEBI:53471	#chromium(III) sulfate
@@ -704,6 +713,7 @@ CHEBI:35696	#cobalt dichloride
 CHEBI:86209	#cobalt dinitrate
 CHEBI:30333	#cobalt trinitrate
 CHEBI:53470	#cobalt(2+) sulfate
+CHEBI:23377	#copper compound
 CHEBI:134069	#copper oxide
 CHEBI:53472	#copper(I) chloride
 CHEBI:49553	#copper(II) chloride
@@ -722,7 +732,6 @@ CHEBI:41808	#decane
 CHEBI:37850	#decavanadate(6-)
 CHEBI:27705	#delta-carotene
 CHEBI:62505	#demethylspheroidene
-CHEBI:16991	#deoxyribonucleic acid
 CHEBI:33806	#deuterium hydrogen oxide
 CHEBI:30197	#diaquahydrogen(1+)
 CHEBI:50557	#diaquaoxonium
@@ -833,7 +842,6 @@ CHEBI:30045	#divanadium pentaoxide
 CHEBI:73113	#divinyl chlorophyll a
 CHEBI:73115	#divinyl chlorophyll b
 CHEBI:38259	#divinyl chlorophyllide a
-CHEBI:4705	#double-stranded DNA
 CHEBI:90228	#epoxypheophorbide a
 CHEBI:32549	#epsilon-carotene
 CHEBI:42266	#ethane
@@ -846,6 +854,7 @@ CHEBI:50820	#ferrous oxide
 CHEBI:24060	#fluoride salt
 CHEBI:30242	#fluoridooxygen(.)
 CHEBI:30243	#fluoridooxygen(1+)
+CHEBI:24062	#fluorine compound
 CHEBI:37752	#fluorine oxide
 CHEBI:47863	#fluorine oxoacid
 CHEBI:47865	#fluorine oxoanion
@@ -863,10 +872,7 @@ CHEBI:27744	#glyphosate
 CHEBI:86238	#greigite
 CHEBI:46679	#gruenerite
 CHEBI:15996	#GTP
-CHEBI:46714	#halide mineral
 CHEBI:46715	#halite
-CHEBI:46715	#halite
-CHEBI:24472	#halohydrocarbon
 CHEBI:144805	#heazlewoodite
 CHEBI:50818	#hematite
 CHEBI:43098	#heptane
@@ -875,7 +881,6 @@ CHEBI:27570	#histidine
 CHEBI:15571	#hydrazine
 CHEBI:30095	#hydrazinide
 CHEBI:30093	#hydrazinyl
-CHEBI:33692	#hydrides
 CHEBI:37759	#hydridoborate(2-)
 CHEBI:38983	#hydridoboron
 CHEBI:38982	#hydridoboron(2+)
@@ -892,6 +897,7 @@ CHEBI:30579	#hydridosilicon(1+)
 CHEBI:24632	#hydrocarbon
 CHEBI:140315	#hydrogen ((13)C)carbonate
 CHEBI:29449	#hydrogen azide
+CHEBI:33608	#hydrogen compound
 CHEBI:33142	#hydrogen dichromate
 CHEBI:36268	#hydrogen dimolybdate
 CHEBI:35123	#hydrogen manganate
@@ -916,7 +922,6 @@ CHEBI:35168	#hydrogenvanadate
 CHEBI:30177	#hydroperoxo(trihydroxo)borate(1-)
 CHEBI:29919	#hydrosulfide
 CHEBI:16234	#hydroxide
-CHEBI:24651	#hydroxides
 CHEBI:29789	#hydroxidodioxidocarbon(.)
 CHEBI:29927	#hydroxidodioxidophosphate(.1-)
 CHEBI:29326	#hydroxidooxidocarbon(.)
@@ -949,7 +954,6 @@ CHEBI:14428	#hyponitrous acid
 CHEBI:24759	#hypophosphite
 CHEBI:133907	#hypothiocyanous acid
 CHEBI:36093	#inorganic chloride
-CHEBI:52625	#inorganic hydroxides
 CHEBI:51084	#inorganic nitrate salt
 CHEBI:38702	#inorganic sodium salt
 CHEBI:24840	#inorganic sulfate salt
@@ -958,6 +962,7 @@ CHEBI:24856	#iodate salt
 CHEBI:24857	#iodic acid
 CHEBI:24858	#iodide salt
 CHEBI:29902	#iodidodioxygen(.)
+CHEBI:24860	#iodine compound
 CHEBI:29901	#iodine dioxide
 CHEBI:37751	#iodine oxide
 CHEBI:33428	#iodine oxoacid
@@ -966,6 +971,7 @@ CHEBI:29910	#iodine tetraoxide
 CHEBI:29906	#iodine trioxide
 CHEBI:29230	#iodite
 CHEBI:29229	#iodous acid
+CHEBI:24873	#iron compound
 CHEBI:50816	#iron oxide
 CHEBI:50817	#iron oxide mineral
 CHEBI:75896	#iron sulfides
@@ -980,6 +986,7 @@ CHEBI:24898	#isoleucine
 CHEBI:62805	#isooctane
 CHEBI:30362	#isopentane
 CHEBI:6357	#lactucaxanthin
+CHEBI:33585	#lead compound
 CHEBI:37184	#lead hydride
 CHEBI:37187	#lead nitrate
 CHEBI:88212	#lead(II) chloride
@@ -989,6 +996,7 @@ CHEBI:63042	#lithium bromide
 CHEBI:63042	#lithium bromide
 CHEBI:6504	#lithium carbonate
 CHEBI:48607	#lithium chloride
+CHEBI:33298	#lithium compound
 CHEBI:125696	#lithium hydrochloride
 CHEBI:33979	#lithium hydroxide
 CHEBI:63315	#lithium nitrate
@@ -1009,6 +1017,7 @@ CHEBI:139548	#maghemite
 CHEBI:62964	#magnesium acetate
 CHEBI:31793	#magnesium carbonate
 CHEBI:131389	#magnesium citrate
+CHEBI:25108	#magnesium compound
 CHEBI:6636	#magnesium dichloride
 CHEBI:6637	#magnesium dihydroxide
 CHEBI:35149	#magnesium hydroxide
@@ -1020,12 +1029,13 @@ CHEBI:32599	#magnesium sulfate
 CHEBI:32599	#magnesium sulfate
 CHEBI:46726	#magnetite
 CHEBI:25152	#manganate
+CHEBI:25154	#manganese compound
 CHEBI:136511	#manganese dioxide
 CHEBI:35118	#manganese oxoanion
 CHEBI:63041	#manganese(II) chloride
 CHEBI:86360	#manganese(II) sulfate
+CHEBI:25196	#mercury compound
 CHEBI:138919	#meso-zeaxanthin
-CHEBI:33699	#messenger RNA
 CHEBI:30173	#metaborate
 CHEBI:30172	#metaboric acid
 CHEBI:51336	#metal sulfate
@@ -1040,8 +1050,8 @@ CHEBI:14597	#methylarsonite
 CHEBI:17826	#methylarsonous acid
 CHEBI:30785	#methylmercury(.)
 CHEBI:49747	#methylmercury(1+)
-CHEBI:46662	#mineral
 CHEBI:36264	#molybdate
+CHEBI:25370	#molybdenum compound
 CHEBI:30704	#molybdenum disulfide
 CHEBI:36262	#molybdenum oxoanion
 CHEBI:35381	#monosaccharide
@@ -1056,6 +1066,7 @@ CHEBI:51082	#nitrate salt
 CHEBI:48107	#nitric acid
 CHEBI:16480	#nitric oxide
 CHEBI:16301	#nitrite
+CHEBI:51143	#nitrogen compound
 CHEBI:33101	#nitrogen dioxide
 CHEBI:35106	#nitrogen hydride
 CHEBI:35196	#nitrogen oxide
@@ -1068,7 +1079,6 @@ CHEBI:17045	#nitrous oxide
 CHEBI:84879	#nitroxyl
 CHEBI:32892	#nonane
 CHEBI:29913	#nonaoxidodiiodate(4-)
-CHEBI:33696	#nucleic acid
 CHEBI:33838	#nucleoside
 CHEBI:17590	#octane
 CHEBI:50699	#oligosaccharide
@@ -1081,8 +1091,6 @@ CHEBI:38700	#organic sodium salt
 CHEBI:51337	#organic sulfate salt
 CHEBI:33406	#organoarsenic compound
 CHEBI:25706	#organomercury compound
-CHEBI:35352	#organonitrogen compound
-CHEBI:33261	#organosulfur compound
 CHEBI:35775	#orthoperiodate ion
 CHEBI:33446	#orthoperiodate(1-)
 CHEBI:33448	#orthoperiodate(2-)
@@ -1090,8 +1098,6 @@ CHEBI:33449	#orthoperiodate(3-)
 CHEBI:33450	#orthoperiodate(4-)
 CHEBI:29227	#orthoperiodate(5-)
 CHEBI:29150	#orthoperiodic acid
-CHEBI:25741	#oxide
-CHEBI:46725	#oxide mineral
 CHEBI:30130	#oxidoaluminate(1-)
 CHEBI:30128	#oxidoaluminium
 CHEBI:30129	#oxidoaluminium(1+)
@@ -1115,9 +1121,8 @@ CHEBI:30589	#oxidosilicon(1+)
 CHEBI:29824	#oxidosulfate(.1-)
 CHEBI:29823	#oxidosulfur(.1+)
 CHEBI:30046	#oxidovanadium(2+)
-CHEBI:24833	#oxoacid
-CHEBI:35406	#oxoanion
 CHEBI:29412	#oxonium
+CHEBI:25806	#oxygen compound
 CHEBI:33693	#oxygen hydride
 CHEBI:132452	#parasiloxanthin
 CHEBI:33591	#pentaborane(9)
@@ -1186,6 +1191,7 @@ CHEBI:30285	#phosphorane
 CHEBI:26078	#phosphoric acid
 CHEBI:46612	#phosphorothioic acid
 CHEBI:36361	#phosphorous acid
+CHEBI:26082	#phosphorus compound
 CHEBI:35879	#phosphorus hydride
 CHEBI:33457	#phosphorus oxoacid
 CHEBI:33461	#phosphorus oxoanion
@@ -1202,13 +1208,14 @@ CHEBI:53340	#polyvanadate
 CHEBI:32029	#potassium acetate
 CHEBI:86463	#potassium aluminium sulfate
 CHEBI:86463	#potassium aluminium sulfate
-CHEBI:32030	#potassium bromate
 CHEBI:38211	#potassium bromate
+CHEBI:32030	#potassium bromate
 CHEBI:32030	#potassium bromide
 CHEBI:131526	#potassium carbonate
 CHEBI:32588	#potassium chloride
 CHEBI:75249	#potassium chromate
 CHEBI:64733	#potassium citrate (anhydrous)
+CHEBI:26217	#potassium compound
 CHEBI:33191	#potassium cyanide
 CHEBI:53444	#potassium dichromate
 CHEBI:63036	#potassium dihydrogen phosphate
@@ -1220,7 +1227,6 @@ CHEBI:32035	#potassium hydroxide
 CHEBI:8346	#potassium iodide
 CHEBI:63043	#potassium nitrate
 CHEBI:63043	#potassium nitrate
-CHEBI:88321	#potassium oxide
 CHEBI:88321	#potassium oxide
 CHEBI:26218	#potassium salt
 CHEBI:32036	#potassium sulfate
@@ -1235,13 +1241,11 @@ CHEBI:46727	#quartz
 CHEBI:75907	#realgar
 CHEBI:35331	#rhodopin
 CHEBI:35332	#rhodopinol
-CHEBI:33697	#ribonucleic acid
-CHEBI:18111	#ribosomal RNA
 CHEBI:46665	#riebeckite
+CHEBI:37126	#rubidium compound
 CHEBI:32108	#rubidium hydroxide
 CHEBI:8907	#rubixanthin
 CHEBI:16457	#S,S-dimethyl-beta-propiothetin
-CHEBI:24866	#salt
 CHEBI:16503	#selane
 CHEBI:29317	#selanide
 CHEBI:29313	#selanyl
@@ -1251,6 +1255,7 @@ CHEBI:18170	#selenic acid
 CHEBI:29218	#seleninic acid
 CHEBI:48840	#selenite salt
 CHEBI:18212	#selenite(2-)
+CHEBI:26628	#selenium compound
 CHEBI:36903	#selenium hydride
 CHEBI:33489	#selenium oxoacid
 CHEBI:33488	#selenium oxoanion
@@ -1268,6 +1273,7 @@ CHEBI:48123	#silicate ion
 CHEBI:46663	#silicate mineral
 CHEBI:29241	#silicate(4-)
 CHEBI:26675	#silicic acid
+CHEBI:26677	#silicon compound
 CHEBI:30563	#silicon dioxide
 CHEBI:33329	#silicon hydride
 CHEBI:30588	#silicon monoxide
@@ -1276,7 +1282,6 @@ CHEBI:33328	#silicon oxoacid
 CHEBI:37191	#silicon oxoanion
 CHEBI:30560	#silyl
 CHEBI:30562	#silylium
-CHEBI:9160	#single-stranded DNA
 CHEBI:32954	#sodium acetate
 CHEBI:84070	#sodium arsenate
 CHEBI:29678	#sodium arsenite
@@ -1292,6 +1297,7 @@ CHEBI:26710	#sodium chloride
 CHEBI:78667	#sodium chlorite
 CHEBI:78671	#sodium chromate
 CHEBI:53258	#sodium citrate
+CHEBI:26712	#sodium compound
 CHEBI:33192	#sodium cyanide
 CHEBI:39483	#sodium dichromate
 CHEBI:77719	#sodium dihydrogen arsenate
@@ -1339,6 +1345,7 @@ CHEBI:30298	#stibonic acid
 CHEBI:30292	#stibonium
 CHEBI:30299	#stibonous acid
 CHEBI:36925	#stiborane
+CHEBI:37131	#strontium compound
 CHEBI:35105	#strontium dihydroxide
 CHEBI:35153	#strontium hydroxide
 CHEBI:35109	#strontium monohydroxide
@@ -1360,6 +1367,7 @@ CHEBI:48857	#sulfite salt
 CHEBI:33543	#sulfonate
 CHEBI:29214	#sulfonic acid
 CHEBI:30488	#sulfonium
+CHEBI:26835	#sulfur compound
 CHEBI:18422	#sulfur dioxide
 CHEBI:33535	#sulfur hydride
 CHEBI:45822	#sulfur monoxide
@@ -1398,11 +1406,11 @@ CHEBI:29257	#thiosulfite(2-)
 CHEBI:33540	#thiosulfuric acid
 CHEBI:156081	#thiosulfurous acid
 CHEBI:26986	#threonine
+CHEBI:27008	#tin compound
 CHEBI:52991	#tin dioxide
 CHEBI:37183	#tin hydride
 CHEBI:78067	#tin(II) chloride (anhydrous)
 CHEBI:9638	#torulene
-CHEBI:17843	#transfer RNA
 CHEBI:50155	#triazane
 CHEBI:35468	#triazene
 CHEBI:48236	#trichlorofluoromethane
@@ -1445,10 +1453,12 @@ CHEBI:27897	#tryptophan
 CHEBI:35326	#tunaxanthin
 CHEBI:18186	#tyrosine
 CHEBI:46342	#undecane
+CHEBI:33499	#uranium compound
 CHEBI:33501	#uranium oxide
 CHEBI:16199	#urea
 CHEBI:27266	#valine
 CHEBI:46442	#vanadate(3-)
+CHEBI:27275	#vanadium compound
 CHEBI:30047	#vanadium dioxide
 CHEBI:30044	#vanadium monoxide
 CHEBI:35174	#vanadium oxide
