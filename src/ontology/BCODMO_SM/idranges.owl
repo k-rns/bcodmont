@@ -134,28 +134,20 @@ Datatype: idrange:11
 Datatype: idrange:12
 
     Annotations:
-        allocatedto: "Chemistry/Ion"
+        allocatedto: "Physics/characteristic"
 
     EquivalentTo:
-        xsd:integer[>= 220001 , <= 230000]
+        xsd:integer[>= 310001 , <= 320000]
 
 
 Datatype: idrange:13
 
     Annotations:
-        allocatedto: "Chemistry/molecule"
+        allocatedto: "Physics/phenomenon"
 
     EquivalentTo:
-        xsd:integer[>= 230001 , <= 240000]
+        xsd:integer[>= 320001 , <= 330000]
 
-
-Datatype: idrange:14
-
-    Annotations:
-        allocatedto: "Chemistry/Salt"
-
-    EquivalentTo:
-        xsd:integer[>= 240001 , <= 250000]
 
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
