@@ -1,612 +1,624 @@
-ENVO:00001998 #soil
-ENVO:00010505 #aerosol
-ENVO:01001428 #cloud
-ENVO:01000844 #fog
-ENVO:01001402 #haze
-ENVO:01001458 #mist
-ENVO:01000838 #smoke
-ENVO:02000090 #ash
-ENVO:01000560 #charcoal
-ENVO:00002982 #clay
-ENVO:00010506 #emulsion
-ENVO:00005738 #foam
-ENVO:00002164 #fossil
-ENVO:01001850 #frost
-ENVO:01000797 #gas
-ENVO:00002005 #air
-ENVO:01000266 #vapor
-ENVO:01000480 #glass
-ENVO:01000277 #ice
-ENVO:03000004 #glacial ice
-ENVO:03000065 #ice floe
-ENVO:03000066 #sea ice floe
-ENVO:03000068 #nilas
-ENVO:03000067 #pancake ice
-ENVO:03000069 #young ice
-ENVO:03000063 #new ice
-ENVO:01001523 #frazil
-ENVO:03000075 #shuga
-ENVO:00002200 #sea ice
-ENVO:01001190 #brown sea ice
-ENVO:01001512 #congelation sea ice
-ENVO:03000071 #first year ice
-ENVO:03000073 #multiyear ice
-ENVO:03000072 #second year ice
-ENVO:03000007 #blue ice
-ENVO:01001511 #freshwater ice
-ENVO:01001139 #methane ice
-ENVO:01000231 #lava
-ENVO:01000404 #plastic
-ENVO:01000851 #methane clathrate
-ENVO:01000256 #mineral
-ENVO:01000001 #mud
-ENVO:00002985 #oil
-ENVO:00002983 #fuel oil
-ENVO:00002984 #petroleum
-ENVO:01000155 #organic material
-ENVO:01001189 #algal material
-ENVO:01000156 #biofilm material
-ENVO:01001103 #detritus
-ENVO:01000158 #marine snow
-ENVO:01001231 #kerogen
-ENVO:1000746 #marine mucilage
-ENVO:01000157 #microbial mat
-ENVO:01001395 #necromass
-ENVO:01000063 #plankton
-ENVO:01001121 #plant matter
-ENVO:01000060 #particulate matter
-ENVO:03000038 #cryoconite
-ENVO:00002008 #dust
-ENVO:03000021 #soot
-ENVO:00000134 #permafrost
-ENVO:01001614 #ice permafrost
-ENVO:03000088 #methane permafrost
-ENVO:00001995 #rock
-ENVO:00002016 #sedimentary rock
-ENVO:01000017 #sand
-ENVO:00002007 #sediment
-ENVO:00000546 #lake sediment
-ENVO:03000033 #marine sediment
-ENVO:01000406 #snow
-ENVO:03000002 #firn
-ENVO:03000000 #neve
-ENVO:03000027 #powdery snow
-ENVO:03000108 #slab snow
-ENVO:00001998 #soil
-ENVO:00002006 #water
-ENVO:01000872 #ballast water
-ENVO:00002019 #brackish water
-ENVO:01000301 #estuarine water
-ENVO:00002186 #contaminated water
-ENVO:00002224 #eutrophic water
-ENVO:01000940 #fissure water
-ENVO:00002011 #fresh water
-ENVO:00003064 #drinking water
-ENVO:01000600 #rainwater
-ENVO:01001004 #groundwater
-ENVO:00002012 #hypersaline water
-ENVO:00003044 #brine
-ENVO:01001064 #hypoxic water
-ENVO:04000007 #lake water
-ENVO:00002141 #leachate
-ENVO:01000134 #hydrothermal fluid
-ENVO:01000722 #meltwater
-ENVO:00002225 #mesotrophic water
-ENVO:00002223 #oligotrophic water
-ENVO:01001063 #oxic water
-ENVO:01000599 #river water
-ENVO:00002149 #sea water
-ENVO:00002150 #coastal sea water
-ENVO:00005791 #sterile water
-ENVO:01001267 #stormwater
-ENVO:00002001 #waste water
-ENVO:01000964 #industrial wastewater
-ENVO:00002018 #sewage
-ENVO:00002264 #waste material
-ENVO:00002001 #waste water
-ENVO:00002018 #sewage
-ENVO:01000575 #wax
-ENVO:00002040 #wood
-ENVO:02000008 #cell culture
-ENVO:2000004 #algal bloom
-ENVO:2000005 #freshwater algal bloom
-ENVO:01000057 #marine algal bloom
-ENVO:01001301 #aquatic estuarine layer
-ENVO:01001314 #estuarine coastal lower water column
-ENVO:01001313 #estuarine coastal pycnocline
-ENVO:01001302 #estuarine coastal surface layer
-ENVO:01001312 #estuarine coastal upper water column
-ENVO:01001322 #estuarine open water lower water column
-ENVO:01001323 #estuarine open water pycnocline
-ENVO:01001315 #estuarine open water surface layer
-ENVO:01001316 #estuarine open water upper water column
-ENVO:01001329 #estuarine tidal riverine open water lower water column
-ENVO:01000326 #deep chlorophyll maximum layer
-ENVO:00000038 #lagoon
-ENVO:01000283 #lake layer
-ENVO:00002131 #epilimnion
-ENVO:00002130 #hypolimnion
-ENVO:01000295 #marine layer
-ENVO:00000210 #marine aphotic zone
-ENVO:00000214 #hadalpelagic zone
-ENVO:00000212 #marine abyssalpelagic zone
-ENVO:00000211 #marine bathypelagic zone
-ENVO:00000213 #marine mesopelagic zone
-ENVO:00000206 #marine neritic zone
-ENVO:00000208 #marine pelagic zone
-ENVO:00000209 #marine photic zone
-ENVO:01000061 #marine wind mixed layer
-ENVO:00000207 #oceanic zone
-ENVO:01001581 #sea surface layer
-ENVO:01000024 #marine benthic biome
-ENVO:01000027 #marine abyssal zone biome
-ENVO:01000026 #marine bathyal zone biome
-ENVO:01000028 #marine hadal zone biome
-ENVO:01000025 #marine neritic benthic zone biome
-ENVO:01000032 #neritic pelagic zone biome
-ENVO:01000042 #neritic epipelagic zone biome
-ENVO:01000043 #neritic mesopelagic zone biome
-ENVO:01000041 #neritic sea surface microlayer biome
-ENVO:01000033 #oceanic pelagic zone biome
-ENVO:01000038 #oceanic abyssopelagic zone biome
-ENVO:01000037 #oceanic bathypelagic zone biome
-ENVO:01000040 #oceanic benthopelagic zone biome
-ENVO:01000035 #oceanic epipelagic zone biome
-ENVO:01000039 #oceanic hadal pelagic zone biome
-ENVO:01000036 #oceanic mesopelagic zone biome
-ENVO:01000034 #oceanic sea surface microlayer biome
-ENVO:01001191 #water surface
-ENVO:00000105 #lake surface
-ENVO:01001551 #ice lead
-ENVO:01000081 #pelagic isohaline surface
-ENVO:01000083 #pelagic isopycnal surface
-ENVO:01000080 #pelagic isothermal surface
-ENVO:01000862 #turbulent aquatic surface layer
-ENVO:00012408 #aquifer
-ENVO:00000538 #arrugado
-ENVO:01000811 #atmosphere
-ENVO:01000675 #atmospheric column
-ENVO:01000543 #atmospheric layer
-ENVO:01000323 #atmospheric boundary layer
-ENVO:01000546 #exosphere
-ENVO:01001712 #free atmosphere
-ENVO:01001672 #frontal surface of a weather front
-ENVO:01000545 #ionosphere
-ENVO:01000539 #mesosphere
-ENVO:01000542 #ozone layer
-ENVO:01000538 #stratosphere
-ENVO:01000541 #thermosphere
-ENVO:01000540 #troposphere
-ENVO:00000472 #backwater
-ENVO:00000167 #bar
-ENVO:00000306 #spit
-ENVO:00000420 #tombolo
-ENVO:00000091 #beach
-ENVO:00000093 #lacustrine beach
-ENVO:00000415 #raised beach
-ENVO:00000417 #machair
-ENVO:00002199 #sandy beach
-ENVO:00000092 #sea beach
-ENVO:00000545 #shingle beach
-ENVO:01000686 #blowhole
-ENVO:01000109 #brackish water body
-ENVO:01000108 #canal
-ENVO:01000065 #aquaduct
-ENVO:00000042 #drainage canal
-ENVO:00000079 #flume
-ENVO:00000036 #irrigation canal
-ENVO:00000505 #underground irrigation canal
-ENVO:00000048 #navigation canal
-ENVO:00000067 #cave
-ENVO:01000367 #anchialine cave
-ENVO:01000364 #glacier cave
-ENVO:01000365 #ice cave
-ENVO:00000440 #rock shelter
-ENVO:00000326 #sea cave
-ENVO:01000359 #limestone cave
-ENVO:03000117 #channel
-ENVO:00002226 #borehole
-ENVO:03000041 #brine channel
-ENVO:03000048 #thaw hole
-ENVO:03000039 #cryoconite hole
-ENVO:00000068 #tunnel
-ENVO:00000397 #lake channel
-ENVO:00000396 #marine channel
-ENVO:00000394 #strait
-ENVO:01000651 #ocean strait
-ENVO:01000650 #stream channel
-ENVO:01000652 #river channel
-ENVO:01000687 #coast
-ENVO:01000688 #lake coast
-ENVO:00000303 #sea coast
-ENVO:00000272 #confluence
-ENVO:00000514 #crater
-ENVO:01000160 #marine pockmark
-ENVO:00000045 #estuary
-ENVO:00002137 #brackish estuary
-ENVO:00000225 #highly stratified estuary
-ENVO:00000229 #intermittent estuary
-ENVO:00000228 #inverse estuary
-ENVO:00000226 #saline wedge estuary
-ENVO:00000224 #slightly stratified estuary
-ENVO:01001653 #well-mixed estuary
-ENVO:01000710 #flood
-ENVO:01000711 #coastal flood
-ENVO:01000714 #storm surge
-ENVO:01000713 #flash flood
-ENVO:01000712 #riverine flood
-ENVO:01000258 #fluid cline
-ENVO:01001676 #marine cline
-ENVO:00002270 #chemocline
-ENVO:01000076 #marine chemocline
-ENVO:01001674 #lysocline
-ENVO:01000079 #marine lysocline
-ENVO:01001675 #nutricline
-ENVO:01000071 #oceanic front
-ENVO:01000093 #boundary current front
-ENVO:01000086 #coastal buoyancy current front
-ENVO:01000090 #coastal upwelling front
-ENVO:01000092 #equatorial upwelling front
-ENVO:01000084 #estuarine front
-ENVO:01000095 #marginal ice zone front
-ENVO:01000088 #mid-shelf fronts
-ENVO:01000085 #plume front
-ENVO:01000089 #shelf-slope/shelf-break front
-ENVO:01000094 #subtropical convergence front
-ENVO:01000097 #surface convergence
-ENVO:01000087 #tidal mixing front
-ENVO:01000091 #topographic upwelling front
-ENVO:01000096 #water mass front
-ENVO:01000259 #pycnocline
-ENVO:01000077 #marine pycnocline
-ENVO:00002269 #thermocline
-ENVO:01000075 #marine thermocline
-ENVO:00002132 #metalimnion
-ENVO:01000754 #fumarole-derived ice tower
-ENVO:00000463 #harbor
-ENVO:00000464 #artificial harbor
-ENVO:00000465 #natural harbor
-ENVO:00000153 #headwater
-ENVO:00000299 #ice field
-ENVO:01001532 #glacier ice field
-ENVO:01001531 #sea ice field
-ENVO:00000475 #inlet
-ENVO:00000137 #coastal inlet
-ENVO:00000032 #bay
-ENVO:00000138 #cove
-ENVO:00000039 #fjord
-ENVO:00000393 #sound
-ENVO:00000476 #lake inlet
-ENVO:00000098 #island
-ENVO:00000099 #artificial island
-ENVO:00000221 #continental island
-ENVO:00000269 #land-tied island
-ENVO:1000749 #microcontinental island
-ENVO:1000750 #depositional island
-ENVO:1000751 #barrier island
-ENVO:00000368 #ephemeral island
-ENVO:00000424 #lake island
-ENVO:00000103 #mangrove island
-ENVO:00000222 #oceanic island
-ENVO:00000166 #atoll
-ENVO:00000423 #river island
-ENVO:00000174 #isthmus
-ENVO:00000391 #land bridge
-ENVO:00000020 #lake
-ENVO:01001105 #aeolian lake
-ENVO:01000284 #amictic lake
-ENVO:01001072 #anoxic lake
-ENVO:00000377 #artificial lake
-ENVO:00000025 #reservoir
-ENVO:00000165 #asphalt lake
-ENVO:01001062 #crater lake
-ENVO:00000197 #endorheic lake
-ENVO:01000548 #eutrophic lake
-ENVO:01001019 #hypereutrophic lake
-ENVO:01000824 #exorheic lake
-ENVO:00000201 #fjord lake
-ENVO:00000021 #freshwater lake
-ENVO:03000082 #thermokarst lake
-ENVO:03000083 #methane-releasing thermokarst lake
-ENVO:00000488 #glacial lake
-ENVO:00000198 #ice-covered lake
-ENVO:03000120 #subglacial lake
-ENVO:00000487 #paternoster lake
-ENVO:00000200 #periglacial lake
-ENVO:00000435 #proglacial lake
-ENVO:01000285 #holomictic lake
-ENVO:01000286 #dimictic lake
-ENVO:01000288 #monomictic lake
-ENVO:01000287 #polymictic lake
-ENVO:00000199 #humic lake
-ENVO:01001075 #hypoxic lake
-ENVO:03000053 #intraglacial lake
-ENVO:01001106 #landslide lake
-ENVO:00000199 #meromictic lake
-ENVO:01000775 #mesotrophic lake
-ENVO:01000774 #oligotrophic lake
-ENVO:00000202 #oxbow lake
-ENVO:01001076 #oxic lake
-ENVO:01000680 #polluted lake
-ENVO:00000452 #ribbon lake
-ENVO:00000019 #saline lake
-ENVO:00002121 #alkaline salt lake
-ENVO:00000540 #brackish lake
-ENVO:01001020 #hypersaline lake
-ENVO:03000035 #supraglacial lake
-ENVO:00000455 #tarn
-ENVO:01001092 #tectonic lake
-ENVO:00000203 #rift lake
-ENVO:00000058 #underground lake
-ENVO:00000453 #liman
-ENVO:01000067 #marine current
-ENVO:01000098 #deep ocean current
-ENVO:01000062 #marine benthic storm
-ENVO:01000064 #marine downwelling
-ENVO:01000068 #marine streamer
-ENVO:01000099 #marine surface current
-ENVO:01000100 #along-front current
-ENVO:01000102 #cold surface current
-ENVO:01000104 #eastern boundary current
-ENVO:01000101 #warm surface current
-ENVO:01000103 #western boundary current
-ENVO:01001336 #marine tidal flow
-ENVO:01000069 #mesoscale marine eddy
-ENVO:01000005 #upwelling
-ENVO:01000006 #coastal upwelling
-ENVO:01000074 #oceanic gyre
-ENVO:00000409 #whirlpool
-ENVO:00000442 #maelstrom
-ENVO:01000130 #marine hydrothermal plume
-ENVO:00001999 #marine water body
-ENVO:02000049 #coastal water body
-ENVO:00000015 #ocean
-ENVO:00000016 #sea
-ENVO:01001786 #inland sea
-ENVO:00000219 #landlocked sea
-ENVO:01000686 #marine water mass
-ENVO:01000109 #marine warm water mass
-ENVO:01000108 #marine cold water mass
-ENVO:01000065 #marine oxygen minimum zone
-ENVO:00001996 #mine drainage
-ENVO:00001997 #acid mine drainage
-ENVO:00002112 #gold mine drainage
-ENVO:00000479 #mouth
-ENVO:00000518 #ditch mouth
-ENVO:00000386 #river mouth
-ENVO:00000101 #delta
-ENVO:00000385 #stream mouth
-ENVO:00000507 #wadi mouth
-ENVO:00002185 #oil reservoir
-ENVO:00002063 #oil seep
-ENVO:01001781 #part of a landmass
-ENVO:00000516 #hummock
-ENVO:00000305 #peninsula
-ENVO:00000552 #talik
-ENVO:03000084 #thermokarst depression
-ENVO:00000086 #plain
-ENVO:00000244 #abyssal plain
-ENVO:00000090 #coastal plain
-ENVO:01000639 #planetary structural layer
-ENVO:01000647 #asthenosphere
-ENVO:01000748 #continental crust
-ENVO:01000646 #lithosphere
-ENVO:01000750 #Mohorovicic discontinuity
-ENVO:01000749 #oceanic crust
-ENVO:01000641 #planetary core
-ENVO:01000643 #inner planetary core
-ENVO:01000644 #liquid planetary core
-ENVO:01000642 #outer planetary core
-ENVO:01000645 #solid planetary core
-ENVO:01000638 #planetary crust
-ENVO:01000640 #planetary mantle
-ENVO:00000484 #polynya
-ENVO:00000033 #pond
-ENVO:00000056 #fishpond
-ENVO:01000905 #shrimp pond
-ENVO:01000368 #anchialine pool
-ENVO:00000270 #beaver pond
-ENVO:00000541 #brackish pond
-ENVO:00000055 #saline evaporation pond
-ENVO:03000040 #melt pond
-ENVO:03000118 #atmosphere and water column exposed melt pond
-ENVO:03000050 #atmosphere-exposed melt pond
-ENVO:03000051 #ice-encased melt pond
-ENVO:03000119 #water column exposed melt pond
-ENVO:01001256 #coastal shrimp pond
-ENVO:00000483 #plunge pool
-ENVO:00000317 #tidal pool
-ENVO:00000369 #brine pool
-ENVO:01000871 #puddle of water
-ENVO:01001386 #mussel reef
-ENVO:01001380 #neritic mussel reef
-ENVO:01001381 #oceanic mussel reef
-ENVO:01001385 #Bathymodiolus-dominated oceanic mussel reef
-ENVO:00000130 #rocky reef
-ENVO:00000149 #artificial reef
-ENVO:01000143 #marine reef
-ENVO:00000150 #coral reef
-ENVO:01000161 #marine sponge reef
-ENVO:01000150 #marine subtidal rocky reef
-ENVO:00000283 #ridge
-ENVO:00000529 #beach ridge
-ENVO:00000406 #mid-ocean ridge
-ENVO:00000148 #riffle
-ENVO:01001537 #sea ice hummock
-ENVO:00000304 #shore
-ENVO:00000486 #shoreline
-ENVO:00000382 #lake shore
-ENVO:00000485 #sea shore
-ENVO:00002000 #slope
-ENVO:00000530 #apron
-ENVO:00000141 #bank
-ENVO:00000142 #stream bank
-ENVO:00000143 #river bank
-ENVO:00000087 #cliff
-ENVO:00000089 #inland cliff
-ENVO:01000298 #continental margin
-ENVO:00000274 #continental rise
-ENVO:00000223 #continental shelf
-ENVO:00000273 #continental slope
-ENVO:00000178 #levee
-ENVO:00000088 #sea cliff
-ENVO:00000421 #wave-cut platform
-ENVO:03000111 #snow mass
-ENVO:03000112 #snow drift
-ENVO:03000113 #snow patch
-ENVO:03000115 #perennial snow patch
-ENVO:03000114 #seasonal snow patch
-ENVO:03000116 #snowpack
-ENVO:00000027 #spring
-ENVO:00000204 #ephemeral spring
-ENVO:01000598 #freshwater spring
-ENVO:00000051 #hot spring
-ENVO:00002120 #acid hot spring
-ENVO:00002119 #alkaline hot spring
-ENVO:00002143 #calcite hot spring
-ENVO:00000050 #geyser
-ENVO:00002181 #neutral hot spring
-ENVO:00000215 #hydrothermal vent
-ENVO:01000122 #marine hydrothermal vent
-ENVO:00000218 #black smoker
-ENVO:01000257 #white smoker
-ENVO:00000125 #mineral spring
-ENVO:00000205 #permanent spring
-ENVO:01000262 #seep
-ENVO:01000263 #cold seep
-ENVO:01000265 #hydrothermal seep
-ENVO:00002926 #warm seep
-ENVO:00000126 #sulfur spring
-ENVO:00002128 #mesophilic sulfur spring
-ENVO:00000419 #stack
-ENVO:01000876 #storm
-ENVO:01001294 #convective storm
-ENVO:01000878 #thunderstorm
-ENVO:01001297 #cyclone
-ENVO:01001298 #warm core cyclone
-ENVO:01001295 #extra-tropical cyclone
-ENVO:01000904 #ground blizzard
-ENVO:01000882 #icestorm
-ENVO:01000880 #hailstorm
-ENVO:01001729 #nautical squall
-ENVO:01000879 #rainstorm
-ENVO:01000881 #snowstorm
-ENVO:01000903 #blizzard
-ENVO:01001296 #tropical storm
-ENVO:01001749 #wind storm
-ENVO:00000023 #stream
-ENVO:00000152 #anabranch
-ENVO:00000234 #bayou
-ENVO:00000525 #canalized stream
-ENVO:00000490 #consequent stream
-ENVO:00000069 #distributary
-ENVO:03000018 #englacial stream
-ENVO:00000494 #insequent stream
-ENVO:00000517 #lost stream
-ENVO:00000493 #obsequent stream
-ENVO:00000492 #resequent stream
-ENVO:00000022 #river
-ENVO:01000297 #freshwater river
-ENVO:01000908 #geothermally heated river
-ENVO:00000059 #underground river
-ENVO:00000491 #subsequent stream
-ENVO:00000495 #tributary
-ENVO:00000060 #underground stream
-ENVO:01000275 #structural basin
-ENVO:00002277 #back-arc basin
-ENVO:00002450 #ocean basin
-ENVO:00000501 #submerged bed
-ENVO:00000268 #lake bed
-ENVO:01001378 #marine bed
-ENVO:01001376 #marine faunal bed
-ENVO:01001379 #mussel bed
-ENVO:01001389 #neritic mussel bed
-ENVO:01001388 #oceanic mussel bed
-ENVO:01001390 #Bathymodiolus-dominated oceanic mussel bed
-ENVO:00000426 #ocean floor
-ENVO:00000482 #sea floor
-ENVO:01000059 #sea grass bed
-ENVO:00000512 #pond bed
-ENVO:00000513 #reservoir bed
-ENVO:00000383 #stream bed
-ENVO:00000384 #river bed
-ENVO:01000299 #Taylor column
-ENVO:01000300 #atmospheric Taylor column
-ENVO:01000072 #marine Taylor column
-ENVO:01001097 #tectonic plate
-ENVO:03000085 #thermokarst
-ENVO:00000412 #tidal watercourse
-ENVO:00000041 #tidal creek
-ENVO:00000275 #tornado
-ENVO:01001486 #landspout
-ENVO:01001485 #multiple vortex tornado
-ENVO:01001487 #waterspout
-ENVO:01000649 #trench
-ENVO:00000275 #ocean trench
-ENVO:00000499 #trough
-ENVO:01000654 #undersea trough
-ENVO:00000061 #underground water body
-ENVO:00000190 #abyssal feature
-ENVO:01000058 #kelp forest
-ENVO:01000129 #marine hydrothermal vent chimney
-ENVO:00000247 #volcano
-ENVO:00000407 #subglacial volcano
-ENVO:00000408 #volcanic fissure
-ENVO:00000351 #volcanic arc
-ENVO:00000352 #continental arc
-ENVO:00000353 #island arc
-ENVO:01001276 #water ice layer
-ENVO:01000547 #glaze ice layer
-ENVO:03000074 #grease ice layer
-ENVO:03000077 #slush ice layer
-ENVO:01001543 #water ice surface layer
-ENVO:00000040 #waterfall
-ENVO:00000292 #watershed
-ENVO:00000293 #continental divide
-ENVO:01001681 #weather front
-ENVO:01001708 #anafront
-ENVO:01001706 #cold front
-ENVO:01001718 #secondary cold front
-ENVO:01001710 #intertropical front
-ENVO:01001709 #katafront
-ENVO:01001714 #occluded front
-ENVO:01001715 #cold occluded front
-ENVO:01001717 #neutral occluded front
-ENVO:01001716 #warm occluded front
-ENVO:01001698 #polar front
-ENVO:01001745 #quasi-stationary front
-ENVO:01001713 #upper front
-ENVO:01001707 #warm front
-ENVO:01001209 #wetland ecosystem
-ENVO:00000230 #coastal wetland ecosystem
-ENVO:01001468 #intertidal ecosystem
-ENVO:00000057 #mangrove swamp
-ENVO:00000192 #mudflat
-ENVO:00000242 #lacustrine mudflat
-ENVO:00000241 #tidal mudflat
-ENVO:00000243 #freshwater wetland ecosystem
-ENVO:00000236 #dambo
-ENVO:00000238 #fluvial dambo
-ENVO:00000237 #hydromorphic/phreatic dambo
-ENVO:00000231 #moor
-ENVO:00000239 #pocasin
-ENVO:00000389 #intermittent wetland
-ENVO:00000035 #marsh
-ENVO:00000053 #freshwater marsh
-ENVO:00000054 #saline marsh
-ENVO:00000044 #peatland
-ENVO:00000511 #blanket bog
-ENVO:00000232 #fen
-ENVO:00000235 #carr
-ENVO:00000188 #palsa mire
-ENVO:00000189 #peat swamp
-ENVO:00000185 #raised mire
-ENVO:00002268 #sphagnum bog
-ENVO:00000186 #string mire
-ENVO:00000187 #tundra mire
-ENVO:00000240 #saline wetland
-ENVO:00000233 #swamp ecosystem
-ENVO:01000331 #cypress swamp
-ENVO:01000328 #dome swamp
-ENVO:01000327 #strand swamp
-ENVO:01000330 #cypress strand swamp
+### BCODMO_SM Material terms:
+ENVO:00010505	#aerosol
+ENVO:00002005	#air
+ENVO:01001189	#algal material
+ENVO:02000090	#ash
+ENVO:01000872	#ballast water
+ENVO:2000007	#biochar
+ENVO:01000156	#biofilm material
+ENVO:01000556	#biogas
+ENVO:03000007	#blue ice
+ENVO:00002019	#brackish water
+ENVO:00003044	#brine
+ENVO:01001190	#brown sea ice
+ENVO:02000008	#cell culture
+ENVO:01000560	#charcoal
+ENVO:00002982	#clay
+ENVO:01001428	#cloud
+ENVO:00002150	#coastal sea water
+ENVO:01001512	#congelation sea ice
+ENVO:00002186	#contaminated water
+ENVO:03000038	#cryoconite
+ENVO:01001103	#detritus
+ENVO:00003064	#drinking water
+ENVO:00002008	#dust
+ENVO:00010506	#emulsion
+ENVO:01000301	#estuarine water
+ENVO:00002224	#eutrophic water
+ENVO:03000002	#firn
+ENVO:03000071	#first year ice
+ENVO:01000940	#fissure water
+ENVO:00005738	#foam
+ENVO:01000844	#fog
+ENVO:00002164	#fossil
+ENVO:01001523	#frazil
+ENVO:00002011	#fresh water
+ENVO:01001511	#freshwater ice
+ENVO:01001850	#frost
+ENVO:00002983	#fuel oil
+ENVO:01000797	#gas
+ENVO:03000004	#glacial ice
+ENVO:01000480	#glass
+ENVO:01001004	#groundwater
+ENVO:01001402	#haze
+ENVO:01000554	#hydrocarbon gas
+ENVO:2000045	#hydrocarbon material
+ENVO:01000134	#hydrothermal fluid
+ENVO:00002012	#hypersaline water
+ENVO:01001064	#hypoxic water
+ENVO:01000277	#ice
+ENVO:03000065	#ice floe
+ENVO:01001614	#ice permafrost
+ENVO:01000964	#industrial wastewater
+ENVO:01001231	#kerogen
+ENVO:00000546	#lake sediment
+ENVO:04000007	#lake water
+ENVO:01000231	#lava
+ENVO:00002141	#leachate
+ENVO:01000558	#liquified hydrocarbon gas
+ENVO:01000557	#liquified natural gas
+ENVO:01000553	#liquified petroleum gas
+ENVO:01000112	#manganese nodule
+ENVO:1000746	#marine mucilage
+ENVO:03000033	#marine sediment
+ENVO:01000158	#marine snow
+ENVO:01000722	#meltwater
+ENVO:00002225	#mesotrophic water
+ENVO:01000851	#methane clathrate
+ENVO:01001139	#methane ice
+ENVO:03000088	#methane permafrost
+ENVO:01000157	#microbial mat
+ENVO:01000256	#mineral
+ENVO:01001458	#mist
+ENVO:01000001	#mud
+ENVO:03000073	#multiyear ice
+ENVO:01000552	#natural gas
+ENVO:01001395	#necromass
+ENVO:03000000	#neve
+ENVO:03000063	#new ice
+ENVO:03000068	#nilas
+ENVO:00002985	#oil
+ENVO:00002223	#oligotrophic water
+ENVO:01000155	#organic material
+ENVO:01001063	#oxic water
+ENVO:03000067	#pancake ice
+ENVO:01000060	#particulate matter
+ENVO:00000134	#permafrost
+ENVO:00002984	#petroleum
+ENVO:01000063	#plankton
+ENVO:01001121	#plant matter
+ENVO:01000404	#plastic
+ENVO:03000027	#powdery snow
+ENVO:01000600	#rainwater
+ENVO:01000599	#river water
+ENVO:00001995	#rock
+ENVO:01000017	#sand
+ENVO:00002200	#sea ice
+ENVO:03000066	#sea ice floe
+ENVO:00002149	#sea water
+ENVO:03000072	#second year ice
+ENVO:00002007	#sediment
+ENVO:00002016	#sedimentary rock
+ENVO:00002018	#sewage
+ENVO:00002018	#sewage
+ENVO:03000075	#shuga
+ENVO:03000108	#slab snow
+ENVO:01000838	#smoke
+ENVO:01000406	#snow
+ENVO:00001998	#soil
+ENVO:03000021	#soot
+ENVO:00005791	#sterile water
+ENVO:01001267	#stormwater
+ENVO:01000266	#vapor
+ENVO:00002264	#waste material
+ENVO:00002001	#waste water
+ENVO:00002001	#waste water
+ENVO:00002006	#water
+ENVO:01000575	#wax
+ENVO:00002040	#wood
+ENVO:03000069	#young ice
+
+### BCODMO_SM Context terms:
+ENVO:00000190	#abyssal feature
+ENVO:00000244	#abyssal plain
+ENVO:00002120	#acid hot spring
+ENVO:00001997	#acid mine drainage
+ENVO:01001105	#aeolian lake
+ENVO:2000004	#algal bloom
+ENVO:00002119	#alkaline hot spring
+ENVO:00002121	#alkaline salt lake
+ENVO:01000100	#along-front current
+ENVO:01000284	#amictic lake
+ENVO:00000152	#anabranch
+ENVO:01001708	#anafront
+ENVO:01000367	#anchialine cave
+ENVO:01000368	#anchialine pool
+ENVO:01001072	#anoxic lake
+ENVO:00000530	#apron
+ENVO:01000065	#aquaduct
+ENVO:00012408	#aquifer
+ENVO:00000538	#arrugado
+ENVO:00000464	#artificial harbor
+ENVO:00000099	#artificial island
+ENVO:00000377	#artificial lake
+ENVO:00000149	#artificial reef
+ENVO:00000165	#asphalt lake
+ENVO:01000647	#asthenosphere
+ENVO:01000811	#atmosphere
+ENVO:03000118	#atmosphere and water column exposed melt pond
+ENVO:03000050	#atmosphere-exposed melt pond
+ENVO:01000323	#atmospheric boundary layer
+ENVO:01000675	#atmospheric column
+ENVO:01000543	#atmospheric layer
+ENVO:01000300	#atmospheric Taylor column
+ENVO:00000166	#atoll
+ENVO:00002277	#back-arc basin
+ENVO:00000472	#backwater
+ENVO:00000141	#bank
+ENVO:00000167	#bar
+ENVO:1000751	#barrier island
+ENVO:01000275	#basin
+ENVO:01001390	#Bathymodiolus-dominated oceanic mussel bed
+ENVO:01001385	#Bathymodiolus-dominated oceanic mussel reef
+ENVO:00000032	#bay
+ENVO:00000234	#bayou
+ENVO:00000091	#beach
+ENVO:00000529	#beach ridge
+ENVO:00000270	#beaver pond
+ENVO:00000501	#bed
+ENVO:00000218	#black smoker
+ENVO:00000511	#blanket bog
+ENVO:01000903	#blizzard
+ENVO:01000686	#blowhole
+ENVO:00002226	#borehole
+ENVO:01000093	#boundary current front
+ENVO:00002137	#brackish estuary
+ENVO:00000540	#brackish lake
+ENVO:00000541	#brackish pond
+ENVO:01000109	#brackish water body
+ENVO:03000041	#brine channel
+ENVO:00000369	#brine pool
+ENVO:00002143	#calcite hot spring
+ENVO:01000108	#canal
+ENVO:00000525	#canalized stream
+ENVO:00000235	#carr
+ENVO:00000067	#cave
+ENVO:03000117	#channel
+ENVO:00002270	#chemocline
+ENVO:00000087	#cliff
+ENVO:01000687	#coast
+ENVO:01000086	#coastal buoyancy current front
+ENVO:01000711	#coastal flood
+ENVO:00000137	#coastal inlet
+ENVO:00000090	#coastal plain
+ENVO:01001256	#coastal shrimp pond
+ENVO:01000006	#coastal upwelling
+ENVO:01000090	#coastal upwelling front
+ENVO:02000049	#coastal water body
+ENVO:00000230	#coastal wetland
+ENVO:01001706	#cold front
+ENVO:01001715	#cold occluded front
+ENVO:01000263	#cold seep
+ENVO:01000102	#cold surface current
+ENVO:00000272	#confluence
+ENVO:00000490	#consequent stream
+ENVO:00000352	#continental arc
+ENVO:01000748	#continental crust
+ENVO:00000293	#continental divide
+ENVO:00000221	#continental island
+ENVO:01000298	#continental margin
+ENVO:00000274	#continental rise
+ENVO:00000223	#continental shelf
+ENVO:00000273	#continental slope
+ENVO:01001294	#convective storm
+ENVO:00000150	#coral reef
+ENVO:00000138	#cove
+ENVO:00000514	#crater
+ENVO:01001062	#crater lake
+ENVO:03000039	#cryoconite hole
+ENVO:01001297	#cyclone
+ENVO:01000330	#cypress strand swamp
+ENVO:01000331	#cypress swamp
+ENVO:00000236	#dambo
+ENVO:01000326	#deep chlorophyll maximum layer
+ENVO:01000098	#deep ocean current
+ENVO:00000101	#delta
+ENVO:1000750	#depositional island
+ENVO:01000286	#dimictic lake
+ENVO:00000069	#distributary
+ENVO:00000518	#ditch mouth
+ENVO:01000328	#dome swamp
+ENVO:00000042	#drainage canal
+ENVO:01000104	#eastern boundary current
+ENVO:00000197	#endorheic lake
+ENVO:03000018	#englacial stream
+ENVO:00000368	#ephemeral island
+ENVO:00000204	#ephemeral spring
+ENVO:00002131	#epilimnion
+ENVO:01000092	#equatorial upwelling front
+ENVO:01001314	#estuarine coastal lower water column
+ENVO:01001313	#estuarine coastal pycnocline
+ENVO:01001302	#estuarine coastal surface layer
+ENVO:01001312	#estuarine coastal upper water column
+ENVO:01000084	#estuarine front
+ENVO:01001322	#estuarine open water lower water column
+ENVO:01001323	#estuarine open water pycnocline
+ENVO:01001315	#estuarine open water surface layer
+ENVO:01001316	#estuarine open water upper water column
+ENVO:01001329	#estuarine tidal riverine open water lower water column
+ENVO:00000045	#estuary
+ENVO:01001301	#estuary layer
+ENVO:01000548	#eutrophic lake
+ENVO:01000824	#exorheic lake
+ENVO:01000546	#exosphere
+ENVO:01001295	#extra-tropical cyclone
+ENVO:00000232	#fen
+ENVO:00000056	#fishpond
+ENVO:00000039	#fjord
+ENVO:00000201	#fjord lake
+ENVO:01000713	#flash flood
+ENVO:01000710	#flood
+ENVO:01000258	#fluid cline
+ENVO:00000079	#flume
+ENVO:00000238	#fluvial dambo
+ENVO:01001712	#free atmosphere
+ENVO:2000005	#freshwater algal bloom
+ENVO:00000021	#freshwater lake
+ENVO:00000053	#freshwater marsh
+ENVO:01000297	#freshwater river
+ENVO:01000598	#freshwater spring
+ENVO:00000243	#freshwater wetland
+ENVO:01001672	#frontal surface of a weather front
+ENVO:01000754	#fumarole-derived ice tower
+ENVO:01000908	#geothermally heated river
+ENVO:00000050	#geyser
+ENVO:00000488	#glacial lake
+ENVO:01000364	#glacier cave
+ENVO:01001532	#glacier ice field
+ENVO:01000547	#glaze ice layer
+ENVO:00002112	#gold mine drainage
+ENVO:03000074	#grease ice layer
+ENVO:01000904	#ground blizzard
+ENVO:00000214	#hadalpelagic zone
+ENVO:01000880	#hailstorm
+ENVO:00000463	#harbor
+ENVO:00000153	#headwater
+ENVO:00000225	#highly stratified estuary
+ENVO:01000285	#holomictic lake
+ENVO:00000051	#hot spring
+ENVO:00000199	#humic lake
+ENVO:00000516	#hummock
+ENVO:00000237	#hydromorphic dambo
+ENVO:01000265	#hydrothermal seep
+ENVO:00000215	#hydrothermal vent
+ENVO:01001019	#hypereutrophic lake
+ENVO:01001020	#hypersaline lake
+ENVO:00002130	#hypolimnion
+ENVO:01001075	#hypoxic lake
+ENVO:01000365	#ice cave
+ENVO:00000299	#ice field
+ENVO:01001276	#ice layer
+ENVO:01001551	#ice lead
+ENVO:00000198	#ice-covered lake
+ENVO:03000051	#ice-encased melt pond
+ENVO:01000882	#icestorm
+ENVO:00000089	#inland cliff
+ENVO:01001786	#inland sea
+ENVO:00000475	#inlet
+ENVO:01000643	#inner planetary core
+ENVO:00000494	#insequent stream
+ENVO:00000229	#intermittent estuary
+ENVO:00000389	#intermittent wetland
+ENVO:01001468	#intertidal ecosystem
+ENVO:01001710	#intertropical front
+ENVO:03000053	#intraglacial lake
+ENVO:00000228	#inverse estuary
+ENVO:01000545	#ionosphere
+ENVO:00000036	#irrigation canal
+ENVO:00000098	#island
+ENVO:00000353	#island arc
+ENVO:00000174	#isthmus
+ENVO:01001709	#katafront
+ENVO:01000058	#kelp forest
+ENVO:00000093	#lacustrine beach
+ENVO:00000242	#lacustrine mudflat
+ENVO:00000038	#lagoon
+ENVO:00000020	#lake
+ENVO:00000268	#lake bed
+ENVO:00000397	#lake channel
+ENVO:01000688	#lake coast
+ENVO:00000476	#lake inlet
+ENVO:00000424	#lake island
+ENVO:01000283	#lake layer
+ENVO:00000382	#lake shore
+ENVO:00000105	#lake surface
+ENVO:00000391	#land bridge
+ENVO:00000269	#land-tied island
+ENVO:00000219	#landlocked sea
+ENVO:01001781	#landmass
+ENVO:01001106	#landslide lake
+ENVO:01001486	#landspout
+ENVO:00000178	#levee
+ENVO:00000453	#liman
+ENVO:01000359	#limestone cave
+ENVO:01000644	#liquid planetary core
+ENVO:01000646	#lithosphere
+ENVO:00000517	#lost stream
+ENVO:01001674	#lysocline
+ENVO:00000417	#machair
+ENVO:00000442	#maelstrom
+ENVO:00000103	#mangrove island
+ENVO:00000057	#mangrove swamp
+ENVO:01000095	#marginal ice zone front
+ENVO:01000027	#marine abyssal zone
+ENVO:00000212	#marine abyssalpelagic zone
+ENVO:01000057	#marine algal bloom
+ENVO:00000210	#marine aphotic zone
+ENVO:01000026	#marine bathyal zone
+ENVO:00000211	#marine bathypelagic zone
+ENVO:01001378	#marine bed
+ENVO:01000062	#marine benthic storm
+ENVO:01000024	#marine benthic zone
+ENVO:00000396	#marine channel
+ENVO:01000076	#marine chemocline
+ENVO:01001676	#marine cline
+ENVO:01000108	#marine cold water mass
+ENVO:01000067	#marine current
+ENVO:01000064	#marine downwelling
+ENVO:01001376	#marine faunal bed
+ENVO:01000028	#marine hadal zone
+ENVO:01000130	#marine hydrothermal plume
+ENVO:01000122	#marine hydrothermal vent
+ENVO:01000129	#marine hydrothermal vent chimney
+ENVO:01000295	#marine layer
+ENVO:01000079	#marine lysocline
+ENVO:00000213	#marine mesopelagic zone
+ENVO:01000025	#marine neritic benthic zone
+ENVO:00000206	#marine neritic zone
+ENVO:01000065	#marine oxygen minimum zone
+ENVO:01000023	#marine pelagic zone
+ENVO:00000208	#marine pelagic zone
+ENVO:00000209	#marine photic zone
+ENVO:01000160	#marine pockmark
+ENVO:01000077	#marine pycnocline
+ENVO:01000143	#marine reef
+ENVO:01000161	#marine sponge reef
+ENVO:01000068	#marine streamer
+ENVO:01000150	#marine subtidal rocky reef
+ENVO:01000099	#marine surface current
+ENVO:01000072	#marine Taylor column
+ENVO:01000075	#marine thermocline
+ENVO:01001336	#marine tidal flow
+ENVO:01000109	#marine warm water mass
+ENVO:00001999	#marine water body
+ENVO:01000686	#marine water mass
+ENVO:01000061	#marine wind mixed layer
+ENVO:00000035	#marsh
+ENVO:03000040	#melt pond
+ENVO:00000199	#meromictic lake
+ENVO:00002128	#mesophilic sulfur spring
+ENVO:01000069	#mesoscale marine eddy
+ENVO:01000539	#mesosphere
+ENVO:01000775	#mesotrophic lake
+ENVO:00002132	#metalimnion
+ENVO:03000083	#methane-releasing thermokarst lake
+ENVO:1000749	#microcontinental island
+ENVO:00000406	#mid-ocean ridge
+ENVO:01000088	#mid-shelf fronts
+ENVO:00001996	#mine drainage
+ENVO:00000125	#mineral spring
+ENVO:01000750	#Mohorovicic discontinuity
+ENVO:01000288	#monomictic lake
+ENVO:00000231	#moor
+ENVO:00000479	#mouth
+ENVO:00000192	#mudflat
+ENVO:01001485	#multiple vortex tornado
+ENVO:01001379	#mussel bed
+ENVO:01001386	#mussel reef
+ENVO:00000465	#natural harbor
+ENVO:01001729	#nautical squall
+ENVO:00000048	#navigation canal
+ENVO:01000042	#neritic epipelagic zone
+ENVO:01000043	#neritic mesopelagic zone
+ENVO:01001389	#neritic mussel bed
+ENVO:01001380	#neritic mussel reef
+ENVO:01000032	#neritic pelagic zone
+ENVO:01000041	#neritic sea surface microlayer
+ENVO:00002181	#neutral hot spring
+ENVO:01001717	#neutral occluded front
+ENVO:01001675	#nutricline
+ENVO:00000493	#obsequent stream
+ENVO:01001714	#occluded front
+ENVO:00000015	#ocean
+ENVO:00002450	#ocean basin
+ENVO:00000426	#ocean floor
+ENVO:01000651	#ocean strait
+ENVO:00000275	#ocean trench
+ENVO:01000038	#oceanic abyssopelagic zone
+ENVO:01000037	#oceanic bathypelagic zone
+ENVO:01000040	#oceanic benthopelagic zone
+ENVO:01000749	#oceanic crust
+ENVO:01000035	#oceanic epipelagic zone
+ENVO:01000071	#oceanic front
+ENVO:01000074	#oceanic gyre
+ENVO:01000039	#oceanic hadal pelagic zone
+ENVO:00000222	#oceanic island
+ENVO:01000036	#oceanic mesopelagic zone
+ENVO:01001388	#oceanic mussel bed
+ENVO:01001381	#oceanic mussel reef
+ENVO:01000033	#oceanic pelagic zone
+ENVO:01000034	#oceanic sea surface microlayer
+ENVO:00000207	#oceanic zone
+ENVO:00002185	#oil reservoir
+ENVO:00002063	#oil seep
+ENVO:01000774	#oligotrophic lake
+ENVO:01000642	#outer planetary core
+ENVO:00000202	#oxbow lake
+ENVO:01001076	#oxic lake
+ENVO:01000542	#ozone layer
+ENVO:00000188	#palsa mire
+ENVO:00000487	#paternoster lake
+ENVO:00000189	#peat swamp
+ENVO:00000044	#peatland
+ENVO:01000081	#pelagic isohaline surface
+ENVO:01000083	#pelagic isopycnal surface
+ENVO:01000080	#pelagic isothermal surface
+ENVO:00000305	#peninsula
+ENVO:03000115	#perennial snow patch
+ENVO:00000200	#periglacial lake
+ENVO:00000205	#permanent spring
+ENVO:00000086	#plain
+ENVO:01000641	#planetary core
+ENVO:01000638	#planetary crust
+ENVO:01000639	#planetary layer
+ENVO:01000640	#planetary mantle
+ENVO:01000085	#plume front
+ENVO:00000483	#plunge pool
+ENVO:00000239	#pocasin
+ENVO:01001698	#polar front
+ENVO:01000680	#polluted lake
+ENVO:01000287	#polymictic lake
+ENVO:00000484	#polynya
+ENVO:00000033	#pond
+ENVO:00000512	#pond bed
+ENVO:00000435	#proglacial lake
+ENVO:01000871	#puddle of water
+ENVO:01000259	#pycnocline
+ENVO:01001745	#quasi-stationary front
+ENVO:01000879	#rainstorm
+ENVO:00000415	#raised beach
+ENVO:00000185	#raised mire
+ENVO:00000492	#resequent stream
+ENVO:00000025	#reservoir
+ENVO:00000513	#reservoir bed
+ENVO:00000452	#ribbon lake
+ENVO:00000283	#ridge
+ENVO:00000148	#riffle
+ENVO:00000203	#rift lake
+ENVO:00000022	#river
+ENVO:00000143	#river bank
+ENVO:00000384	#river bed
+ENVO:01000652	#river channel
+ENVO:00000423	#river island
+ENVO:00000386	#river mouth
+ENVO:01000712	#riverine flood
+ENVO:00000440	#rock shelter
+ENVO:00000130	#rocky reef
+ENVO:00000055	#saline evaporation pond
+ENVO:00000019	#saline lake
+ENVO:00000226	#saline wedge estuary
+ENVO:00000240	#saline wetland
+ENVO:00000054	#salt marsh
+ENVO:00002199	#sandy beach
+ENVO:00000016	#sea
+ENVO:00000092	#sea beach
+ENVO:00000326	#sea cave
+ENVO:00000088	#sea cliff
+ENVO:00000303	#sea coast
+ENVO:00000482	#sea floor
+ENVO:01000059	#sea grass bed
+ENVO:01001531	#sea ice field
+ENVO:01001537	#sea ice hummock
+ENVO:00000485	#sea shore
+ENVO:01001581	#sea surface layer
+ENVO:03000114	#seasonal snow patch
+ENVO:01001718	#secondary cold front
+ENVO:01000262	#seep
+ENVO:01000089	#shelf-slope/shelf-break front
+ENVO:00000545	#shingle beach
+ENVO:00000304	#shore
+ENVO:00000486	#shoreline
+ENVO:01000905	#shrimp pond
+ENVO:00000224	#slightly stratified estuary
+ENVO:00002000	#slope
+ENVO:03000077	#slush ice layer
+ENVO:03000112	#snow drift
+ENVO:03000111	#snow mass
+ENVO:03000113	#snow patch
+ENVO:03000116	#snowpack
+ENVO:01000881	#snowstorm
+ENVO:01000645	#solid planetary core
+ENVO:00000393	#sound
+ENVO:00002268	#sphagnum bog
+ENVO:00000306	#spit
+ENVO:00000027	#spring
+ENVO:00000419	#stack
+ENVO:01000876	#storm
+ENVO:01000714	#storm surge
+ENVO:00000394	#strait
+ENVO:01000327	#strand swamp
+ENVO:01000538	#stratosphere
+ENVO:00000023	#stream
+ENVO:00000142	#stream bank
+ENVO:00000383	#stream bed
+ENVO:01000650	#stream channel
+ENVO:00000385	#stream mouth
+ENVO:00000186	#string mire
+ENVO:03000120	#subglacial lake
+ENVO:00000407	#subglacial volcano
+ENVO:00000491	#subsequent stream
+ENVO:01000094	#subtropical convergence front
+ENVO:00000126	#sulfur spring
+ENVO:03000035	#supraglacial lake
+ENVO:01000097	#surface convergence
+ENVO:00000233	#swamp
+ENVO:00000552	#talik
+ENVO:00000455	#tarn
+ENVO:01000299	#Taylor column
+ENVO:01001092	#tectonic lake
+ENVO:01001097	#tectonic plate
+ENVO:03000048	#thaw hole
+ENVO:00002269	#thermocline
+ENVO:03000085	#thermokarst
+ENVO:03000084	#thermokarst depression
+ENVO:03000082	#thermokarst lake
+ENVO:01000541	#thermosphere
+ENVO:01000878	#thunderstorm
+ENVO:00000041	#tidal creek
+ENVO:01000087	#tidal mixing front
+ENVO:00000241	#tidal mudflat
+ENVO:00000317	#tidal pool
+ENVO:00000412	#tidal watercourse
+ENVO:00000420	#tombolo
+ENVO:01000091	#topographic upwelling front
+ENVO:00000275	#tornado
+ENVO:01000649	#trench
+ENVO:00000495	#tributary
+ENVO:01001296	#tropical storm
+ENVO:01000540	#troposphere
+ENVO:00000499	#trough
+ENVO:00000187	#tundra mire
+ENVO:00000068	#tunnel
+ENVO:01000862	#turbulent aquatic surface layer
+ENVO:00000505	#underground irrigation canal
+ENVO:00000058	#underground lake
+ENVO:00000059	#underground river
+ENVO:00000060	#underground stream
+ENVO:00000061	#underground water body
+ENVO:01000654	#undersea trough
+ENVO:01001713	#upper front
+ENVO:01000005	#upwelling
+ENVO:00000351	#volcanic arc
+ENVO:00000408	#volcanic fissure
+ENVO:00000247	#volcano
+ENVO:00000507	#wadi mouth
+ENVO:01001298	#warm core cyclone
+ENVO:01001707	#warm front
+ENVO:01001716	#warm occluded front
+ENVO:00002926	#warm seep
+ENVO:01000101	#warm surface current
+ENVO:03000119	#water column exposed melt pond
+ENVO:01001543	#water ice surface layer
+ENVO:01000096	#water mass front
+ENVO:01001191	#water surface
+ENVO:00000040	#waterfall
+ENVO:00000292	#watershed
+ENVO:01001487	#waterspout
+ENVO:00000421	#wave-cut platform
+ENVO:01001681	#weather front
+ENVO:01001653	#well-mixed estuary
+ENVO:01000103	#western boundary current
+ENVO:01001209	#wetland
+ENVO:00000409	#whirlpool
+ENVO:01000257	#white smoker
+ENVO:01001749	#wind storm
