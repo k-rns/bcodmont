@@ -401,10 +401,10 @@ oxide	iodine oxide	oxidoiodate(.2-)			CHEBI:29900	oxidoiodate(.2-)	iodine oxide	
 oxide	iodine oxide	oxidoiodine(.)			CHEBI:29896	oxidoiodine(.)	iodine oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 oxide	iodine oxide	oxidoiodine(1+)			CHEBI:29899	oxidoiodine(1+)	iodine oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 oxide	iodine oxide	trioxidoiodine(1+)			CHEBI:29907	trioxidoiodine(1+)	iodine oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-oxide	iron oxide				CHEBI:50816	iron oxide												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-oxide	iron oxide	ferric oxide			CHEBI:50819	ferric oxide												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-oxide	iron oxide	ferrosoferric oxide			CHEBI:50821	ferrosoferric oxide												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-oxide	iron oxide	ferrous oxide			CHEBI:50820	ferrous oxide												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxide	iron oxide				CHEBI:50816	iron oxide	oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxide	iron oxide	ferric oxide			CHEBI:50819	ferric oxide	iron oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxide	iron oxide	ferrosoferric oxide			CHEBI:50821	ferrosoferric oxide	iron oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+oxide	iron oxide	ferrous oxide			CHEBI:50820	ferrous oxide	iron oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 oxide	iron oxide	iron(III) oxide-hydroxide(1-)			CHEBI:78619	iron(III) oxide-hydroxide(1-)	iron oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 oxide	hydrogen peroxide				CHEBI:16240	hydrogen peroxide	oxide										http://lod.bco-dmo.org/id/parameter/1917	http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 oxide	manganese dioxide				CHEBI:136511	manganese dioxide	oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
@@ -850,7 +850,7 @@ hydrocarbon	alkane	pentane			CHEBI:37830	pentane	alkane											http://bcodmo/
 hydrocarbon	alkane	propane			CHEBI:32879	propane	alkane										http://lod.bco-dmo.org/id/parameter/819908	http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 hydrocarbon	alkane	undecane			CHEBI:46342	undecane	alkane											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 organic compound					CHEBI:50860	organic compound												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-organic compound	protein				CHEBI:36080	protein												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+organic compound	protein				CHEBI:36080	protein	organic compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 organic compound	amino acid				CHEBI:33709	amino acid	organic compound										http://lod.bco-dmo.org/id/parameter/1309	http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 organic compound	amino acid	alanine			CHEBI:16449	alanine	amino acid											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 organic compound	amino acid	arginine			CHEBI:29016	arginine	amino acid											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
