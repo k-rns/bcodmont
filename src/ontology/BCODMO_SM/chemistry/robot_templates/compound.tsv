@@ -343,7 +343,7 @@ carbon compound	organic compound	pigment	accessory pigments	carotenoid	luteoxant
 carbon compound	organic compound	pigment	accessory pigments	carotenoid	neoxanthin		CHEBI:25501	neoxanthin	carotenoid											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 carbon compound	organic compound	pigment	accessory pigments	carotenoid	peridinin		CHEBI:44882	peridinin	carotenoid											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 carbon compound	organic compound	pigment	accessory pigments	carotenoid	violaxanthin		CHEBI:27295	violaxanthin	carotenoid											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-carbon compound	organic compound	pigment	accessory pigments	carotene			CHEBI:23042	carotene	lipid										http://lod.bco-dmo.org/id/parameter/1354	http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+carbon compound	organic compound	pigment	accessory pigments	carotene			CHEBI:23042	carotene	accessory pigments										http://lod.bco-dmo.org/id/parameter/1354	http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 carbon compound	organic compound	pigment	accessory pigments	carotene	acyclic carotene		CHEBI:35162	acyclic carotene	carotene											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 carbon compound	organic compound	pigment	accessory pigments	carotene	acyclic carotene	lycopaoctaene	CHEBI:142538	lycopaoctaene	acyclic carotene											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 carbon compound	organic compound	pigment	accessory pigments	carotene	acyclic carotene	lycopene	CHEBI:15948	lycopene	acyclic carotene											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
@@ -413,7 +413,7 @@ copper compound							CHEBI:23377	copper compound												http://bcodmo/sm#ch
 copper compound	copper oxide						CHEBI:134069	copper oxide	copper compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 copper compound	copper oxide	copper(II) oxide					CHEBI:75955	copper(II) oxide	copper oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 copper compound	copper oxide	cuprous oxide					CHEBI:81908	cuprous oxide	copper oxide											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-copper compound	copper mineral						BSM:0210008	copper mineral				CHEBI:46714								http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+copper compound	copper mineral						BSM:0210008	copper mineral	copper compound			CHEBI:46714								http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 copper compound	copper mineral	copper(II) chloride dihydrate					CHEBI:86318	copper(II) chloride dihydrate	copper mineral											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 copper compound	copper mineral	copper(II) chloride pentahydrate					CHEBI:91245	copper(II) chloride pentahydrate	copper mineral											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 fluorine compound							CHEBI:24062	fluorine compound												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
@@ -804,7 +804,7 @@ silicon compound	silicate mineral	serpentine mineral	antigorite				CHEBI:46672	a
 silicon compound	silicate mineral	serpentine mineral	lizardite				CHEBI:46674	lizardite	serpentine mineral											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sodium compound							CHEBI:26712	sodium compound												http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sodium compound	sodium hydroxide						CHEBI:32145	sodium hydroxide	sodium compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-sodium compound	sodium salt						CHEBI:26714	sodium salt	salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+sodium compound	sodium salt						CHEBI:26714	sodium salt	sodium compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sodium compound	sodium salt	organic sodium salt					CHEBI:38700	organic sodium salt	sodium compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sodium compound	sodium salt	organic sodium salt	sodium acetate				CHEBI:32954	sodium acetate	organic sodium salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sodium compound	sodium salt	organic sodium salt	sodium butyrate				CHEBI:64103	sodium butyrate	organic sodium salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
@@ -979,7 +979,7 @@ sulfur compound	sulfate salt	inorganic sulfate salt	metal sulfate	zinc sulfate		
 sulfur compound	sulfite salt						CHEBI:48857	sulfite salt	sulfur compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sulfur compound	sulfite salt	sodium hydrogensulfite					CHEBI:26709	sodium hydrogensulfite	sulfite salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sulfur compound	sulfite salt	sodium sulfite					CHEBI:86477	sodium sulfite	sulfite salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
-sulfur compound	sulfide salt						CHEBI:46718	sulfide salt	salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
+sulfur compound	sulfide salt						CHEBI:46718	sulfide salt	sulfur compound											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sulfur compound	sulfide salt	barium sulfide					CHEBI:32590	barium sulfide	sulfide salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sulfur compound	sulfide salt	iron sulfides					CHEBI:75896	iron sulfides	sulfide salt											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
 sulfur compound	sulfide salt	iron sulfides	iron(2+) sulfides				CHEBI:75897	iron(2+) sulfides	iron sulfides											http://bcodmo/sm#chemistry	http://bcodmo/sm#compound
