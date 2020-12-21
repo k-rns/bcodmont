@@ -352,7 +352,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">arsenic-75 atom</rdfs:label>
+        <rdfs:label xml:lang="en">arsenic-75 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -376,7 +376,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">barium-138 atom</rdfs:label>
+        <rdfs:label xml:lang="en">barium-138 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -388,7 +388,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">beryllium-7 atom</rdfs:label>
+        <rdfs:label xml:lang="en">beryllium-7 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -400,7 +400,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1940"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cadmium-110 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium-110 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -412,7 +412,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cadmium-112 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium-112 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -424,7 +424,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cadmium-114 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium-114 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -435,7 +435,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">calcium-42 atom</rdfs:label>
+        <rdfs:label xml:lang="en">calcium-42 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -446,7 +446,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">calcium-43 atom</rdfs:label>
+        <rdfs:label xml:lang="en">calcium-43 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -457,7 +457,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">calcium-44 atom</rdfs:label>
+        <rdfs:label xml:lang="en">calcium-44 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -469,7 +469,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cerium-140 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cerium-140 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -492,7 +492,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30514"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cesium-133 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cesium-133 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -506,7 +506,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1881"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cesium-134 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cesium-134 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -519,7 +519,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1883"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cesium-137 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cesium-137 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -531,7 +531,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">chromium-52 atom</rdfs:label>
+        <rdfs:label xml:lang="en">chromium-52 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -543,7 +543,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">chromium-53 atom</rdfs:label>
+        <rdfs:label xml:lang="en">chromium-53 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -555,7 +555,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">chromium-54 atom</rdfs:label>
+        <rdfs:label xml:lang="en">chromium-54 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -567,7 +567,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">cobalt-59 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cobalt-59 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -579,7 +579,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">copper-65 atom</rdfs:label>
+        <rdfs:label xml:lang="en">copper-65 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -649,7 +649,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">gallium-69 atom</rdfs:label>
+        <rdfs:label xml:lang="en">gallium-69 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -719,7 +719,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">iron-54 atom</rdfs:label>
+        <rdfs:label xml:lang="en">iron-54 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -731,7 +731,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">iron-56 atom</rdfs:label>
+        <rdfs:label xml:lang="en">iron-56 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -766,7 +766,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25016"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">lead-208 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lead-208 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -778,7 +778,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1644"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">lead-210 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lead-210 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -812,7 +812,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25107"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">magnesium-24 atom</rdfs:label>
+        <rdfs:label xml:lang="en">magnesium-24 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -823,7 +823,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25107"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">magnesium-26 atom</rdfs:label>
+        <rdfs:label xml:lang="en">magnesium-26 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -834,7 +834,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">manganese-55 atom</rdfs:label>
+        <rdfs:label xml:lang="en">manganese-55 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -858,7 +858,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33372"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">neodymium-145 atom</rdfs:label>
+        <rdfs:label xml:lang="en">neodymium-145 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -893,7 +893,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">nickel-60 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nickel-60 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -939,7 +939,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">potassium-40 atom</rdfs:label>
+        <rdfs:label xml:lang="en">potassium-40 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -974,7 +974,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1635"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">protactinium-231 atom</rdfs:label>
+        <rdfs:label xml:lang="en">protactinium-231 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -986,7 +986,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">rubidium-85 atom</rdfs:label>
+        <rdfs:label xml:lang="en">rubidium-85 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -997,7 +997,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27568"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">selenium-78 atom</rdfs:label>
+        <rdfs:label xml:lang="en">selenium-78 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1068,7 +1068,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">strontium-86 atom</rdfs:label>
+        <rdfs:label xml:lang="en">strontium-86 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1080,7 +1080,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">strontium-88 atom</rdfs:label>
+        <rdfs:label xml:lang="en">strontium-88 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1115,7 +1115,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thorium-228 atom</rdfs:label>
+        <rdfs:label xml:lang="en">thorium-228 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1127,7 +1127,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thorium-230 atom</rdfs:label>
+        <rdfs:label xml:lang="en">thorium-230 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1139,7 +1139,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thorium-232 atom</rdfs:label>
+        <rdfs:label xml:lang="en">thorium-232 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1151,7 +1151,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">thorium-234 atom</rdfs:label>
+        <rdfs:label xml:lang="en">thorium-234 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1186,7 +1186,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">titanium-49 atom</rdfs:label>
+        <rdfs:label xml:lang="en">titanium-49 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1200,7 +1200,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1675"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">uranium-238 atom</rdfs:label>
+        <rdfs:label xml:lang="en">uranium-238 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1260,7 +1260,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1941"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">zinc-64 atom</rdfs:label>
+        <rdfs:label xml:lang="en">zinc-64 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1273,7 +1273,7 @@
         <oboInOwl:hasDbXref rdf:resource="http://lod.bco-dmo.org/id/parameter/1941"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">zinc-66 atom</rdfs:label>
+        <rdfs:label xml:lang="en">zinc-66 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1296,7 +1296,7 @@
         <obo:IAO_0000116 xml:lang="en">Add to CHEBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#chemistry"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
-        <rdfs:label xml:lang="en">zirconium-90 atom</rdfs:label>
+        <rdfs:label xml:lang="en">zirconium-90 isotope</rdfs:label>
     </owl:Class>
     
 
@@ -1816,7 +1816,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>argon-39 atom</rdfs:label>
-        <rdfs:label xml:lang="en">argon-39 atom</rdfs:label>
+        <rdfs:label xml:lang="en">argon-39 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_155827"/>
@@ -3313,7 +3313,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>iron atom</rdfs:label>
-        <rdfs:label xml:lang="en">iron atom</rdfs:label>
+        <rdfs:label xml:lang="en">iron isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18248"/>
@@ -3611,7 +3611,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>manganese atom</rdfs:label>
-        <rdfs:label xml:lang="en">manganese atom</rdfs:label>
+        <rdfs:label xml:lang="en">manganese isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
@@ -3990,7 +3990,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>bromine atom</rdfs:label>
-        <rdfs:label xml:lang="en">bromine atom</rdfs:label>
+        <rdfs:label xml:lang="en">bromine isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22927"/>
@@ -4072,7 +4072,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>cadmium atom</rdfs:label>
-        <rdfs:label xml:lang="en">cadmium atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22977"/>
@@ -4161,7 +4161,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>calcium atom</rdfs:label>
-        <rdfs:label xml:lang="en">calcium atom</rdfs:label>
+        <rdfs:label xml:lang="en">calcium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
@@ -4243,7 +4243,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>chlorine atom</rdfs:label>
-        <rdfs:label xml:lang="en">chlorine atom</rdfs:label>
+        <rdfs:label xml:lang="en">chlorine isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23116"/>
@@ -4323,7 +4323,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>fluorine atom</rdfs:label>
-        <rdfs:label xml:lang="en">fluorine atom</rdfs:label>
+        <rdfs:label xml:lang="en">fluorine isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24061"/>
@@ -4406,7 +4406,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>iodine atom</rdfs:label>
-        <rdfs:label xml:lang="en">iodine atom</rdfs:label>
+        <rdfs:label xml:lang="en">iodine isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24859"/>
@@ -4500,7 +4500,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lead atom</rdfs:label>
-        <rdfs:label xml:lang="en">lead atom</rdfs:label>
+        <rdfs:label xml:lang="en">lead isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25016"/>
@@ -4583,7 +4583,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>magnesium atom</rdfs:label>
-        <rdfs:label xml:lang="en">magnesium atom</rdfs:label>
+        <rdfs:label xml:lang="en">magnesium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25107"/>
@@ -4735,7 +4735,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>mercury atom</rdfs:label>
-        <rdfs:label xml:lang="en">mercury atom</rdfs:label>
+        <rdfs:label xml:lang="en">mercury isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25195"/>
@@ -4903,7 +4903,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25555"/>
@@ -4977,7 +4977,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25805"/>
@@ -5373,7 +5373,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>potassium atom</rdfs:label>
-        <rdfs:label xml:lang="en">potassium atom</rdfs:label>
+        <rdfs:label xml:lang="en">potassium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26216"/>
@@ -5456,7 +5456,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sodium atom</rdfs:label>
-        <rdfs:label xml:lang="en">sodium atom</rdfs:label>
+        <rdfs:label xml:lang="en">sodium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26708"/>
@@ -5549,7 +5549,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26833"/>
@@ -5667,7 +5667,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27007"/>
@@ -5759,7 +5759,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>uranium atom</rdfs:label>
-        <rdfs:label xml:lang="en">uranium atom</rdfs:label>
+        <rdfs:label xml:lang="en">uranium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27214"/>
@@ -5839,7 +5839,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>zinc atom</rdfs:label>
-        <rdfs:label xml:lang="en">zinc atom</rdfs:label>
+        <rdfs:label xml:lang="en">zinc isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
@@ -5978,7 +5978,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>boron atom</rdfs:label>
-        <rdfs:label xml:lang="en">boron atom</rdfs:label>
+        <rdfs:label xml:lang="en">boron isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27560"/>
@@ -6081,7 +6081,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>arsenic atom</rdfs:label>
-        <rdfs:label xml:lang="en">arsenic atom</rdfs:label>
+        <rdfs:label xml:lang="en">arsenic isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27563"/>
@@ -6176,7 +6176,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>selenium atom</rdfs:label>
-        <rdfs:label xml:lang="en">selenium atom</rdfs:label>
+        <rdfs:label xml:lang="en">selenium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27568"/>
@@ -6267,7 +6267,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27573"/>
@@ -6365,7 +6365,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27594"/>
@@ -6472,7 +6472,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>vanadium atom</rdfs:label>
-        <rdfs:label xml:lang="en">vanadium atom</rdfs:label>
+        <rdfs:label xml:lang="en">vanadium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27698"/>
@@ -6662,7 +6662,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>chromium atom</rdfs:label>
-        <rdfs:label xml:lang="en">chromium atom</rdfs:label>
+        <rdfs:label xml:lang="en">chromium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28073"/>
@@ -6787,7 +6787,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nickel atom</rdfs:label>
-        <rdfs:label xml:lang="en">nickel atom</rdfs:label>
+        <rdfs:label xml:lang="en">nickel isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28112"/>
@@ -7011,7 +7011,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>phosphorus atom</rdfs:label>
-        <rdfs:label xml:lang="en">phosphorus atom</rdfs:label>
+        <rdfs:label xml:lang="en">phosphorus isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28659"/>
@@ -7122,7 +7122,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>molybdenum atom</rdfs:label>
-        <rdfs:label xml:lang="en">molybdenum atom</rdfs:label>
+        <rdfs:label xml:lang="en">molybdenum isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28685"/>
@@ -7233,7 +7233,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>copper atom</rdfs:label>
-        <rdfs:label xml:lang="en">copper atom</rdfs:label>
+        <rdfs:label xml:lang="en">copper isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
@@ -7349,7 +7349,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>aluminium atom</rdfs:label>
-        <rdfs:label xml:lang="en">aluminum atom</rdfs:label>
+        <rdfs:label xml:lang="en">aluminum isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28984"/>
@@ -9013,7 +9013,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>protium atom</rdfs:label>
-        <rdfs:label xml:lang="en">protium atom</rdfs:label>
+        <rdfs:label xml:lang="en">protium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29236"/>
@@ -9084,7 +9084,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>deuterium atom</rdfs:label>
-        <rdfs:label xml:lang="en">deuterium atom</rdfs:label>
+        <rdfs:label xml:lang="en">deuterium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29237"/>
@@ -9182,7 +9182,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tritium atom</rdfs:label>
-        <rdfs:label xml:lang="en">tritium atom</rdfs:label>
+        <rdfs:label xml:lang="en">tritium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29238"/>
@@ -12030,7 +12030,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lithium atom</rdfs:label>
-        <rdfs:label xml:lang="en">lithium atom</rdfs:label>
+        <rdfs:label xml:lang="en">lithium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30145"/>
@@ -12692,7 +12692,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>helium atom</rdfs:label>
-        <rdfs:label xml:lang="en">helium atom</rdfs:label>
+        <rdfs:label xml:lang="en">helium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30217"/>
@@ -12778,7 +12778,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>helium-3 atom</rdfs:label>
-        <rdfs:label xml:lang="en">helium-3 atom</rdfs:label>
+        <rdfs:label xml:lang="en">helium-3 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30218"/>
@@ -12855,7 +12855,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>helium-4 atom</rdfs:label>
-        <rdfs:label xml:lang="en">helium-4 atom</rdfs:label>
+        <rdfs:label xml:lang="en">helium-4 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30219"/>
@@ -13518,7 +13518,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>beryllium atom</rdfs:label>
-        <rdfs:label xml:lang="en">beryllium atom</rdfs:label>
+        <rdfs:label xml:lang="en">beryllium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30501"/>
@@ -13854,7 +13854,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silver atom</rdfs:label>
-        <rdfs:label xml:lang="en">silver atom</rdfs:label>
+        <rdfs:label xml:lang="en">silver isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30512"/>
@@ -13940,7 +13940,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>antimony atom</rdfs:label>
-        <rdfs:label xml:lang="en">antimony atom</rdfs:label>
+        <rdfs:label xml:lang="en">antimony isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30513"/>
@@ -14025,8 +14025,8 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>caesium atom</rdfs:label>
-        <rdfs:label xml:lang="en">cesium atom</rdfs:label>
-        <rdfs:label xml:lang="en">cobalt atom</rdfs:label>
+        <rdfs:label xml:lang="en">cesium isotope</rdfs:label>
+        <rdfs:label xml:lang="en">cobalt isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30514"/>
@@ -14565,7 +14565,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>osmium atom</rdfs:label>
-        <rdfs:label xml:lang="en">osmium atom</rdfs:label>
+        <rdfs:label xml:lang="en">osmium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30687"/>
@@ -14705,7 +14705,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>barium atom</rdfs:label>
-        <rdfs:label xml:lang="en">barium atom</rdfs:label>
+        <rdfs:label xml:lang="en">barium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32594"/>
@@ -15227,7 +15227,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>europium atom</rdfs:label>
-        <rdfs:label xml:lang="en">europium atom</rdfs:label>
+        <rdfs:label xml:lang="en">europium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32999"/>
@@ -15944,7 +15944,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>neon atom</rdfs:label>
-        <rdfs:label xml:lang="en">neon atom</rdfs:label>
+        <rdfs:label xml:lang="en">neon isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33310"/>
@@ -16012,7 +16012,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33313"/>
@@ -16130,7 +16130,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>rubidium atom</rdfs:label>
-        <rdfs:label xml:lang="en">rubidium atom</rdfs:label>
+        <rdfs:label xml:lang="en">rubidium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33322"/>
@@ -16209,7 +16209,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>strontium atom</rdfs:label>
-        <rdfs:label xml:lang="en">strontium atom</rdfs:label>
+        <rdfs:label xml:lang="en">strontium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33324"/>
@@ -16282,7 +16282,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>scandium atom</rdfs:label>
-        <rdfs:label xml:lang="en">scandium atom</rdfs:label>
+        <rdfs:label xml:lang="en">scandium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33330"/>
@@ -16361,7 +16361,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>yttrium atom</rdfs:label>
-        <rdfs:label xml:lang="en">yttrium atom</rdfs:label>
+        <rdfs:label xml:lang="en">yttrium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33331"/>
@@ -16442,7 +16442,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lanthanum atom</rdfs:label>
-        <rdfs:label xml:lang="en">lanthanum atom</rdfs:label>
+        <rdfs:label xml:lang="en">lanthanum isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33336"/>
@@ -16535,7 +16535,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>titanium atom</rdfs:label>
-        <rdfs:label xml:lang="en">titanium atom</rdfs:label>
+        <rdfs:label xml:lang="en">titanium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33341"/>
@@ -16621,7 +16621,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>zirconium atom</rdfs:label>
-        <rdfs:label xml:lang="en">zirconium atom</rdfs:label>
+        <rdfs:label xml:lang="en">zirconium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33342"/>
@@ -16705,7 +16705,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>hafnium atom</rdfs:label>
-        <rdfs:label xml:lang="en">hafnium atom</rdfs:label>
+        <rdfs:label xml:lang="en">hafnium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33343"/>
@@ -16757,7 +16757,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33369">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37265"/>
-        <obo:IAO_0000116 xml:lang="en">Called cerium not cerium atom in CHEBI.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Called cerium not cerium isotope in CHEBI.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>Ce</chebi:formula>
         <chebi:inchi>InChI=1S/Ce</chebi:inchi>
@@ -16780,7 +16780,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>cerium</rdfs:label>
-        <rdfs:label xml:lang="en">cerium atom</rdfs:label>
+        <rdfs:label xml:lang="en">cerium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33369"/>
@@ -16875,7 +16875,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>neodymium atom</rdfs:label>
-        <rdfs:label xml:lang="en">neodymium atom</rdfs:label>
+        <rdfs:label xml:lang="en">neodymium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33372"/>
@@ -16966,7 +16966,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>samarium atom</rdfs:label>
-        <rdfs:label xml:lang="en">samarium atom</rdfs:label>
+        <rdfs:label xml:lang="en">samarium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33374"/>
@@ -17045,7 +17045,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>gadolinium atom</rdfs:label>
-        <rdfs:label xml:lang="en">gadolinium atom</rdfs:label>
+        <rdfs:label xml:lang="en">gadolinium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33375"/>
@@ -17124,7 +17124,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>terbium atom</rdfs:label>
-        <rdfs:label xml:lang="en">terbium atom</rdfs:label>
+        <rdfs:label xml:lang="en">terbium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33376"/>
@@ -17203,7 +17203,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>dysprosium atom</rdfs:label>
-        <rdfs:label xml:lang="en">dysprosium atom</rdfs:label>
+        <rdfs:label xml:lang="en">dysprosium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33377"/>
@@ -17281,7 +17281,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>erbium</rdfs:label>
-        <rdfs:label xml:lang="en">erbium atom</rdfs:label>
+        <rdfs:label xml:lang="en">erbium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33379"/>
@@ -17354,7 +17354,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>thulium atom</rdfs:label>
-        <rdfs:label xml:lang="en">thulium atom</rdfs:label>
+        <rdfs:label xml:lang="en">thulium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33380"/>
@@ -17432,7 +17432,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>ytterbium</rdfs:label>
-        <rdfs:label xml:lang="en">ytterbium atom</rdfs:label>
+        <rdfs:label xml:lang="en">ytterbium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33381"/>
@@ -17509,7 +17509,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lutetium atom</rdfs:label>
-        <rdfs:label xml:lang="en">lutetium atom</rdfs:label>
+        <rdfs:label xml:lang="en">lutetium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33382"/>
@@ -17611,7 +17611,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>thorium</rdfs:label>
-        <rdfs:label xml:lang="en">thorium atom</rdfs:label>
+        <rdfs:label xml:lang="en">thorium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33385"/>
@@ -17685,7 +17685,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>protactinium atom</rdfs:label>
-        <rdfs:label xml:lang="en">protactinium atom</rdfs:label>
+        <rdfs:label xml:lang="en">protactinium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33386"/>
@@ -17771,7 +17771,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nobelium</rdfs:label>
-        <rdfs:label xml:lang="en">nobelium atom</rdfs:label>
+        <rdfs:label xml:lang="en">nobelium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33396"/>
@@ -19071,7 +19071,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen-18 atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen-18 atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen-18 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33815"/>
@@ -19154,7 +19154,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen-16 atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen-16 atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen-16 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33818"/>
@@ -19215,7 +19215,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen-17 atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen-17 atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen-17 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33819"/>
@@ -20231,7 +20231,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon-14 atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon-14 atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon-14 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36927"/>
@@ -20297,7 +20297,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon-13 atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon-13 atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon-13 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36928"/>
@@ -20368,7 +20368,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon-11 atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon-11 atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon-11 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36929"/>
@@ -20433,7 +20433,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon-10 atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon-10 atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon-10 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36930"/>
@@ -20496,7 +20496,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>carbon-12 atom</rdfs:label>
-        <rdfs:label xml:lang="en">carbon-12 atom</rdfs:label>
+        <rdfs:label xml:lang="en">carbon-12 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36931"/>
@@ -20551,7 +20551,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen-15 atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen-15 atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen-15 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36932"/>
@@ -20621,7 +20621,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>oxygen-19 atom</rdfs:label>
-        <rdfs:label xml:lang="en">oxygen-19 atom</rdfs:label>
+        <rdfs:label xml:lang="en">oxygen-19 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36933"/>
@@ -20678,7 +20678,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen-15 atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen-15 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen-15 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36934"/>
@@ -20741,7 +20741,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen-13 atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen-13 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen-13 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36935"/>
@@ -20803,7 +20803,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen-16 atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen-16 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen-16 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36936"/>
@@ -20864,7 +20864,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen-17 atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen-17 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen-17 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36937"/>
@@ -20919,7 +20919,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>nitrogen-14 atom</rdfs:label>
-        <rdfs:label xml:lang="en">nitrogen-14 atom</rdfs:label>
+        <rdfs:label xml:lang="en">nitrogen-14 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36938"/>
@@ -20973,7 +20973,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>fluorine-18 atom</rdfs:label>
-        <rdfs:label xml:lang="en">fluorine-18 atom</rdfs:label>
+        <rdfs:label xml:lang="en">fluorine-18 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36939"/>
@@ -21037,7 +21037,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>fluorine-19 atom</rdfs:label>
-        <rdfs:label xml:lang="en">fluorine-19 atom</rdfs:label>
+        <rdfs:label xml:lang="en">fluorine-19 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36940"/>
@@ -21089,7 +21089,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>helium-6 atom</rdfs:label>
-        <rdfs:label xml:lang="en">helium-6 atom</rdfs:label>
+        <rdfs:label xml:lang="en">helium-6 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37003"/>
@@ -21141,7 +21141,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>helium-8 atom</rdfs:label>
-        <rdfs:label xml:lang="en">helium-8 atom</rdfs:label>
+        <rdfs:label xml:lang="en">helium-8 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37004"/>
@@ -22144,7 +22144,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-210 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-210 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-210 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37340"/>
@@ -22217,7 +22217,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-211 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-211 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-211 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37341"/>
@@ -22290,7 +22290,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-212 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-212 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-212 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37342"/>
@@ -22362,7 +22362,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-213 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-213 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-213 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37343"/>
@@ -22429,7 +22429,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-214 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-214 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-214 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37344"/>
@@ -22502,7 +22502,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-215 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-215 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-215 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37345"/>
@@ -22575,7 +22575,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-216 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-216 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-216 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37346"/>
@@ -22645,7 +22645,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-217 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-217 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-217 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37347"/>
@@ -22700,7 +22700,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-218 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-218 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-218 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37348"/>
@@ -22769,7 +22769,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-190 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-190 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-190 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37350"/>
@@ -22820,7 +22820,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-191 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-191 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-191 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37351"/>
@@ -22871,7 +22871,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-192 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-192 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-192 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37352"/>
@@ -22922,7 +22922,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-193 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-193 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-193 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37353"/>
@@ -22973,7 +22973,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-194 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-194 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-194 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37354"/>
@@ -23024,7 +23024,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-195 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-195 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-195 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37355"/>
@@ -23075,7 +23075,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-196 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-196 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-196 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37356"/>
@@ -23126,7 +23126,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-197 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-197 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-197 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37357"/>
@@ -23177,7 +23177,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-198 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-198 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-198 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37358"/>
@@ -23228,7 +23228,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-199 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-199 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-199 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37359"/>
@@ -23279,7 +23279,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-200 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-200 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-200 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37360"/>
@@ -23330,7 +23330,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-201 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-201 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-201 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37361"/>
@@ -23381,7 +23381,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-202 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-202 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-202 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37362"/>
@@ -23435,7 +23435,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-203 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-203 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-203 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37363"/>
@@ -23498,7 +23498,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-204 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-204 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-204 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37364"/>
@@ -23552,7 +23552,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-205 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-205 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-205 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37365"/>
@@ -23616,7 +23616,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-206 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-206 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-206 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37366"/>
@@ -23670,7 +23670,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-207 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-207 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-207 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37367"/>
@@ -23734,7 +23734,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-208 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-208 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-208 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37368"/>
@@ -23786,7 +23786,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>polonium-209 atom</rdfs:label>
-        <rdfs:label xml:lang="en">polonium-209 atom</rdfs:label>
+        <rdfs:label xml:lang="en">polonium-209 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37369"/>
@@ -23882,7 +23882,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>aluminium-27 atom</rdfs:label>
-        <rdfs:label xml:lang="en">aluminium-27 atom</rdfs:label>
+        <rdfs:label xml:lang="en">aluminium-27 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37968"/>
@@ -23949,7 +23949,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>aluminium-26 atom</rdfs:label>
-        <rdfs:label xml:lang="en">aluminium-26 atom</rdfs:label>
+        <rdfs:label xml:lang="en">aluminium-26 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37969"/>
@@ -24022,7 +24022,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>aluminium-28 atom</rdfs:label>
-        <rdfs:label xml:lang="en">aluminium-28 atom</rdfs:label>
+        <rdfs:label xml:lang="en">aluminium-28 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37970"/>
@@ -24092,7 +24092,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>phosphorus-31 atom</rdfs:label>
-        <rdfs:label xml:lang="en">phosphorus-31 atom</rdfs:label>
+        <rdfs:label xml:lang="en">phosphorus-31 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37971"/>
@@ -24148,7 +24148,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>phosphorus-32 atom</rdfs:label>
-        <rdfs:label xml:lang="en">phosphorus-32 atom</rdfs:label>
+        <rdfs:label xml:lang="en">phosphorus-32 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37972"/>
@@ -24226,7 +24226,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>phosphorus-33 atom</rdfs:label>
-        <rdfs:label xml:lang="en">phosphorus-33 atom</rdfs:label>
+        <rdfs:label xml:lang="en">phosphorus-33 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37973"/>
@@ -24290,7 +24290,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon-29 atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon-29 atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon-29 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37974"/>
@@ -24342,7 +24342,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon-28 atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon-28 atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon-28 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37975"/>
@@ -24394,7 +24394,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon-30 atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon-30 atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon-30 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37976"/>
@@ -24448,7 +24448,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon-31 atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon-31 atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon-31 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37977"/>
@@ -24514,7 +24514,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>silicon-32 atom</rdfs:label>
-        <rdfs:label xml:lang="en">silicon-32 atom</rdfs:label>
+        <rdfs:label xml:lang="en">silicon-32 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37978"/>
@@ -24581,7 +24581,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-32 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-32 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-32 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37979"/>
@@ -24654,7 +24654,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-33 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-33 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-33 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37980"/>
@@ -24727,7 +24727,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-34 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-34 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-34 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37981"/>
@@ -24800,7 +24800,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-36 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-36 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-36 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37982"/>
@@ -24873,7 +24873,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-35 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-35 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-35 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37983"/>
@@ -24946,7 +24946,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-37 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-37 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-37 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37984"/>
@@ -25019,7 +25019,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sulfur-38 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sulfur-38 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sulfur-38 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37985"/>
@@ -25916,7 +25916,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>argon atom</rdfs:label>
-        <rdfs:label xml:lang="en">argon atom</rdfs:label>
+        <rdfs:label xml:lang="en">argon isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49475"/>
@@ -26329,7 +26329,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>gallium atom</rdfs:label>
-        <rdfs:label xml:lang="en">gallium atom</rdfs:label>
+        <rdfs:label xml:lang="en">gallium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49631"/>
@@ -26405,7 +26405,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>hydrogen atom</rdfs:label>
-        <rdfs:label xml:lang="en">hydrogen atom</rdfs:label>
+        <rdfs:label xml:lang="en">hydrogen isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49637"/>
@@ -26480,7 +26480,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>holmium atom</rdfs:label>
-        <rdfs:label xml:lang="en">holmium atom</rdfs:label>
+        <rdfs:label xml:lang="en">holmium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49648"/>
@@ -26683,7 +26683,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>krypton atom</rdfs:label>
-        <rdfs:label xml:lang="en">krypton atom</rdfs:label>
+        <rdfs:label xml:lang="en">krypton isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49696"/>
@@ -27176,7 +27176,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>praseodymium atom</rdfs:label>
-        <rdfs:label xml:lang="en">praseodymium atom</rdfs:label>
+        <rdfs:label xml:lang="en">praseodymium isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49828"/>
@@ -27726,7 +27726,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>xenon atom</rdfs:label>
-        <rdfs:label xml:lang="en">xenon atom</rdfs:label>
+        <rdfs:label xml:lang="en">xenon isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49957"/>
@@ -28286,7 +28286,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>chromium-51</rdfs:label>
-        <rdfs:label xml:lang="en">chromium-51 atom</rdfs:label>
+        <rdfs:label xml:lang="en">chromium-51 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50076"/>
@@ -28621,7 +28621,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-119 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-119 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-119 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52230"/>
@@ -28673,7 +28673,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-120 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-120 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-120 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52231"/>
@@ -28725,7 +28725,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-118 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-118 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-118 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52232"/>
@@ -28777,7 +28777,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-116 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-116 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-116 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52233"/>
@@ -28829,7 +28829,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-117 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-117 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-117 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52234"/>
@@ -28881,7 +28881,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>tin-115 atom</rdfs:label>
-        <rdfs:label xml:lang="en">tin-115 atom</rdfs:label>
+        <rdfs:label xml:lang="en">tin-115 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52235"/>
@@ -28932,7 +28932,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>boron-11</rdfs:label>
-        <rdfs:label xml:lang="en">boron-11 atom</rdfs:label>
+        <rdfs:label xml:lang="en">boron-11 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52451"/>
@@ -28978,7 +28978,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>xenon-129 atom</rdfs:label>
-        <rdfs:label xml:lang="en">xenon-129 atom</rdfs:label>
+        <rdfs:label xml:lang="en">xenon-129 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52453"/>
@@ -29028,7 +29028,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lead-207</rdfs:label>
-        <rdfs:label xml:lang="en">lead-207 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lead-207 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52455"/>
@@ -29056,7 +29056,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52456">
         <obo:IAO_0000115>The stable isotope of vanadium with relative atomic mass 50.943964, 99.8 atom percent natural abundance and nuclear spin 7/2.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Here vanadium-51 CHEBI:52456 is under vanadium(0) not vanadium atom</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Here vanadium-51 CHEBI:52456 is under vanadium(0) not vanadium isotope</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[51V]</chebi:formula>
         <chebi:inchi>InChI=1S/V/i1+0</chebi:inchi>
@@ -29072,7 +29072,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>vanadium-51</rdfs:label>
-        <rdfs:label xml:lang="en">vanadium-51 atom</rdfs:label>
+        <rdfs:label xml:lang="en">vanadium-51 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52456"/>
@@ -29111,7 +29111,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>selenium-77 atom</rdfs:label>
-        <rdfs:label xml:lang="en">selenium-77 atom</rdfs:label>
+        <rdfs:label xml:lang="en">selenium-77 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52457"/>
@@ -29163,7 +29163,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lithium-7 atom</rdfs:label>
-        <rdfs:label xml:lang="en">lithium-7 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lithium-7 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52458"/>
@@ -29215,7 +29215,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>rubidium-87 atom</rdfs:label>
-        <rdfs:label xml:lang="en">rubidium-87 atom</rdfs:label>
+        <rdfs:label xml:lang="en">rubidium-87 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52459"/>
@@ -29266,7 +29266,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>cadmium-111</rdfs:label>
-        <rdfs:label xml:lang="en">cadmium-111 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium-111 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52619"/>
@@ -29311,7 +29311,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>cadmium-113</rdfs:label>
-        <rdfs:label xml:lang="en">cadmium-113 atom</rdfs:label>
+        <rdfs:label xml:lang="en">cadmium-113 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52620"/>
@@ -29357,7 +29357,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lithium-6 atom</rdfs:label>
-        <rdfs:label xml:lang="en">lithium-6 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lithium-6 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52621"/>
@@ -29409,7 +29409,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>yttrium-89 atom</rdfs:label>
-        <rdfs:label xml:lang="en">yttrium-89 atom</rdfs:label>
+        <rdfs:label xml:lang="en">yttrium-89 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52622"/>
@@ -29460,7 +29460,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>iron-57 atom</rdfs:label>
-        <rdfs:label xml:lang="en">iron-57 atom</rdfs:label>
+        <rdfs:label xml:lang="en">iron-57 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52623"/>
@@ -29489,7 +29489,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30513"/>
         <obo:IAO_0000115>The stable isotope of antimony with relative atomic mass 120.903818, 57.2 atom percent natural abundance and nuclear spin 5/2.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">CHEBI:30304 is the only case (so far) where antimony(0), in the elemental antimony hierarchy is also superclass to the atom terms (antimony-121/3 atom).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">CHEBI:30304 is the only case (so far) where antimony(0), in the elemental antimony hierarchy is also superclass to the isotope terms (antimony-121/3 isotope).</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[121Sb]</chebi:formula>
         <chebi:inchi>InChI=1S/Sb/i1-1</chebi:inchi>
@@ -29507,7 +29507,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>antimony-121 atom</rdfs:label>
-        <rdfs:label xml:lang="en">antimony-121 atom</rdfs:label>
+        <rdfs:label xml:lang="en">antimony-121 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52624"/>
@@ -29559,7 +29559,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>antimony-123 atom</rdfs:label>
-        <rdfs:label xml:lang="en">antimony-123 atom</rdfs:label>
+        <rdfs:label xml:lang="en">antimony-123 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52626"/>
@@ -29611,7 +29611,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>lanthanum-139 atom</rdfs:label>
-        <rdfs:label xml:lang="en">lanthanum-139 atom</rdfs:label>
+        <rdfs:label xml:lang="en">lanthanum-139 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52627"/>
@@ -29646,7 +29646,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30501"/>
         <obo:IAO_0000115>The stable isotope of beryllium with relative atomic mass 9.012182, 100 atom percent natural abundance and nuclear spin 3/2.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Here this is subclass to beryllium(0) not beryllium atom in CHEBI.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Here this is subclass to beryllium(0) not beryllium isotope in CHEBI.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[9Be]</chebi:formula>
         <chebi:inchi>InChI=1S/Be/i1+0</chebi:inchi>
@@ -29663,7 +29663,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>beryllium-9</rdfs:label>
-        <rdfs:label xml:lang="en">beryllium-9 atom</rdfs:label>
+        <rdfs:label xml:lang="en">beryllium-9 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52628"/>
@@ -29692,7 +29692,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
         <obo:IAO_0000115>The stable isotope of copper with relative atomic mass 62.929601, 69.2 atom percent natural abundance and nuclear spin 3/2.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Note for copper CHEBI has copper-63 as subclass to copper(O) under elemental copper not subclass to copper atom, this pattern makes sense but is different then other CHEBI terms FIX.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Note for copper CHEBI has copper-63 as subclass to copper(O) under elemental copper not subclass to copper isotope, this pattern makes sense but is different then other CHEBI terms FIX.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[63Cu]</chebi:formula>
         <chebi:inchi>InChI=1S/Cu/i1-1</chebi:inchi>
@@ -29709,7 +29709,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>copper-63</rdfs:label>
-        <rdfs:label xml:lang="en">copper-63 atom</rdfs:label>
+        <rdfs:label xml:lang="en">copper-63 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52630"/>
@@ -29755,7 +29755,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>iodine-127 atom</rdfs:label>
-        <rdfs:label xml:lang="en">iodine-127 atom</rdfs:label>
+        <rdfs:label xml:lang="en">iodine-127 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52631"/>
@@ -29807,7 +29807,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>potassium-39 atom</rdfs:label>
-        <rdfs:label xml:lang="en">potassium-39 atom</rdfs:label>
+        <rdfs:label xml:lang="en">potassium-39 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52632"/>
@@ -29904,7 +29904,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>sodium-23 atom</rdfs:label>
-        <rdfs:label xml:lang="en">sodium-23 atom</rdfs:label>
+        <rdfs:label xml:lang="en">sodium-23 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52634"/>
@@ -29956,7 +29956,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>scandium-45 atom</rdfs:label>
-        <rdfs:label xml:lang="en">scandium-45 atom</rdfs:label>
+        <rdfs:label xml:lang="en">scandium-45 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52635"/>
@@ -30008,7 +30008,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>iodine-129 atom</rdfs:label>
-        <rdfs:label xml:lang="en">iodine-129 atom</rdfs:label>
+        <rdfs:label xml:lang="en">iodine-129 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52636"/>
@@ -30059,7 +30059,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>bromine-79 atom</rdfs:label>
-        <rdfs:label xml:lang="en">bromine-79 atom</rdfs:label>
+        <rdfs:label xml:lang="en">bromine-79 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52743"/>
@@ -30087,7 +30087,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52761">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
         <obo:IAO_0000115>The stable isotope of zinc with relative atomic mass 66.927131, 4.10 atom percent natural abundance and nuclear spin 5/2.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">zinc-67 CHEBI:52761 is subclass to zinc(0), whereas zinc-65 atom is subclass to atom TODO fix this in CHEBI.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">zinc-67 CHEBI:52761 is subclass to zinc(0), whereas zinc-65 isotope is subclass to isotope TODO fix this in CHEBI.</obo:IAO_0000116>
         <chebi:charge>0</chebi:charge>
         <chebi:formula>[67Zn]</chebi:formula>
         <chebi:inchi>InChI=1S/Zn/i1+2</chebi:inchi>
@@ -30103,7 +30103,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>zinc-67</rdfs:label>
-        <rdfs:label xml:lang="en">zinc-67 atom</rdfs:label>
+        <rdfs:label xml:lang="en">zinc-67 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52761"/>
@@ -30141,7 +30141,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>magnesium-25 atom</rdfs:label>
-        <rdfs:label xml:lang="en">magnesium-25 atom</rdfs:label>
+        <rdfs:label xml:lang="en">magnesium-25 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52763"/>
@@ -30300,7 +30300,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>boron-10 atom</rdfs:label>
-        <rdfs:label xml:lang="en">boron-10 atom</rdfs:label>
+        <rdfs:label xml:lang="en">boron-10 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_77014"/>
@@ -30353,7 +30353,7 @@
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#element"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
         <rdfs:label>zinc-65 atom</rdfs:label>
-        <rdfs:label xml:lang="en">zinc-65 atom</rdfs:label>
+        <rdfs:label xml:lang="en">zinc-65 isotope</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_82623"/>
