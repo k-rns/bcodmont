@@ -16,8 +16,8 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bcodmont/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-11-03/imports/envo_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-03</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bcodmont/releases/2020-12-21/imports/envo_import.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-12-21</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1827,6 +1827,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33352"/>
+        <rdfs:label>manganese atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18310">
@@ -2145,6 +2154,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33521"/>
+        <rdfs:label>transition element atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_28966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28966">
@@ -2351,6 +2369,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33561"/>
+        <rdfs:label>manganese group element atom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33405">
@@ -2395,6 +2422,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36902"/>
         <rdfs:label>sulfur hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27081"/>
+        <rdfs:label>d-block element atom</rdfs:label>
     </owl:Class>
     
 
@@ -5294,7 +5330,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>FTT:732</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:815</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Geonames:H.SPNT</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>hot spring</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hotspring</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>thermal feature</oboInOwl:hasExactSynonym>
@@ -5306,7 +5342,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A spring that is produced by the emergence of geothermally-heated groundwater from the Earth&apos;s crust.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hot_spring</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000051"/>
@@ -6589,7 +6625,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:T.BCHS</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SWEETRealm:Beach</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21482</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Beach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>beach berm</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>lagoon beach</oboInOwl:hasNarrowSynonym>
@@ -6604,7 +6640,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a body of water.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
@@ -6699,7 +6735,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000092"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a sea.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Beach</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10178,7 +10214,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:H.FLTM</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SPIRE:Mudflat</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SWEETRealm:MudFlat</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mudflat</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mudflat</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>mud flat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>mud flat</oboInOwl:hasRelatedSynonym>
@@ -10189,7 +10225,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000192"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A wetland that forms when mud is deposited by the tides, rivers, sea or oceans.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mudflat</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mudflat</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000192"/>
@@ -10250,7 +10286,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:T.TAL</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SWEETRealm:Talus</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21508</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Scree</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Scree</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>TALUS</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>talus slope</oboInOwl:hasRelatedSynonym>
@@ -10261,7 +10297,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000194"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Broken rock that appears at the bottom of crags, mountain cliffs or valley shoulders.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Scree</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Scree</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000194"/>
@@ -10304,7 +10340,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000197"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A lake from which there is no outflow of water, either on the surface as rivers, or underground by flow or diffusion through rock or permeable material.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Endorheic</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Endorheic</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10707,7 +10743,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000215"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fissure in the Earths&apos;s surface from which geothermally heated water issues.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Hydrothermal_vents</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hydrothermal_vents</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000215"/>
@@ -10724,7 +10760,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000122"/>
         <obo:IAO_0000115>A hydrothermal vent found on the ocean floor. The vents are formed in fields hundreds of meters wide when superheated water from below the Earth&apos;s crust comes through the ocean floor. The superheated water is rich in dissolved minerals from the crust, most notably sulfides, which crystallize to create a chimney-like structure around each vent. When the superheated water in the vent comes in contact with the cold ocean water, many minerals are precipitated, creating the distinctive black color. The metal sulfides that are deposited can become massive sulfide ore deposits in time.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>SPIRE:Oceanic_vent</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>active chimney</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>oceanic vent</oboInOwl:hasRelatedSynonym>
@@ -10736,7 +10772,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000218"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A hydrothermal vent found on the ocean floor. The vents are formed in fields hundreds of meters wide when superheated water from below the Earth&apos;s crust comes through the ocean floor. The superheated water is rich in dissolved minerals from the crust, most notably sulfides, which crystallize to create a chimney-like structure around each vent. When the superheated water in the vent comes in contact with the cold ocean water, many minerals are precipitated, creating the distinctive black color. The metal sulfides that are deposited can become massive sulfide ore deposits in time.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Black_smoker</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000218"/>
@@ -10804,7 +10840,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>FTT:146</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21470</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21474</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Archipelago</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Archipelago</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ISLAND CLUSTER</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>IslandArc</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>island arc</oboInOwl:hasRelatedSynonym>
@@ -10815,7 +10851,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A group of geographically or geologically associated islands.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Archipelago</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Archipelago</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000220"/>
@@ -10904,7 +10940,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000222"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An island that does not sit on a continental shelf, and is of volcanic origin.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Island#Oceanic_islands</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Island#Oceanic_islands</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12045,7 +12081,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasDbXref>Geonames:H.CNFL</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21160</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21381</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>confluence</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>stream junction</oboInOwl:hasRelatedSynonym>
@@ -12056,7 +12092,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000272"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The point where a tributary joins a more major river.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Confluence</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000272"/>
@@ -13271,7 +13307,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>zone of saturation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>phreatic zone</rdfs:label>
     </owl:Class>
@@ -13280,13 +13316,13 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>zone of saturation</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13351,7 +13387,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000220"/>
         <obo:IAO_0000115>A chain of volcanic islands or mountains formed by plate tectonics as an oceanic tectonic plate subducts under another tectonic plate and produces magma.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:id>ENVO:00000351</oboInOwl:id>
         <rdfs:label>volcanic arc</rdfs:label>
@@ -13360,7 +13396,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000351"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A chain of volcanic islands or mountains formed by plate tectonics as an oceanic tectonic plate subducts under another tectonic plate and produces magma.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13399,7 +13435,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A volcanic arc formed by the subduction of oceanic crust other oceanic crust on an adjacent tectonic plate.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Volcanic_arc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13542,7 +13578,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <oboInOwl:hasDbXref>FTT:651</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Geonames:H.STMB</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21165</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>stream bed</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>stream bottom</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>dry stream bed</oboInOwl:hasNarrowSynonym>
@@ -13553,7 +13589,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000383"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The channel bottom of a stream; the physical confine of the normal water flow.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000383"/>
@@ -13607,7 +13643,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000384"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The channel bottom of a river; the physical confine of the normal water flow.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Stream_bed</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000384"/>
@@ -14028,7 +14064,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <oboInOwl:hasDbXref>FTT:131</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:829</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21183</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>WHRL</oboInOwl:hasExactSynonym>
         <rdfs:label>whirlpool</rdfs:label>
     </owl:Class>
@@ -14036,7 +14072,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A large, swirling body of water produced by ocean tides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
@@ -14110,7 +14146,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000417"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fertile low-lying raised beach found on the some of the coastlines of Ireland and Scotland, in particular in the Outer Hebrides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Machair_%28geography%29</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Machair_%28geography%29</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14500,7 +14536,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A very powerful whirlpool.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16251,7 +16287,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000545">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000091"/>
         <obo:IAO_0000115>A beach which is armoured with pebbles or small to medium sized cobbles.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Shingle_beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Shingle_beach</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>pebble beach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:id>ENVO:00000545</oboInOwl:id>
@@ -16261,7 +16297,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000545"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A beach which is armoured with pebbles or small to medium sized cobbles.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Shingle_beach</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Shingle_beach</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16563,7 +16599,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Rock_(geology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Rock_(geology)</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17598,14 +17634,14 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
         </rdfs:subClassOf>
         <obo:IAO_0000115>The top-most layer in a thermally stratified lake, occurring above the deeper hypolimnion. It is warmer and typically has a higher pH and dissolved oxygen concentration than the hypolimnion.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:epilimnion_</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
         <rdfs:label>epilimnion</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002131"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The top-most layer in a thermally stratified lake, occurring above the deeper hypolimnion. It is warmer and typically has a higher pH and dissolved oxygen concentration than the hypolimnion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -18801,7 +18837,7 @@ https://en.wikipedia.org/wiki/ Hydrologically, an oceanic basin may be anywhere 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00005774"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>peat</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ENVO:cjm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:cjm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20939,6 +20975,58 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002007"/>
+        <obo:IAO_0000115>Hydrogenous sediment is derived from solutes that precipitate out of sea water by a variety of chemical reactions. These are typically less abundant than other sediment types.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-17T01:14:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>SWEETRealm:HydrogenousSediment</oboInOwl:hasDbXref>
+        <rdfs:label>hydrogenous sediment</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Hydrogenous sediment is derived from solutes that precipitate out of sea water by a variety of chemical reactions. These are typically less abundant than other sediment types.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000110"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Polymetallic nodules, also called manganese nodules, are rock concretions on the sea bottom formed of concentric layers of iron and manganese hydroxides around a core. Nodules vary in size from tiny particles visible only under a microscope to large pellets more than 20 centimetres (8 in) across. However, most nodules are between 5 and 10 cm in diameter.</obo:IAO_0000115>
+        <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-03-17T01:14:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>manganese nodule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>ENVO:01000112</oboInOwl:id>
+        <rdfs:label>polymetallic nodule</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000112"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Polymetallic nodules, also called manganese nodules, are rock concretions on the sea bottom formed of concentric layers of iron and manganese hydroxides around a core. Nodules vary in size from tiny particles visible only under a microscope to large pellets more than 20 centimetres (8 in) across. However, most nodules are between 5 and 10 cm in diameter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Manganese_nodule</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000112"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>manganese nodule</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Manganese_nodule</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000122">
@@ -21597,7 +21685,7 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000256"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mineral material is an environmental material which is primarily composed of some substance that is naturally occurring, solid and stable at room temperature, representable by a chemical formula, usually abiogenic, and that has an ordered atomic structure.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mineral</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mineral</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21670,13 +21758,13 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000259"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cline across which the density of a fluid changes rapidly.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000259"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>stable density gradient</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21733,7 +21821,7 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000262"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A seep is a spring in which water has filtered through permeable earth to the surface.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Spring_(hydrology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Spring_(hydrology)</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22599,6 +22687,33 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000304">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000997"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001576"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000997"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001576"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A high pressure environment is an environment in which all material entities are exposed to a high ratio of force per unit area.</obo:IAO_0000115>
+        <rdfs:label>high pressure environment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000305 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000305">
@@ -23353,7 +23468,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000340"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An altitudinal condition which inheres in a bearer by virtue of the bearer having a monthly mean temperature is less than 10 degrees Celsius and being located at altitudes above the tree line and below the snowline.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -23373,13 +23488,13 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000342"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An altitudinal condition which inheres in a bearer by virtue of the bearer being located at an altitude between mid-altitude forests and the tree line.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000342"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
         <owl:annotatedTarget>The exact level of the tree line varies with local climate, but typically the tree line is found where mean monthly soil temperatures never exceed 10.0 degrees C and the mean annual soil temperatures are around 6.7 degrees C. In the tropics, this region is typified by montane rain forest (above 3,000 ft) while at higher latitudes coniferous forests often dominate.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -23398,7 +23513,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000343"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An altitudinal condition is an environmental condition in which ranges of factors such as temperature, humidity, soil composition, solar irradiation, and tree density vary with ranges in altitude.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24278,6 +24393,54 @@ Further discussion in Issue #126.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000554"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">natural gas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000552"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Natural_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000558"/>
+        <obo:IAO_0000115>Liquified petroleum gas or liquid petroleum gas (LPG or LP gas), also referred to as simply propane or butane, are flammable mixtures of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LP gas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LPG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>liquid petroleum gas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>liquified natural gas</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">liquefied petroleum gas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000553"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Liquified petroleum gas or liquid petroleum gas (LPG or LP gas), also referred to as simply propane or butane, are flammable mixtures of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Liquefied_petroleum_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000554">
@@ -24301,6 +24464,89 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <obo:IAO_0000115>A gas that is primarily composed of hydrocarbon molecules.</obo:IAO_0000115>
         <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">hydrocarbon gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000554"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Biogas is a mixture of different gases produced by the breakdown of organic matter in the absence of oxygen,  is primarily composed of methane and carbon dioxide, and may have small amounts of hydrogen sulfide, water, and siloxanes.</obo:IAO_0000115>
+        <rdfs:comment>This is distinct from natural gas which is a fossil fuel product.</rdfs:comment>
+        <rdfs:label xml:lang="en">biogas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000556"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Biogas is a mixture of different gases produced by the breakdown of organic matter in the absence of oxygen,  is primarily composed of methane and carbon dioxide, and may have small amounts of hydrogen sulfide, water, and siloxanes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000558"/>
+        <obo:IAO_0000115>Liquefied natural gas (LNG) is natural gas (predominantly methane, CH4) that has been converted to liquid form for ease of storage or transport. It takes up about 1/600th the volume of natural gas in the gaseous state. It is odorless, colorless, non-toxic and non-corrosive. LNG achieves a higher reduction in volume than compressed natural gas (CNG) so that the (volumetric) energy density of LNG is 2.4 times greater than that of CNG or 60 percent of that of diesel fuel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LNG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>liquified natural gas</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">liquefied natural gas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Liquefied natural gas (LNG) is natural gas (predominantly methane, CH4) that has been converted to liquid form for ease of storage or transport. It takes up about 1/600th the volume of natural gas in the gaseous state. It is odorless, colorless, non-toxic and non-corrosive. LNG achieves a higher reduction in volume than compressed natural gas (CNG) so that the (volumetric) energy density of LNG is 2.4 times greater than that of CNG or 60 percent of that of diesel fuel.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Liquefied_natural_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000815"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001576"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">liquefied hydrocarbon gas</rdfs:label>
     </owl:Class>
     
 
@@ -25285,7 +25531,40 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000688"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The general region of indefinite width that extends from a lake inland to the first major change in terrain features.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from USGS:SDTS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from USGS:SDTS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000981"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000015"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>seismic sea wave</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tidal wave</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">tsunami</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Tsunami</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25672,6 +25951,31 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A storm surge is a coastal flood which is caused by low-pressure weather systems such as tropical cyclones and strong extratropical cyclones, the severity of which is affected by the shallowness and orientation of the water body relative to storm path, and the timing of tides.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Storm_surge</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
+        <obo:IAO_0000115>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</obo:IAO_0000115>
+        <obo:IAO_0000116>Ambiguity as to whether this label refers to the process or the material entities (the waves). The material entities are a type of severe storm surge.</obo:IAO_0000116>
+        <oboInOwl:hasExactSynonym>rissaga</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">meteotsunami</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Meteotsunami</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rissaga</owl:annotatedTarget>
+        <rdfs:comment>Language: Catalan</rdfs:comment>
     </owl:Axiom>
     
 
@@ -32345,6 +32649,292 @@ Further discussion in Issue #126.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001212">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001212"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001212"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>microwave radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>microwave solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:comment>This definition focuses on the properties of microwaves rather than their wavelength or frequency limits. Considerable ambiguity exists around the wavelength and frequency thresholds of microwaves. The ISO 21348 definition bounds these waves at 1 mm and 15 mm, with frequencies between 100 GHz and 0.225 GHz.</rdfs:comment>
+        <rdfs:label xml:lang="en">microwave stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001212"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Microwave</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001213">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001213"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001213"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths ranging from millimetre to kilometer scales.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>radio wave radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>radio wave solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:comment>As with microwaves, considerable variation exists in the delimitation of frequency and wavelength thresholds for radiowaves. The ISO 21348 standard allows a wavelength range of 0.10 mm to 100 m and a frequency range of 300 GHz to 3 MHz. However, much lower thresholds also exist.</rdfs:comment>
+        <rdfs:label xml:lang="en">radio wave stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001213"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths ranging from millimetre to kilometer scales.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Radio_wave</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001214">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001214"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001214"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>infrared radiation</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>infra-red stellar radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>infrared solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>IR stellar radiation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">infrared stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Infrared</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001215">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 380 nm and 760 nm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>optical stellar radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>visible spectrum solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">visible spectrum stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 380 nm and 760 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001216">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001216"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001216"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 10 nm and 400 nm.</obo:IAO_0000115>
+        <obo:IAO_0000116>To be expanded to account for subtypes.</obo:IAO_0000116>
+        <oboInOwl:hasDbXref>NCIT:C17231</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>ultraviolet solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">ultraviolet stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star at wavelengths between 10 nm and 400 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ultraviolet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001217">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A stellar radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>X-ray radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>X-ray stellar radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>x ray stellar radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>X-ray solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:comment>Ambiguity exists in the definition of x-rays and their differentiation from gamma rays. Photons with sufficient energy to be classified as x-rays may be emitted by other processes than electrons falling to lower energy states. Most x-rays have wavelengths ranging from 0.01 to 10 nanometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz and energies in the range of 100 eV to 100 keV.</rdfs:comment>
+        <rdfs:label xml:lang="en">X-ray stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/X-ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001217"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Ambiguity exists in the definition of x-rays and their differentiation from gamma rays. Photons with sufficient energy to be classified as x-rays may be emitted by other processes than electrons falling to lower energy states. Most x-rays have wavelengths ranging from 0.01 to 10 nanometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz and energies in the range of 100 eV to 100 keV.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/X-ray#Energy_ranges</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001218">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001218"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001218"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A stellar radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>gamma-ray solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:comment>Ambiguity exists in the definition of gamma rays. As a rule of thumb, gamma rays have energies above 100 keV, frequencies above 10 exahertz, and wavelengths less than 10 picometers. However, regardless of the energy released, electromagnetic radiation from radioactive decay of atomic nuclei is referred to as &quot;gamma rays&quot;. In astronomy, however, gamma rays are defined by their energy, and no production process needs to be specified.</rdfs:comment>
+        <rdfs:label xml:lang="en">gamma-ray stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Gamma_ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001218"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Ambiguity exists in the definition of gamma rays. As a rule of thumb, gamma rays have energies above 100 keV, frequencies above 10 exahertz, and wavelengths less than 10 picometers. However, regardless of the energy released, electromagnetic radiation from radioactive decay of atomic nuclei is referred to as &quot;gamma rays&quot;. In astronomy, however, gamma rays are defined by their energy, and no production process needs to be specified.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Gamma_ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001219">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_21001219"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001219"/>
+        <obo:IAO_0000115>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star with sufficient energy to disrupt molecular bonds or alter the electron number of atoms.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ionising stellar radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>ionising solar radiation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>envoAstro</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">ionizing stellar radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stellar radiation process during which electromagnetic waves or their quanta are emitted from a star with sufficient energy to disrupt molecular bonds or alter the electron number of atoms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Electromagnetic_radiation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Solar_irradiance</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001220">
@@ -36551,6 +37141,60 @@ Some definitions include additional discussion of the the physics involved which
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000982"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001632"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A water flow process during which water flows out of an aquifer.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-22T14:18:15Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">groundwater discharge process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001631"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A water flow process during which water flows out of an aquifer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Groundwater_discharge</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000982"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00012408"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A water flow process during which water is transported through an aquifer.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-22T14:22:43Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">groundwater flow</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001632"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A water flow process during which water is transported through an aquifer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Groundwater_discharge</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001639">
@@ -38749,6 +39393,78 @@ Some definitions include additional discussion of the the physics involved which
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-18T14:39:20Z</dc:date>
         <rdfs:label xml:lang="en">liquid accumulation process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000793"/>
+        <obo:IAO_0000115>An atmospheric wind which 1) has an increased rate relative to other winds in the same region and 2) is followed by a lull.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T21:47:51Z</dc:date>
+        <oboInOwl:hasBroadSynonym>gust</oboInOwl:hasBroadSynonym>
+        <rdfs:comment>According to U.S. weather observing practice, gusts are reported when the peak wind speed reaches at least 16 knots and the variation in wind speed between the peaks and lulls is at least 9 knots. The duration of a gust is usually less than 20 seconds.</rdfs:comment>
+        <rdfs:label xml:lang="en">wind gust</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001860"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An atmospheric wind which 1) has an increased rate relative to other winds in the same region and 2) is followed by a lull.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://glossary.ametsoc.org/wiki/Gust"/>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Wind_gust"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001860"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>According to U.S. weather observing practice, gusts are reported when the peak wind speed reaches at least 16 knots and the variation in wind speed between the peaks and lulls is at least 9 knots. The duration of a gust is usually less than 20 seconds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://glossary.ametsoc.org/wiki/Gust"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>An electromagnetic radiation process during which radiant energy with wavelengths in the visible, near-ultraviolet, or near-infrared spectra is realised.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:14:12Z</dc:date>
+        <oboInOwl:hasExactSynonym>short-wave radiation</oboInOwl:hasExactSynonym>
+        <rdfs:comment>There is no standard cut-off for the near-infrared range; therefore, the shortwave radiation range is also variously defined. It may be broadly defined to include all radiation with a wavelength of 0.1 micrometers and 5.0 micrometers or narrowly defined so as to include only radiation between 0.2 micrometers and 3.0 micrometers.</rdfs:comment>
+        <rdfs:label xml:lang="en">shortwave radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An electromagnetic radiation process during which radiant energy with wavelengths in the visible, near-ultraviolet, or near-infrared spectra is realised.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Shortwave_radiation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001861"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>There is no standard cut-off for the near-infrared range; therefore, the shortwave radiation range is also variously defined. It may be broadly defined to include all radiation with a wavelength of 0.1 micrometers and 5.0 micrometers or narrowly defined so as to include only radiation between 0.2 micrometers and 3.0 micrometers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Shortwave_radiation"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>Electromagnetic radidation which involves radiant energy in a spectral range (wave band) between 400 to 700 nanometers, that photosynthetic organisms are able to use in the process of photosynthesis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:41:55Z</dc:date>
+        <rdfs:comment>Many definitions specify that this is Solar radiation, but consistency is lacking.</rdfs:comment>
+        <rdfs:label xml:lang="en">photosynthetically active radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001864"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Electromagnetic radidation which involves radiant energy in a spectral range (wave band) between 400 to 700 nanometers, that photosynthetic organisms are able to use in the process of photosynthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Photosynthetically_active_radiation"/>
+    </owl:Axiom>
     
 
 
@@ -43037,6 +43753,24 @@ This class is complex as marine mucilage is quite complex. It will also requre n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_2000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000560"/>
+        <obo:IAO_0000115>charcoal that is used as a soil amendment.</obo:IAO_0000115>
+        <oboInOwl:created_by>cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T19:28:29Z</oboInOwl:creation_date>
+        <rdfs:label>biochar</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>charcoal that is used as a soil amendment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Biochar</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_2000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000045">
@@ -43133,6 +43867,178 @@ This class is complex as marine mucilage is quite complex. It will also requre n
         </rdfs:subClassOf>
         <rdfs:label>integumental system environment</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16862</oboInOwl:hasDbXref>
+        <rdfs:comment>This definition focuses on the properties of microwaves rather than their wavelength or frequency limits. Considerable ambiguity exists around the wavelength and frequency thresholds of microwaves. The ISO 21348 definition bounds these waves at 1 mm and 15 mm, with frequencies between 100 GHz and 0.225 GHz.</rdfs:comment>
+        <rdfs:label>microwave radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001212"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Microwave</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths ranging from millimetre to kilometer scales.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <rdfs:comment>As with microwaves, considerable variation exists in the delimitation of frequency and wavelength thresholds for radiowaves. The ISO 21348 standard allows a wavelength range of 0.10 mm to 100 m and a frequency range of 300 GHz to 3 MHz. However, much lower thresholds also exist.</rdfs:comment>
+        <rdfs:label>radio wave radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001213"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths ranging from millimetre to kilometer scales.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16736</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>infra-red radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>IR radiation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>infrared radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Infrared</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 380 nm and 760 nm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C17732</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>optical radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>visible light</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>visible spectrum radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 380 nm and 760 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>visible light</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C17732</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 10 nm and 400 nm.</obo:IAO_0000115>
+        <obo:IAO_0000116>To be expanded to account for subtypes.</obo:IAO_0000116>
+        <oboInOwl:hasExactSynonym>UV radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>ultraviolet radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 10 nm and 400 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ultraviolet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001219"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C17262</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>X ray radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>X-ray</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>X-ray radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/X-ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>X-ray</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C17262</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001219"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>gamma-ray radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Gamma_ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_21001219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted with sufficient energy to disrupt molecular bonds or alter the electron number of atoms.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C17052</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ionising radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <rdfs:label>ionizing radiation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted with sufficient energy to disrupt molecular bonds or alter the electron number of atoms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Electromagnetic_radiation</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -44811,6 +45717,20 @@ This class is complex as marine mucilage is quite complex. It will also requre n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001485">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000115>A structural quality inhering in a bearer by virtue of the bearer&apos;s being thicker or more closely packed together; pressed tightly together.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>compact</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>compressed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>squashed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>dense</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>condensed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001536">
@@ -44910,6 +45830,18 @@ This class is complex as marine mucilage is quite complex. It will also requre n
         <obo:IAO_0000115>A pressure which is relatively low.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>low pressure</oboInOwl:hasExactSynonym>
         <rdfs:label>decreased pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <obo:IAO_0000115>A pressure which is relatively high.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>high pressure</oboInOwl:hasExactSynonym>
+        <rdfs:label>increased pressure</rdfs:label>
     </owl:Class>
     
 
@@ -45771,7 +46703,7 @@ Classes for population already  exist in IDO (&apos;organism population&apos;, I
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
             </owl:Restriction>
         </owl:annotatedTarget>
-        <oboInOwl:source>cjm</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025131"/>
