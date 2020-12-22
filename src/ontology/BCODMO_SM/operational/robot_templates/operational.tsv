@@ -1,0 +1,30 @@
+Sub category 1:	sub category 2:	sub category 3:	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	in subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset
+comment on investigation			OBI:0001898	comment on investigation												http://bcodmo/sm#operational
+comment on investigation	study description		OBI:0001615	study description	comment on investigation											http://bcodmo/sm#operational
+comment on investigation	study title		OBI:0001622	study title	comment on investigation											http://bcodmo/sm#operational
+data label			IAO:0000009	data label												http://bcodmo/sm#operational
+data set			IAO:0000100	data set												http://bcodmo/sm#operational
+filter fractionation size			BSM:0400001	filter fractionation size					A size quality which inheres in an aquatic environmental material sample by virtue of such bearer being size fractioned via a filtration process.		See PMO_00000168					http://bcodmo/sm#operational
+filter fractionation size	maximum filter fractionation size		BSM:0400002	maximum filter fractionation size	filter fractionation size				A size quality which inheres in an aquatic environmental material sample by virtue of being the maximum particle size obtained when such bearer is subject to a size fractionating filtration process.		See PMO_00000023					http://bcodmo/sm#operational
+filter fractionation size	minimum filter fractionation size		BSM:0400003	minimum filter fractionation size	filter fractionation size				A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process.		See PMO_00000022					http://bcodmo/sm#operational
+identifier			IAO:0000578	identifier												http://bcodmo/sm#operational
+identifier	identifier assigned by sequencing facility		OBI:0001901	identifier assigned by sequencing facility	identifier											http://bcodmo/sm#operational
+identifier	identifier assigned by sequencing facility	NCBI accession number	BSM:0400010	NCBI accession number	identifier assigned by sequencing facility				A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information.		See PMO_00000122					http://bcodmo/sm#operational
+identifier	identifier assigned by sequencing facility	SRA accession number	BSM:0400011	SRA accession number	identifier assigned by sequencing facility				A specimen identifier assigned by sequencing facility which identifies a Sequence Read Archive (SRA) acession number.		See PMO_00000123					http://bcodmo/sm#operational
+identifier	identifier assigned by sample repository		OBI:0001900	identifier assigned by sample repository	identifier											http://bcodmo/sm#operational
+latitude			OBI:0001620	latitude												http://bcodmo/sm#operational
+latitude	latitude start		BSM:0400004	latitude start	latitude				A measurement datum that is the measure of the starting latitude coordinate of a site during a specimen collection process.		See PMO_00000076					http://bcodmo/sm#operational
+latitude	latitude stop		BSM:0400005	latitude stop	latitude				A measurement datum that is the measure of the latitude coordinate of a site at the end of a specimen collection process.		See PMO_00000079					http://bcodmo/sm#operational
+longitude			OBI:0001621	longitude												http://bcodmo/sm#operational
+longitude	longitude start		BSM:0400006	longitude start	longitude				A measurement datum that is the measure of the starting longitude coordinate of a site during a specimen collection process.		See PMO_00000077					http://bcodmo/sm#operational
+longitude	longitude stop		BSM:0400007	longitude stop	longitude				A measurement datum that is the measure of the longitude coordinate of a site at the end of a specimen collection process.		See PMO_00000078					http://bcodmo/sm#operational
+sample collection time			OBI:0001619	sample collection time												http://bcodmo/sm#operational
+sample collection time	sample collection start time		BSM:0400008	sample collection start time	sample collection time				A time measurement datum that is the measure of the start time when the specimens are collected.		See PMO_00000008					http://bcodmo/sm#operational
+sample collection time	sample collection end time		BSM:0400009	sample collection end time	sample collection time				A time measurement datum that is the measure of the time when the specimens are finished being collected.		See PMO_00000009					http://bcodmo/sm#operational
+sample collection date			BSM:0400012	sample collection date			OMIABIS:0001039		A data item that indicates the time when the collection of a specimen occurred.		In OMIABIS should add to OBI?					http://bcodmo/sm#operational
+sample collection date	sample collection date start		BSM:0400013	sample collection date start	sample collection date				A data item that indicates the time when the collection of a specimen began.							http://bcodmo/sm#operational
+sample collection date	sample collection date end		BSM:0400014	sample collection date end	sample collection date				A data item that indicates the time when the collection of a specimen ended.							http://bcodmo/sm#operational
+sample			OBI:0000747	sample												http://bcodmo/sm#operational
+site			BFO:0000029	site												http://bcodmo/sm#operational
+setting datum			IAO:0000140	setting datum												http://bcodmo/sm#operational

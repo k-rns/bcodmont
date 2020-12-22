@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/operational/operational.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/operational/operational.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/operational/operational.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/BCODMO_SM/operational/operational.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001886 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001886"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400001">
+        <obo:IAO_0000115 xml:lang="en">A size quality which inheres in an aquatic environmental material sample by virtue of such bearer being size fractioned via a filtration process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000168</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">filter fractionation size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0400001"/>
+        <obo:IAO_0000115 xml:lang="en">A size quality which inheres in an aquatic environmental material sample by virtue of being the maximum particle size obtained when such bearer is subject to a size fractionating filtration process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000023</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">maximum filter fractionation size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0400001"/>
+        <obo:IAO_0000115 xml:lang="en">A size quality which inheres in an aquatic environmental material sample by virtue of being the minimum particle size obtained when such bearer is subject to a size fractionating filtration process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000022</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">minimum filter fractionation size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001620"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the starting latitude coordinate of a site during a specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000076</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">latitude start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001620"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the latitude coordinate of a site at the end of a specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000079</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">latitude stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001621"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the starting longitude coordinate of a site during a specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000077</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">longitude start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001621"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the longitude coordinate of a site at the end of a specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000078</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">longitude stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum that is the measure of the start time when the specimens are collected.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000008</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection start time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum that is the measure of the time when the specimens are finished being collected.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000009</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection end time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001901"/>
+        <obo:IAO_0000115 xml:lang="en">A specimen identifier assigned by sequencing facility which is assigned by the National Center for Biotechnology Information.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000122</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">NCBI accession number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001901"/>
+        <obo:IAO_0000115 xml:lang="en">A specimen identifier assigned by sequencing facility which identifies a Sequence Read Archive (SRA) acession number.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">See PMO_00000123</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">SRA accession number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400012">
+        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when the collection of a specimen occurred.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">In OMIABIS should add to OBI?</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection date</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0400012"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when the collection of a specimen began.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection date start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0400014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0400014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0400012"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when the collection of a specimen ended.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection date end</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
+        <obo:IAO_0000111 xml:lang="en">datum label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">GROUP: IAO</obo:IAO_0000117>
+        <obo:IAO_0000232>9/22/11 BP: changed the rdfs:label for this class from &apos;label&apos; to &apos;datum label&apos; to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
+</obo:IAO_0000232>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">data label</rdfs:label>
+        <rdfs:label xml:lang="en">datum label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
+        <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves).</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn&apos;t for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type</obo:IAO_0000116>
+        <obo:IAO_0000116>2014-05-05: Data sets are aggregates and thus must include two or more data items. We have chosen not to add logical axioms to make this restriction.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000042</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">data set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000140">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A settings datum is a datum that denotes some configuration of an instrument.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2/3/2009 Feedback from OBI
+
+This should be a &quot;setting specification&quot;. There is a question of whether it is information about a realizable or not.
+
+Pro other specification are about realizables.
+Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Alan grouped these in placeholder for the moment. Name by analogy to measurement datum.</obo:IAO_0000116>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000578">
+        <obo:IAO_0000112 xml:lang="en">The sentence &quot;The article has Pubmed ID 12345.&quot; contains a CRID that has two parts: one part is the CRID symbol, which is &apos;12345&apos;; the other part denotes the CRID registry, which is Pubmed.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have &apos;records&apos;).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation. 
+</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bill Hogan</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000118>CRID</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">Original proposal from Bjoern, discussions at IAO calls</obo:IAO_0000119>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">centrally registered identifier</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
+        <obo:IAO_0000111>material sample</obo:IAO_0000111>
+        <obo:IAO_0000112>blood drawn from patient to measure his systemic glucose level. A population of humans with HIV enrolled in a study taken to represent patients with HIV in general.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A material entity that has the material sample role</obo:IAO_0000115>
+        <obo:IAO_0000117>OBI: workshop</obo:IAO_0000117>
+        <obo:IAO_0000118>sample population</obo:IAO_0000118>
+        <obo:OBI_0001847>sample</obo:OBI_0001847>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label>material sample</rdfs:label>
+        <rdfs:label xml:lang="en">sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001898"/>
+        <obo:IAO_0000111 xml:lang="en">investigation description</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that describes an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001847>study description</obo:OBI_0001847>
+        <obo:OBI_0001886 xml:lang="en">project description</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">investigation description</rdfs:label>
+        <rdfs:label xml:lang="en">study description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001619">
+        <obo:IAO_0000111 xml:lang="en">specimen collection time measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum that is the measure of the time when the specimens are collected.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">collection date</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Specimen Collection Date</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">sample collection time</rdfs:label>
+        <rdfs:label xml:lang="en">specimen collection time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001620">
+        <obo:IAO_0000111 xml:lang="en">latitude coordinate measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the latitude coordinate of a site.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">latitude</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Specimen Collection Location - Latitude</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">latitude</rdfs:label>
+        <rdfs:label xml:lang="en">latitude coordinate measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001621">
+        <obo:IAO_0000111 xml:lang="en">longitude coordinate measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the measure of the longitude coordinate of a site.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">longitude</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Specimen Collection Location - Longitude</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">longitude</rdfs:label>
+        <rdfs:label xml:lang="en">longitude coordinate measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001898"/>
+        <obo:IAO_0000111 xml:lang="en">investigation title</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that denotes an investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001847>study title</obo:OBI_0001847>
+        <obo:OBI_0001886 xml:lang="en">project title</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">investigation title</rdfs:label>
+        <rdfs:label xml:lang="en">study title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001898">
+        <obo:IAO_0000111 xml:lang="en">comment on investigation</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>A textual entity that is about any of the aspects of an investigation worth noting</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Comments</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">comment on investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000111 xml:lang="en">specimen identifier assigned by specimen repository</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>A specimen identifier which is assigned by a specimen repository</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Specimen Repository Sample ID</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">identifier assigned by sample repository</rdfs:label>
+        <rdfs:label xml:lang="en">specimen identifier assigned by specimen repository</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000111 xml:lang="en">specimen identifier assigned by sequencing facility</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>A specimen identifier which is assigned by a sequencing facility</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:OBI_0001886>Sample ID - Sequencing Facility</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#operational"/>
+        <rdfs:label xml:lang="en">identifier assigned by sequencing facility</rdfs:label>
+        <rdfs:label xml:lang="en">specimen identifier assigned by sequencing facility</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
