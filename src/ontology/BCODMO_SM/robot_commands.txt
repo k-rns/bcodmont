@@ -15,6 +15,14 @@ robot template --template chemistry/robot_templates/element.tsv -i ../bcodmont-e
 robot template --template chemistry/robot_templates/compound.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/robot_templates/compound.owl" -o chemistry/robot_templates/compound.owl
 
 
+### Physics
+## Run characteristic.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template physics/robot_templates/characteristic.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/physics/robot_templates/characteristic.owl" -o physics/robot_templates/characteristic.owl
+
+## Run phenomenon.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template physics/robot_templates/phenomenon.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/physics/robot_templates/phenomenon.owl" -o physics/robot_templates/phenomenon.owl
+
+
 ### Matrix
 ## Run material.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template matrix/robot_templates/material.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/material.owl" -o matrix/robot_templates/material.owl
@@ -26,8 +34,8 @@ robot template --template matrix/robot_templates/context.tsv -i ../bcodmont-edit
 
 # Merge templates
 
-## merge run from ontology:
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
+## Merge imports and preliminary robot templates, run from bcodmont/src/ontology/BCODMO_SM/
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input physics/robot_templates/characteristic.owl --input physics/robot_templates/phenomenon.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
 
 ## Make object property free version of CHEBI (could add others here in future) Only run after adding to CHEBI import
 robot remove --input ../imports/chebi_import.owl --axioms logical annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --output intermediate/chebi_import_axioms_removed.owl
@@ -54,6 +62,12 @@ robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix
 ## Filter compound from axiom-free merged ontology
 robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:compound" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/compound.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/chemistry/compound.owl" --output chemistry/compound.owl
 
+
+### Physics
+## Filter characteristic from merged ontology
+robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:characteristic" --select annotations --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/physics/characteristic.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/physics/characteristic.owl" --output physics/characteristic.owl
+
+##TODO
 
 ### Matrix
 ## Filter material from merged ontology
