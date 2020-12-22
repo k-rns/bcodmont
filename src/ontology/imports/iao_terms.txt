@@ -1,2 +1,5 @@
-IAO:0000577 #centrally registered identifier symbol
-IAO:0020000	#identifier
+### BCODMO_SM Material terms:
+IAO:0000009	#data label
+IAO:0000100	#data set
+IAO:0000578	#centrally registered identifier
+IAO:0000140	#setting datum
