@@ -1,0 +1,167 @@
+Sub category 1:	sub category 2:	sub category 3:	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	Entity subset	category subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+atmosphere			ENVO:01000811	atmosphere												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric column		ENVO:01000675	atmospheric column	atmosphere											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer		ENVO:01000543	atmospheric layer	atmosphere											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	atmospheric boundary layer	ENVO:01000323	atmospheric boundary layer	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	exosphere	ENVO:01000546	exosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	free atmosphere	ENVO:01001712	free atmosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	frontal surface of a weather front	ENVO:01001672	frontal surface of a weather front	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	ionosphere	ENVO:01000545	ionosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	mesosphere	ENVO:01000539	mesosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	ozone layer	ENVO:01000542	ozone layer	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	stratosphere	ENVO:01000538	stratosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	thermosphere	ENVO:01000541	thermosphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+atmosphere	atmospheric layer	troposphere	ENVO:01000540	troposphere	atmospheric layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+deep chlorophyll maximum layer			ENVO:01000326	deep chlorophyll maximum layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+eddy field			ENVO:01000353	eddy field												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation			ENVO:01001026	electromagnetic radiation												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	infrared radiation		ENVO:21001214	infrared radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	X-ray radiation		ENVO:21001217	X-ray radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	gamma-ray radiation		ENVO:21001218	gamma-ray radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	microwave radiation		ENVO:21001212	microwave radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	stellar radiation		ENVO:01001211	stellar radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	stellar radiation	photosynthetically active radiation	ENVO:01001864	photosynthetically active radiation	stellar radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	radio wave radiation		ENVO:21001213	radio wave radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	shortwave radiation		ENVO:01001861	shortwave radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	ultraviolet radiation		ENVO:21001216	ultraviolet radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+electromagnetic radiation	visible spectrum radiation		ENVO:21001215	visible spectrum radiation	electromagnetic radiation											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+estuary layer			ENVO:01001301	estuary layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline			ENVO:01000258	fluid cline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	marine cline		ENVO:01001676	marine cline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	chemocline		ENVO:00002270	chemocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	chemocline	marine chemocline	ENVO:01000076	marine chemocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	lysocline		ENVO:01001674	lysocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	lysocline	marine lysocline	ENVO:01000079	marine lysocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	nutricline		ENVO:01001675	nutricline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front		ENVO:01000071	oceanic front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	boundary current front	ENVO:01000093	boundary current front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	coastal buoyancy current front	ENVO:01000086	coastal buoyancy current front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	coastal upwelling front	ENVO:01000090	coastal upwelling front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	equatorial upwelling front	ENVO:01000092	equatorial upwelling front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	estuarine front	ENVO:01000084	estuarine front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	marginal ice zone front	ENVO:01000095	marginal ice zone front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	mid-shelf fronts	ENVO:01000088	mid-shelf fronts												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	plume front	ENVO:01000085	plume front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	shelf-slope/shelf-break front	ENVO:01000089	shelf-slope/shelf-break front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	subtropical convergence front	ENVO:01000094	subtropical convergence front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	surface convergence	ENVO:01000097	surface convergence												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	tidal mixing front	ENVO:01000087	tidal mixing front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	topographic upwelling front	ENVO:01000091	topographic upwelling front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	oceanic front	water mass front	ENVO:01000096	water mass front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	pycnocline		ENVO:01000259	pycnocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	pycnocline	marine pycnocline	ENVO:01000077	marine pycnocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	thermocline		ENVO:00002269	thermocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	thermocline	marine thermocline	ENVO:01000075	marine thermocline												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+fluid cline	thermocline	metalimnion	ENVO:00002132	metalimnion												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+ice layer			ENVO:01001276	ice layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+ice layer	glaze ice layer		ENVO:01000547	glaze ice layer	ice layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+ice layer	grease ice layer		ENVO:03000074	grease ice layer	ice layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+ice layer	slush ice layer		ENVO:03000077	slush ice layer	ice layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+ice layer	water ice surface layer		ENVO:01001543	water ice surface layer	ice layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+lake layer			ENVO:01000283	lake layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+lake layer	epilimnion		ENVO:00002131	epilimnion												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+lake layer	hypolimnion		ENVO:00002130	hypolimnion												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current			ENVO:01000067	marine current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	deep ocean current		ENVO:01000098	deep ocean current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine benthic storm		ENVO:01000062	marine benthic storm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine downwelling		ENVO:01000064	marine downwelling												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine streamer		ENVO:01000068	marine streamer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine surface current		ENVO:01000099	marine surface current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	along-front current		ENVO:01000100	along-front current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	cold surface current		ENVO:01000102	cold surface current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	cold surface current	eastern boundary current	ENVO:01000104	eastern boundary current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	warm surface current		ENVO:01000101	warm surface current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	warm surface current	western boundary current	ENVO:01000103	western boundary current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine tidal flow		ENVO:01001336	marine tidal flow												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	marine eddy		ENVO:01000069	marine eddy												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	ocean current	upwelling	ENVO:01000005	upwelling												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	ocean current	coastal upwelling	ENVO:01000006	coastal upwelling												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	oceanic gyre		ENVO:01000074	oceanic gyre												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	whirlpool		ENVO:00000409	whirlpool												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine current	whirlpool	maelstrom	ENVO:00000442	maelstrom												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer			ENVO:01000295	marine layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine aphotic zone		ENVO:00000210	marine aphotic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	hadalpelagic zone		ENVO:00000214	hadalpelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine abyssalpelagic zone		ENVO:00000212	marine abyssalpelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine bathypelagic zone		ENVO:00000211	marine bathypelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine mesopelagic zone		ENVO:00000213	marine mesopelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine neritic zone		ENVO:00000206	marine neritic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone		ENVO:00000208	marine pelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine photic zone		ENVO:00000209	marine photic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine wind mixed layer		ENVO:01000061	marine wind mixed layer	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	oceanic zone		ENVO:00000207	oceanic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	sea surface layer		ENVO:01001581	sea surface layer	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine benthic zone		ENVO:01000024	marine benthic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine benthic zone	marine abyssal zone	ENVO:01000027	marine abyssal zone	marine benthic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine benthic zone	marine bathyal zone	ENVO:01000026	marine bathyal zone	marine benthic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine benthic zone	marine hadal zone	ENVO:01000028	marine hadal zone	marine benthic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine benthic zone	marine neritic benthic zone	ENVO:01000025	marine neritic benthic zone	marine benthic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone		ENVO:01000023	marine pelagic zone	marine layer											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	neritic pelagic zone	ENVO:01000032	neritic pelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	neritic epipelagic zone	ENVO:01000042	neritic epipelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	neritic mesopelagic zone	ENVO:01000043	neritic mesopelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	neritic sea surface microlayer	ENVO:01000041	neritic sea surface microlayer	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic pelagic zone	ENVO:01000033	oceanic pelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic abyssopelagic zone	ENVO:01000038	oceanic abyssopelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic bathypelagic zone	ENVO:01000037	oceanic bathypelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic benthopelagic zone	ENVO:01000040	oceanic benthopelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic epipelagic zone	ENVO:01000035	oceanic epipelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic hadal pelagic zone	ENVO:01000039	oceanic hadal pelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic mesopelagic zone	ENVO:01000036	oceanic mesopelagic zone	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+marine layer	marine pelagic zone	oceanic sea surface microlayer	ENVO:01000034	oceanic sea surface microlayer	marine pelagic zone											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	convective storm		ENVO:01001294	convective storm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	convective storm	thunderstorm	ENVO:01000878	thunderstorm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	cyclone		ENVO:01001297	cyclone												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	cyclone	warm core cyclone	ENVO:01001298	warm core cyclone												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	cyclone	extra-tropical cyclone	ENVO:01001295	extra-tropical cyclone												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	ground blizzard		ENVO:01000904	ground blizzard												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	icestorm		ENVO:01000882	icestorm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	icestorm	hailstorm	ENVO:01000880	hailstorm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	nautical squall		ENVO:01001729	nautical squall												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	rainstorm		ENVO:01000879	rainstorm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	snowstorm		ENVO:01000881	snowstorm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	snowstorm	blizzard	ENVO:01000903	blizzard												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	tropical storm		ENVO:01001296	tropical storm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+storm	wind storm		ENVO:01001749	wind storm												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+Taylor column			ENVO:01000299	Taylor column												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+Taylor column	atmospheric Taylor column		ENVO:01000300	atmospheric Taylor column												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+Taylor column	marine Taylor column		ENVO:01000072	marine Taylor column												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tectonic plate			ENVO:01001097	tectonic plate												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tornado			ENVO:00000275	tornado												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tornado	landspout		ENVO:01001486	landspout												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tornado	multiple vortex tornado		ENVO:01001485	multiple vortex tornado												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tornado	waterspout		ENVO:01001487	waterspout												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tsunami			ENVO:01000689	tsunami												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+tsunami	meteotsunami		ENVO:01000715	meteotsunami												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+vortex			BSM:0320001	vortex					A region in a fluid in which the flow revolves around an axis line.		Add to ENVO.					http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface			ENVO:01001191	water surface												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	lake surface		ENVO:00000105	lake surface												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	ice lead		ENVO:01001551	ice lead												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	pelagic isohaline surface		ENVO:01000081	pelagic isohaline surface												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	pelagic isopycnal surface		ENVO:01000083	pelagic isopycnal surface												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	pelagic isothermal surface		ENVO:01000080	pelagic isothermal surface												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water surface	turbulent aquatic surface layer		ENVO:01000862	turbulent aquatic surface layer												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water flow			ENVO:01000982	water flow												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water flow	groundwater discharge		ENVO:01001631	groundwater discharge	water flow											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water flow	groundwater flow		ENVO:01001632	groundwater flow	water flow											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water flow	tidal flow		ENVO:01001342	tidal flow	water flow											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water flow	tidal flow	marine tidal flow	ENVO:01001333	marine tidal flow	tidal flow											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+water current			ENVO:01001607	water current												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+wave			SIO:000650	wave												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front			ENVO:01001681	weather front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	anafront		ENVO:01001708	anafront												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	cold front		ENVO:01001706	cold front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	cold front	secondary cold front	ENVO:01001718	secondary cold front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	intertropical front		ENVO:01001710	intertropical front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	katafront		ENVO:01001709	katafront												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	occluded front		ENVO:01001714	occluded front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	occluded front	cold occluded front	ENVO:01001715	cold occluded front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	occluded front	neutral occluded front	ENVO:01001717	neutral occluded front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	occluded front	warm occluded front	ENVO:01001716	warm occluded front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	polar front		ENVO:01001698	polar front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	quasi-stationary front		ENVO:01001745	quasi-stationary front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	upper front		ENVO:01001713	upper front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+weather front	warm front		ENVO:01001707	warm front												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+wind			ENVO:01000793	wind												http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
+wind	wind gust		ENVO:01001860	wind gust	wind											http://bcodmo/sm#physics	http://bcodmo/sm#phenomenon
