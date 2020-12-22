@@ -31,12 +31,17 @@ robot template --template matrix/robot_templates/material.tsv -i ../bcodmont-edi
 robot template --template matrix/robot_templates/context.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/robot_templates/context.owl" -o matrix/robot_templates/context.owl
 
 
+### Operational
+## Run operational.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template operational/robot_templates/operational.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/operational/robot_templates/operational.owl" -o operational/robot_templates/operational.owl
+
+
 
 # Merge templates
 
 ## Merge imports and preliminary robot templates, run from bcodmont/src/ontology/BCODMO_SM/
 ## for modules other than chemistry (not removing CHEBIs axioms)
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input physics/robot_templates/characteristic.owl --input physics/robot_templates/phenomenon.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/obi_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input physics/robot_templates/characteristic.owl --input physics/robot_templates/phenomenon.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl --input operational/robot_templates/operational.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
 
 ## Make object property free version of CHEBI (could add others here in future) Only run after adding to CHEBI import
 robot remove --input ../imports/chebi_import.owl --axioms logical annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --output intermediate/chebi_import_axioms_removed.owl
