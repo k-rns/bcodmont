@@ -13268,13 +13268,13 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A zone beneath the land surface and above the level of permanent groundwater or phreatic zone in which water has a hydraulic head less than atmospheric pressure and is retained by a combination of adhesion and capillary action.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000328"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>unsaturated zone</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Vadose_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13307,7 +13307,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym>zone of saturation</oboInOwl:hasRelatedSynonym>
         <rdfs:label>phreatic zone</rdfs:label>
     </owl:Class>
@@ -13316,13 +13316,13 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A compound astronomical body part which is located beneath the land surface and in which all interstices are filled with water that has a hydraulic head greater than atmospheric pressure due to the weight of overlying groundwater.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wasg.iinet.net.au/terminol.html</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000329"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>zone of saturation</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Phreatic_zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13906,7 +13906,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000395"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The physical confine of a river, slough or ocean strait consisting of a bed and banks.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Channel_%28geography%29</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Channel_%28geography%29</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14064,7 +14064,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <oboInOwl:hasDbXref>FTT:131</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:829</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21183</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>WHRL</oboInOwl:hasExactSynonym>
         <rdfs:label>whirlpool</rdfs:label>
     </owl:Class>
@@ -14072,7 +14072,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A large, swirling body of water produced by ocean tides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
@@ -14146,7 +14146,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000417"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fertile low-lying raised beach found on the some of the coastlines of Ireland and Scotland, in particular in the Outer Hebrides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Machair_%28geography%29</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Machair_%28geography%29</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14536,7 +14536,7 @@ SOURCE DEFINITION: Marine brine pools are large areas of brine on the ocean basi
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A very powerful whirlpool.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25531,7 +25531,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000688"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The general region of indefinite width that extends from a lake inland to the first major change in terrain features.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Adapted from USGS:SDTS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from USGS:SDTS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

@@ -87,6 +87,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
@@ -406,6 +412,22 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">datum label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">GROUP: IAO</obo:IAO_0000117>
+        <obo:IAO_0000232>9/22/11 BP: changed the rdfs:label for this class from &apos;label&apos; to &apos;datum label&apos; to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
+</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">datum label</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -537,6 +559,24 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115 xml:lang="en">Data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data about an ontology part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A settings datum is a datum that denotes some configuration of an instrument.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2/3/2009 Feedback from OBI
+
+This should be a &quot;setting specification&quot;. There is a question of whether it is information about a realizable or not.
+
+Pro other specification are about realizables.
+Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Alan grouped these in placeholder for the moment. Name by analogy to measurement datum.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">setting datum</rdfs:label>
     </owl:Class>
     
 
