@@ -37,6 +37,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -46,6 +52,24 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -130,11 +154,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146">
         <obo:IAO_0000115>A physical quality of the thermal energy of a system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000146</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>temperature</rdfs:label>
         <rdfs:label xml:lang="en">temperature</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality of the thermal energy of a system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -142,21 +176,45 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000973">
         <obo:IAO_0000115>A structure quality inhering in a bearer by virtue of the bearer&apos;s disposition to admit the passage of gas or liquid through pores or interstices.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000973</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#disposition_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>porosity</rdfs:label>
         <rdfs:label xml:lang="en">porosity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000973"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A structure quality inhering in a bearer by virtue of the bearer&apos;s disposition to admit the passage of gas or liquid through pores or interstices.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001019">
+        <obo:IAO_0000115>A physical quality which inheres in a bearer by virtue of some influence is exerted by the bearer&apos;s mass per unit size.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>density</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PATO:0001019</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label xml:lang="en">density</rdfs:label>
+        <rdfs:label>mass density</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality which inheres in a bearer by virtue of some influence is exerted by the bearer&apos;s mass per unit size.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -164,11 +222,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001025">
         <obo:IAO_0000115>A physical quality that inheres in a bearer by virtue of the bearer&apos;s amount of force per unit area it exerts.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001025</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>pressure</rdfs:label>
         <rdfs:label xml:lang="en">pressure</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that inheres in a bearer by virtue of the bearer&apos;s amount of force per unit area it exerts.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -177,41 +244,90 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001430">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
         <obo:IAO_0000115>An medium acidity quality inhering in a solution by virtue of the bearer&apos;s a low concentration of H+ ions.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001430</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
         <rdfs:label>alkaline</rdfs:label>
         <rdfs:label xml:lang="en">alkalinity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001430"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An medium acidity quality inhering in a solution by virtue of the bearer&apos;s a low concentration of H+ ions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemicool:chemicool</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001585">
+        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to transmit of an entity through a medium.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001585</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#disposition_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:comment>Examples could be heat or electricity or sound.</rdfs:comment>
+        <rdfs:label>conductivity</rdfs:label>
         <rdfs:label xml:lang="en">conductivity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to transmit of an entity through a medium.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001595">
+        <obo:IAO_0000115>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s downward or backward or inward dimenision.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001595</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>depth</rdfs:label>
         <rdfs:label xml:lang="en">depth</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s downward or backward or inward dimenision.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001585"/>
+        <obo:IAO_0000115>A conductivity quality inhering in a bearer by virtue of the bearer&apos;s ability to convey electricity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001757</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#disposition_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>electrical conductivity</rdfs:label>
         <rdfs:label xml:lang="en">electrical conductivity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001757"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A conductivity quality inhering in a bearer by virtue of the bearer&apos;s ability to convey electricity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Electrical_conduction</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -221,11 +337,21 @@
         <obo:IAO_0000115>A concentration quality inhering in a bearer by virtue of the bearer&apos;s containing acid (hydrogen ions).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pH</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">pH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001842</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#characteristic"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>acidity</rdfs:label>
         <rdfs:label xml:lang="en">acidity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A concentration quality inhering in a bearer by virtue of the bearer&apos;s containing acid (hydrogen ions).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology-online:biology-online</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

@@ -26,6 +26,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -493,7 +499,7 @@
         <oboInOwl:hasDbXref>FTT:131</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:829</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TGN:21183</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>WHRL</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
@@ -506,7 +512,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A large, swirling body of water produced by ocean tides.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000409"/>
@@ -542,7 +548,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A very powerful whirlpool.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Whirlpool</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -575,7 +581,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000283"/>
         <obo:IAO_0000115>The top-most layer in a thermally stratified lake, occurring above the deeper hypolimnion. It is warmer and typically has a higher pH and dissolved oxygen concentration than the hypolimnion.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:epilimnion_</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#context"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
@@ -587,7 +593,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002131"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The top-most layer in a thermally stratified lake, occurring above the deeper hypolimnion. It is warmer and typically has a higher pH and dissolved oxygen concentration than the hypolimnion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Epilimnion</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1392,7 +1398,7 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
         <owl:annotatedTarget>A marine Taylor column is a Taylor column that is formed in a marine body of water. Currents flowing over shoaling topography such as seamounts are accelerated and destabilised, resulting in Taylor columns. Eddies and internal waves are generated downstream of the topological feature and may extend 1000 m or so above them. This may result in a localised increase in primary production where the Taylor column reaches surface waters.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2056,13 +2062,13 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000259"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A cline across which the density of a fluid changes rapidly.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000259"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>stable density gradient</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pycnocline</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2130,7 +2136,7 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
         <owl:annotatedTarget>A Taylor column is a column of deflected fluid flow which is formed in a perturbed, rotating fluid, is parallel to the axis of rotation, and extends above the obstacle perturbing the fluid in a rigid manner.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2158,7 +2164,7 @@ SOURCE DEFINITION: A marine upwelling is a net flow of marine water to the surfa
         <owl:annotatedTarget>An atmospheric Taylor column is a Taylor column that is formed in the atmosphere. Atmospheric Taylor columns often form above islands resulting in vortex streets in the atmosphere.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-444-82619-0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Taylor_column</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000300"/>
@@ -2238,7 +2244,7 @@ Further discussion in Issue #126.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mesoscale eddy field is an expanse of marine water which includes coherent vortices, as well as a rich cascade of other structures such as filaments, squirts and spirals and is characterized by temperature and salinity anomalies with associated flow anomalies that are nearly in geostrophic balance. Although only the surface expression of mesoscale eddies is visible in satellite images of sea surface height or temperature, they are in fact three dimensional structures that reach down into the pycnocline.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.gfdl.noaa.gov/ocean-mesoscale-eddies</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.gfdl.noaa.gov/ocean-mesoscale-eddies</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2495,20 +2501,47 @@ Further discussion in Issue #126.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/ENVO_01000689 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000689">
+        <obo:IAO_0000115>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>seismic sea wave</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tidal wave</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">tsunami</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tsunami is a process during which a series of waves is generated in a water body, typically an ocean or large lake, by the displacement of a large volume of water. Earthquakes, volcanic eruptions and other underwater explosions (including detonations of underwater nuclear devices), landslides, glacier calvings, meteorite impacts and other disturbances above or below water all have the potential to generate a tsunami.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Tsunami</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01000715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000689"/>
+        <obo:IAO_0000115>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</obo:IAO_0000115>
+        <obo:IAO_0000116>Ambiguity as to whether this label refers to the process or the material entities (the waves). The material entities are a type of severe storm surge.</obo:IAO_0000116>
+        <oboInOwl:hasExactSynonym>rissaga</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">meteotsunami</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A meteotsunami is a tsunami caused by atmospheric processes and differences in air pressure.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Meteotsunami</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000715"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>rissaga</owl:annotatedTarget>
+        <rdfs:comment>Language: Catalan</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -2685,15 +2718,15 @@ Further discussion in Issue #126.</obo:IAO_0000116>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A blizzard is a severe snowstorm during which snowfall is transported by strong winds, sustained for several hours.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Blizzard</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
         <owl:annotatedTarget>To qualify a snowstorm as a blizzard, some sources require the windspeed to be at least 56 km/h and the duration of the storm to be at least three hours. We set no such hard boundaries in this definition, as this should be done with reference to local standards.</owl:annotatedTarget>
         <rdfs:comment>https://en.wikipedia.org/wiki/Blizzard</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000903"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A blizzard is a severe snowstorm during which snowfall is transported by strong winds, sustained for several hours.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Blizzard</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3190,10 +3223,20 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001631">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000982"/>
+        <obo:IAO_0000115>A water flow process during which water flows out of an aquifer.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-22T14:18:15Z</oboInOwl:creation_date>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
         <rdfs:label xml:lang="en">groundwater discharge</rdfs:label>
+        <rdfs:label xml:lang="en">groundwater discharge process</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001631"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A water flow process during which water flows out of an aquifer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Groundwater_discharge</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3201,10 +3244,19 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000982"/>
+        <obo:IAO_0000115>A water flow process during which water is transported through an aquifer.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-22T14:22:43Z</oboInOwl:creation_date>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
         <rdfs:label xml:lang="en">groundwater flow</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001632"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A water flow process during which water is transported through an aquifer.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Groundwater_discharge</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3696,10 +3748,28 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000793"/>
+        <obo:IAO_0000115>An atmospheric wind which 1) has an increased rate relative to other winds in the same region and 2) is followed by a lull.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T21:47:51Z</dc:date>
+        <oboInOwl:hasBroadSynonym>gust</oboInOwl:hasBroadSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:comment>According to U.S. weather observing practice, gusts are reported when the peak wind speed reaches at least 16 knots and the variation in wind speed between the peaks and lulls is at least 9 knots. The duration of a gust is usually less than 20 seconds.</rdfs:comment>
         <rdfs:label xml:lang="en">wind gust</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001860"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An atmospheric wind which 1) has an increased rate relative to other winds in the same region and 2) is followed by a lull.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://glossary.ametsoc.org/wiki/Gust"/>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Wind_gust"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001860"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>According to U.S. weather observing practice, gusts are reported when the peak wind speed reaches at least 16 knots and the variation in wind speed between the peaks and lulls is at least 9 knots. The duration of a gust is usually less than 20 seconds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://glossary.ametsoc.org/wiki/Gust"/>
+    </owl:Axiom>
     
 
 
@@ -3707,21 +3777,49 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001861">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>An electromagnetic radiation process during which radiant energy with wavelengths in the visible, near-ultraviolet, or near-infrared spectra is realised.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:14:12Z</dc:date>
+        <oboInOwl:hasExactSynonym>short-wave radiation</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:comment>There is no standard cut-off for the near-infrared range; therefore, the shortwave radiation range is also variously defined. It may be broadly defined to include all radiation with a wavelength of 0.1 micrometers and 5.0 micrometers or narrowly defined so as to include only radiation between 0.2 micrometers and 3.0 micrometers.</rdfs:comment>
         <rdfs:label xml:lang="en">shortwave radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An electromagnetic radiation process during which radiant energy with wavelengths in the visible, near-ultraviolet, or near-infrared spectra is realised.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Shortwave_radiation"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001861"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>There is no standard cut-off for the near-infrared range; therefore, the shortwave radiation range is also variously defined. It may be broadly defined to include all radiation with a wavelength of 0.1 micrometers and 5.0 micrometers or narrowly defined so as to include only radiation between 0.2 micrometers and 3.0 micrometers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Shortwave_radiation"/>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01001864 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001211"/>
+        <obo:IAO_0000115>Electromagnetic radidation which involves radiant energy in a spectral range (wave band) between 400 to 700 nanometers, that photosynthetic organisms are able to use in the process of photosynthesis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-19T22:41:55Z</dc:date>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:comment>Many definitions specify that this is Solar radiation, but consistency is lacking.</rdfs:comment>
         <rdfs:label xml:lang="en">photosynthetically active radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001864"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Electromagnetic radidation which involves radiant energy in a spectral range (wave band) between 400 to 700 nanometers, that photosynthetic organisms are able to use in the process of photosynthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Photosynthetically_active_radiation"/>
+    </owl:Axiom>
     
 
 
@@ -3776,10 +3874,22 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16862</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:comment>This definition focuses on the properties of microwaves rather than their wavelength or frequency limits. Considerable ambiguity exists around the wavelength and frequency thresholds of microwaves. The ISO 21348 definition bounds these waves at 1 mm and 15 mm, with frequencies between 100 GHz and 0.225 GHz.</rdfs:comment>
+        <rdfs:label>microwave radiation</rdfs:label>
         <rdfs:label xml:lang="en">microwave radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001212"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths and frequencies which travel exclusively in a line-of-sight fashion and which may produce molecular rotation and torsion on contact with matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Microwave</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3787,10 +3897,21 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths ranging from millimetre to kilometer scales.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:comment>As with microwaves, considerable variation exists in the delimitation of frequency and wavelength thresholds for radiowaves. The ISO 21348 standard allows a wavelength range of 0.10 mm to 100 m and a frequency range of 300 GHz to 3 MHz. However, much lower thresholds also exist.</rdfs:comment>
+        <rdfs:label>radio wave radiation</rdfs:label>
         <rdfs:label xml:lang="en">radio wave radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001213"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths ranging from millimetre to kilometer scales.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+    </owl:Axiom>
     
 
 
@@ -3798,10 +3919,22 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16736</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>infra-red radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>IR radiation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:label>infrared radiation</rdfs:label>
         <rdfs:label xml:lang="en">infrared radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted when molecules change their rotational-vibrational movements, usually at wavelengths between 760 nm and 1 mm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Infrared</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3809,10 +3942,28 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 380 nm and 760 nm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C17732</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>optical radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>visible light</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <rdfs:label>visible spectrum radiation</rdfs:label>
         <rdfs:label xml:lang="en">visible spectrum radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 380 nm and 760 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001215"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>visible light</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C17732</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3820,10 +3971,23 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000115>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 10 nm and 400 nm.</obo:IAO_0000115>
+        <obo:IAO_0000116>To be expanded to account for subtypes.</obo:IAO_0000116>
+        <oboInOwl:hasExactSynonym>UV radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>ultraviolet radiation</rdfs:label>
         <rdfs:label xml:lang="en">ultraviolet radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which electromagnetic waves or their quanta are emitted at wavelengths between 10 nm and 400 nm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.iso.org/obp/ui/#iso:std:iso:21348"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Ultraviolet</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3831,10 +3995,30 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C17262</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>X ray radiation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>X-ray</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>X-ray radiation</rdfs:label>
         <rdfs:label xml:lang="en">X-ray radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which penetrating electromagnetic radiation is emitted by high-energy electrons as they fall into a lower state of energy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/X-ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001217"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>X-ray</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C17262</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3842,10 +4026,21 @@ Further discussion in Issue #126.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_21001218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115>A radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>ENVO</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#phenomenon"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#physics"/>
+        <oboInOwl:inSubset>environmental_hazards</oboInOwl:inSubset>
+        <rdfs:label>gamma-ray radiation</rdfs:label>
         <rdfs:label xml:lang="en">gamma-ray radiation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_21001218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A radiation process during which penetrating electromagnetic radiation is emitted from the radioactive decay (gamma decay) of atomic nuclei.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Gamma_ray</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
