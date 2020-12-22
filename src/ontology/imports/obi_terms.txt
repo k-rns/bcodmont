@@ -1,2 +1,10 @@
-OBI:0000011
-
+### BCODMO_SM Operational terms:
+OBI:0001898	#comment on investigation
+OBI:0001900	#identifier assigned by sample repository
+OBI:0001901	#identifier assigned by sequencing facility
+OBI:0001615	#investigation description
+OBI:0001622	#investigation title
+OBI:0001620	#latitude
+OBI:0001621	#longitude
+OBI:0000747	#sample
+OBI:0001619	#sample collection time
