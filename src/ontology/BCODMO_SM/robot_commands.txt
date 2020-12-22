@@ -67,7 +67,9 @@ robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix
 ## Filter characteristic from merged ontology
 robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:characteristic" --select annotations --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/physics/characteristic.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/physics/characteristic.owl" --output physics/characteristic.owl
 
-##TODO
+## Filter phenomenon from merged ontology
+robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:phenomenon" --select annotations --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/physics/phenomenon.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/physics/phenomenon.owl" --output physics/phenomenon.owl
+
 
 ### Matrix
 ## Filter material from merged ontology
