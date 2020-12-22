@@ -149,5 +149,14 @@ Datatype: idrange:13
         xsd:integer[>= 320001 , <= 330000]
 
 
+Datatype: idrange:14
+
+    Annotations:
+        allocatedto: "Operational"
+
+    EquivalentTo:
+        xsd:integer[>= 400001 , <= 410000]
+
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
