@@ -1,0 +1,17 @@
+Sub category 1:	sub category 2:	sub category 3:	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	Entity subset	category subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+acidity			PATO:0001842	acidity		pH										http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+alkalinity			PATO:0001430	alkalinity												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+conductivity			PATO:0001585	conductivity												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+density			PATO:0001019	density												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+density	potential density		BSM:0310003	potential density	density				A density which would inhere in a bearer if such bearer were adiabatically brought to a standard reference pressure.				sigma			http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+depth			PATO:0001595	depth												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+electrical conductivity			PATO:0001757	electrical conductivity												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+electrical conductivity	electrical resistivity		BSM:0310001	electrical resistivity	electrical conductivity						TO ADD to PATO inverse of conductivity see https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity					http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+fugacity			BSM:0310002	fugacity							TO ADD TO PATO					http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+porosity			PATO:0000973	porosity												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+pressure			PATO:0001025	pressure												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+salinity			PATO:0070001	salinity					An osmolarity quality inhering in a bearer by virtue of the total amount of ionic salts dissolved in the bearer.		Waiting for PR to be approved and merged in PATO.					http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+temperature			PATO:0000146	temperature												http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+temperature	potential temperature		BSM:0310004	potential temperature	temperature				A temperature which would inhere in a bearer if such bearer were adiabatically compressed from it's existing temperature and pressure to a standard presure.				theta			http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
+turbidity			BSM:0310005	turbidity							TO ADD TO PATO High priority.					http://bcodmo/sm#physics	http://bcodmo/sm#characteristic
