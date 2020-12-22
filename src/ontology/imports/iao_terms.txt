@@ -1,4 +1,4 @@
-### BCODMO_SM Material terms:
+### BCODMO_SM Operational terms:
 IAO:0000009	#data label
 IAO:0000100	#data set
 IAO:0000578	#centrally registered identifier
