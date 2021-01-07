@@ -37,7 +37,7 @@ Datatype: idrange:1
         allocatedto: "Qualifiers"
 
     EquivalentTo:
-        xsd:integer[>= 1 , <= 10000]
+        xsd:integer[>= 0000001 , <= 0010000]
 
 
 Datatype: idrange:2
@@ -46,7 +46,7 @@ Datatype: idrange:2
         allocatedto: "Biology/Anatomy"
 
     EquivalentTo:
-        xsd:integer[>= 10001 , <= 20000]
+        xsd:integer[>= 0010001 , <= 0020000]
 
 
 Datatype: idrange:3
@@ -55,7 +55,7 @@ Datatype: idrange:3
         allocatedto: "Biology/Physiology"
 
     EquivalentTo:
-        xsd:integer[>= 20001 , <= 30000]
+        xsd:integer[>= 0020001 , <= 0030000]
 
 
 Datatype: idrange:4
@@ -64,7 +64,7 @@ Datatype: idrange:4
         allocatedto: "Biology/Ecology"
 
     EquivalentTo:
-        xsd:integer[>= 30001 , <= 40000]
+        xsd:integer[>= 0030001 , <= 0040000]
 
 
 Datatype: idrange:5
@@ -73,7 +73,7 @@ Datatype: idrange:5
         allocatedto: "Biology/Biomolecules"
 
     EquivalentTo:
-        xsd:integer[>= 40001 , <= 50000]
+        xsd:integer[>= 0040001 , <= 0050000]
 
 
 Datatype: idrange:6
@@ -82,7 +82,7 @@ Datatype: idrange:6
         allocatedto: "Biology/Organism"
 
     EquivalentTo:
-        xsd:integer[>= 50001 , <= 60000]
+        xsd:integer[>= 0050001 , <= 0060000]
 
 
 
@@ -92,7 +92,7 @@ Datatype: idrange:7
         allocatedto: "Matrix/Material"
 
     EquivalentTo:
-        xsd:integer[>= 100001 , <= 110000]
+        xsd:integer[>= 0100001 , <= 0110000]
 
 
 Datatype: idrange:8
@@ -101,7 +101,7 @@ Datatype: idrange:8
         allocatedto: "Matrix/Context"
 
     EquivalentTo:
-        xsd:integer[>= 110001 , <= 120000]
+        xsd:integer[>= 0110001 , <= 0120000]
 
 
 Datatype: idrange:9
@@ -110,7 +110,7 @@ Datatype: idrange:9
         allocatedto: "Matrix/Biome"
 
     EquivalentTo:
-        xsd:integer[>= 120001 , <= 130000]
+        xsd:integer[>= 0120001 , <= 0130000]
 
 
 Datatype: idrange:10
@@ -119,7 +119,7 @@ Datatype: idrange:10
         allocatedto: "Chemistry/Element"
 
     EquivalentTo:
-        xsd:integer[>= 200001 , <= 210000]
+        xsd:integer[>= 0200001 , <= 0210000]
 
 
 Datatype: idrange:11
@@ -128,7 +128,7 @@ Datatype: idrange:11
         allocatedto: "Chemistry/Compound"
 
     EquivalentTo:
-        xsd:integer[>= 210001 , <= 220000]
+        xsd:integer[>= 0210001 , <= 0220000]
 
 
 Datatype: idrange:12
@@ -137,7 +137,7 @@ Datatype: idrange:12
         allocatedto: "Physics/characteristic"
 
     EquivalentTo:
-        xsd:integer[>= 310001 , <= 320000]
+        xsd:integer[>= 0310001 , <= 0320000]
 
 
 Datatype: idrange:13
@@ -146,7 +146,7 @@ Datatype: idrange:13
         allocatedto: "Physics/phenomenon"
 
     EquivalentTo:
-        xsd:integer[>= 320001 , <= 330000]
+        xsd:integer[>= 0320001 , <= 0330000]
 
 
 Datatype: idrange:14
@@ -155,7 +155,7 @@ Datatype: idrange:14
         allocatedto: "Operational"
 
     EquivalentTo:
-        xsd:integer[>= 400001 , <= 410000]
+        xsd:integer[>= 0400001 , <= 0410000]
 
 
 Datatype: xsd:integer
