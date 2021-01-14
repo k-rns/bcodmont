@@ -72,7 +72,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS = ro pato envo iao obi uo uberon go stato #chebi
+IMPORTS = ro pato envo iao obi uo uberon go stato ms #chebi
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -331,6 +331,14 @@ mirror/stato.owl: mirror/stato.trigger
 .PRECIOUS: mirror/%.owl
 
 
+## ONTOLOGY: ms
+## Copy of ms is re-downloaded whenever source changes
+mirror/ms.trigger: $(SRC)
+
+mirror/ms.owl: mirror/ms.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ms.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
 
 
 # # ENVO Makefile's verion of CHEBI import
