@@ -1,0 +1,47 @@
+sub category 1	sub category 2	sub category 3	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	in subset
+			ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset
+flux			PATO:0001030	flux												http://bcodmo/sm#quantifiers
+relative			BSM:0000023	relative				NCIT:C45830								http://bcodmo/sm#quantifiers
+age			PATO:0000011	age												http://bcodmo/sm#quantifiers
+binary			STATO:0000031	binary												http://bcodmo/sm#quantifiers
+binary	TRUE		BSM:0000012	TRUE	binary											http://bcodmo/sm#quantifiers
+binary	FALSE		BSM:0000013	FALSE	binary											http://bcodmo/sm#quantifiers
+content			BSM:0000014	content		composition		PATO:0000025	A single physical entity inhering in an bearer by virtue of the bearer's quantities or qualities.							http://bcodmo/sm#quantifiers
+fluorescence			PATO:0000018	fluorescence												http://bcodmo/sm#quantifiers
+absorption			BSM:0000015	absorption				PATO:0002060|PATO:0001293								http://bcodmo/sm#quantifiers
+optical density			BSM:0000016	optical density			CHMO:0002039	PATO:0001300								http://bcodmo/sm#quantifiers
+speed			PATO:0000008	speed												http://bcodmo/sm#quantifiers
+estimated			BSM:0000024	estimated		estimate|estimation		NCIT:C25498								http://bcodmo/sm#quantifiers
+calculated			BSM:0000025	calculated		calculate|calculation		NCIT:C54125								http://bcodmo/sm#quantifiers
+predicted			BSM:0000026	predicted		predict|prediction		NCIT:C54156								http://bcodmo/sm#quantifiers
+net			BSM:0000027	net				NCIT:C70842								http://bcodmo/sm#quantifiers
+gross			BSM:0000022	gross					"Gains prior to deduction of losses; pre-deducted value (gross), post-deducted value (net)."							http://bcodmo/sm#quantifiers
+size			PATO:0000117	size												http://bcodmo/sm#quantifiers
+size	length		PATO:0000122	length	size											http://bcodmo/sm#quantifiers
+size	height		PATO:0000119	height	size											http://bcodmo/sm#quantifiers
+size	area		PATO:0001323	area	size											http://bcodmo/sm#quantifiers
+size	girth		BSM:0000010	girth	size											http://bcodmo/sm#quantifiers
+size	diameter		PATO:0001334	diameter	size											http://bcodmo/sm#quantifiers
+size	radius		PATO:0002390	radius	size											http://bcodmo/sm#quantifiers
+size	volume		PATO:0000918	volume	size											http://bcodmo/sm#quantifiers
+abundance			BSM:0000003	abundance		quantity|plentifulness			The degree of quantity of an entity.							http://bcodmo/sm#quantifiers
+abundance	number		BSM:0000001	number	abundance											http://bcodmo/sm#quantifiers
+abundance	count		BSM:0000002	count	abundance			PATO:0000070								http://bcodmo/sm#quantifiers
+abundance	concentration		PATO:0000033	concentration	abundance											http://bcodmo/sm#quantifiers
+abundance	weight		PATO:0000128	weight	abundance											http://bcodmo/sm#quantifiers
+abundance	weight	dry weight	BSM:0000019	dry weight	weight											http://bcodmo/sm#quantifiers
+abundance	weight	wet weight	BSM:0000020	wet weight	weight											http://bcodmo/sm#quantifiers
+abundance	mass		PATO:0000125	mass	abundance											http://bcodmo/sm#quantifiers
+abundance	mass	molecular mass	MS:1000224	molecular mass	mass	molecular weight										http://bcodmo/sm#quantifiers
+statistic			STATO:0000039	statistic												http://bcodmo/sm#quantifiers
+statistic	sum		BSM:0000018	sum	statistic			SIO:001112|NCIT:C25697								http://bcodmo/sm#quantifiers
+statistic	ratio		STATO:0000184	ratio	statistic		UO:0000190|PATO:0001470									http://bcodmo/sm#quantifiers
+statistic	average		STATO:0000573	average	statistic	mean										http://bcodmo/sm#quantifiers
+statistic	percentage		UO:00000187	percentage	statistic											http://bcodmo/sm#quantifiers
+statistic	confidence interval		STATO:0000196	confidence interval	statistic	CI										http://bcodmo/sm#quantifiers
+statistic	median		STATO:0000574	median	statistic	center value				In STATO has a different name: center value						http://bcodmo/sm#quantifiers
+statistic	mode		STATO:0000033	mode	statistic											http://bcodmo/sm#quantifiers
+statistic	standard deviation		STATO:0000237	standard deviation	statistic	sigma|STDEV										http://bcodmo/sm#quantifiers
+statistic	standard error		STATO:0000037	standard error	statistic	standard error of the mean|SE				In STATO has a different name: standard error of the mean						http://bcodmo/sm#quantifiers
+statistic	minimum		STATO:0000150	minimum	statistic	min										http://bcodmo/sm#quantifiers
+statistic	maximum		STATO:0000151	maximum	statistic	max										http://bcodmo/sm#quantifiers

@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/quantifiers/robot_templates/quantifiers.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/quantifiers/robot_templates/quantifiers.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/quantifiers/robot_templates/quantifiers.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">count</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000070"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000003">
+        <obo:IAO_0000115 xml:lang="en">The degree of quantity of an entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">plentifulness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">quantity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">abundance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">girth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000031"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">TRUE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000031"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">FALSE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000014">
+        <obo:IAO_0000115 xml:lang="en">A single physical entity inhering in an bearer by virtue of the bearer&apos;s quantities or qualities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">composition</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">content</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000015">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">absorption</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001293"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0002060"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000016">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">optical density</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">sum</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25697"/>
+        <skos:closeMatch rdf:resource="http://semanticscience.org/resource/SIO_001112"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">dry weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">wet weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000022">
+        <obo:IAO_0000115 xml:lang="en">Gains prior to deduction of losses; pre-deducted value (gross), post-deducted value (net).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">gross</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000023">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">relative</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000024">
+        <oboInOwl:hasExactSynonym xml:lang="en">estimate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">estimation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">estimated</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25498"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000025">
+        <oboInOwl:hasExactSynonym xml:lang="en">calculate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">calculation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">calculated</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000026">
+        <oboInOwl:hasExactSynonym xml:lang="en">predict</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">prediction</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">predicted</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54156"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000027">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">net</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70842"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MS_1000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MS_1000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">molecular weight</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">molecular mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000018">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">fluorescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001030">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">flux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">radius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000031">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">binary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">mode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">SE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">standard error of the mean</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:comment xml:lang="en">In STATO has a different name: standard error of the mean</rdfs:comment>
+        <rdfs:label xml:lang="en">standard error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000039">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">statistic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">min</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">minimum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">max</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">maximum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">ratio</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001470"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">CI</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">confidence interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">STDEV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sigma</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">standard deviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">mean</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">average</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">center value</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:comment xml:lang="en">In STATO has a different name: center value</rdfs:comment>
+        <rdfs:label xml:lang="en">median</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_00000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_00000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">percentage</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

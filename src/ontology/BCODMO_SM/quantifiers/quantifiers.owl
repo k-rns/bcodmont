@@ -1,0 +1,893 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000032 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000032"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000041 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000041"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000391 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000391"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">count</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000070"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000003">
+        <obo:IAO_0000115 xml:lang="en">The degree of quantity of an entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">plentifulness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">quantity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">abundance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">girth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000031"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">TRUE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000031"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">FALSE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000014">
+        <obo:IAO_0000115 xml:lang="en">A single physical entity inhering in an bearer by virtue of the bearer&apos;s quantities or qualities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">composition</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">content</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0000025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000015">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">absorption</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001293"/>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0002060"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000016">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">optical density</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">sum</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25697"/>
+        <skos:closeMatch rdf:resource="http://semanticscience.org/resource/SIO_001112"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">dry weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">wet weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000022">
+        <obo:IAO_0000115 xml:lang="en">Gains prior to deduction of losses; pre-deducted value (gross), post-deducted value (net).</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">gross</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000023">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">relative</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45830"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000024">
+        <oboInOwl:hasExactSynonym xml:lang="en">estimate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">estimation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">estimated</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25498"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000025">
+        <oboInOwl:hasExactSynonym xml:lang="en">calculate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">calculation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">calculated</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000026">
+        <oboInOwl:hasExactSynonym xml:lang="en">predict</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">prediction</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">predicted</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54156"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSM_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSM_0000027">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">net</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70842"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MS_1000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MS_1000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <obo:IAO_0000115>Mass of a molecule measured in unified atomic mass units (u or Da).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>value-type:xsd:float</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">molecular weight</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>MS</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MS:1000224</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label>molecular mass</rdfs:label>
+        <rdfs:label xml:lang="en">molecular mass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MS_1000224"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Mass of a molecule measured in unified atomic mass units (u or Da).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Molecular_mass</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MS_1000224"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>value-type:xsd:float</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The allowed value-type for this CV term.</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000008">
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <obo:IAO_0000115>A time quality inhering in a bearer by virtue of how long the bearer has existed.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000011</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>age</rdfs:label>
+        <rdfs:label xml:lang="en">age</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A time quality inhering in a bearer by virtue of how long the bearer has existed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000018">
+        <obo:IAO_0000115>A luminous flux quality inhering in a bearer by virtue of the bearer&apos;s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000018</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>fluorescence</rdfs:label>
+        <rdfs:label xml:lang="en">fluorescence</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A luminous flux quality inhering in a bearer by virtue of the bearer&apos;s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <obo:IAO_0000115>A quality inhering in a substance by virtue of the amount of the bearer&apos;s there is mixed with another substance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>concentration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000033</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label xml:lang="en">concentration</rdfs:label>
+        <rdfs:label>concentration of</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quality inhering in a substance by virtue of the amount of the bearer&apos;s there is mixed with another substance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/concentration</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
+        <obo:IAO_0000115>A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000117</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>size</rdfs:label>
+        <rdfs:label xml:lang="en">size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A morphology quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000119</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>height</rdfs:label>
+        <rdfs:label xml:lang="en">height</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 1-D extent quality inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A 1-D extent quality which is equal to the distance between two points.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000122</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>length</rdfs:label>
+        <rdfs:label xml:lang="en">length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 1-D extent quality which is equal to the distance between two points.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <obo:IAO_0000115>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000125</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>mass</rdfs:label>
+        <rdfs:label xml:lang="en">mass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0000003"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer that has mass near a gravitational body.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000128</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>weight</rdfs:label>
+        <rdfs:label xml:lang="en">weight</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality inhering in a bearer that has mass near a gravitational body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Weight</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000918</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>volume</rdfs:label>
+        <rdfs:label xml:lang="en">volume</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001030">
+        <obo:IAO_0000115>A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001030</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>flux</rdfs:label>
+        <rdfs:label xml:lang="en">flux</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality that exists by virtue of the rate of flow of the bearer across a given surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WordNet:WordNet</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <obo:IAO_0000115>A 2-D extent quality inhering in a bearer by virtue of the bearer&apos;s two dimensional extent.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001323</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
+        <rdfs:label>area</rdfs:label>
+        <rdfs:label xml:lang="en">area</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A 2-D extent quality inhering in a bearer by virtue of the bearer&apos;s two dimensional extent.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Area</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">radius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000031">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">binary classification (or binomial classification) is a data transformation which aims to cast members of a set into 2 disjoint groups depending on whether the element have a given property/feature or not.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from wikipedia:
+http://en.wikipedia.org/wiki/Binary_classifier
+
+last accessed: 2013-11-21</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en">binomial classification</obo:STATO_0000032>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">binary</rdfs:label>
+        <rdfs:label xml:lang="en">binary classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000574"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The mode is a data item which corresponds to the most frequently occurring number in a set of numbers.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.sagepub.com/upm-data/47775_ch_3.pdf</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en">mode</obo:STATO_0000032>
+        <obo:STATO_0000391 xml:lang="en">scipy.stats.mode(a, axis=0)
+
+http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mode.html#scipy.stats.mode
+
+source:
+https://github.com/scipy/scipy/blob/v0.15.1/scipy/stats/stats.py#L586</obo:STATO_0000391>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">mode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000112 xml:lang="en">http://stats.stackexchange.com/questions/50623/r-calculating-mean-and-standard-error-of-mean-for-factors-with-lm-vs-direct</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The standard error of the mean (SEM) is data item denoting the standard deviation of the sample-mean&apos;s estimate of a population mean.
+It is calculated by dividing the sample standard deviation (i.e., the sample-based estimate of the standard deviation of the population) by the square root of n , the size (number of observations) of the sample.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">SEM</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">adapted from wikipedia (https://en.wikipedia.org/wiki/Standard_error)</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en"></obo:STATO_0000032>
+        <obo:STATO_0000391 xml:lang="en">scipy.stats.sem(a, axis=0, ddof=1)
+
+http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.sem.html#scipy.stats.sem
+
+source:
+https://github.com/scipy/scipy/blob/v0.15.1/scipy/stats/stats.py#L1928</obo:STATO_0000391>
+        <oboInOwl:hasExactSynonym xml:lang="en">SE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">standard error of the mean</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:comment xml:lang="en">In STATO has a different name: standard error of the mean</rdfs:comment>
+        <rdfs:label xml:lang="en">standard error</rdfs:label>
+        <rdfs:label xml:lang="en">standard error of the mean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000039">
+        <obo:IAO_0000112 xml:lang="en"></obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a statistic is a measurement datum to describe a dataset or a variable. It is generated by a calculation on set of observed data.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">STATO, adapted from wikipedia (http://en.wikipedia.org/wiki/Statistic).</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en">statistic</obo:STATO_0000032>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">statistic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a minimum value is a data item which denotes the smallest value found in a dataset or resulting from a calculation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">STATO</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">min</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">minimum</rdfs:label>
+        <rdfs:label xml:lang="en">minimum value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">maximum value is a data item which denotes the largest value found in a dataset or resulting from a calculation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">STATO</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">max</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">maximum</rdfs:label>
+        <rdfs:label xml:lang="en">maximum value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
+</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">review formal definition as both numerator and denominator should be of the same type, not just some data item</obo:IAO_0000116>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from Wolfram Alpha:
+https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig76g7</obo:IAO_0000119>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label>ratio</rdfs:label>
+        <rdfs:label xml:lang="en">ratio</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/PATO_0001470"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000112 xml:lang="en">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689604/</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A confidence interval is a data item which defines an range of values in which a measurement or trial falls corresponding to a given probability.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://mathworld.wolfram.com/ConfidenceInterval.html</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en"></obo:STATO_0000032>
+        <oboInOwl:hasExactSynonym xml:lang="en">CI</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">confidence interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The standard deviation of a random variable, statistical population, data set, or probability distribution is a measure of variation which correspond to the average distance from the mean of the data set to any given point of that dataset. It also corresponds to the square root of its variance.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">σ</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Standard_deviation</obo:IAO_0000119>
+        <obo:STATO_0000032 xml:lang="en"></obo:STATO_0000032>
+        <obo:STATO_0000041 xml:lang="en">sd(x, na.rm = FALSE)
+
+http://stat.ethz.ch/R-manual/R-patched/library/stats/html/sd.html</obo:STATO_0000041>
+        <oboInOwl:hasExactSynonym xml:lang="en">STDEV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sigma</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">standard deviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>The arithmetic mean is defined as the sum of the numerical values of each and every observation divided by the total number of observations. S The arithmetic mean A is defined by the formula
+
+A=sum[Ai] / n where i ranges from 1 to n and Ai represents the value of individual observations.
+
+The arithmetic mean is significantly affected by extreme values and outliers. A better measure of central tendency is the median (http://purl.obolibrary.org/obo/STATO_0000574).</obo:IAO_0000115>
+        <obo:IAO_0000116>replaced OBI import following addition of restrictions and use in STATO. however the xref to OBI is kept as class metadata</obo:IAO_0000116>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>STATO</obo:IAO_0000119>
+        <obo:STATO_0000032>arithmetic mean</obo:STATO_0000032>
+        <obo:STATO_0000391>http://docs.scipy.org/doc/numpy/reference/generated/numpy.mean.html</obo:STATO_0000391>
+        <oboInOwl:hasExactSynonym xml:lang="en">mean</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">average</rdfs:label>
+        <rdfs:label>average value</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/OBI_0000679</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>The median is that value of the variate which divides the total frequency into two halves. The median is measure of central tendency of data. It is obtained by arranging the observations in order from smallest to largest value. If there is an odd number of observations, the median is the middle value. If there is an even number of observations, the median is the average of the two middle values.</obo:IAO_0000115>
+        <obo:IAO_0000116>PRS and AGB added restriction about &apos;measure of central tendency&apos; and quartile, june 2013 on &apos;centre value&apos; OBI class.</obo:IAO_0000116>
+        <obo:IAO_0000116>replaced OBI import following addition of restrictions and use in STATO. however the xref to OBI is kept as class metadata</obo:IAO_0000116>
+        <obo:IAO_0000117>Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118>second quartile</obo:IAO_0000118>
+        <obo:IAO_0000119>A Dictionary of Statistical Terms, 5th edition, prepared for the International Statistical Institute by F.H.C. Marriott. Published for the International Statistical Institute by Longman Scientific and Technical.
+
+and
+
+Wolfram Alpha</obo:IAO_0000119>
+        <obo:STATO_0000032>median</obo:STATO_0000032>
+        <obo:STATO_0000041></obo:STATO_0000041>
+        <oboInOwl:hasExactSynonym xml:lang="en">center value</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:comment xml:lang="en">In STATO has a different name: center value</rdfs:comment>
+        <rdfs:label>center value</rdfs:label>
+        <rdfs:label xml:lang="en">median</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/OBI_0000674</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_00000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_00000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000039"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#quantifiers"/>
+        <rdfs:label xml:lang="en">percentage</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
