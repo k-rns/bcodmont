@@ -4,8 +4,20 @@
 ## Run physiology.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template biology/robot_templates/physiology.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_"  --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/biology/robot_templates/physiology.owl" -o biology/robot_templates/physiology.owl
 
+
+OLD
+```
 ## Run qualifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
 robot template --template qualifiers/robot_templates/qualifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/robot_templates/qualifiers.owl" -o qualifiers/robot_templates/qualifiers.owl
+```
+
+### quantifiers
+## Run quantifiers.tsv run from bcodmont/src/ontology/BCODMO_SM/
+robot template --template quantifiers/robot_templates/quantifiers.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --prefix "SIO:http://semanticscience.org/resource/SIO_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/quantifiers/robot_templates/quantifiers.owl" -o quantifiers/robot_templates/quantifiers.owl
+
+
+
+
 
 ### Chemistry
 ## Run element.tsv run from bcodmont/src/ontology/BCODMO_SM/
@@ -41,7 +53,7 @@ robot template --template operational/robot_templates/operational.tsv -i ../bcod
 
 ## Merge imports and preliminary robot templates, run from bcodmont/src/ontology/BCODMO_SM/
 ## for modules other than chemistry (not removing CHEBIs axioms)
-robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/obi_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input physics/robot_templates/characteristic.owl --input physics/robot_templates/phenomenon.owl --input qualifiers/robot_templates/qualifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl --input operational/robot_templates/operational.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
+robot merge --input ../imports/envo_import.owl --input ../imports/pato_import.owl --input ../imports/uberon_import.owl --input ../imports/go_import.owl --input ../imports/iao_import.owl --input ../imports/obi_import.owl --input ../imports/uo_import.owl --input ../imports/chebi_import.owl  --input biology/robot_templates/physiology.owl --input chemistry/robot_templates/element.owl --input physics/robot_templates/characteristic.owl --input physics/robot_templates/phenomenon.owl --input quantifiers/robot_templates/quantifiers.owl --input matrix/robot_templates/material.owl --input matrix/robot_templates/context.owl --input operational/robot_templates/operational.owl annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/merge_products/BCODMO_SM_merged.owl" --output merge_products/BCODMO_SM_merged.owl
 
 ## Make object property free version of CHEBI (could add others here in future) Only run after adding to CHEBI import
 robot remove --input ../imports/chebi_import.owl --axioms logical annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/intermediate/chebi_import_axioms_removed.owl" --output intermediate/chebi_import_axioms_removed.owl
@@ -58,9 +70,19 @@ robot merge --input intermediate/chebi_import_axioms_removed.owl --input chemist
 ## Filter physiology from merged ontology
 robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:physiology" --select annotations --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/biology/physiology.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/biology/physiology.owl" --output biology/physiology.owl
 
+OLD
+```
 ### Qualifiers
 ## Filter qualifiers from merged ontology
 robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:qualifiers" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/qualifiers/qualifiers.owl" --output qualifiers/qualifiers.owl
+```
+
+### Quantifiers
+## Filter quantifiers from merged ontology
+robot filter --input merge_products/BCODMO_SM_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:quantifiers" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/quantifiers/quantifiers.owl" --output quantifiers/quantifiers.owl
+
+
+
 
 ### Chemistry
 ## Filter element from axiom-free merged ontology
