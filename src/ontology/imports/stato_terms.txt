@@ -1,0 +1,11 @@
+STATO:0000031	#binary
+STATO:0000033	#mode
+STATO:0000037	#standard error
+STATO:0000039	#statistic
+STATO:0000150	#minimum
+STATO:0000151	#maximum
+STATO:0000184	#ratio
+STATO:0000196	#confidence interval
+STATO:0000237	#standard deviation
+STATO:0000573	#average
+STATO:0000574	#median
