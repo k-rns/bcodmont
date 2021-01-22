@@ -238,7 +238,6 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_00001995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001995">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000256"/>
         <obo:IAO_0000115>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:rock</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FTT:1010</oboInOwl:hasDbXref>
@@ -259,7 +258,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Rock_(geology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Rock_(geology)</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -298,7 +297,6 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
         <obo:IAO_0000115>Water that has been adversely affected in quality by anthropogenic influence.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:waste_water</oboInOwl:hasDbXref>
@@ -526,7 +524,6 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
     <!-- http://purl.obolibrary.org/obo/ENVO_00002040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
         <oboInOwl:hasDbXref>EcoLexicon:wood</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>LTER:637</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SWEETRealm:Wood</oboInOwl:hasDbXref>
@@ -818,7 +815,6 @@ The lower boundary that separates soil from the nonsoil underneath is most diffi
     <!-- http://purl.obolibrary.org/obo/ENVO_00002985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002985">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <obo:IAO_0000115>A nonpolar, hydrophobic, and lipophilic material which is a viscous liquid at ambient temperatures (about 20 degrees Celsius) or slightly warmer.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>EcoLexicon:oil</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
@@ -1180,7 +1176,7 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000256"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A mineral material is an environmental material which is primarily composed of some substance that is naturally occurring, solid and stable at room temperature, representable by a chemical formula, usually abiogenic, and that has an ordered atomic structure.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mineral</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mineral</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1345,10 +1341,17 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000554"/>
+        <obo:IAO_0000115>Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
         <rdfs:label xml:lang="en">natural gas</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000552"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Natural_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1356,17 +1359,28 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000553">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000558"/>
+        <obo:IAO_0000115>Liquified petroleum gas or liquid petroleum gas (LPG or LP gas), also referred to as simply propane or butane, are flammable mixtures of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LP gas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LPG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>liquid petroleum gas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>liquified natural gas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">liquefied petroleum gas</rdfs:label>
         <rdfs:label xml:lang="en">liquified petroleum gas</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000553"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Liquified petroleum gas or liquid petroleum gas (LPG or LP gas), also referred to as simply propane or butane, are flammable mixtures of hydrocarbon gases used as fuel in heating appliances, cooking equipment, and vehicles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Liquefied_petroleum_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000554">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <obo:IAO_0000115>A gas that is primarily composed of hydrocarbon molecules.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
@@ -1381,10 +1395,18 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000554"/>
+        <obo:IAO_0000115>Biogas is a mixture of different gases produced by the breakdown of organic matter in the absence of oxygen,  is primarily composed of methane and carbon dioxide, and may have small amounts of hydrogen sulfide, water, and siloxanes.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment>This is distinct from natural gas which is a fossil fuel product.</rdfs:comment>
         <rdfs:label xml:lang="en">biogas</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000556"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Biogas is a mixture of different gases produced by the breakdown of organic matter in the absence of oxygen,  is primarily composed of methane and carbon dioxide, and may have small amounts of hydrogen sulfide, water, and siloxanes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1392,10 +1414,20 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000557">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000558"/>
+        <obo:IAO_0000115>Liquefied natural gas (LNG) is natural gas (predominantly methane, CH4) that has been converted to liquid form for ease of storage or transport. It takes up about 1/600th the volume of natural gas in the gaseous state. It is odorless, colorless, non-toxic and non-corrosive. LNG achieves a higher reduction in volume than compressed natural gas (CNG) so that the (volumetric) energy density of LNG is 2.4 times greater than that of CNG or 60 percent of that of diesel fuel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LNG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>liquified natural gas</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">liquefied natural gas</rdfs:label>
         <rdfs:label xml:lang="en">liquified natural gas</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Liquefied natural gas (LNG) is natural gas (predominantly methane, CH4) that has been converted to liquid form for ease of storage or transport. It takes up about 1/600th the volume of natural gas in the gaseous state. It is odorless, colorless, non-toxic and non-corrosive. LNG achieves a higher reduction in volume than compressed natural gas (CNG) so that the (volumetric) energy density of LNG is 2.4 times greater than that of CNG or 60 percent of that of diesel fuel.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Liquefied_natural_gas</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1405,6 +1437,8 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">liquefied hydrocarbon gas</rdfs:label>
         <rdfs:label xml:lang="en">liquified hydrocarbon gas</rdfs:label>
     </owl:Class>
     
@@ -1413,7 +1447,6 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
     <!-- http://purl.obolibrary.org/obo/ENVO_01000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <obo:IAO_0000115>Charcoal is a light, black residue, consisting of carbon and any remaining ash, obtained by removing water and other volatile constituents from animal and vegetation substances. Charcoal is usually produced by slow pyrolysis, the heating of wood or other substances in the absence of oxygen.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
@@ -1728,7 +1761,6 @@ From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000277"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
         <obo:IAO_0000115>Ice which is primarily composed of methane.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
@@ -2023,7 +2055,6 @@ Currently the new ice classes are not specific to sea water as they may form in 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_02000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSM_0100004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
         <obo:IAO_0000115>A cell culture is a growth of cells in vitro in an artificial medium for experimental research.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Cell_culture</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
@@ -2573,10 +2604,20 @@ This class is complex as marine mucilage is quite complex. It will also requre n
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000560"/>
+        <obo:IAO_0000115>charcoal that is used as a soil amendment.</obo:IAO_0000115>
+        <oboInOwl:created_by>cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T19:28:29Z</oboInOwl:creation_date>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#material"/>
         <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label>biochar</rdfs:label>
         <rdfs:label xml:lang="en">biochar</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>charcoal that is used as a soil amendment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Biochar</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
