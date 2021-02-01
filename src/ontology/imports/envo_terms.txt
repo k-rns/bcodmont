@@ -1,4 +1,4 @@
-### BCODMO_SM Material terms:
+### BCODMO_SM Matrix Material terms:
 ENVO:00010505	#aerosol
 ENVO:00002005	#air
 ENVO:01001189	#algal material
@@ -118,7 +118,7 @@ ENVO:01000575	#wax
 ENVO:00002040	#wood
 ENVO:03000069	#young ice
 
-### BCODMO_SM Context terms:
+### BCODMO_SM Matrix Context terms:
 ENVO:00000190	#abyssal feature
 ENVO:00000244	#abyssal plain
 ENVO:00002120	#acid hot spring
@@ -789,4 +789,9 @@ ENVO:00000409	#whirlpool
 ENVO:01000793	#wind
 ENVO:01001860	#wind gust
 ENVO:01001749	#wind storm
-ENVO:21001217	#X-ray radiation
+ENVO:21001217 #X-ray radiation
+
+### BCODMO_SM Matrix biome:
+ENVO:00002030	#aquatic biome
+ENVO:00000447	#marine biome
+ENVO:00000446	#terrestrial biome
