@@ -1,0 +1,5 @@
+Biome	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	in subset	Entity subset	category subset
+	ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+aquatic biome	ENVO:00002030	aquatic						"This can be thought of as any non-marine environment, including freshwater systems as well as saline water bodies."							http://bcodmo/sm#matrix	http://bcodmo/sm#biome
+marine biome	ENVO:00000447	marine													http://bcodmo/sm#matrix	http://bcodmo/sm#biome
+terrestrial biome	ENVO:00000446	terrestrial													http://bcodmo/sm#matrix	http://bcodmo/sm#biome
