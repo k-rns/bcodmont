@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl#"
+     xml:base="http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446">
+        <obo:IAO_0000115>A biome which is  primarily or completely situated on a landmass.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>LTER:798</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SPIRE:Terrestrial</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>terrestrial realm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biome"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:label xml:lang="en">terrestrial</rdfs:label>
+        <rdfs:label>terrestrial biome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A biome which is  primarily or completely situated on a landmass.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Biome#Terrestrial_biomes</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000447">
+        <obo:IAO_0000115>An aquatic biome which is determined by a marine water body.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SPIRE:Marine</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>marine realm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biome"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>This biome includes open-ocean and unprotected coastal ecosystems, characterized by exposure to wave action, tidal fluctuation, and ocean currents as well as systems that largely resemble these. Water in the marine biome is generally within the salinity range of seawater: 30 to 38 ppt.</rdfs:comment>
+        <rdfs:label xml:lang="en">marine</rdfs:label>
+        <rdfs:label>marine biome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000447"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An aquatic biome which is determined by a marine water body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-4366-3088"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-0-618-45504-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ocean</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002030">
+        <obo:IAO_0000115>A biome which is determined by a water body and which has ecological climax communities adapted to life in or on water.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>LTER:41</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#biome"/>
+        <oboInOwl:inSubset rdf:resource="http://bcodmo/sm#matrix"/>
+        <rdfs:comment xml:lang="en">This can be thought of as any non-marine environment, including freshwater systems as well as saline water bodies.</rdfs:comment>
+        <rdfs:label xml:lang="en">aquatic</rdfs:label>
+        <rdfs:label>aquatic biome</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
