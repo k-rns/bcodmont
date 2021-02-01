@@ -795,3 +795,8 @@ ENVO:21001217 #X-ray radiation
 ENVO:00002030	#aquatic biome
 ENVO:00000447	#marine biome
 ENVO:00000446	#terrestrial biome
+
+### BCODMO_SM Matrix region:
+ENVO:01000339	#polar biome
+ENVO:01001831	#temperate biome
+ENVO:01001830	#tropical biome
