@@ -119,6 +119,9 @@ robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix
 ## Filter biome from merged ontology
 robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:biome" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/biome.owl" --output matrix/biome.owl
 
+## Filter region from merged ontology
+robot filter --input merge_products/BCODMO_SM_axioms_removed_merged.owl --prefix "bsm:http://bcodmo/sm#" --select "oboInOwl:inSubset=bsm:region" --select annotations  --signature true annotate --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/region.owl" --version-iri "http://purl.obolibrary.org/BCODMO_SM/matrix/region.owl" --output matrix/region.owl
+
 
 ### Operational
 ## Filter operational from merged ontology
