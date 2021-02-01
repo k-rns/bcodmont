@@ -1,0 +1,5 @@
+Region	ontology ID	label	parent class	exact synonym	exact match	close match	definition	comment	editors note	broad synonym	narrow synonym	cross refference	BCODMO master paramater	Entity subset	category subset
+	ID	AL rdfs:label@en	SC %	AL oboInOwl:hasExactSynonym@en SPLIT=|	AI skos:exactMatch SPLIT=|	AI skos:closeMatch SPLIT=|	AL IAO:0000115@en	AL rdfs:comment@en	AL IAO:0000116@en	AL oboInOwl:hasBroadSynonym@en SPLIT=|	AL oboInOwl:hasNarrowSynonym@en SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:hasDbXref SPLIT=|	AI oboInOwl:inSubset	AI oboInOwl:inSubset
+polar biome	ENVO:01000339	polar												http://bcodmo/sm#matrix	http://bcodmo/sm#region
+temperate biome	ENVO:01001831	temperate												http://bcodmo/sm#matrix	http://bcodmo/sm#region
+tropical biome	ENVO:01001830	tropical												http://bcodmo/sm#matrix	http://bcodmo/sm#region
