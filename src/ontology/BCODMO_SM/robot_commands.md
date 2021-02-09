@@ -53,6 +53,10 @@ robot template --template matrix/robot_templates/region.tsv -i ../bcodmont-edit.
 robot template --template operational/robot_templates/operational.tsv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "BSM:http://purl.obolibrary.org/obo/BSM_" --ontology-iri "http://purl.obolibrary.org/BCODMO_SM/operational/robot_templates/operational.owl" -o operational/robot_templates/operational.owl
 
 
+### Units
+## Run uo_simplified.csv from bcodmont/src/ontology/BCODMO_SM/
+robot template --template units/robot_templates/uo_simplified.csv -i ../bcodmont-edit.owl --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "UO:http://purl.obolibrary.org/obo/UO_" --ontology-iri "http://purl.obolibrary.org/obo/uo.owl" -o units/uo_simplified.owl
+
 
 # Merge templates
 
